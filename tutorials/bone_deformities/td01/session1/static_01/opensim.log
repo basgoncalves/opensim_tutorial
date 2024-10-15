@@ -1,0 +1,73 @@
+[2023-09-08 16:12:04.327] [info] Preparing to run ScaleTool.
+[2023-09-08 16:12:04.328] [info] Processing subject TD01_scaled...
+[2023-09-08 16:12:04.328] [info] Step 1: Loading generic model
+[2023-09-08 16:12:04.384] [info] Loaded model deformed_model from file ..\FINAL_PERSONALISEDTORSIONS.osim
+[2023-09-08 16:12:04.549] [info] Loading marker set from '..\FINAL_MARKERSET.xml'.
+[2023-09-08 16:12:06.940] [info] Updated markers in model deformed_model
+[2023-09-08 16:12:06.940] [info] Step 2: Scaling generic model
+[2023-09-08 16:12:07.034] [info] Loaded marker file .\marker_experimental.trc (38 markers, 200 frames)
+[2023-09-08 16:12:07.034] [info] Measurement 'pelvis_z'
+[2023-09-08 16:12:07.034] [info] 	pair 0 (LASI, RASI): model = 0.252441, experimental = 0.204218
+[2023-09-08 16:12:07.035] [info] 	overall scale factor = 0.808972
+[2023-09-08 16:12:07.035] [info] Measurement 'pelvis_y'
+[2023-09-08 16:12:07.035] [info] 	pair 0 (SACR, RHJC): model = 0.168847, experimental = 0.154545
+[2023-09-08 16:12:07.035] [info] 	pair 1 (SACR, LHJC): model = 0.171637, experimental = 0.156742
+[2023-09-08 16:12:07.035] [info] 	overall scale factor = 0.91426
+[2023-09-08 16:12:07.035] [info] Measurement 'femur_r_y'
+[2023-09-08 16:12:07.035] [info] 	pair 0 (RHJC, RKJC): model = 0.414225, experimental = 0.352642
+[2023-09-08 16:12:07.035] [info] 	overall scale factor = 0.85133
+[2023-09-08 16:12:07.035] [info] Measurement 'femur_l_y'
+[2023-09-08 16:12:07.035] [info] 	pair 0 (LKJC, LHJC): model = 0.412577, experimental = 0.357072
+[2023-09-08 16:12:07.035] [info] 	overall scale factor = 0.865468
+[2023-09-08 16:12:07.035] [info] Measurement 'tibia_r_y'
+[2023-09-08 16:12:07.036] [info] 	pair 0 (RKJC, RAJC): model = 0.377151, experimental = 0.36617
+[2023-09-08 16:12:07.036] [info] 	overall scale factor = 0.970885
+[2023-09-08 16:12:07.036] [info] Measurement 'tibia_l_y'
+[2023-09-08 16:12:07.036] [info] 	pair 0 (LKJC, LAJC): model = 0.377151, experimental = 0.364597
+[2023-09-08 16:12:07.036] [info] 	overall scale factor = 0.966714
+[2023-09-08 16:12:07.036] [info] Measurement 'talus_r_z'
+[2023-09-08 16:12:07.036] [info] 	pair 0 (RANK, RANM): model = 0.0625549, experimental = 0.0908573
+[2023-09-08 16:12:07.036] [info] 	overall scale factor = 1.45244
+[2023-09-08 16:12:07.036] [info] Measurement 'talus_r_y'
+[2023-09-08 16:12:07.036] [info] 	pair 0 (RHEE, RANK): model = 0.0759461, experimental = 0.0693846
+[2023-09-08 16:12:07.036] [info] 	overall scale factor = 0.913604
+[2023-09-08 16:12:07.036] [info] Measurement 'talus_l_z'
+[2023-09-08 16:12:07.036] [info] 	pair 0 (LANK, LANM): model = 0.062555, experimental = 0.0879842
+[2023-09-08 16:12:07.036] [info] 	overall scale factor = 1.40651
+[2023-09-08 16:12:07.036] [info] Measurement 'talus_l_y'
+[2023-09-08 16:12:07.036] [info] 	pair 0 (LANK, LHEE): model = 0.0761079, experimental = 0.0568418
+[2023-09-08 16:12:07.036] [info] 	overall scale factor = 0.746858
+[2023-09-08 16:12:07.036] [info] Measurement 'calcn_r_y'
+[2023-09-08 16:12:07.036] [info] 	pair 0 (RHEE, RANK): model = 0.0759461, experimental = 0.0693846
+[2023-09-08 16:12:07.036] [info] 	overall scale factor = 0.913604
+[2023-09-08 16:12:07.036] [info] Measurement 'calcn_l_y'
+[2023-09-08 16:12:07.036] [info] 	pair 0 (LHEE, LANK): model = 0.0761079, experimental = 0.0568418
+[2023-09-08 16:12:07.036] [info] 	overall scale factor = 0.746858
+[2023-09-08 16:12:07.036] [info] Measurement 'calcn_r_x'
+[2023-09-08 16:12:07.036] [info] 	pair 0 (RHEE, RTOE): model = 0.180551, experimental = 0.189519
+[2023-09-08 16:12:07.036] [info] 	overall scale factor = 1.04967
+[2023-09-08 16:12:07.036] [info] Measurement 'calcn_l_x'
+[2023-09-08 16:12:07.036] [info] 	pair 0 (LHEE, LTOE): model = 0.180551, experimental = 0.191627
+[2023-09-08 16:12:07.036] [info] 	overall scale factor = 1.06134
+[2023-09-08 16:12:07.036] [info] Measurement 'torso_x'
+[2023-09-08 16:12:07.036] [info] 	pair 0 (STRN, C7): model = 0.237795, experimental = 0.238255
+[2023-09-08 16:12:07.036] [info] 	overall scale factor = 1.00194
+[2023-09-08 16:12:07.036] [info] Measurement 'torso_y'
+[2023-09-08 16:12:07.036] [info] 	pair 0 (C7, SACR): model = 0.423342, experimental = 0.341508
+[2023-09-08 16:12:07.036] [info] 	overall scale factor = 0.806696
+[2023-09-08 16:12:07.036] [info] Measurement 'torso_z'
+[2023-09-08 16:12:07.036] [info] 	pair 0 (LASI, RASI): model = 0.252441, experimental = 0.204218
+[2023-09-08 16:12:07.036] [info] 	overall scale factor = 0.808972
+[2023-09-08 16:12:07.036] [info] Measurement 'pelvis_x'
+[2023-09-08 16:12:07.036] [info] 	pair 0 (SACR, LASI): model = 0.216701, experimental = 0.19571
+[2023-09-08 16:12:07.037] [info] 	pair 1 (SACR, RASI): model = 0.215407, experimental = 0.193307
+[2023-09-08 16:12:07.037] [info] 	overall scale factor = 0.900270
+[2023-09-08 16:12:07.289] [info] Wrote scale file '.\scale_output.xml' for model TD01_scaled.
+[2023-09-08 16:12:07.289] [info] Step 3: Placing markers on model
+[2023-09-08 16:12:07.310] [info] Loaded marker file .\marker_experimental.trc (38 markers, 200 frames)
+[2023-09-08 16:12:07.310] [info] Averaged frames from time 0.0 to 0.00500000 in .\marker_experimental.trc (frames 1 to 2)
+[2023-09-08 16:12:07.310] [info] Deleted 0 unused markers from model TD01_scaled.
+[2023-09-08 16:12:07.556] [info] Frame at (t = 0.0):	 total squared error = 0.0112537, marker error: RMS = 0.0243372, max = 0.0725942 (T10)
+[2023-09-08 16:12:07.556] [info] Moved markers in model TD01_scaled to match locations in marker file '.\marker_experimental.trc'.
+[2023-09-08 16:12:07.598] [info] Wrote model file '.\FINAL_PERSONALISEDTORSIONS_scaled.osim' from model TD01_scaled.
+[2023-09-08 16:12:07.600] [info] Wrote marker file '.\static_output.trc' from model TD01_scaled.
