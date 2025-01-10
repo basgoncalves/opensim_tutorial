@@ -70,16 +70,16 @@ if __name__ == '__main__':
     subject = '009'
     columns_ik = ['hip_flexion_r', 'knee_angle_r', 'ankle_angle_r']
     
-    paths_baseline = msk.bp.subject_paths(data_folder=data_folder, subject_code=subject, session_name='session1', trial_name='run_baseline')
-    paths_post = msk.bp.subject_paths(data_folder=data_folder, subject_code=subject, session_name='session1', trial_name='run_post_fatigue')
+    paths_baseline = msk.bops.subject_paths(data_folder=data_folder, subject_code=subject, session_name='session1', trial_name='run_baseline')
+    paths_post = msk.bops.subject_paths(data_folder=data_folder, subject_code=subject, session_name='session1', trial_name='run_post_fatigue')
     print(paths_baseline.id_output)
     print(paths_post.id_output)
     
     # plot_sto_results(file_path=paths_baseline.id_output)
     import pdb; pdb.set_trace()
-    ik_df = msk.bp.import_sto_data(paths_baseline.ik_output)
+    ik_df = msk.bops.import_sto_data(paths_baseline.ik_output)
     print(ik_df.columns)
-    msk.bp.plot_line_df(ik_df, columns_to_plot=columns_ik, legend=columns_ik)
+    msk.bops.plot_line_df(ik_df, columns_to_plot=columns_ik, legend=columns_ik)
 
 
 
