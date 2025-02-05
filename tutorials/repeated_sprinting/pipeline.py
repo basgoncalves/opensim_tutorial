@@ -53,3 +53,11 @@ try:
 except subprocess.CalledProcessError as e:
     print("Error:\n", e.stderr)
     sys.exit(1)
+    
+try: 
+    print('Run the CEINMS executable')
+    # os.system(command)
+except Exception as e:
+    print('ERROR:', e)
+    sys.exit(1)
+    
