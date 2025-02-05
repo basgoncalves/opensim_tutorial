@@ -1,0 +1,8 @@
+Inverse Dynamics Generalized Forces
+version=1
+nRows=1
+nColumns=40
+inDegrees=no
+endheader
+time	pelvis_tilt_moment	pelvis_list_moment	pelvis_rotation_moment	pelvis_tx_force	pelvis_ty_force	pelvis_tz_force	hip_flexion_r_moment	hip_adduction_r_moment	hip_rotation_r_moment	hip_flexion_l_moment	hip_adduction_l_moment	hip_rotation_l_moment	lumbar_extension_moment	lumbar_bending_moment	lumbar_rotation_moment	knee_angle_r_moment	knee_angle_r_beta_force	knee_angle_l_moment	knee_angle_l_beta_force	arm_flex_r_moment	arm_add_r_moment	arm_rot_r_moment	arm_flex_l_moment	arm_add_l_moment	arm_rot_l_moment	ankle_angle_r_moment	ankle_angle_l_moment	elbow_flex_r_moment	elbow_flex_l_moment	subtalar_angle_r_moment	subtalar_angle_l_moment	pro_sup_r_moment	pro_sup_l_moment	mtp_angle_r_moment	mtp_angle_l_moment	wrist_flex_r_moment	wrist_dev_r_moment	wrist_flex_l_moment	wrist_dev_l_moment
+      0.74500000	    497.11411393	    194.12697189	    514.34164668	  -2053.03677908	    151.82384761	     67.54950356	    134.53079670	   -116.45866723	     36.18825477	   -259.34501438	    -15.73122038	     63.12601174	    316.30103567	    201.28379774	    -68.99360982	   -131.24939631	      0.07077264	    114.24029271	      0.12303339	     -0.62838784	    -17.38568756	      1.07626690	     43.08557285	    -66.36536425	     -9.67276754	      4.91183186	      2.63696294	     -5.99384891	     48.67086209	     -5.50133919	     -4.49135325	     -0.44733061	     -1.88759635	      0.09928522	     -0.08595140	     -2.05562322	      0.03872170	     -5.56684325	     -3.88032528
