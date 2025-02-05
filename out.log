@@ -47,7 +47,7 @@ Calibration configuration
 
 
 Reading subject file: C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\uncalibrated.xml .
-boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\..\009_Rajagopal2015_FAI_rra_opt_N10.osim"activeForceLength
+activeForceLength
 passiveForceLength
 forceVelocity
 tendonForceStrain
@@ -136,5 +136,23 @@ Assuming vasint_l pennation angle in radians: 0.0630997
 Assuming vaslat_l pennation angle in radians: 0.252867
 Assuming vasmed_l pennation angle in radians: 0.422223
 Assuming piri_r pennation angle in radians: 0.174533
-Found OpenSim model associated to the subject: C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\..\009_Rajagopal2015_FAI_rra_opt_N10.osim
-ERROR emg file: C:/opensim_tutorial/tutorials/repeated_sprinting/Simulations/009/session1/run_baseline/ceinms/calibration/../trials/../../dynamicElaborations/RunA1/emg_2ndcal.mot could not be open
+Found OpenSim model associated to the subject: C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\rajagopal_scaled.osim
+ generator names - file names
+VM  -  VM
+VL  -  VL
+RF  -  RF
+GRA  -  GRA
+TA  -  TA
+ADDLONG  -  ADDLONG
+SEMIMEM  -  SEMIMEM
+BFLH  -  BFLH
+GM  -  GM
+GL  -  GL
+TFL  -  TFL
+GLUTMAX  -  GLUTMAX
+GLUTMED  -  GLUTMED
+PIRI  -  PIRI
+OBTINT  -  OBTINT
+QF  -  QF
+The excitation generator is not able to generate excitations for your muscles.
+Muscle names are different between excitation generator and input file
