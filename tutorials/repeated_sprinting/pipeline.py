@@ -53,3 +53,5 @@ try:
 except subprocess.CalledProcessError as e:
     print("Error:\n", e.stderr)
     sys.exit(1)
+
+print("Trying to add smth..")
