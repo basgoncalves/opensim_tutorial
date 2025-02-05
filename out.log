@@ -137,22 +137,86 @@ Assuming vaslat_l pennation angle in radians: 0.252867
 Assuming vasmed_l pennation angle in radians: 0.422223
 Assuming piri_r pennation angle in radians: 0.174533
 Found OpenSim model associated to the subject: C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\rajagopal_scaled.osim
- generator names - file names
-VM  -  VM
-VL  -  VL
-RF  -  RF
-GRA  -  GRA
-TA  -  TA
-ADDLONG  -  ADDLONG
-SEMIMEM  -  SEMIMEM
-BFLH  -  BFLH
-GM  -  GM
-GL  -  GL
-TFL  -  TFL
-GLUTMAX  -  GLUTMAX
-GLUTMED  -  GLUTMED
-PIRI  -  PIRI
-OBTINT  -  OBTINT
-QF  -  QF
-The excitation generator is not able to generate excitations for your muscles.
-Muscle names are different between excitation generator and input file
+
+EMG: Reading emg file...C:/opensim_tutorial/tutorials/repeated_sprinting/Simulations/009/session1/run_baseline/ceinms/calibration/../trials/../../emg.mot
+Muscle excitations to muscle mapping:
+addbrev_r -> addbrev_r
+addlong_r -> addlong_r
+addmagDist_r -> addmagDist_r
+addmagIsch_r -> addmagIsch_r
+addmagMid_r -> addmagMid_r
+addmagProx_r -> addmagProx_r
+bflh_r -> bflh_r
+bfsh_r -> bfsh_r
+edl_r -> edl_r
+ehl_r -> ehl_r
+fdl_r -> fdl_r
+fhl_r -> fhl_r
+gaslat_r -> gaslat_r
+gasmed_r -> gasmed_r
+glmax1_r -> glmax1_r
+glmax2_r -> glmax2_r
+glmax3_r -> glmax3_r
+glmed1_r -> glmed1_r
+glmed2_r -> glmed2_r
+glmed3_r -> glmed3_r
+glmin1_r -> glmin1_r
+glmin2_r -> glmin2_r
+glmin3_r -> glmin3_r
+grac_r -> grac_r
+iliacus_r -> iliacus_r
+perbrev_r -> perbrev_r
+perlong_r -> perlong_r
+psoas_r -> psoas_r
+recfem_r -> recfem_r
+sart_r -> sart_r
+semimem_r -> semimem_r
+semiten_r -> semiten_r
+soleus_r -> soleus_r
+tfl_r -> tfl_r
+tibant_r -> tibant_r
+tibpost_r -> tibpost_r
+vasint_r -> vasint_r
+vaslat_r -> vaslat_r
+vasmed_r -> vasmed_r
+addbrev_l -> addbrev_l
+addlong_l -> addlong_l
+addmagDist_l -> addmagDist_l
+addmagIsch_l -> addmagIsch_l
+addmagMid_l -> addmagMid_l
+addmagProx_l -> addmagProx_l
+bflh_l -> bflh_l
+bfsh_l -> bfsh_l
+edl_l -> edl_l
+ehl_l -> ehl_l
+fdl_l -> fdl_l
+fhl_l -> fhl_l
+gaslat_l -> gaslat_l
+gasmed_l -> gasmed_l
+glmax1_l -> glmax1_l
+glmax2_l -> glmax2_l
+glmax3_l -> glmax3_l
+glmed1_l -> glmed1_l
+glmed2_l -> glmed2_l
+glmed3_l -> glmed3_l
+glmin1_l -> glmin1_l
+glmin2_l -> glmin2_l
+glmin3_l -> glmin3_l
+grac_l -> grac_l
+iliacus_l -> iliacus_l
+perbrev_l -> perbrev_l
+perlong_l -> perlong_l
+psoas_l -> psoas_l
+recfem_l -> recfem_l
+sart_l -> sart_l
+semimem_l -> semimem_l
+semiten_l -> semiten_l
+soleus_l -> soleus_l
+tfl_l -> tfl_l
+tibant_l -> tibant_l
+tibpost_l -> tibpost_l
+vasint_l -> vasint_l
+vaslat_l -> vaslat_l
+vasmed_l -> vasmed_l
+piri_r -> piri_r
+boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_ankle_angle_l.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_ankle_angle_r.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_arm_add_l.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_arm_add_r.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_arm_flex_l.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_arm_flex_r.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_arm_rot_l.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_arm_rot_r.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_elbow_flex_l.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_elbow_flex_r.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_hip_adduction_l.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_hip_adduction_r.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_hip_flexion_l.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_hip_flexion_r.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_hip_rotation_l.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_hip_rotation_r.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_knee_angle_l.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_knee_angle_l_beta.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_knee_angle_r.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_knee_angle_r_beta.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_lumbar_bending.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_lumbar_extension.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_lumbar_rotation.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_mtp_angle_l.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_mtp_angle_r.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_pelvis_list.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_pelvis_rotation.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_pelvis_tilt.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_pelvis_tx.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_pelvis_ty.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_pelvis_tz.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_pro_sup_l.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_pro_sup_r.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_subtalar_angle_l.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_subtalar_angle_r.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_wrist_dev_l.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_wrist_dev_r.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_wrist_flex_l.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_MomentArm_wrist_flex_r.sto"boost::filesystem::canonical: No such file or directory: "C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_Length.sto"ERROR: C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\..\trials\../../muscleAnalysis/Run_baseline1/_MuscleAnalysis_Length.sto could not be open
