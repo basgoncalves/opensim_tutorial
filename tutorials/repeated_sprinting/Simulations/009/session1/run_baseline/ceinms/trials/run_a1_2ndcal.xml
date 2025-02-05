@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <inputData>
-   <muscleTendonLengthFile>../../muscleAnalysis/RunA1/_MuscleAnalysis_Length.sto</muscleTendonLengthFile>
-   <excitationsFile>..\..\dynamicElaborations\RunA1\emg_2ndcal.mot</excitationsFile>
+   <muscleTendonLengthFile>../../muscleAnalysis/_MuscleAnalysis_Length.sto</muscleTendonLengthFile>
+   <excitationsFile>..\..\emg.mot</excitationsFile>
    <momentArmsFiles>
       <momentArmsFile dofName="ankle_angle_l">../../muscleAnalysis/RunA1/_MuscleAnalysis_MomentArm_ankle_angle_l.sto</momentArmsFile>
       <momentArmsFile dofName="ankle_angle_r">../../muscleAnalysis/RunA1/_MuscleAnalysis_MomentArm_ankle_angle_r.sto</momentArmsFile>

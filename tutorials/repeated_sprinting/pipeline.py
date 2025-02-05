@@ -38,7 +38,7 @@ else:
 
 
 # Define the path to the main XML setup file
-xml_setup_file = r"C:\CEINMS\simulations\P013\trial3_r1\ceinms\calibrationSetup.xml"
+xml_setup_file = r"C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\calibration_setup.xml"
 
 # Construct the command
 command = " ".join([ceinms_install_path + "\CEINMScalibrate.exe -S", xml_setup_file])
@@ -51,9 +51,11 @@ try:
     result = subprocess.run(command, capture_output=True, text=True, check=True)
     print("Output:\n", result.stdout)
 except subprocess.CalledProcessError as e:
-    print("Error:\n", e.stderr)
+    print("Error:\n", e)
     sys.exit(1)
-    
+
+result = subprocess.run(command, capture_output=True, text=True, check=True)
+
 try: 
     print('Run the CEINMS executable')
     # os.system(command)
