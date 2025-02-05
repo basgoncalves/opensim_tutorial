@@ -3,11 +3,9 @@ import opensim as osim
 import numpy as np
 import pandas as pd
 import os
-import shutil
 import xml.etree.ElementTree as ET
 
 def rename_outputs():
-    root_dir = "/Fatigue-prediction-MSC-Thesis"
     for root, dirs, files in os.walk("."):
         for file in files:
             path = os.path.join(root, file)
