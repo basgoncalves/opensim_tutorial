@@ -1,0 +1,599 @@
+
++-+-+-+-+-+-+
+|C|E|I|N|M|S|
++-+-+-+-+-+-+-+-+-+-+
+|C|a|l|i|b|r|a|t|e|d|
++-+-+-+-+-+-+-+-+-+-+-+-+
+|E|M|G|-|I|n|f|o|r|m|e|d|
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|N|e|u|r|o|m|u|s|c|u|l|o|s|k|e|l|e|t|a|l|
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|T|o|o|l|b|o|x|
++-+-+-+-+-+-+-+
+
+CEINMScalibrate version 0.21.0
+Copyright (C) Apr 29 2020
+Claudio Pizzolato, Monica Reggiani, Massimo Sartori, David Lloyd
+Software developers: Claudio Pizzolato, Monica Reggiani
+readNMSmodelCfg
+boost::filesystem::canonical: No such file or directory: "D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\ceinms\calibration\.\calibratedSubject.xml"Reading subject file: D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\ceinms\calibration\uncalibrated.xml .
+Contact model found
+Calibration configuration
+ - Algorithm
+ -- Simulated Annealing
+ --- noEpsilon 4
+ --- NS 15
+ --- NT 5
+ --- maxNoEval 200000
+ --- rt 0.3
+ --- T 200000
+ --- epsilon 1e-05
+ - NMSmodel
+ - CalibrationSteps
+ -- Step
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: all 
+ - Weight: 1
+ - Exponent: 1
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: all 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Trials
+ -- D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\ceinms\calibration\..\trials\RunA1.xml
+
+
+Reading subject file: D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\ceinms\calibration\uncalibrated.xml .
+activeForceLength
+passiveForceLength
+forceVelocity
+tendonForceStrain
+Assuming addbrev_r pennation angle in radians: 0.114781
+Assuming addlong_r pennation angle in radians: 0.13777
+Assuming addmagDist_r pennation angle in radians: 0.194705
+Assuming addmagIsch_r pennation angle in radians: 0.168044
+Assuming addmagMid_r pennation angle in radians: 0.207308
+Assuming addmagProx_r pennation angle in radians: 0.311483
+Assuming bflh_r pennation angle in radians: 0.175918
+Assuming bfsh_r pennation angle in radians: 0.264223
+Assuming edl_r pennation angle in radians: 0.218258
+Assuming ehl_r pennation angle in radians: 0.197268
+Assuming fdl_r pennation angle in radians: 0.224839
+Assuming fhl_r pennation angle in radians: 0.258026
+Assuming gaslat_r pennation angle in radians: 0.210227
+Reading tendonForceStrain of MTU gaslat_r
+Assuming gasmed_r pennation angle in radians: 0.165682
+Reading tendonForceStrain of MTU gasmed_r
+Assuming glmax1_r pennation angle in radians: 0.354012
+Assuming glmax2_r pennation angle in radians: 0.367382
+Assuming glmax3_r pennation angle in radians: 0.382416
+Assuming glmed1_r pennation angle in radians: 0.316556
+Assuming glmed2_r pennation angle in radians: 0.316556
+Assuming glmed3_r pennation angle in radians: 0.316556
+Assuming glmin1_r pennation angle in radians: 0.174533
+Assuming glmin2_r pennation angle in radians: 0
+Assuming glmin3_r pennation angle in radians: 0.0174533
+Assuming grac_r pennation angle in radians: 0.172002
+Assuming iliacus_r pennation angle in radians: 0.279914
+Assuming perbrev_r pennation angle in radians: 0.205236
+Assuming perlong_r pennation angle in radians: 0.247952
+Assuming psoas_r pennation angle in radians: 0.215525
+Assuming recfem_r pennation angle in radians: 0.217015
+Assuming sart_r pennation angle in radians: 0.0261354
+Assuming semimem_r pennation angle in radians: 0.254561
+Assuming semiten_r pennation angle in radians: 0.241295
+Assuming soleus_r pennation angle in radians: 0.381429
+Reading tendonForceStrain of MTU soleus_r
+Assuming tfl_r pennation angle in radians: 0.0523599
+Assuming tibant_r pennation angle in radians: 0.195183
+Assuming tibpost_r pennation angle in radians: 0.226489
+Assuming vasint_r pennation angle in radians: 0.0630997
+Assuming vaslat_r pennation angle in radians: 0.252867
+Assuming vasmed_r pennation angle in radians: 0.422223
+Assuming addbrev_l pennation angle in radians: 0.114781
+Assuming addlong_l pennation angle in radians: 0.13777
+Assuming addmagDist_l pennation angle in radians: 0.194705
+Assuming addmagIsch_l pennation angle in radians: 0.168044
+Assuming addmagMid_l pennation angle in radians: 0.168044
+Assuming addmagProx_l pennation angle in radians: 0.207308
+Assuming bflh_l pennation angle in radians: 0.175918
+Assuming bfsh_l pennation angle in radians: 0.264223
+Assuming edl_l pennation angle in radians: 0.218258
+Assuming ehl_l pennation angle in radians: 0.197268
+Assuming fdl_l pennation angle in radians: 0.224839
+Assuming fhl_l pennation angle in radians: 0.258026
+Assuming gaslat_l pennation angle in radians: 0.210227
+Reading tendonForceStrain of MTU gaslat_l
+Assuming gasmed_l pennation angle in radians: 0.165682
+Reading tendonForceStrain of MTU gasmed_l
+Assuming glmax1_l pennation angle in radians: 0.354012
+Assuming glmax2_l pennation angle in radians: 0.367382
+Assuming glmax3_l pennation angle in radians: 0.382416
+Assuming glmed1_l pennation angle in radians: 0.316556
+Assuming glmed2_l pennation angle in radians: 0.316556
+Assuming glmed3_l pennation angle in radians: 0.316556
+Assuming glmin1_l pennation angle in radians: 0.174533
+Assuming glmin2_l pennation angle in radians: 0
+Assuming glmin3_l pennation angle in radians: 0.0174533
+Assuming grac_l pennation angle in radians: 0.172002
+Assuming iliacus_l pennation angle in radians: 0.279914
+Assuming perbrev_l pennation angle in radians: 0.205236
+Assuming perlong_l pennation angle in radians: 0.247952
+Assuming psoas_l pennation angle in radians: 0.215525
+Assuming recfem_l pennation angle in radians: 0.217015
+Assuming sart_l pennation angle in radians: 0.0261354
+Assuming semimem_l pennation angle in radians: 0.254561
+Assuming semiten_l pennation angle in radians: 0.241295
+Assuming soleus_l pennation angle in radians: 0.381429
+Reading tendonForceStrain of MTU soleus_l
+Assuming tfl_l pennation angle in radians: 0.0523599
+Assuming tibant_l pennation angle in radians: 0.195183
+Assuming tibpost_l pennation angle in radians: 0.226489
+Assuming vasint_l pennation angle in radians: 0.0630997
+Assuming vaslat_l pennation angle in radians: 0.252867
+Assuming vasmed_l pennation angle in radians: 0.422223
+Assuming piri_r pennation angle in radians: 0.174533
+Found OpenSim model associated to the subject: D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\009_Rajagopal2015_FAI_rra_opt_N10.osim
+
+EMG: Reading emg file...D:/3-PhD/Data/MocapData/ElaboratedData/009/pre/ceinms/calibration/../trials/../../dynamicElaborations/RunA1/emg.mot
+Muscle excitations to muscle mapping:
+addbrev_r -> addbrev_r
+addlong_r -> addlong_r
+addmagDist_r -> addmagDist_r
+addmagIsch_r -> addmagIsch_r
+addmagMid_r -> addmagMid_r
+addmagProx_r -> addmagProx_r
+bflh_r -> bflh_r
+bfsh_r -> bfsh_r
+edl_r -> edl_r
+ehl_r -> ehl_r
+fdl_r -> fdl_r
+fhl_r -> fhl_r
+gaslat_r -> gaslat_r
+gasmed_r -> gasmed_r
+glmax1_r -> glmax1_r
+glmax2_r -> glmax2_r
+glmax3_r -> glmax3_r
+glmed1_r -> glmed1_r
+glmed2_r -> glmed2_r
+glmed3_r -> glmed3_r
+glmin1_r -> glmin1_r
+glmin2_r -> glmin2_r
+glmin3_r -> glmin3_r
+grac_r -> grac_r
+iliacus_r -> iliacus_r
+perbrev_r -> perbrev_r
+perlong_r -> perlong_r
+psoas_r -> psoas_r
+recfem_r -> recfem_r
+sart_r -> sart_r
+semimem_r -> semimem_r
+semiten_r -> semiten_r
+soleus_r -> soleus_r
+tfl_r -> tfl_r
+tibant_r -> tibant_r
+tibpost_r -> tibpost_r
+vasint_r -> vasint_r
+vaslat_r -> vaslat_r
+vasmed_r -> vasmed_r
+addbrev_l -> addbrev_l
+addlong_l -> addlong_l
+addmagDist_l -> addmagDist_l
+addmagIsch_l -> addmagIsch_l
+addmagMid_l -> addmagMid_l
+addmagProx_l -> addmagProx_l
+bflh_l -> bflh_l
+bfsh_l -> bfsh_l
+edl_l -> edl_l
+ehl_l -> ehl_l
+fdl_l -> fdl_l
+fhl_l -> fhl_l
+gaslat_l -> gaslat_l
+gasmed_l -> gasmed_l
+glmax1_l -> glmax1_l
+glmax2_l -> glmax2_l
+glmax3_l -> glmax3_l
+glmed1_l -> glmed1_l
+glmed2_l -> glmed2_l
+glmed3_l -> glmed3_l
+glmin1_l -> glmin1_l
+glmin2_l -> glmin2_l
+glmin3_l -> glmin3_l
+grac_l -> grac_l
+iliacus_l -> iliacus_l
+perbrev_l -> perbrev_l
+perlong_l -> perlong_l
+psoas_l -> psoas_l
+recfem_l -> recfem_l
+sart_l -> sart_l
+semimem_l -> semimem_l
+semiten_l -> semiten_l
+soleus_l -> soleus_l
+tfl_l -> tfl_l
+tibant_l -> tibant_l
+tibpost_l -> tibpost_l
+vasint_l -> vasint_l
+vaslat_l -> vaslat_l
+vasmed_l -> vasmed_l
+piri_r -> piri_r
+
+externalTorque DONE
+
+EMG: EMG DONE
+
+LmtMa: lmtMa DONE
+Cropping trial: 2.075, 2.547
+Loaded model 009_Rajagopal2015_FAI_rra_opt_N10.osim from file D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\009_Rajagopal2015_FAI_rra_opt_N10.osim
+Storage: file=D:/3-PhD/Data/MocapData/ElaboratedData/009/pre/ceinms/calibration/../trials/../../inverseKinematics/RunA1/IK.mot (nr=95 nc=40)
+Return false
+fLatest_.at(0) - fOpt_ = 455.259 - 291.553 > 1e-05
+------------------------------------------------------------------------------
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: hip_flexion_r knee_angle_r ankle_angle_r 
+ - Weight: 1
+ - Exponent: 1
+ - Value: 455.1
+ -- Root Mean Square Errors
+ --- Trial #1
+ ---- hip_flexion_r: 194.55 Nm
+ ---- knee_angle_r: 190.598 Nm
+ ---- ankle_angle_r: 69.9519 Nm
+
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r bflh_r bfsh_r edl_r ehl_r fdl_r fhl_r gaslat_r gasmed_r glmax1_r glmax2_r glmax3_r glmed1_r glmed2_r glmed3_r glmin1_r glmin2_r glmin3_r grac_r iliacus_r perbrev_r perlong_r psoas_r recfem_r sart_r semimem_r semiten_r soleus_r tfl_r tibant_r tibpost_r vasint_r vaslat_r vasmed_r addbrev_l addlong_l addmagDist_l addmagIsch_l addmagMid_l addmagProx_l bflh_l bfsh_l edl_l ehl_l fdl_l fhl_l gaslat_l gasmed_l glmax1_l glmax2_l glmax3_l glmed1_l glmed2_l glmed3_l glmin1_l glmin2_l glmin3_l grac_l iliacus_l perbrev_l perlong_l psoas_l recfem_l sart_l semimem_l semiten_l soleus_l tfl_l tibant_l tibpost_l vasint_l vaslat_l vasmed_l piri_r 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Value: 0.158827
+
+------------------------------------------------------------------------------
+   Fobj = 455.259
+------------------------------------------------------------------------------
+Return false
+fLatest_.at(0) - fOpt_ = 1219.4 - 273.862 > 1e-05
+------------------------------------------------------------------------------
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: hip_flexion_r knee_angle_r ankle_angle_r 
+ - Weight: 1
+ - Exponent: 1
+ - Value: 1219.16
+ -- Root Mean Square Errors
+ --- Trial #1
+ ---- hip_flexion_r: 202.555 Nm
+ ---- knee_angle_r: 335.556 Nm
+ ---- ankle_angle_r: 681.054 Nm
+
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r bflh_r bfsh_r edl_r ehl_r fdl_r fhl_r gaslat_r gasmed_r glmax1_r glmax2_r glmax3_r glmed1_r glmed2_r glmed3_r glmin1_r glmin2_r glmin3_r grac_r iliacus_r perbrev_r perlong_r psoas_r recfem_r sart_r semimem_r semiten_r soleus_r tfl_r tibant_r tibpost_r vasint_r vaslat_r vasmed_r addbrev_l addlong_l addmagDist_l addmagIsch_l addmagMid_l addmagProx_l bflh_l bfsh_l edl_l ehl_l fdl_l fhl_l gaslat_l gasmed_l glmax1_l glmax2_l glmax3_l glmed1_l glmed2_l glmed3_l glmin1_l glmin2_l glmin3_l grac_l iliacus_l perbrev_l perlong_l psoas_l recfem_l sart_l semimem_l semiten_l soleus_l tfl_l tibant_l tibpost_l vasint_l vaslat_l vasmed_l piri_r 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Value: 0.236255
+
+------------------------------------------------------------------------------
+   Fobj = 1219.4
+------------------------------------------------------------------------------
+Return false
+fLatest_.at(0) - fOpt_ = 579.098 - 262.967 > 1e-05
+------------------------------------------------------------------------------
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: hip_flexion_r knee_angle_r ankle_angle_r 
+ - Weight: 1
+ - Exponent: 1
+ - Value: 578.901
+ -- Root Mean Square Errors
+ --- Trial #1
+ ---- hip_flexion_r: 173.001 Nm
+ ---- knee_angle_r: 349.559 Nm
+ ---- ankle_angle_r: 56.3413 Nm
+
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r bflh_r bfsh_r edl_r ehl_r fdl_r fhl_r gaslat_r gasmed_r glmax1_r glmax2_r glmax3_r glmed1_r glmed2_r glmed3_r glmin1_r glmin2_r glmin3_r grac_r iliacus_r perbrev_r perlong_r psoas_r recfem_r sart_r semimem_r semiten_r soleus_r tfl_r tibant_r tibpost_r vasint_r vaslat_r vasmed_r addbrev_l addlong_l addmagDist_l addmagIsch_l addmagMid_l addmagProx_l bflh_l bfsh_l edl_l ehl_l fdl_l fhl_l gaslat_l gasmed_l glmax1_l glmax2_l glmax3_l glmed1_l glmed2_l glmed3_l glmin1_l glmin2_l glmin3_l grac_l iliacus_l perbrev_l perlong_l psoas_l recfem_l sart_l semimem_l semiten_l soleus_l tfl_l tibant_l tibpost_l vasint_l vaslat_l vasmed_l piri_r 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Value: 0.197221
+
+------------------------------------------------------------------------------
+   Fobj = 579.098
+------------------------------------------------------------------------------
+Return false
+fLatest_.at(0) - fOpt_ = 476.11 - 259.79 > 1e-05
+------------------------------------------------------------------------------
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: hip_flexion_r knee_angle_r ankle_angle_r 
+ - Weight: 1
+ - Exponent: 1
+ - Value: 475.918
+ -- Root Mean Square Errors
+ --- Trial #1
+ ---- hip_flexion_r: 198.848 Nm
+ ---- knee_angle_r: 231.211 Nm
+ ---- ankle_angle_r: 45.8582 Nm
+
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r bflh_r bfsh_r edl_r ehl_r fdl_r fhl_r gaslat_r gasmed_r glmax1_r glmax2_r glmax3_r glmed1_r glmed2_r glmed3_r glmin1_r glmin2_r glmin3_r grac_r iliacus_r perbrev_r perlong_r psoas_r recfem_r sart_r semimem_r semiten_r soleus_r tfl_r tibant_r tibpost_r vasint_r vaslat_r vasmed_r addbrev_l addlong_l addmagDist_l addmagIsch_l addmagMid_l addmagProx_l bflh_l bfsh_l edl_l ehl_l fdl_l fhl_l gaslat_l gasmed_l glmax1_l glmax2_l glmax3_l glmed1_l glmed2_l glmed3_l glmin1_l glmin2_l glmin3_l grac_l iliacus_l perbrev_l perlong_l psoas_l recfem_l sart_l semimem_l semiten_l soleus_l tfl_l tibant_l tibpost_l vasint_l vaslat_l vasmed_l piri_r 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Value: 0.192153
+
+------------------------------------------------------------------------------
+   Fobj = 476.11
+------------------------------------------------------------------------------
+Return false
+fLatest_.at(0) - fOpt_ = 388.418 - 253.486 > 1e-05
+------------------------------------------------------------------------------
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: hip_flexion_r knee_angle_r ankle_angle_r 
+ - Weight: 1
+ - Exponent: 1
+ - Value: 388.192
+ -- Root Mean Square Errors
+ --- Trial #1
+ ---- hip_flexion_r: 156.653 Nm
+ ---- knee_angle_r: 149.763 Nm
+ ---- ankle_angle_r: 81.7764 Nm
+
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r bflh_r bfsh_r edl_r ehl_r fdl_r fhl_r gaslat_r gasmed_r glmax1_r glmax2_r glmax3_r glmed1_r glmed2_r glmed3_r glmin1_r glmin2_r glmin3_r grac_r iliacus_r perbrev_r perlong_r psoas_r recfem_r sart_r semimem_r semiten_r soleus_r tfl_r tibant_r tibpost_r vasint_r vaslat_r vasmed_r addbrev_l addlong_l addmagDist_l addmagIsch_l addmagMid_l addmagProx_l bflh_l bfsh_l edl_l ehl_l fdl_l fhl_l gaslat_l gasmed_l glmax1_l glmax2_l glmax3_l glmed1_l glmed2_l glmed3_l glmin1_l glmin2_l glmin3_l grac_l iliacus_l perbrev_l perlong_l psoas_l recfem_l sart_l semimem_l semiten_l soleus_l tfl_l tibant_l tibpost_l vasint_l vaslat_l vasmed_l piri_r 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Value: 0.226058
+
+------------------------------------------------------------------------------
+   Fobj = 388.418
+------------------------------------------------------------------------------
+Return false
+fLatest_.at(0) - fOpt_ = 366.499 - 251.463 > 1e-05
+------------------------------------------------------------------------------
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: hip_flexion_r knee_angle_r ankle_angle_r 
+ - Weight: 1
+ - Exponent: 1
+ - Value: 456.839
+ -- Root Mean Square Errors
+ --- Trial #1
+ ---- hip_flexion_r: 187.553 Nm
+ ---- knee_angle_r: 213.49 Nm
+ ---- ankle_angle_r: 49.4797 Nm
+
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r bflh_r bfsh_r edl_r ehl_r fdl_r fhl_r gaslat_r gasmed_r glmax1_r glmax2_r glmax3_r glmed1_r glmed2_r glmed3_r glmin1_r glmin2_r glmin3_r grac_r iliacus_r perbrev_r perlong_r psoas_r recfem_r sart_r semimem_r semiten_r soleus_r tfl_r tibant_r tibpost_r vasint_r vaslat_r vasmed_r addbrev_l addlong_l addmagDist_l addmagIsch_l addmagMid_l addmagProx_l bflh_l bfsh_l edl_l ehl_l fdl_l fhl_l gaslat_l gasmed_l glmax1_l glmax2_l glmax3_l glmed1_l glmed2_l glmed3_l glmin1_l glmin2_l glmin3_l grac_l iliacus_l perbrev_l perlong_l psoas_l recfem_l sart_l semimem_l semiten_l soleus_l tfl_l tibant_l tibpost_l vasint_l vaslat_l vasmed_l piri_r 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Value: 0.18104
+
+------------------------------------------------------------------------------
+   Fobj = 457.02
+------------------------------------------------------------------------------
+Return false
+fLatest_.at(0) - fOpt_ = 293.735 - 251.232 > 1e-05
+------------------------------------------------------------------------------
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: hip_flexion_r knee_angle_r ankle_angle_r 
+ - Weight: 1
+ - Exponent: 1
+ - Value: 293.516
+ -- Root Mean Square Errors
+ --- Trial #1
+ ---- hip_flexion_r: 122.032 Nm
+ ---- knee_angle_r: 130.155 Nm
+ ---- ankle_angle_r: 41.3283 Nm
+
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r bflh_r bfsh_r edl_r ehl_r fdl_r fhl_r gaslat_r gasmed_r glmax1_r glmax2_r glmax3_r glmed1_r glmed2_r glmed3_r glmin1_r glmin2_r glmin3_r grac_r iliacus_r perbrev_r perlong_r psoas_r recfem_r sart_r semimem_r semiten_r soleus_r tfl_r tibant_r tibpost_r vasint_r vaslat_r vasmed_r addbrev_l addlong_l addmagDist_l addmagIsch_l addmagMid_l addmagProx_l bflh_l bfsh_l edl_l ehl_l fdl_l fhl_l gaslat_l gasmed_l glmax1_l glmax2_l glmax3_l glmed1_l glmed2_l glmed3_l glmin1_l glmin2_l glmin3_l grac_l iliacus_l perbrev_l perlong_l psoas_l recfem_l sart_l semimem_l semiten_l soleus_l tfl_l tibant_l tibpost_l vasint_l vaslat_l vasmed_l piri_r 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Value: 0.219367
+
+------------------------------------------------------------------------------
+   Fobj = 293.735
+------------------------------------------------------------------------------
+Return false
+fLatest_.at(0) - fOpt_ = 477.591 - 237.785 > 1e-05
+------------------------------------------------------------------------------
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: hip_flexion_r knee_angle_r ankle_angle_r 
+ - Weight: 1
+ - Exponent: 1
+ - Value: 477.348
+ -- Root Mean Square Errors
+ --- Trial #1
+ ---- hip_flexion_r: 127.191 Nm
+ ---- knee_angle_r: 219.361 Nm
+ ---- ankle_angle_r: 130.796 Nm
+
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r bflh_r bfsh_r edl_r ehl_r fdl_r fhl_r gaslat_r gasmed_r glmax1_r glmax2_r glmax3_r glmed1_r glmed2_r glmed3_r glmin1_r glmin2_r glmin3_r grac_r iliacus_r perbrev_r perlong_r psoas_r recfem_r sart_r semimem_r semiten_r soleus_r tfl_r tibant_r tibpost_r vasint_r vaslat_r vasmed_r addbrev_l addlong_l addmagDist_l addmagIsch_l addmagMid_l addmagProx_l bflh_l bfsh_l edl_l ehl_l fdl_l fhl_l gaslat_l gasmed_l glmax1_l glmax2_l glmax3_l glmed1_l glmed2_l glmed3_l glmin1_l glmin2_l glmin3_l grac_l iliacus_l perbrev_l perlong_l psoas_l recfem_l sart_l semimem_l semiten_l soleus_l tfl_l tibant_l tibpost_l vasint_l vaslat_l vasmed_l piri_r 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Value: 0.24278
+
+------------------------------------------------------------------------------
+   Fobj = 477.591
+------------------------------------------------------------------------------
+Return false
+fLatest_.at(0) - fOpt_ = 242.901 - 190.508 > 1e-05
+------------------------------------------------------------------------------
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: hip_flexion_r knee_angle_r ankle_angle_r 
+ - Weight: 1
+ - Exponent: 1
+ - Value: 358.314
+ -- Root Mean Square Errors
+ --- Trial #1
+ ---- hip_flexion_r: 118.955 Nm
+ ---- knee_angle_r: 192.008 Nm
+ ---- ankle_angle_r: 47.3515 Nm
+
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r bflh_r bfsh_r edl_r ehl_r fdl_r fhl_r gaslat_r gasmed_r glmax1_r glmax2_r glmax3_r glmed1_r glmed2_r glmed3_r glmin1_r glmin2_r glmin3_r grac_r iliacus_r perbrev_r perlong_r psoas_r recfem_r sart_r semimem_r semiten_r soleus_r tfl_r tibant_r tibpost_r vasint_r vaslat_r vasmed_r addbrev_l addlong_l addmagDist_l addmagIsch_l addmagMid_l addmagProx_l bflh_l bfsh_l edl_l ehl_l fdl_l fhl_l gaslat_l gasmed_l glmax1_l glmax2_l glmax3_l glmed1_l glmed2_l glmed3_l glmin1_l glmin2_l glmin3_l grac_l iliacus_l perbrev_l perlong_l psoas_l recfem_l sart_l semimem_l semiten_l soleus_l tfl_l tibant_l tibpost_l vasint_l vaslat_l vasmed_l piri_r 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Value: 0.174833
+
+------------------------------------------------------------------------------
+   Fobj = 358.489
+------------------------------------------------------------------------------
+Return false
+fLatest_.at(0) - fOpt_ = 192.991 - 160.41 > 1e-05
+------------------------------------------------------------------------------
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: hip_flexion_r knee_angle_r ankle_angle_r 
+ - Weight: 1
+ - Exponent: 1
+ - Value: 194.923
+ -- Root Mean Square Errors
+ --- Trial #1
+ ---- hip_flexion_r: 120.423 Nm
+ ---- knee_angle_r: 39.4755 Nm
+ ---- ankle_angle_r: 35.0238 Nm
+
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r bflh_r bfsh_r edl_r ehl_r fdl_r fhl_r gaslat_r gasmed_r glmax1_r glmax2_r glmax3_r glmed1_r glmed2_r glmed3_r glmin1_r glmin2_r glmin3_r grac_r iliacus_r perbrev_r perlong_r psoas_r recfem_r sart_r semimem_r semiten_r soleus_r tfl_r tibant_r tibpost_r vasint_r vaslat_r vasmed_r addbrev_l addlong_l addmagDist_l addmagIsch_l addmagMid_l addmagProx_l bflh_l bfsh_l edl_l ehl_l fdl_l fhl_l gaslat_l gasmed_l glmax1_l glmax2_l glmax3_l glmed1_l glmed2_l glmed3_l glmin1_l glmin2_l glmin3_l grac_l iliacus_l perbrev_l perlong_l psoas_l recfem_l sart_l semimem_l semiten_l soleus_l tfl_l tibant_l tibpost_l vasint_l vaslat_l vasmed_l piri_r 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Value: 0.221417
+
+------------------------------------------------------------------------------
+   Fobj = 195.144
+------------------------------------------------------------------------------
+Return false
+fLatest_.at(0) - fOpt_ = 152.363 - 141.324 > 1e-05
+------------------------------------------------------------------------------
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: hip_flexion_r knee_angle_r ankle_angle_r 
+ - Weight: 1
+ - Exponent: 1
+ - Value: 152.166
+ -- Root Mean Square Errors
+ --- Trial #1
+ ---- hip_flexion_r: 98.3011 Nm
+ ---- knee_angle_r: 23.3694 Nm
+ ---- ankle_angle_r: 30.4953 Nm
+
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r bflh_r bfsh_r edl_r ehl_r fdl_r fhl_r gaslat_r gasmed_r glmax1_r glmax2_r glmax3_r glmed1_r glmed2_r glmed3_r glmin1_r glmin2_r glmin3_r grac_r iliacus_r perbrev_r perlong_r psoas_r recfem_r sart_r semimem_r semiten_r soleus_r tfl_r tibant_r tibpost_r vasint_r vaslat_r vasmed_r addbrev_l addlong_l addmagDist_l addmagIsch_l addmagMid_l addmagProx_l bflh_l bfsh_l edl_l ehl_l fdl_l fhl_l gaslat_l gasmed_l glmax1_l glmax2_l glmax3_l glmed1_l glmed2_l glmed3_l glmin1_l glmin2_l glmin3_l grac_l iliacus_l perbrev_l perlong_l psoas_l recfem_l sart_l semimem_l semiten_l soleus_l tfl_l tibant_l tibpost_l vasint_l vaslat_l vasmed_l piri_r 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Value: 0.19683
+
+------------------------------------------------------------------------------
+   Fobj = 152.363
+------------------------------------------------------------------------------
+Return false
+fLatest_.at(0) - fOpt_ = 137.335 - 131.777 > 1e-05
+------------------------------------------------------------------------------
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: hip_flexion_r knee_angle_r ankle_angle_r 
+ - Weight: 1
+ - Exponent: 1
+ - Value: 137.099
+ -- Root Mean Square Errors
+ --- Trial #1
+ ---- hip_flexion_r: 87.6622 Nm
+ ---- knee_angle_r: 22.2017 Nm
+ ---- ankle_angle_r: 27.2348 Nm
+
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r bflh_r bfsh_r edl_r ehl_r fdl_r fhl_r gaslat_r gasmed_r glmax1_r glmax2_r glmax3_r glmed1_r glmed2_r glmed3_r glmin1_r glmin2_r glmin3_r grac_r iliacus_r perbrev_r perlong_r psoas_r recfem_r sart_r semimem_r semiten_r soleus_r tfl_r tibant_r tibpost_r vasint_r vaslat_r vasmed_r addbrev_l addlong_l addmagDist_l addmagIsch_l addmagMid_l addmagProx_l bflh_l bfsh_l edl_l ehl_l fdl_l fhl_l gaslat_l gasmed_l glmax1_l glmax2_l glmax3_l glmed1_l glmed2_l glmed3_l glmin1_l glmin2_l glmin3_l grac_l iliacus_l perbrev_l perlong_l psoas_l recfem_l sart_l semimem_l semiten_l soleus_l tfl_l tibant_l tibpost_l vasint_l vaslat_l vasmed_l piri_r 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Value: 0.236577
+
+------------------------------------------------------------------------------
+   Fobj = 137.335
+------------------------------------------------------------------------------
+Return false
+fLatest_.at(0) - fOpt_ = 125.739 - 124.436 > 1e-05
+------------------------------------------------------------------------------
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: hip_flexion_r knee_angle_r ankle_angle_r 
+ - Weight: 1
+ - Exponent: 1
+ - Value: 126.032
+ -- Root Mean Square Errors
+ --- Trial #1
+ ---- hip_flexion_r: 80.9852 Nm
+ ---- knee_angle_r: 19.292 Nm
+ ---- ankle_angle_r: 25.7552 Nm
+
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r bflh_r bfsh_r edl_r ehl_r fdl_r fhl_r gaslat_r gasmed_r glmax1_r glmax2_r glmax3_r glmed1_r glmed2_r glmed3_r glmin1_r glmin2_r glmin3_r grac_r iliacus_r perbrev_r perlong_r psoas_r recfem_r sart_r semimem_r semiten_r soleus_r tfl_r tibant_r tibpost_r vasint_r vaslat_r vasmed_r addbrev_l addlong_l addmagDist_l addmagIsch_l addmagMid_l addmagProx_l bflh_l bfsh_l edl_l ehl_l fdl_l fhl_l gaslat_l gasmed_l glmax1_l glmax2_l glmax3_l glmed1_l glmed2_l glmed3_l glmin1_l glmin2_l glmin3_l grac_l iliacus_l perbrev_l perlong_l psoas_l recfem_l sart_l semimem_l semiten_l soleus_l tfl_l tibant_l tibpost_l vasint_l vaslat_l vasmed_l piri_r 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Value: 0.218783
+
+------------------------------------------------------------------------------
+   Fobj = 126.251
+------------------------------------------------------------------------------
+
+Calibration finished.
+Best solution found:
+fOpt_ = 124.436
+------------------------------------------------------------------------------
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: hip_flexion_r knee_angle_r ankle_angle_r 
+ - Weight: 1
+ - Exponent: 1
+ - Value: 124.232
+ -- Root Mean Square Errors
+ --- Trial #1
+ ---- hip_flexion_r: 82.1821 Nm
+ ---- knee_angle_r: 17.3469 Nm
+ ---- ankle_angle_r: 24.7027 Nm
+
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r bflh_r bfsh_r edl_r ehl_r fdl_r fhl_r gaslat_r gasmed_r glmax1_r glmax2_r glmax3_r glmed1_r glmed2_r glmed3_r glmin1_r glmin2_r glmin3_r grac_r iliacus_r perbrev_r perlong_r psoas_r recfem_r sart_r semimem_r semiten_r soleus_r tfl_r tibant_r tibpost_r vasint_r vaslat_r vasmed_r addbrev_l addlong_l addmagDist_l addmagIsch_l addmagMid_l addmagProx_l bflh_l bfsh_l edl_l ehl_l fdl_l fhl_l gaslat_l gasmed_l glmax1_l glmax2_l glmax3_l glmed1_l glmed2_l glmed3_l glmin1_l glmin2_l glmin3_l grac_l iliacus_l perbrev_l perlong_l psoas_l recfem_l sart_l semimem_l semiten_l soleus_l tfl_l tibant_l tibpost_l vasint_l vaslat_l vasmed_l piri_r 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Value: 0.273376
+
+------------------------------------------------------------------------------
+   Fobj = 124.505
+------------------------------------------------------------------------------
+total number of evaluations:206700
+Reading subject file: D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\ceinms\calibration\uncalibrated.xml .
+Calibration time: 12minutes

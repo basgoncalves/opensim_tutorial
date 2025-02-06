@@ -39,7 +39,7 @@ else:
 
 # Define the path to the main XML setup file
 current_path = os.path.dirname(__file__)
-xml_setup_file = os.path.join(current_path, "Simulations", "009", "session1", "run_baseline", "ceinms", "calibration","calibration_setup.xml")
+xml_setup_file = os.path.join(current_path, "Simulations", "009", "session1", "run_baseline_summary", "calibration_setup.xml")
 
 print(xml_setup_file)
 
@@ -48,6 +48,8 @@ command = " ".join([ceinms_install_path + "\CEINMScalibrate.exe -S", xml_setup_f
 # command = ["CEINMScalibrate", "-S", xml_setup_file]
 
 print(command)
+
+exit()
 
 # Run the command
 try:
