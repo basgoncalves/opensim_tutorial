@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inputData>
+   <muscleTendonLengthFile>E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_Length.sto</muscleTendonLengthFile>
+   <excitationsFile>E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/dynamicElaborations/RunL1/emg.mot</excitationsFile>
+   <momentArmsFiles>
+      <momentArmsFile dofName="ankle_angle_l">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_ankle_angle_l.sto</momentArmsFile>
+      <momentArmsFile dofName="ankle_angle_r">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_ankle_angle_r.sto</momentArmsFile>
+      <momentArmsFile dofName="arm_add_l">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_arm_add_l.sto</momentArmsFile>
+      <momentArmsFile dofName="arm_add_r">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_arm_add_r.sto</momentArmsFile>
+      <momentArmsFile dofName="arm_flex_l">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_arm_flex_l.sto</momentArmsFile>
+      <momentArmsFile dofName="arm_flex_r">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_arm_flex_r.sto</momentArmsFile>
+      <momentArmsFile dofName="arm_rot_l">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_arm_rot_l.sto</momentArmsFile>
+      <momentArmsFile dofName="arm_rot_r">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_arm_rot_r.sto</momentArmsFile>
+      <momentArmsFile dofName="elbow_flex_l">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_elbow_flex_l.sto</momentArmsFile>
+      <momentArmsFile dofName="elbow_flex_r">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_elbow_flex_r.sto</momentArmsFile>
+      <momentArmsFile dofName="hip_adduction_l">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_hip_adduction_l.sto</momentArmsFile>
+      <momentArmsFile dofName="hip_adduction_r">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_hip_adduction_r.sto</momentArmsFile>
+      <momentArmsFile dofName="hip_flexion_l">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_hip_flexion_l.sto</momentArmsFile>
+      <momentArmsFile dofName="hip_flexion_r">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_hip_flexion_r.sto</momentArmsFile>
+      <momentArmsFile dofName="hip_rotation_l">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_hip_rotation_l.sto</momentArmsFile>
+      <momentArmsFile dofName="hip_rotation_r">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_hip_rotation_r.sto</momentArmsFile>
+      <momentArmsFile dofName="knee_angle_l">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_knee_angle_l.sto</momentArmsFile>
+      <momentArmsFile dofName="knee_angle_l_beta">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_knee_angle_l_beta.sto</momentArmsFile>
+      <momentArmsFile dofName="knee_angle_r">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_knee_angle_r.sto</momentArmsFile>
+      <momentArmsFile dofName="knee_angle_r_beta">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_knee_angle_r_beta.sto</momentArmsFile>
+      <momentArmsFile dofName="lumbar_bending">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_lumbar_bending.sto</momentArmsFile>
+      <momentArmsFile dofName="lumbar_extension">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_lumbar_extension.sto</momentArmsFile>
+      <momentArmsFile dofName="lumbar_rotation">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_lumbar_rotation.sto</momentArmsFile>
+      <momentArmsFile dofName="mtp_angle_l">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_mtp_angle_l.sto</momentArmsFile>
+      <momentArmsFile dofName="mtp_angle_r">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_mtp_angle_r.sto</momentArmsFile>
+      <momentArmsFile dofName="pelvis_list">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_pelvis_list.sto</momentArmsFile>
+      <momentArmsFile dofName="pelvis_rotation">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_pelvis_rotation.sto</momentArmsFile>
+      <momentArmsFile dofName="pelvis_tilt">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_pelvis_tilt.sto</momentArmsFile>
+      <momentArmsFile dofName="pelvis_tx">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_pelvis_tx.sto</momentArmsFile>
+      <momentArmsFile dofName="pelvis_ty">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_pelvis_ty.sto</momentArmsFile>
+      <momentArmsFile dofName="pelvis_tz">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_pelvis_tz.sto</momentArmsFile>
+      <momentArmsFile dofName="pro_sup_l">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_pro_sup_l.sto</momentArmsFile>
+      <momentArmsFile dofName="pro_sup_r">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_pro_sup_r.sto</momentArmsFile>
+      <momentArmsFile dofName="subtalar_angle_l">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_subtalar_angle_l.sto</momentArmsFile>
+      <momentArmsFile dofName="subtalar_angle_r">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_subtalar_angle_r.sto</momentArmsFile>
+      <momentArmsFile dofName="wrist_dev_l">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_wrist_dev_l.sto</momentArmsFile>
+      <momentArmsFile dofName="wrist_dev_r">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_wrist_dev_r.sto</momentArmsFile>
+      <momentArmsFile dofName="wrist_flex_l">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_wrist_flex_l.sto</momentArmsFile>
+      <momentArmsFile dofName="wrist_flex_r">E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/muscleAnalysis/RunL1/_MuscleAnalysis_MomentArm_wrist_flex_r.sto</momentArmsFile>
+   </momentArmsFiles>
+   <externalTorquesFile>E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/inverseDynamics/RunL1/inverse_dynamics.sto</externalTorquesFile>
+   <motionFile>E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/inverseKinematics/RunL1/IK.mot</motionFile>
+   <externalLoadsFile>E:/3-PhD/Data/MocapData/ElaboratedData/009/pre/inverseDynamics/RunL1/grf.xml</externalLoadsFile>
+   <startStopTime>2.185 2.7495</startStopTime>
+</inputData>

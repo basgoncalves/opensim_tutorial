@@ -1,0 +1,379 @@
+Constructing tool from setup file .\setup.xml.
+
+AbstractTool RunL1 loading model '..\..\009_Rajagopal2015_FAI_rra_opt_N5.osim'
+Loaded model 009_Rajagopal2015_FAI_rra_opt_N5.osim from file ..\..\009_Rajagopal2015_FAI_rra_opt_N5.osim
+Adding force object set from .\actuators.xml
+-----------------------------------------------------------------------
+Loaded library
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+
+Old version storage/motion file encountered
+Storage: file=.\RunL1.mot (nr=1151 nc=37)
+.. assuming rotations in Degrees.
+ExternalForce::Right
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\RunL1\RunL1.mot
+Storage: file=IK.mot (nr=113 nc=40)
+
+
+Low-pass filtering coordinates data with a cutoff frequency of 7.
+ExternalForce::Right_transformedP
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\RunL1\RunL1.mot_transformedP
+
+Loading coordinates from file ..\..\inverseKinematics\RunL1\IK.mot.
+Storage: file=..\..\inverseKinematics\RunL1\IK.mot (nr=113 nc=40)
+Found 113 state vectors with time stamps ranging from 2.185 to 2.745.
+Executing the analyses from 2.185 to 2.745...
+
+time = 2.185 Performance =0.532367 Constraint violation = 1.14168e-12
+Bounds for addbrev_r: 0 to 1
+Bounds for addlong_r: 0 to 1
+Bounds for addmagDist_r: 0 to 1
+Bounds for addmagIsch_r: 0 to 1
+Bounds for addmagMid_r: 0 to 1
+Bounds for addmagProx_r: 0 to 1
+Bounds for bflh_r: 0 to 1
+Bounds for bfsh_r: 0 to 1
+Bounds for edl_r: 0 to 1
+Bounds for ehl_r: 0 to 1
+Bounds for fdl_r: 0 to 1
+Bounds for fhl_r: 0 to 1
+Bounds for gaslat_r: 0 to 1
+Bounds for gasmed_r: 0 to 1
+Bounds for glmax1_r: 0 to 1
+Bounds for glmax2_r: 0 to 1
+Bounds for glmax3_r: 0 to 1
+Bounds for glmed1_r: 0 to 1
+Bounds for glmed2_r: 0 to 1
+Bounds for glmed3_r: 0 to 1
+Bounds for glmin1_r: 0 to 1
+Bounds for glmin2_r: 0 to 1
+Bounds for glmin3_r: 0 to 1
+Bounds for grac_r: 0 to 1
+Bounds for iliacus_r: 0 to 1
+Bounds for perbrev_r: 0 to 1
+Bounds for perlong_r: 0 to 1
+Bounds for piri_r: 0 to 1
+Bounds for psoas_r: 0 to 1
+Bounds for recfem_r: 0 to 1
+Bounds for sart_r: 0 to 1
+Bounds for semimem_r: 0 to 1
+Bounds for semiten_r: 0 to 1
+Bounds for soleus_r: 0 to 1
+Bounds for tfl_r: 0 to 1
+Bounds for tibant_r: 0 to 1
+Bounds for tibpost_r: 0 to 1
+Bounds for vasint_r: 0 to 1
+Bounds for vaslat_r: 0 to 1
+Bounds for vasmed_r: 0 to 1
+Bounds for quad_fem_r: 0 to 1
+Bounds for obt_internus_r1: 0 to 1
+Bounds for addbrev_l: 0 to 1
+Bounds for addlong_l: 0 to 1
+Bounds for addmagDist_l: 0 to 1
+Bounds for addmagIsch_l: 0 to 1
+Bounds for addmagMid_l: 0 to 1
+Bounds for addmagProx_l: 0 to 1
+Bounds for bflh_l: 0 to 1
+Bounds for bfsh_l: 0 to 1
+Bounds for edl_l: 0 to 1
+Bounds for ehl_l: 0 to 1
+Bounds for fdl_l: 0 to 1
+Bounds for fhl_l: 0 to 1
+Bounds for gaslat_l: 0 to 1
+Bounds for gasmed_l: 0 to 1
+Bounds for glmax1_l: 0 to 1
+Bounds for glmax2_l: 0 to 1
+Bounds for glmax3_l: 0 to 1
+Bounds for glmed1_l: 0 to 1
+Bounds for glmed2_l: 0 to 1
+Bounds for glmed3_l: 0 to 1
+Bounds for glmin1_l: 0 to 1
+Bounds for glmin2_l: 0 to 1
+Bounds for glmin3_l: 0 to 1
+Bounds for grac_l: 0 to 1
+Bounds for iliacus_l: 0 to 1
+Bounds for perbrev_l: 0 to 1
+Bounds for perlong_l: 0 to 1
+Bounds for piri_l: 0 to 1
+Bounds for psoas_l: 0 to 1
+Bounds for recfem_l: 0 to 1
+Bounds for sart_l: 0 to 1
+Bounds for semimem_l: 0 to 1
+Bounds for semiten_l: 0 to 1
+Bounds for soleus_l: 0 to 1
+Bounds for tfl_l: 0 to 1
+Bounds for tibant_l: 0 to 1
+Bounds for tibpost_l: 0 to 1
+Bounds for vasint_l: 0 to 1
+Bounds for vaslat_l: 0 to 1
+Bounds for vasmed_l: 0 to 1
+Bounds for lumbar_ext: -inf to inf
+Bounds for lumbar_bend: -inf to inf
+Bounds for lumbar_rot: -inf to inf
+Bounds for shoulder_flex_r: -inf to inf
+Bounds for shoulder_add_r: -inf to inf
+Bounds for shoulder_rot_r: -inf to inf
+Bounds for elbow_flex_r: -inf to inf
+Bounds for pro_sup_r: -inf to inf
+Bounds for wrist_flex_r: -inf to inf
+Bounds for wrist_dev_r: -inf to inf
+Bounds for shoulder_flex_l: -inf to inf
+Bounds for shoulder_add_l: -inf to inf
+Bounds for shoulder_rot_l: -inf to inf
+Bounds for elbow_flex_l: -inf to inf
+Bounds for pro_sup_l: -inf to inf
+Bounds for wrist_flex_l: -inf to inf
+Bounds for wrist_dev_l: -inf to inf
+Bounds for FX: -inf to inf
+Bounds for FY: -inf to inf
+Bounds for FZ: -inf to inf
+Bounds for MX: -inf to inf
+Bounds for MY: -inf to inf
+Bounds for MZ: -inf to inf
+Bounds for hip_flexion_r_reserve: -1 to 1
+Bounds for hip_adduction_r_reserve: -1 to 1
+Bounds for hip_rotation_r_reserve: -1 to 1
+Bounds for knee_angle_r_reserve: -1 to 1
+Bounds for ankle_angle_r_reserve: -1 to 1
+Bounds for hip_flexion_l_reserve: -1 to 1
+Bounds for hip_adduction_l_reserve: -1 to 1
+Bounds for hip_rotation_l_reserve: -1 to 1
+Bounds for knee_angle_l_reserve: -1 to 1
+Bounds for ankle_angle_l_reserve: -1 to 1
+Bounds for lumbar_extension_reserve: -1 to 1
+Bounds for lumbar_bending_reserve: -1 to 1
+Bounds for lumbar_rotation_reserve: -1 to 1
+Bounds for arm_flex_r: -1 to 1
+Bounds for arm_add_r: -1 to 1
+Bounds for arm_rot_r: -1 to 1
+Bounds for arm_flex_l: -1 to 1
+Bounds for arm_add_l: -1 to 1
+Bounds for arm_rot_l: -1 to 1
+
+time = 2.19 Performance =0.710073 Constraint violation = 6.2762e-13
+
+time = 2.195 Performance =0.760745 Constraint violation = 8.76613e-13
+
+time = 2.2 Performance =0.60018 Constraint violation = 6.42484e-13
+
+time = 2.205 Performance =0.551271 Constraint violation = 4.96932e-13
+
+time = 2.21 Performance =0.577989 Constraint violation = 5.16074e-13
+
+time = 2.215 Performance =0.450137 Constraint violation = 6.08871e-13
+
+time = 2.22 Performance =0.485248 Constraint violation = 6.87731e-13
+
+time = 2.225 Performance =0.329941 Constraint violation = 5.56737e-13
+
+time = 2.23 Performance =0.293548 Constraint violation = 6.17414e-13
+
+time = 2.235 Performance =0.402012 Constraint violation = 5.32759e-13
+
+time = 2.24 Performance =0.205992 Constraint violation = 4.43805e-13
+
+time = 2.245 Performance =0.22072 Constraint violation = 2.8581e-13
+
+time = 2.25 Performance =0.182182 Constraint violation = 5.84846e-13
+
+time = 2.255 Performance =0.163172 Constraint violation = 4.99775e-13
+
+time = 2.26 Performance =0.159248 Constraint violation = 6.93139e-13
+
+time = 2.265 Performance =0.157863 Constraint violation = 3.87187e-13
+
+time = 2.27 Performance =0.186182 Constraint violation = 5.09514e-13
+
+time = 2.275 Performance =0.143904 Constraint violation = 5.96493e-13
+
+time = 2.28 Performance =0.248157 Constraint violation = 2.52765e-13
+
+time = 2.285 Performance =0.600824 Constraint violation = 7.89814e-13
+
+time = 2.29 Performance =0.185798 Constraint violation = 7.97351e-13
+
+time = 2.295 Performance =0.376025 Constraint violation = 4.37041e-13
+
+time = 2.3 Performance =0.682412 Constraint violation = 5.61741e-13
+
+time = 2.305 Performance =0.433052 Constraint violation = 8.46958e-13
+
+time = 2.31 Performance =0.527372 Constraint violation = 7.21522e-13
+
+time = 2.315 Performance =0.722934 Constraint violation = 4.85691e-13
+
+time = 2.32 Performance =0.83343 Constraint violation = 6.70153e-13
+
+time = 2.325 Performance =1.15357 Constraint violation = 7.7743e-13
+
+time = 2.33 Performance =0.69612 Constraint violation = 5.37302e-13
+
+time = 2.335 Performance =1.23693 Constraint violation = 5.30112e-13
+
+time = 2.34 Performance =5.39645 Constraint violation = 1.88026e-12
+
+time = 2.345 Performance =1.57406 Constraint violation = 1.04835e-12
+
+time = 2.35 Performance =1.71727 Constraint violation = 2.05629e-12
+
+time = 2.355 Performance =5.38433 Constraint violation = 4.1294e-12
+
+time = 2.36 Performance =1.74012 Constraint violation = 1.07808e-12
+
+time = 2.365 Performance =0.638758 Constraint violation = 5.33495e-13
+
+time = 2.37 Performance =0.496853 Constraint violation = 6.57931e-13
+
+time = 2.375 Performance =1.3975 Constraint violation = 3.68226e-12
+
+time = 2.38 Performance =0.755282 Constraint violation = 2.77527e-12
+
+time = 2.385 Performance =0.665577 Constraint violation = 1.40591e-12
+
+time = 2.39 Performance =0.433726 Constraint violation = 4.44132e-13
+
+time = 2.395 Performance =0.19273 Constraint violation = 4.45435e-13
+
+time = 2.4 Performance =0.189592 Constraint violation = 5.41014e-13
+
+time = 2.405 Performance =0.231731 Constraint violation = 4.94234e-13
+
+time = 2.41 Performance =0.225718 Constraint violation = 5.82606e-13
+
+time = 2.415 Performance =0.136566 Constraint violation = 3.34064e-13
+
+time = 2.42 Performance =0.16888 Constraint violation = 3.22198e-13
+
+time = 2.425 Performance =0.120116 Constraint violation = 2.18134e-13
+
+time = 2.43 Performance =0.113939 Constraint violation = 1.97474e-13
+
+time = 2.435 Performance =0.101207 Constraint violation = 1.89789e-13
+
+time = 2.44 Performance =0.0761402 Constraint violation = 2.53786e-13
+
+time = 2.445 Performance =0.092028 Constraint violation = 2.52863e-13
+
+time = 2.45 Performance =0.10794 Constraint violation = 2.9136e-13
+
+time = 2.455 Performance =0.0650795 Constraint violation = 6.51732e-13
+
+time = 2.46 Performance =0.0774071 Constraint violation = 4.10187e-13
+
+time = 2.465 Performance =0.0982158 Constraint violation = 2.8054e-13
+
+time = 2.47 Performance =0.0865273 Constraint violation = 4.43505e-13
+
+time = 2.475 Performance =0.0891421 Constraint violation = 4.5234e-13
+
+time = 2.48 Performance =0.113288 Constraint violation = 4.26473e-13
+
+time = 2.485 Performance =0.120885 Constraint violation = 3.17042e-13
+
+time = 2.49 Performance =0.127402 Constraint violation = 6.1013e-13
+
+time = 2.495 Performance =0.251909 Constraint violation = 5.59653e-13
+
+time = 2.5 Performance =0.122034 Constraint violation = 5.13368e-13
+
+time = 2.505 Performance =0.273465 Constraint violation = 6.36406e-13
+
+time = 2.51 Performance =0.395407 Constraint violation = 7.64385e-13
+
+time = 2.515 Performance =0.139107 Constraint violation = 6.93054e-13
+
+time = 2.52 Performance =0.327497 Constraint violation = 3.66142e-13
+
+time = 2.525 Performance =0.295175 Constraint violation = 4.15092e-13
+
+time = 2.53 Performance =0.272468 Constraint violation = 7.05153e-13
+
+time = 2.535 Performance =0.466257 Constraint violation = 6.78617e-13
+
+time = 2.54 Performance =1.72709 Constraint violation = 1.85516e-12
+
+time = 2.545 Performance =0.182265 Constraint violation = 4.75976e-13
+
+time = 2.55 Performance =0.191769 Constraint violation = 4.43882e-13
+
+time = 2.555 Performance =0.198069 Constraint violation = 4.95929e-13
+
+time = 2.56 Performance =0.101849 Constraint violation = 1.03587e-12
+
+time = 2.565 Performance =0.35795 Constraint violation = 1.02442e-12
+
+time = 2.57 Performance =0.353765 Constraint violation = 9.74302e-13
+
+time = 2.575 Performance =0.468332 Constraint violation = 9.54516e-13
+
+time = 2.58 Performance =0.785761 Constraint violation = 1.11538e-12
+
+time = 2.585 Performance =1.28195 Constraint violation = 5.84645e-13
+
+time = 2.59 Performance =1.90375 Constraint violation = 1.4835e-12
+
+time = 2.595 Performance =2.60848 Constraint violation = 1.6293e-12
+
+time = 2.6 Performance =3.08773 Constraint violation = 8.51311e-13
+
+time = 2.605 Performance =4.00374 Constraint violation = 5.65198e-12
+
+time = 2.61 Performance =3.85144 Constraint violation = 3.9933e-12
+
+time = 2.615 Performance =7.95725 Constraint violation = 1.65459e-12
+
+time = 2.62 Performance =4.04881 Constraint violation = 3.95762e-12
+
+time = 2.625 Performance =5.87188 Constraint violation = 4.50985e-12
+
+time = 2.63 Performance =14.4347 Constraint violation = 1.19879e-11
+
+time = 2.635 Performance =8.3387 Constraint violation = 3.8179e-12
+
+time = 2.64 Performance =5.59405 Constraint violation = 4.11996e-12
+
+time = 2.645 Performance =5.66382 Constraint violation = 4.44972e-12
+
+time = 2.65 Performance =4.52951 Constraint violation = 1.798e-12
+
+time = 2.655 Performance =4.80327 Constraint violation = 1.98018e-12
+
+time = 2.66 Performance =4.13386 Constraint violation = 3.8592e-12
+
+time = 2.665 Performance =3.97488 Constraint violation = 7.53167e-13
+
+time = 2.67 Performance =3.78137 Constraint violation = 3.82527e-12
+
+time = 2.675 Performance =3.77175 Constraint violation = 3.7125e-12
+
+time = 2.68 Performance =3.65696 Constraint violation = 3.8328e-12
+
+time = 2.685 Performance =2.61258 Constraint violation = 7.44402e-12
+
+time = 2.69 Performance =2.53367 Constraint violation = 1.09245e-11
+
+time = 2.695 Performance =2.73056 Constraint violation = 3.85935e-12
+
+time = 2.7 Performance =6.12213 Constraint violation = 1.11273e-11
+
+time = 2.705 Performance =3.79197 Constraint violation = 1.37045e-12
+
+time = 2.71 Performance =1.19137 Constraint violation = 3.79789e-12
+
+time = 2.715 Performance =0.716446 Constraint violation = 3.68759e-12
+
+time = 2.72 Performance =1.04069 Constraint violation = 3.73381e-12
+
+time = 2.725 Performance =0.279057 Constraint violation = 1.74635e-12
+
+time = 2.73 Performance =0.261386 Constraint violation = 2.82773e-12
+
+time = 2.735 Performance =0.0535874 Constraint violation = 6.21643e-13
+
+time = 2.74 Performance =0.122699 Constraint violation = 7.65411e-13
+
+time = 2.745 Performance =0.469373 Constraint violation = 9.49959e-13
+Printing results of investigation RunL1 to .\.
+Analyze compute time = 34049ms
+

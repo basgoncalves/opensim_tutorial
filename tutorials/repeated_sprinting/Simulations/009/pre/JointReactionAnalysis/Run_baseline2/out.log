@@ -1,0 +1,45 @@
+Constructing tool from setup file D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\JointReactionAnalysis\Run_baseline2\setup_JCF.xml.
+
+AbstractTool JCF loading model '..\..\009_Rajagopal2015_FAI_originalMass_opt_N10_hans.osim'
+Loaded model 009_Rajagopal2015_FAI_originalMass_opt_N10_hans from file ..\..\009_Rajagopal2015_FAI_originalMass_opt_N10_hans.osim
+-----------------------------------------------------------------------
+Loaded library
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+
+Old version storage/motion file encountered
+Storage: file=.\Run_baseline2.mot (nr=411 nc=37)
+.. assuming rotations in Degrees.
+ExternalForce::Right
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline2\Run_baseline2.mot
+Storage: file=IK.mot (nr=40 nc=40)
+
+
+Low-pass filtering coordinates data with a cutoff frequency of 7.
+
+WARNING: hip_flexion_r is not a valid joint.  Ignoring this entry.
+
+WARNING: No valid joint names were found.
+Setting up _reactionList to include all joints in the model.
+ExternalForce::Right_transformedP
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline2\Run_baseline2.mot_transformedP
+
+Loading coordinates from file ..\..\inverseKinematics\Run_baseline2\IK.mot.
+Storage: file=..\..\inverseKinematics\Run_baseline2\IK.mot (nr=40 nc=40)
+
+
+Low-pass filtering coordinates data with a cutoff frequency of 6...
+
+Found 80 state vectors with time stamps ranging from 3.59 to 3.985.
+Executing the analyses from 3.69 to 3.885...
+
+Loading actuator forces from file .\forcefile.sto.
+Storage: file=.\forcefile.sto (nr=40 nc=134)
+Found 133 actuator forces with time stamps ranging from 3.69 to 3.885.
+
+WARNING:  The forces file contains actuators that are not in the model's actuator set.
+WARNING:  Ignoring fiber lengths and activations from the states since forces_file is also set.
+Actuator forces will be constructed from .\forcefile.sto.
+Printing results of investigation JCF to .\.
+Analyze compute time = 3009ms
+

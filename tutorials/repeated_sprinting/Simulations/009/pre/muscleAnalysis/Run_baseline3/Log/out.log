@@ -1,0 +1,40 @@
+Constructing tool from setup file setup_MA.xml.
+
+AbstractTool  loading model '..\..\..\009_Rajagopal2015_FAI_rra.osim'
+Loaded model 009_Rajagopal2015_FAI_rra from file ..\..\..\009_Rajagopal2015_FAI_rra.osim
+-----------------------------------------------------------------------
+Loaded library
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+
+Old version storage/motion file encountered
+Storage: file=E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline3\Run_baseline3.mot (nr=411 nc=37)
+.. assuming rotations in Degrees.
+ExternalForce::Left
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline3\Run_baseline3.mot
+ExternalForce::Right
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline3\Run_baseline3.mot
+Storage: file=.\IK.mot (nr=40 nc=40)
+
+
+Low-pass filtering coordinates data with a cutoff frequency of 6.
+ExternalForce::Left_transformedP
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline3\Run_baseline3.mot_transformedP
+ExternalForce::Right_transformedP
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline3\Run_baseline3.mot_transformedP
+
+Loading coordinates from file .\IK.mot.
+Storage: file=.\IK.mot (nr=40 nc=40)
+Found 40 state vectors with time stamps ranging from 3.43 to 3.625.
+Executing the analyses from 3.43 to 3.625...
+MuscleAnalysis: WARNING - coordinate subtalar_angle_r is locked and can't be varied.
+MuscleAnalysis: WARNING - coordinate mtp_angle_r is locked and can't be varied.
+MuscleAnalysis: WARNING - coordinate subtalar_angle_l is locked and can't be varied.
+MuscleAnalysis: WARNING - coordinate mtp_angle_l is locked and can't be varied.
+MuscleAnalysis: WARNING - coordinate wrist_flex_r is locked and can't be varied.
+MuscleAnalysis: WARNING - coordinate wrist_dev_r is locked and can't be varied.
+MuscleAnalysis: WARNING - coordinate wrist_flex_l is locked and can't be varied.
+MuscleAnalysis: WARNING - coordinate wrist_dev_l is locked and can't be varied.
+Printing results of investigation  to ...
+Analyze compute time = 15692ms
+
