@@ -38,7 +38,10 @@ else:
 
 
 # Define the path to the main XML setup file
-xml_setup_file = r"C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\session1\run_baseline\ceinms\calibration\calibration_setup.xml"
+current_path = os.path.dirname(__file__)
+xml_setup_file = os.path.join(current_path, "Simulations", "009", "session1", "run_baseline", "ceinms", "calibration","calibration_setup.xml")
+
+print(xml_setup_file)
 
 # Construct the command
 command = " ".join([ceinms_install_path + "\CEINMScalibrate.exe -S", xml_setup_file])
