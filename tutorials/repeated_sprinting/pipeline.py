@@ -45,7 +45,7 @@ print(xml_setup_file)
 command = " ".join([ceinms_install_path + "\CEINMScalibrate.exe -S", xml_setup_file])
 
 print(command)
-exit()
+import pdb; pdb.set_trace()
 if os.path.exists(xml_setup_file):
     print("XML file exists:", xml_setup_file)
 else:

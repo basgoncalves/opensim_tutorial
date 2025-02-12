@@ -12,6 +12,11 @@ model_ceinms_path = os.path.join(trial_folder, 'ceinms','uncalibratedSubject.xml
 model_ceinms = msk.bops.readXML(model_ceinms_path)
 mtu_set = model_ceinms.findall('.//mtu')
 ceinms_muscle_names = [mtu.find('name').text for mtu in mtu_set]
+
+
+for muscle in ceinms_muscle_names:
+    print(muscle)    
+
 import pdb; pdb.set_trace()
 
 # get all excitation tags

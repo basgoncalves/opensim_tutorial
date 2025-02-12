@@ -13,60 +13,84 @@
    </algorithm>
    <NMSmodel>
       <type>
-         <openLoop/>
+         <openLoop />
       </type>
       <tendon>
-         <equilibriumElastic/>
+         <equilibriumElastic />
       </tendon>
       <activation>
-         <exponential/>
+         <exponential />
       </activation>
    </NMSmodel>
    <calibrationSteps>
       <step>
          <dofs>knee_angle_r</dofs>
          <objectiveFunction>
-           <minimizeTorqueError/>
+            <torqueErrorNormalised>
+               <targets>all</targets>
+               <!--<targetsType></targetsType>-->
+               <weight>1</weight>
+               <exponent>1</exponent>
+            </torqueErrorNormalised>
+            <penalty>
+               <targets>all</targets>
+               <targetsType>normalisedFibreLength</targetsType>
+               <weight>100</weight>
+               <exponent>2</exponent>
+               <range>0.6 1.4</range>
+            </penalty>
          </objectiveFunction>
          <parameterSet>
             <parameter>
                <name>c1</name>
-               <single/>
+               <single />
                <absolute>
                   <range>-0.95 -0.05</range>
                </absolute>
             </parameter>
             <parameter>
                <name>c2</name>
-               <single/>
+               <single />
                <absolute>
                   <range>-0.95 -0.05</range>
                </absolute>
             </parameter>
             <parameter>
                <name>shapeFactor</name>
-               <single/>
+               <single />
                <absolute>
                   <range>-2.999 -0.001</range>
                </absolute>
             </parameter>
             <parameter>
                <name>tendonSlackLength</name>
-               <single/>
+               <single />
                <relativeToSubjectValue>
                   <range>0.85 1.15</range>
                </relativeToSubjectValue>
             </parameter>
             <parameter>
                <name>optimalFibreLength</name>
-               <single/>
+               <single />
                <relativeToSubjectValue>
                   <range>0.85 1.15</range>
                </relativeToSubjectValue>
             </parameter>
             <parameter>
                <name>strengthCoefficient</name>
-               <single/>
+               <muscleGroups>
+                  <muscles> intobl_r ercspn_r extobl_r</muscles>
+                  <muscles>add_mag1_r add_mag2_r add_mag3_r add_brev_r add_long_r grac_r</muscles>
+                  <muscles> bifemlh_r bifemsh_r semimem_r semiten_r </muscles>
+                  <muscles>pect_r quad_fem_r gem_r peri_r per_tert_r</muscles>
+                  <muscles>tib_post_r flex_dig_r flex_hal_r per_brev_r per_long_r ext_dig_r
+                     ext_hal_r</muscles>
+                  <muscles> lat_gas_r med_gas_r soleus_r tib_ant_r</muscles>
+                  <muscles>glut_max1_r glut_max2_r glut_max3_r glut_med1_r glut_med2_r glut_med3_r
+                     glut_min1_r glut_min2_r glut_min3_r</muscles>
+                  <muscles>iliacus_r psoas_r rect_fem_r sar_r tfl_r</muscles>
+                  <muscles>vas_int_r vas_lat_r vas_med_r</muscles>
+               </muscleGroups>
                <absolute>
                   <range>0.8 2</range>
                </absolute>
@@ -74,5 +98,5 @@
          </parameterSet>
       </step>
    </calibrationSteps>
-   <trialSet>trial_right.xml</trialSet>
+   <trialSet>.\trial_right.xml</trialSet>
 </calibration>
