@@ -16,7 +16,7 @@ Copyright (C) Apr 29 2020
 Claudio Pizzolato, Monica Reggiani, Massimo Sartori, David Lloyd
 Software developers: Claudio Pizzolato, Monica Reggiani
 readNMSmodelCfg
-boost::filesystem::canonical: No such file or directory: "c:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\P013\trial3_r1\ceinms\.\calibratedSubject.xml"Reading subject file: c:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\P013\trial3_r1\ceinms\uncalibratedSubject.xml .
+boost::filesystem::canonical: No such file or directory: "c:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\P013\trial3_r1\ceinms\.\calibratedSubject.xml"Reading subject file: c:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\P013\trial3_r1\ceinms\uncalibratedSubject.xml .
 Contact model  not found
 Calibration configuration
  - Algorithm
@@ -33,14 +33,20 @@ Calibration configuration
  -- Step
  Objective Function: TorqueErrorNormalised
  - Targets Type: Torque
- - Targets: knee_angle_r 
+ - Targets: all 
  - Weight: 1
  - Exponent: 1
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: all 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
  - Trials
- -- c:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\P013\trial3_r1\ceinms\trial_right.xml
+ -- c:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\P013\trial3_r1\ceinms\.\trial_right.xml
 
 
-Reading subject file: c:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\P013\trial3_r1\ceinms\uncalibratedSubject.xml .
+Reading subject file: c:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\P013\trial3_r1\ceinms\uncalibratedSubject.xml .
 activeForceLength
 passiveForceLength
 forceVelocity
@@ -143,5 +149,5 @@ Assuming intobl_r pennation angle in radians: 0
 Assuming intobl_l pennation angle in radians: 0
 Assuming extobl_r pennation angle in radians: 0
 Assuming extobl_l pennation angle in radians: 0
-Found OpenSim model associated to the subject: C:\OpenSim 4.3\Resources\Models\Gait2392_Simbody\gait2392_simbody.osim
-Something is wrong. 0 muscles should be in the excitation file and we have : 1
+Found OpenSim model associated to the subject: c:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\P013\PC013_scaled.osim
+Something is wrong. 693 muscles should be in the excitation file and we have : 1

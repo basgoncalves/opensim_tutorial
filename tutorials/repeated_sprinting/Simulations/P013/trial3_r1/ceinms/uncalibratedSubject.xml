@@ -1072,13 +1072,13 @@
    <dofSet>
       <dof>
          <name>knee_angle_r</name>
-         <mtuNameSet> bifemlh_r bifemsh_r lat_gas_r  med_gas_r grac_r rect_fem_r sar_r semimem_r semiten_r tfl_r vas_int_r vas_lat_r vas_med_r</mtuNameSet>
+         <mtuNameSet> bifemlh_r</mtuNameSet>
       </dof>
    </dofSet>
    <calibrationInfo>
       <uncalibrated>
          <subjectID>9</subjectID>
-         <additionalInfo/>
+         <additionalInfo>TendonSlackLength and OptimalFibreLength scaled with Winby-Modenese</additionalInfo>
       </uncalibrated>
    </calibrationInfo>
    <opensimModelFile>..\..\PC013_scaled.osim</opensimModelFile>
