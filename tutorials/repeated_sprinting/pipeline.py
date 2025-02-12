@@ -4,7 +4,6 @@ import subprocess
 import sys
 import opensim as osim
 
-
 try:
     model = osim.Model()
     print("OpenSim model created successfully!")
@@ -46,7 +45,7 @@ print(xml_setup_file)
 command = " ".join([ceinms_install_path + "\CEINMScalibrate.exe -S", xml_setup_file])
 
 print(command)
-
+exit()
 if os.path.exists(xml_setup_file):
     print("XML file exists:", xml_setup_file)
 else:
