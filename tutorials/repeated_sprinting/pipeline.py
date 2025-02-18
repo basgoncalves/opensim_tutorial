@@ -1,6 +1,6 @@
 import os 
 import subprocess
-# import msk_modelling_python as msk
+import msk_modelling_python as msk
 import sys
 import numpy as np
 import opensim as osim
@@ -10,8 +10,19 @@ class Project:
         self.path = path
         self.simulations = os.path.join(path, 'Simulations')
         self.pipeline = os.path.dirname(__file__)
-        
+    
 
+    def header_mot(self,df,name):
+
+        num_rows = len(df)
+        num_cols = len(df.columns) 
+        inital_time = df['Time'].iloc[0]
+        final_time = df['Time'].iloc[-1]
+        df_range = f'{inital_time}  {final_time}'
+
+
+        return f'name {name}\n datacolumns {num_cols}\n datarows {num_rows}\n range {df_range} \n endheader'
+    
 P = Project(os.path.dirname(__file__))
 file_path = os.path.join(P.simulations, r'P013\trial3_r1\processed_emg_signals.csv')
 
@@ -23,12 +34,33 @@ time = emg_data['Time']
 
 # start time from new time point
 start_time = 1.539
-end_time = time[-1:]  - time[0] + start_time
+end_time = time.iloc[-1] - time.iloc[0] + start_time
 
-num_samples = int((end_time - start_time) / (1/fs))
+num_samples = len(emg_data)
+#num_samples = int((end_time - start_time) / (1/fs))
 new_time = np.linspace(start_time, end_time, num_samples)
 
 emg_data['Time'] = new_time
+
+# Define a new file path 
+new_file_path = os.path.join(P.simulations, r'P013\trial3_r1\processed_emg_signals_updated.csv')
+
+# Save the modified DataFrame
+emg_data.to_csv(new_file_path, index=False)  # index=False prevents adding an extra index column
+
+
+# save to mot
+header = P.header_mot(emg_data, "processed_emg_signals")
+
+
+
+mot_path = new_file_path.replace('.csv','.mot')
+with open(mot_path, 'w') as f:
+    f.write(header + '\n')  
+    # print column names 
+    f.write('\t'.join(map(str, emg_data.columns)) + '\n')
+    for index, row in emg_data.iterrows():
+        f.write('\t'.join(map(str, row.values)) + '\n')  # C
 
 
 import pdb; pdb.set_trace()
