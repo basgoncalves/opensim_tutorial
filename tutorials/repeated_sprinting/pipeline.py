@@ -2,8 +2,38 @@ import os
 import subprocess
 # import msk_modelling_python as msk
 import sys
+import numpy as np
 import opensim as osim
 
+class Project:
+    def __init__(self, path):
+        self.path = path
+        self.simulations = os.path.join(path, 'Simulations')
+        self.pipeline = os.path.dirname(__file__)
+        
+
+P = Project(os.path.dirname(__file__))
+file_path = os.path.join(P.simulations, r'P013\trial3_r1\processed_emg_signals.csv')
+
+emg_data = msk.bops.pd.read_csv(file_path)
+
+fs = int(1/(emg_data['Time'][1] - emg_data['Time'][0]))
+
+time = emg_data['Time']
+
+# start time from new time point
+start_time = 1.539
+end_time = time[-1:]  - time[0] + start_time
+
+num_samples = int((end_time - start_time) / (1/fs))
+new_time = np.linspace(start_time, end_time, num_samples)
+
+emg_data['Time'] = new_time
+
+
+import pdb; pdb.set_trace()
+
+exit()
 
 try:
     model = osim.Model()
@@ -63,10 +93,12 @@ except subprocess.CalledProcessError as e:
 
 result = subprocess.run(command, capture_output=True, text=True, check=True)
 
-try: 
-    print('Run the CEINMS executable')
-    # os.system(command)
-except Exception as e:
-    print('ERROR:', e)
-    sys.exit(1)
+# try: 
+#     print('Run the CEINMS executable')
+#      os.system(command)
+# except Exception as e:
+#     print('ERROR:', e)
+#     sys.exit(1)
+    
+    
     
