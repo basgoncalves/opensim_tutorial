@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<excitationGenerator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="excitationGenerator.xsd">
-   <inputSignals type="EMG">RADDLONG RST RTA RGM RGLTMED RRF</inputSignals>
-   <mapping>
-      <excitation id="add_brev_r">
+<excitationGenerator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:noNamespaceSchemaLocation="excitationGenerator.xsd">
+    <inputSignals type="EMG">RADDLONG RST RTA</inputSignals>
+  <mapping><excitation id="add_brev_r">
          <input weight="1">RADDLONG</input>
       </excitation>
       <excitation id="add_long_r">
@@ -123,9 +123,11 @@
       <excitation id="vas_lat_l" />
       <excitation id="vas_med_l" />
       <excitation id="add_mag1_r" />
-      <excitation id="add_mag2_r" />
+   <excitation id="add_mag2_r" />
       <excitation id="add_mag3_r" />
-      <excitation id="pect_r"/>
+      <excitation id="pect_r">
+         <input weight="1">RRF</input>
+      </excitation>
       <excitation id="quad_fem_r" />
       <excitation id="gem_r" />
       <excitation id="peri_r" />
@@ -144,6 +146,4 @@
       <excitation id="intobl_l" />
       <excitation id="extobl_r" />
       <excitation id="extobl_l" />
-   </mapping>
-
-</excitationGenerator>
+      </mapping></excitationGenerator>
