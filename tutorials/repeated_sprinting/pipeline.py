@@ -88,7 +88,7 @@ else:
 #Define the path to the main XML setup file
 current_path = os.path.dirname(__file__)
 xml_setup_file = os.path.normpath(os.path.join(current_path, "Simulations", "P013", "trial3_r1", "ceinms", "calibrationSetup.xml"))
-xml_setup_file = os.path.normpath(os.path.join(current_path, "Simulations", "009", "pre", "ceinms","calibration" ,"calibrationSetup.xml"))
+# xml_setup_file = os.path.normpath(os.path.join(current_path, "Simulations", "009", "pre", "ceinms","calibration" ,"calibrationSetup.xml"))
 print(current_path)
 print(xml_setup_file)
 
