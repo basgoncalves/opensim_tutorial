@@ -1,0 +1,233 @@
+Constructing tool from setup file .\setup.xml.
+
+AbstractTool Run_baseline2 loading model '..\..\009_Rajagopal2015_FAI_rra_opt_N5.osim'
+Loaded model 009_Rajagopal2015_FAI_rra_opt_N5.osim from file ..\..\009_Rajagopal2015_FAI_rra_opt_N5.osim
+Adding force object set from .\actuators.xml
+-----------------------------------------------------------------------
+Loaded library
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+
+Old version storage/motion file encountered
+Storage: file=.\Run_baseline2.mot (nr=411 nc=37)
+.. assuming rotations in Degrees.
+ExternalForce::Right
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline2\Run_baseline2.mot
+Storage: file=IK.mot (nr=40 nc=40)
+
+
+Low-pass filtering coordinates data with a cutoff frequency of 7.
+ExternalForce::Right_transformedP
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline2\Run_baseline2.mot_transformedP
+
+Loading coordinates from file ..\..\inverseKinematics\Run_baseline2\IK.mot.
+Storage: file=..\..\inverseKinematics\Run_baseline2\IK.mot (nr=40 nc=40)
+Found 40 state vectors with time stamps ranging from 3.69 to 3.885.
+Executing the analyses from 3.69 to 3.885...
+
+time = 3.69 Performance =4.96818 Constraint violation = 4.04839e-12
+Bounds for addbrev_r: 0 to 1
+Bounds for addlong_r: 0 to 1
+Bounds for addmagDist_r: 0 to 1
+Bounds for addmagIsch_r: 0 to 1
+Bounds for addmagMid_r: 0 to 1
+Bounds for addmagProx_r: 0 to 1
+Bounds for bflh_r: 0 to 1
+Bounds for bfsh_r: 0 to 1
+Bounds for edl_r: 0 to 1
+Bounds for ehl_r: 0 to 1
+Bounds for fdl_r: 0 to 1
+Bounds for fhl_r: 0 to 1
+Bounds for gaslat_r: 0 to 1
+Bounds for gasmed_r: 0 to 1
+Bounds for glmax1_r: 0 to 1
+Bounds for glmax2_r: 0 to 1
+Bounds for glmax3_r: 0 to 1
+Bounds for glmed1_r: 0 to 1
+Bounds for glmed2_r: 0 to 1
+Bounds for glmed3_r: 0 to 1
+Bounds for glmin1_r: 0 to 1
+Bounds for glmin2_r: 0 to 1
+Bounds for glmin3_r: 0 to 1
+Bounds for grac_r: 0 to 1
+Bounds for iliacus_r: 0 to 1
+Bounds for perbrev_r: 0 to 1
+Bounds for perlong_r: 0 to 1
+Bounds for piri_r: 0 to 1
+Bounds for psoas_r: 0 to 1
+Bounds for recfem_r: 0 to 1
+Bounds for sart_r: 0 to 1
+Bounds for semimem_r: 0 to 1
+Bounds for semiten_r: 0 to 1
+Bounds for soleus_r: 0 to 1
+Bounds for tfl_r: 0 to 1
+Bounds for tibant_r: 0 to 1
+Bounds for tibpost_r: 0 to 1
+Bounds for vasint_r: 0 to 1
+Bounds for vaslat_r: 0 to 1
+Bounds for vasmed_r: 0 to 1
+Bounds for quad_fem_r: 0 to 1
+Bounds for obt_internus_r1: 0 to 1
+Bounds for addbrev_l: 0 to 1
+Bounds for addlong_l: 0 to 1
+Bounds for addmagDist_l: 0 to 1
+Bounds for addmagIsch_l: 0 to 1
+Bounds for addmagMid_l: 0 to 1
+Bounds for addmagProx_l: 0 to 1
+Bounds for bflh_l: 0 to 1
+Bounds for bfsh_l: 0 to 1
+Bounds for edl_l: 0 to 1
+Bounds for ehl_l: 0 to 1
+Bounds for fdl_l: 0 to 1
+Bounds for fhl_l: 0 to 1
+Bounds for gaslat_l: 0 to 1
+Bounds for gasmed_l: 0 to 1
+Bounds for glmax1_l: 0 to 1
+Bounds for glmax2_l: 0 to 1
+Bounds for glmax3_l: 0 to 1
+Bounds for glmed1_l: 0 to 1
+Bounds for glmed2_l: 0 to 1
+Bounds for glmed3_l: 0 to 1
+Bounds for glmin1_l: 0 to 1
+Bounds for glmin2_l: 0 to 1
+Bounds for glmin3_l: 0 to 1
+Bounds for grac_l: 0 to 1
+Bounds for iliacus_l: 0 to 1
+Bounds for perbrev_l: 0 to 1
+Bounds for perlong_l: 0 to 1
+Bounds for piri_l: 0 to 1
+Bounds for psoas_l: 0 to 1
+Bounds for recfem_l: 0 to 1
+Bounds for sart_l: 0 to 1
+Bounds for semimem_l: 0 to 1
+Bounds for semiten_l: 0 to 1
+Bounds for soleus_l: 0 to 1
+Bounds for tfl_l: 0 to 1
+Bounds for tibant_l: 0 to 1
+Bounds for tibpost_l: 0 to 1
+Bounds for vasint_l: 0 to 1
+Bounds for vaslat_l: 0 to 1
+Bounds for vasmed_l: 0 to 1
+Bounds for lumbar_ext: -inf to inf
+Bounds for lumbar_bend: -inf to inf
+Bounds for lumbar_rot: -inf to inf
+Bounds for shoulder_flex_r: -inf to inf
+Bounds for shoulder_add_r: -inf to inf
+Bounds for shoulder_rot_r: -inf to inf
+Bounds for elbow_flex_r: -inf to inf
+Bounds for pro_sup_r: -inf to inf
+Bounds for wrist_flex_r: -inf to inf
+Bounds for wrist_dev_r: -inf to inf
+Bounds for shoulder_flex_l: -inf to inf
+Bounds for shoulder_add_l: -inf to inf
+Bounds for shoulder_rot_l: -inf to inf
+Bounds for elbow_flex_l: -inf to inf
+Bounds for pro_sup_l: -inf to inf
+Bounds for wrist_flex_l: -inf to inf
+Bounds for wrist_dev_l: -inf to inf
+Bounds for FX: -inf to inf
+Bounds for FY: -inf to inf
+Bounds for FZ: -inf to inf
+Bounds for MX: -inf to inf
+Bounds for MY: -inf to inf
+Bounds for MZ: -inf to inf
+Bounds for hip_flexion_r_reserve: -1 to 1
+Bounds for hip_adduction_r_reserve: -1 to 1
+Bounds for hip_rotation_r_reserve: -1 to 1
+Bounds for knee_angle_r_reserve: -1 to 1
+Bounds for ankle_angle_r_reserve: -1 to 1
+Bounds for hip_flexion_l_reserve: -1 to 1
+Bounds for hip_adduction_l_reserve: -1 to 1
+Bounds for hip_rotation_l_reserve: -1 to 1
+Bounds for knee_angle_l_reserve: -1 to 1
+Bounds for ankle_angle_l_reserve: -1 to 1
+Bounds for lumbar_extension_reserve: -1 to 1
+Bounds for lumbar_bending_reserve: -1 to 1
+Bounds for lumbar_rotation_reserve: -1 to 1
+Bounds for arm_flex_r: -1 to 1
+Bounds for arm_add_r: -1 to 1
+Bounds for arm_rot_r: -1 to 1
+Bounds for arm_flex_l: -1 to 1
+Bounds for arm_add_l: -1 to 1
+Bounds for arm_rot_l: -1 to 1
+
+time = 3.695 Performance =0.650854 Constraint violation = 1.20495e-12
+
+time = 3.7 Performance =2.00457 Constraint violation = 2.14702e-12
+
+time = 3.705 Performance =1.88159 Constraint violation = 7.66066e-13
+
+time = 3.71 Performance =2.39467 Constraint violation = 2.49821e-12
+
+time = 3.715 Performance =3.32525 Constraint violation = 5.82105e-12
+
+time = 3.72 Performance =3.95741 Constraint violation = 3.80576e-12
+
+time = 3.725 Performance =10.4975 Constraint violation = 4.33237e-12
+
+time = 3.73 Performance =8.61059 Constraint violation = 2.4719e-12
+
+time = 3.735 Performance =6.97403 Constraint violation = 1.15521e-11
+
+time = 3.74 Performance =5.48387 Constraint violation = 3.97196e-12
+
+time = 3.745 Performance =5.41918 Constraint violation = 7.60539e-12
+
+time = 3.75 Performance =4.48191 Constraint violation = 3.85064e-12
+
+time = 3.755 Performance =3.99986 Constraint violation = 7.48693e-12
+
+time = 3.76 Performance =4.43992 Constraint violation = 3.80762e-12
+
+time = 3.765 Performance =4.19904 Constraint violation = 1.27244e-12
+
+time = 3.77 Performance =4.3995 Constraint violation = 7.92892e-13
+
+time = 3.775 Performance =4.4093 Constraint violation = 3.67746e-12
+
+time = 3.78 Performance =4.41812 Constraint violation = 7.3577e-12
+
+time = 3.785 Performance =4.36052 Constraint violation = 3.84746e-12
+
+time = 3.79 Performance =4.23413 Constraint violation = 3.75726e-12
+
+time = 3.795 Performance =4.50063 Constraint violation = 7.36584e-12
+
+time = 3.8 Performance =3.97377 Constraint violation = 7.50096e-13
+
+time = 3.805 Performance =3.76535 Constraint violation = 3.78253e-12
+
+time = 3.81 Performance =4.01642 Constraint violation = 8.64984e-13
+
+time = 3.815 Performance =3.23046 Constraint violation = 8.03395e-13
+
+time = 3.82 Performance =2.85918 Constraint violation = 3.70163e-12
+
+time = 3.825 Performance =2.37995 Constraint violation = 1.09683e-11
+
+time = 3.83 Performance =2.04205 Constraint violation = 9.19449e-13
+
+time = 3.835 Performance =1.62959 Constraint violation = 5.08612e-13
+
+time = 3.84 Performance =1.33935 Constraint violation = 7.29557e-12
+
+time = 3.845 Performance =1.09978 Constraint violation = 1.16663e-12
+
+time = 3.85 Performance =0.716617 Constraint violation = 1.91381e-12
+
+time = 3.855 Performance =0.542797 Constraint violation = 5.52691e-12
+
+time = 3.86 Performance =0.530819 Constraint violation = 1.99576e-12
+
+time = 3.865 Performance =0.382609 Constraint violation = 1.92391e-12
+
+time = 3.87 Performance =0.343412 Constraint violation = 2.78347e-12
+
+time = 3.875 Performance =0.310981 Constraint violation = 1.10103e-12
+
+time = 3.88 Performance =0.248764 Constraint violation = 1.93332e-12
+
+time = 3.885 Performance =1.04069 Constraint violation = 8.46223e-13
+Printing results of investigation Run_baseline2 to .\.
+Analyze compute time = 11806ms
+

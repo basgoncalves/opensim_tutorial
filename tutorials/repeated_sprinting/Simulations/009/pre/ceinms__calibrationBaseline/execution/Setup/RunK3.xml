@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ceinms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ceinmsSetup.xsd">
+   <subjectFile>E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\ceinms\calibration\calibratedSubject.xml</subjectFile>
+   <inputDataFile>..\..\trials\RunK3.xml</inputDataFile>
+   <executionFile>E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\ceinms\execution\Cfg\executionCfg.xml</executionFile>
+   <excitationGeneratorFile>E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\ceinms\excitationGenerators\excitationGenerator.xml</excitationGeneratorFile>
+   <outputDirectory>E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\ceinms\execution\simulations\RunK3</outputDirectory>
+</ceinms>

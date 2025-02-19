@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSimDocument Version="30000">
+   <ExternalLoads name="Ex2">
+      <objects>
+         <ExternalForce name="Left"><!--Flag indicating whether the force is disabled or not. Disabled means that the force is not active in subsequent dynamics realizations.--><!--Name of the body the force is applied to.--><!--Name of the body the force is expressed in (default is ground).--><!--Name of the body the point is expressed in (default is ground).--><!--Identifier (string) to locate the force to be applied in the data source.--><!--Identifier (string) to locate the point to be applied in the data source.--><!--Identifier (string) to locate the torque to be applied in the data source.--><!--Name of the data source (Storage) that will supply the force data.-->
+            <isDisabled>false</isDisabled>
+            <applied_to_body>calcn_l</applied_to_body>
+            <force_expressed_in_body>ground</force_expressed_in_body>
+            <point_expressed_in_body>ground</point_expressed_in_body>
+            <force_identifier>ground_force1_v</force_identifier>
+            <point_identifier>ground_force1_p</point_identifier>
+            <torque_identifier>ground_torque1_</torque_identifier>
+            <data_source_name>Unassigned</data_source_name>
+         </ExternalForce>
+         <ExternalForce name="Right"><!--Flag indicating whether the force is disabled or not. Disabled means that the force is not active in subsequent dynamics realizations.--><!--Name of the body the force is applied to.--><!--Name of the body the force is expressed in (default is ground).--><!--Name of the body the point is expressed in (default is ground).--><!--Identifier (string) to locate the force to be applied in the data source.--><!--Identifier (string) to locate the point to be applied in the data source.--><!--Identifier (string) to locate the torque to be applied in the data source.--><!--Name of the data source (Storage) that will supply the force data.-->
+            <isDisabled>false</isDisabled>
+            <applied_to_body>calcn_r</applied_to_body>
+            <force_expressed_in_body>ground</force_expressed_in_body>
+            <point_expressed_in_body>ground</point_expressed_in_body>
+            <force_identifier>ground_force3_v</force_identifier>
+            <point_identifier>ground_force3_p</point_identifier>
+            <torque_identifier>ground_torque3_</torque_identifier>
+            <data_source_name>Unassigned</data_source_name>
+         </ExternalForce>
+      </objects><!--Storage file (.sto) containing (3) components of force and/or torque and point of application.Note: this file overrides the data source specified by the individual external forces if specified.--><!--Optional motion file (.mot) or storage file (.sto) containing the model kinematics used to transform a point expressed in ground to the body of force application.If the point is not expressed in ground, the point is not transformed--><!--Optional low-pass cut-off frequency for filtering the model kinematics corresponding used to transform the point of application. A negative value results in no filtering. The default value is -1.0, so no filtering.-->
+      <datafile>E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline2\Run_baseline2.mot</datafile>
+      <external_loads_model_kinematics_file>.\IK.mot</external_loads_model_kinematics_file>
+      <lowpass_cutoff_frequency_for_load_kinematics>6</lowpass_cutoff_frequency_for_load_kinematics>
+   </ExternalLoads>
+</OpenSimDocument>

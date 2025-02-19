@@ -1,0 +1,338 @@
+Constructing tool from setup file .\setup.xml.
+
+AbstractTool Run_baseline1 loading model '..\..\009_Rajagopal2015_FAI_originalMass_opt_N10_hans.osim'
+Loaded model 009_Rajagopal2015_FAI_originalMass_opt_N10_hans from file ..\..\009_Rajagopal2015_FAI_originalMass_opt_N10_hans.osim
+Adding force object set from .\actuators.xml
+-----------------------------------------------------------------------
+Loaded library
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+
+Old version storage/motion file encountered
+Storage: file=.\Run_baseline1.mot (nr=991 nc=37)
+.. assuming rotations in Degrees.
+ExternalForce::Right
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline1\Run_baseline1.mot
+Storage: file=IK.mot (nr=97 nc=40)
+
+
+Low-pass filtering coordinates data with a cutoff frequency of 7.
+ExternalForce::Right_transformedP
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline1\Run_baseline1.mot_transformedP
+
+Loading coordinates from file ..\..\inverseKinematics\Run_baseline1\IK.mot.
+Storage: file=..\..\inverseKinematics\Run_baseline1\IK.mot (nr=97 nc=40)
+Found 97 state vectors with time stamps ranging from 4.925 to 5.405.
+Executing the analyses from 4.925 to 5.405...
+
+time = 4.925 Performance =15.8232 Constraint violation = 1.69109e-012
+Bounds for addbrev_r: 0 to 1
+Bounds for addlong_r: 0 to 1
+Bounds for addmagDist_r: 0 to 1
+Bounds for addmagIsch_r: 0 to 1
+Bounds for addmagMid_r: 0 to 1
+Bounds for addmagProx_r: 0 to 1
+Bounds for bflh_r: 0 to 1
+Bounds for bfsh_r: 0 to 1
+Bounds for edl_r: 0 to 1
+Bounds for ehl_r: 0 to 1
+Bounds for fdl_r: 0 to 1
+Bounds for fhl_r: 0 to 1
+Bounds for gaslat_r: 0 to 1
+Bounds for gasmed_r: 0 to 1
+Bounds for glmax1_r: 0 to 1
+Bounds for glmax2_r: 0 to 1
+Bounds for glmax3_r: 0 to 1
+Bounds for glmed1_r: 0 to 1
+Bounds for glmed2_r: 0 to 1
+Bounds for glmed3_r: 0 to 1
+Bounds for glmin1_r: 0 to 1
+Bounds for glmin2_r: 0 to 1
+Bounds for glmin3_r: 0 to 1
+Bounds for grac_r: 0 to 1
+Bounds for iliacus_r: 0 to 1
+Bounds for perbrev_r: 0 to 1
+Bounds for perlong_r: 0 to 1
+Bounds for piri_r: 0 to 1
+Bounds for psoas_r: 0 to 1
+Bounds for recfem_r: 0 to 1
+Bounds for sart_r: 0 to 1
+Bounds for semimem_r: 0 to 1
+Bounds for semiten_r: 0 to 1
+Bounds for soleus_r: 0 to 1
+Bounds for tfl_r: 0 to 1
+Bounds for tibant_r: 0 to 1
+Bounds for tibpost_r: 0 to 1
+Bounds for vasint_r: 0 to 1
+Bounds for vaslat_r: 0 to 1
+Bounds for vasmed_r: 0 to 1
+Bounds for addbrev_l: 0 to 1
+Bounds for addlong_l: 0 to 1
+Bounds for addmagDist_l: 0 to 1
+Bounds for addmagIsch_l: 0 to 1
+Bounds for addmagMid_l: 0 to 1
+Bounds for addmagProx_l: 0 to 1
+Bounds for bflh_l: 0 to 1
+Bounds for bfsh_l: 0 to 1
+Bounds for edl_l: 0 to 1
+Bounds for ehl_l: 0 to 1
+Bounds for fdl_l: 0 to 1
+Bounds for fhl_l: 0 to 1
+Bounds for gaslat_l: 0 to 1
+Bounds for gasmed_l: 0 to 1
+Bounds for glmax1_l: 0 to 1
+Bounds for glmax2_l: 0 to 1
+Bounds for glmax3_l: 0 to 1
+Bounds for glmed1_l: 0 to 1
+Bounds for glmed2_l: 0 to 1
+Bounds for glmed3_l: 0 to 1
+Bounds for glmin1_l: 0 to 1
+Bounds for glmin2_l: 0 to 1
+Bounds for glmin3_l: 0 to 1
+Bounds for grac_l: 0 to 1
+Bounds for iliacus_l: 0 to 1
+Bounds for perbrev_l: 0 to 1
+Bounds for perlong_l: 0 to 1
+Bounds for piri_l: 0 to 1
+Bounds for psoas_l: 0 to 1
+Bounds for recfem_l: 0 to 1
+Bounds for sart_l: 0 to 1
+Bounds for semimem_l: 0 to 1
+Bounds for semiten_l: 0 to 1
+Bounds for soleus_l: 0 to 1
+Bounds for tfl_l: 0 to 1
+Bounds for tibant_l: 0 to 1
+Bounds for tibpost_l: 0 to 1
+Bounds for vasint_l: 0 to 1
+Bounds for vaslat_l: 0 to 1
+Bounds for vasmed_l: 0 to 1
+Bounds for lumbar_ext: -1.#INF to 1.#INF
+Bounds for lumbar_bend: -1.#INF to 1.#INF
+Bounds for lumbar_rot: -1.#INF to 1.#INF
+Bounds for shoulder_flex_r: -1.#INF to 1.#INF
+Bounds for shoulder_add_r: -1.#INF to 1.#INF
+Bounds for shoulder_rot_r: -1.#INF to 1.#INF
+Bounds for elbow_flex_r: -1.#INF to 1.#INF
+Bounds for pro_sup_r: -1.#INF to 1.#INF
+Bounds for wrist_flex_r: -1.#INF to 1.#INF
+Bounds for wrist_dev_r: -1.#INF to 1.#INF
+Bounds for shoulder_flex_l: -1.#INF to 1.#INF
+Bounds for shoulder_add_l: -1.#INF to 1.#INF
+Bounds for shoulder_rot_l: -1.#INF to 1.#INF
+Bounds for elbow_flex_l: -1.#INF to 1.#INF
+Bounds for pro_sup_l: -1.#INF to 1.#INF
+Bounds for wrist_flex_l: -1.#INF to 1.#INF
+Bounds for wrist_dev_l: -1.#INF to 1.#INF
+Bounds for FX: -1.#INF to 1.#INF
+Bounds for FY: -1.#INF to 1.#INF
+Bounds for FZ: -1.#INF to 1.#INF
+Bounds for MX: -1.#INF to 1.#INF
+Bounds for MY: -1.#INF to 1.#INF
+Bounds for MZ: -1.#INF to 1.#INF
+Bounds for hip_flexion_r_reserve: -1 to 1
+Bounds for hip_adduction_r_reserve: -1 to 1
+Bounds for hip_rotation_r_reserve: -1 to 1
+Bounds for knee_angle_r_reserve: -1 to 1
+Bounds for ankle_angle_r_reserve: -1 to 1
+Bounds for hip_flexion_l_reserve: -1 to 1
+Bounds for hip_adduction_l_reserve: -1 to 1
+Bounds for hip_rotation_l_reserve: -1 to 1
+Bounds for knee_angle_l_reserve: -1 to 1
+Bounds for ankle_angle_l_reserve: -1 to 1
+Bounds for lumbar_extension_reserve: -1 to 1
+Bounds for lumbar_bending_reserve: -1 to 1
+Bounds for lumbar_rotation_reserve: -1 to 1
+Bounds for arm_flex_r: -1 to 1
+Bounds for arm_add_r: -1 to 1
+Bounds for arm_rot_r: -1 to 1
+Bounds for arm_flex_l: -1 to 1
+Bounds for arm_add_l: -1 to 1
+Bounds for arm_rot_l: -1 to 1
+
+time = 4.93 Performance =25.114 Constraint violation = 7.23052e-013
+
+time = 4.935 Performance =22.3789 Constraint violation = 9.31269e-013
+
+time = 4.94 Performance =19.8991 Constraint violation = 1.33163e-012
+
+time = 4.945 Performance =17.3804 Constraint violation = 1.59528e-012
+
+time = 4.95 Performance =15.2147 Constraint violation = 1.23756e-012
+
+time = 4.955 Performance =31.5815 Constraint violation = 9.96696e-013
+
+time = 4.96 Performance =12.548 Constraint violation = 8.41604e-013
+
+time = 4.965 Performance =26.1037 Constraint violation = 2.03171e-012
+
+time = 4.97 Performance =10.607 Constraint violation = 8.94194e-013
+
+time = 4.975 Performance =9.25947 Constraint violation = 1.14286e-012
+
+time = 4.98 Performance =41.1661 Constraint violation = 1.21852e-012
+
+time = 4.985 Performance =9.53465 Constraint violation = 1.5372e-012
+
+time = 4.99 Performance =10.8073 Constraint violation = 1.91816e-012
+
+time = 4.995 Performance =24.3786 Constraint violation = 1.15491e-012
+
+time = 5 Performance =23.5213 Constraint violation = 1.08138e-012
+
+time = 5.005 Performance =15.5042 Constraint violation = 1.14292e-012
+
+time = 5.01 Performance =17.8667 Constraint violation = 8.81939e-013
+
+time = 5.015 Performance =23.5291 Constraint violation = 7.95889e-013
+
+time = 5.02 Performance =16.1803 Constraint violation = 9.99209e-013
+
+time = 5.025 Performance =18.862 Constraint violation = 1.11182e-012
+
+time = 5.03 Performance =16.2149 Constraint violation = 8.85164e-013
+
+time = 5.035 Performance =18.1704 Constraint violation = 9.37874e-013
+
+time = 5.04 Performance =16.9775 Constraint violation = 7.89491e-013
+
+time = 5.045 Performance =12.3442 Constraint violation = 1.92861e-012
+
+time = 5.05 Performance =23.8549 Constraint violation = 1.19088e-012
+
+time = 5.055 Performance =22.8801 Constraint violation = 8.68239e-013
+
+time = 5.06 Performance =17.3339 Constraint violation = 6.40677e-013
+
+time = 5.065 Performance =20.8428 Constraint violation = 6.0062e-013
+
+time = 5.07 Performance =23.5568 Constraint violation = 4.48702e-013
+
+time = 5.075 Performance =22.3798 Constraint violation = 4.72802e-013
+
+time = 5.08 Performance =29.6601 Constraint violation = 1.16921e-012
+
+time = 5.085 Performance =39.5052 Constraint violation = 1.06283e-012
+
+time = 5.09 Performance =27.876 Constraint violation = 1.2627e-012
+
+time = 5.095 Performance =35.3294 Constraint violation = 2.90635e-012
+
+time = 5.1 Performance =32.982 Constraint violation = 1.27279e-012
+
+time = 5.105 Performance =20.7177 Constraint violation = 6.26589e-013
+
+time = 5.11 Performance =25.4808 Constraint violation = 4.53064e-013
+
+time = 5.115 Performance =18.6083 Constraint violation = 6.97186e-013
+
+time = 5.12 Performance =19.7699 Constraint violation = 5.45206e-013
+
+time = 5.125 Performance =16.7451 Constraint violation = 6.92744e-013
+
+time = 5.13 Performance =16.9331 Constraint violation = 3.96586e-013
+
+time = 5.135 Performance =15.7012 Constraint violation = 7.28314e-013
+
+time = 5.14 Performance =14.9974 Constraint violation = 5.75078e-013
+
+time = 5.145 Performance =13.7113 Constraint violation = 4.3685e-013
+
+time = 5.15 Performance =13.3191 Constraint violation = 8.37537e-013
+
+time = 5.155 Performance =12.33 Constraint violation = 5.0752e-013
+
+time = 5.16 Performance =11.8184 Constraint violation = 8.25189e-013
+
+time = 5.165 Performance =11.4177 Constraint violation = 7.82866e-013
+
+time = 5.17 Performance =11.5047 Constraint violation = 1.10565e-012
+
+time = 5.175 Performance =11.5643 Constraint violation = 9.06411e-013
+
+time = 5.18 Performance =11.8194 Constraint violation = 7.83941e-013
+
+time = 5.185 Performance =11.8878 Constraint violation = 7.39244e-013
+
+time = 5.19 Performance =12.4468 Constraint violation = 6.977e-013
+
+time = 5.195 Performance =12.9644 Constraint violation = 6.73724e-013
+
+time = 5.2 Performance =14.9423 Constraint violation = 8.09808e-013
+
+time = 5.205 Performance =16.7499 Constraint violation = 5.64409e-013
+SimTK Exception thrown at InteriorPointOptimizer.cpp:261:
+  Optimizer failed: Ipopt: Maximum iterations exceeded (status -1)
+OPTIMIZATION FAILED...
+
+StaticOptimization.record:  WARN- The optimizer could not find a solution at time = 5.21
+
+The model appears too weak for static optimization.
+Try increasing the strength and/or range of the following force(s):
+   semimem_r approaching upper bound of 1
+   addbrev_l approaching upper bound of 1
+   addlong_l approaching upper bound of 1
+   addmagMid_l approaching upper bound of 1
+   addmagProx_l approaching upper bound of 1
+   glmin1_l approaching upper bound of 1
+   glmin2_l approaching upper bound of 1
+   grac_l approaching upper bound of 1
+   iliacus_l approaching upper bound of 1
+   piri_l approaching upper bound of 1
+   psoas_l approaching upper bound of 1
+   recfem_l approaching upper bound of 1
+   sart_l approaching upper bound of 1
+   tfl_l approaching upper bound of 1
+   hip_flexion_r_reserve approaching lower bound of -1
+   hip_flexion_l_reserve approaching upper bound of 1
+
+
+time = 5.21 Performance =32.1969 Constraint violation = 93.0521
+SimTK Exception thrown at InteriorPointOptimizer.cpp:261:
+  Optimizer failed: Ipopt: Maximum iterations exceeded (status -1)
+OPTIMIZATION FAILED...
+
+StaticOptimization.record:  WARN- The optimizer could not find a solution at time = 5.215
+
+The model appears too weak for static optimization.
+Try increasing the strength and/or range of the following force(s):
+   semimem_r approaching upper bound of 1
+   addbrev_l approaching upper bound of 1
+   addlong_l approaching upper bound of 1
+   addmagMid_l approaching upper bound of 1
+   addmagProx_l approaching upper bound of 1
+   glmin1_l approaching upper bound of 1
+   glmin2_l approaching upper bound of 1
+   grac_l approaching upper bound of 1
+   iliacus_l approaching upper bound of 1
+   psoas_l approaching upper bound of 1
+   recfem_l approaching upper bound of 1
+   sart_l approaching upper bound of 1
+   tfl_l approaching upper bound of 1
+   hip_flexion_r_reserve approaching lower bound of -1
+   hip_flexion_l_reserve approaching upper bound of 1
+
+
+time = 5.215 Performance =1657.5 Constraint violation = 177809
+SimTK Exception thrown at InteriorPointOptimizer.cpp:261:
+  Optimizer failed: Ipopt: Maximum iterations exceeded (status -1)
+OPTIMIZATION FAILED...
+
+StaticOptimization.record:  WARN- The optimizer could not find a solution at time = 5.22
+
+The model appears too weak for static optimization.
+Try increasing the strength and/or range of the following force(s):
+   semimem_r approaching upper bound of 1
+   addbrev_l approaching upper bound of 1
+   addlong_l approaching upper bound of 1
+   addmagMid_l approaching upper bound of 1
+   addmagProx_l approaching upper bound of 1
+   iliacus_l approaching upper bound of 1
+   piri_l approaching upper bound of 1
+   psoas_l approaching upper bound of 1
+   recfem_l approaching upper bound of 1
+   tfl_l approaching upper bound of 1
+   hip_flexion_r_reserve approaching lower bound of -1
+   hip_flexion_l_reserve approaching upper bound of 1
+
+
+time = 5.22 Performance =26.2698 Constraint violation = 1143.16

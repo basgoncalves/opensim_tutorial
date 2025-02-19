@@ -1,0 +1,70 @@
+Processing subject 009
+
+Step 1: Loading generic model
+Loaded model FAI_markersetQFOI from file D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\Scale\..\..\..\..\..\..\..\MATLAB\DataProcessing-master\src\bops_tool\Templates\Models\Rajagopal2015_FAI.osim
+
+Step 2: Scaling generic model
+Loaded marker file D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\Scale\..\staticElaborations\static1.trc (67 markers, 1 frames)
+Measurement 'upperarm_l_Y'
+	pair 0 (LSHO, LLEP): model = 0.337357, experimental = 0.375174
+	pair 1 (LSHO, LMEP): model = 0.338354, experimental = 0.378233
+	overall scale factor = 1.11498
+Measurement 'lowerarm_l_Y'
+	pair 0 (LMEP, LUL): model = 0.246247, experimental = 0.265125
+	pair 1 (LLEP, LRAD): model = 0.252984, experimental = 0.257011
+	overall scale factor = 1.04629
+Measurement 'hand_l_XYZ'
+	pair 0 (LRFIN, LRAD): model = 0.0838521, experimental = 0.0914347
+	pair 1 (LUL, LRAD): model = 0.0683909, experimental = 0.0756249
+	overall scale factor = 1.0981
+Measurement 'upperarm_r_Y'
+	pair 0 (RSHO, RLEP): model = 0.335726, experimental = 0.376626
+	overall scale factor = 1.12183
+Measurement 'lowerarm_r_Y'
+	pair 0 (RMEP, RUL): model = 0.247699, experimental = 0.268993
+	pair 1 (RLEP, RRAD): model = 0.251382, experimental = 0.261524
+	overall scale factor = 1.06316
+Measurement 'torso_Y'
+	pair 0 (LSHO, LSACR): model = 0.470528, experimental = 0.46898
+	pair 1 (RSHO, RSACR): model = 0.471818, experimental = 0.459969
+	overall scale factor = 0.985799
+Measurement 'Pelvis_X'
+	pair 0 (RASI, RSACR): model = 0.205198, experimental = 0.205788
+	pair 1 (LASI, LSACR): model = 0.207541, experimental = 0.213934
+	overall scale factor = 1.01684
+Measurement 'Pelvis_Y'
+	pair 0 (LSACR, LHJC): model = 0.175941, experimental = 0.168073
+	pair 1 (RSACR, RHJC): model = 0.170582, experimental = 0.162899
+	overall scale factor = 0.955119
+Measurement 'Pelvis_Z'
+	pair 0 (RASI, LASI): model = 0.258013, experimental = 0.220504
+	pair 1 (RHJC, LHJC): model = 0.15452, experimental = 0.160132
+	overall scale factor = 0.945472
+Measurement 'thigh_r_Y'
+	pair 0 (RHJC, RKJC): model = 0.406934, experimental = 0.446366
+	overall scale factor = 1.0969
+Measurement 'shank_r_Y'
+	pair 0 (RAJC, RKJC): model = 0.397874, experimental = 0.418595
+	overall scale factor = 1.05208
+Measurement 'foot_r_XYZ'
+	pair 0 (RHEE, RMT1): model = 0.215944, experimental = 0.223696
+	pair 1 (RMT2, RMT1): model = 0.0429574, experimental = 0.0429644
+	overall scale factor = 1.01803
+Measurement 'thigh_l_Y'
+	pair 0 (LKJC, LHJC): model = 0.406934, experimental = 0.458647
+	overall scale factor = 1.12708
+Measurement 'shank_l_Y'
+	pair 0 (LKJC, LAJC): model = 0.397874, experimental = 0.405857
+	overall scale factor = 1.02006
+Measurement 'foot_l'
+	pair 0 (LHEE, LMT1): model = 0.214958, experimental = 0.220324
+	overall scale factor = 1.02496
+Wrote scale file .\Scale_output.xml for model 009
+
+Step 3: Placing markers on model
+Loaded marker file D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\Scale\..\staticElaborations\static1.trc (67 markers, 1 frames)
+Deleted 0 unused markers from model 009
+Frame at (t=0):	total squared error = 0.0400709, marker error: RMS=0.0298407, max=0.123657 (T10)
+Moved markers in model 009 to match locations in marker file D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\Scale\..\staticElaborations\static1.trc
+Wrote model file ..\009_Rajagopal2015_FAI.osim from model 009
+Wrote marker file ..\staticElaborations\static_output.trc from model 009

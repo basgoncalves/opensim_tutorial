@@ -1,0 +1,547 @@
+
++-+-+-+-+-+-+
+|C|E|I|N|M|S|
++-+-+-+-+-+-+-+-+-+-+
+|C|a|l|i|b|r|a|t|e|d|
++-+-+-+-+-+-+-+-+-+-+-+-+
+|E|M|G|-|I|n|f|o|r|m|e|d|
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|N|e|u|r|o|m|u|s|c|u|l|o|s|k|e|l|e|t|a|l|
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|T|o|o|l|b|o|x|
++-+-+-+-+-+-+-+
+
+CEINMS version 0.21.0
+Copyright (C) Apr 29 2020
+Claudio Pizzolato, Monica Reggiani, Massimo Sartori, David Lloyd
+Software developers: Claudio Pizzolato, Elena Ceseracciu, Monica Reggiani
+Check configuration data...
+Reading subject file: D:/3-PhD/Data/MocapData/ElaboratedData/009/pre/ceinms/execution/Setup/../../calibration/calibratedSubject.xml .
+Contact model found
+Reading subject file: D:/3-PhD/Data/MocapData/ElaboratedData/009/pre/ceinms/execution/Setup/../../calibration/calibratedSubject.xml .
+activeForceLength
+passiveForceLength
+forceVelocity
+tendonForceStrain
+Assuming addbrev_r pennation angle in radians: 0.114781
+Assuming addlong_r pennation angle in radians: 0.13777
+Assuming addmagDist_r pennation angle in radians: 0.194705
+Assuming addmagIsch_r pennation angle in radians: 0.168044
+Assuming addmagMid_r pennation angle in radians: 0.207308
+Assuming addmagProx_r pennation angle in radians: 0.311483
+Assuming bflh_r pennation angle in radians: 0.175918
+Assuming bfsh_r pennation angle in radians: 0.264223
+Assuming edl_r pennation angle in radians: 0.218258
+Assuming ehl_r pennation angle in radians: 0.197268
+Assuming fdl_r pennation angle in radians: 0.224839
+Assuming fhl_r pennation angle in radians: 0.258026
+Assuming gaslat_r pennation angle in radians: 0.210227
+Reading tendonForceStrain of MTU gaslat_r
+Assuming gasmed_r pennation angle in radians: 0.165682
+Reading tendonForceStrain of MTU gasmed_r
+Assuming glmax1_r pennation angle in radians: 0.354012
+Assuming glmax2_r pennation angle in radians: 0.367382
+Assuming glmax3_r pennation angle in radians: 0.382416
+Assuming glmed1_r pennation angle in radians: 0.316556
+Assuming glmed2_r pennation angle in radians: 0.316556
+Assuming glmed3_r pennation angle in radians: 0.316556
+Assuming glmin1_r pennation angle in radians: 0.174533
+Assuming glmin2_r pennation angle in radians: 0
+Assuming glmin3_r pennation angle in radians: 0.0174533
+Assuming grac_r pennation angle in radians: 0.172002
+Assuming iliacus_r pennation angle in radians: 0.279914
+Assuming perbrev_r pennation angle in radians: 0.205236
+Assuming perlong_r pennation angle in radians: 0.247952
+Assuming psoas_r pennation angle in radians: 0.215525
+Assuming recfem_r pennation angle in radians: 0.217015
+Assuming sart_r pennation angle in radians: 0.0261354
+Assuming semimem_r pennation angle in radians: 0.254561
+Assuming semiten_r pennation angle in radians: 0.241295
+Assuming soleus_r pennation angle in radians: 0.381429
+Reading tendonForceStrain of MTU soleus_r
+Assuming tfl_r pennation angle in radians: 0.0523599
+Assuming tibant_r pennation angle in radians: 0.195183
+Assuming tibpost_r pennation angle in radians: 0.226489
+Assuming vasint_r pennation angle in radians: 0.0630997
+Assuming vaslat_r pennation angle in radians: 0.252867
+Assuming vasmed_r pennation angle in radians: 0.422223
+Assuming addbrev_l pennation angle in radians: 0.114781
+Assuming addlong_l pennation angle in radians: 0.13777
+Assuming addmagDist_l pennation angle in radians: 0.194705
+Assuming addmagIsch_l pennation angle in radians: 0.168044
+Assuming addmagMid_l pennation angle in radians: 0.168044
+Assuming addmagProx_l pennation angle in radians: 0.207308
+Assuming bflh_l pennation angle in radians: 0.175918
+Assuming bfsh_l pennation angle in radians: 0.264223
+Assuming edl_l pennation angle in radians: 0.218258
+Assuming ehl_l pennation angle in radians: 0.197268
+Assuming fdl_l pennation angle in radians: 0.224839
+Assuming fhl_l pennation angle in radians: 0.258026
+Assuming gaslat_l pennation angle in radians: 0.210227
+Reading tendonForceStrain of MTU gaslat_l
+Assuming gasmed_l pennation angle in radians: 0.165682
+Reading tendonForceStrain of MTU gasmed_l
+Assuming glmax1_l pennation angle in radians: 0.354012
+Assuming glmax2_l pennation angle in radians: 0.367382
+Assuming glmax3_l pennation angle in radians: 0.382416
+Assuming glmed1_l pennation angle in radians: 0.316556
+Assuming glmed2_l pennation angle in radians: 0.316556
+Assuming glmed3_l pennation angle in radians: 0.316556
+Assuming glmin1_l pennation angle in radians: 0.174533
+Assuming glmin2_l pennation angle in radians: 0
+Assuming glmin3_l pennation angle in radians: 0.0174533
+Assuming grac_l pennation angle in radians: 0.172002
+Assuming iliacus_l pennation angle in radians: 0.279914
+Assuming perbrev_l pennation angle in radians: 0.205236
+Assuming perlong_l pennation angle in radians: 0.247952
+Assuming psoas_l pennation angle in radians: 0.215525
+Assuming recfem_l pennation angle in radians: 0.217015
+Assuming sart_l pennation angle in radians: 0.0261354
+Assuming semimem_l pennation angle in radians: 0.254561
+Assuming semiten_l pennation angle in radians: 0.241295
+Assuming soleus_l pennation angle in radians: 0.381429
+Reading tendonForceStrain of MTU soleus_l
+Assuming tfl_l pennation angle in radians: 0.0523599
+Assuming tibant_l pennation angle in radians: 0.195183
+Assuming tibpost_l pennation angle in radians: 0.226489
+Assuming vasint_l pennation angle in radians: 0.0630997
+Assuming vaslat_l pennation angle in radians: 0.252867
+Assuming vasmed_l pennation angle in radians: 0.422223
+Assuming piri_r pennation angle in radians: 0.174533
+Found OpenSim model associated to the subject: D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\009_Rajagopal2015_FAI_rra_opt_N10.osim
+Loaded model 009_Rajagopal2015_FAI_rra_opt_N10.osim from file D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\009_Rajagopal2015_FAI_rra_opt_N10.osim
+Found valid OpenSim model: D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\009_Rajagopal2015_FAI_rra_opt_N10.osim
+
+EMG: Reading emg file...D:/3-PhD/Data/MocapData/ElaboratedData/009/pre/ceinms/execution/Setup/../../trials/../../dynamicElaborations/Run_baseline1/emg.mot
+Muscle excitations to muscle mapping:
+addbrev_r -> addbrev_r
+addlong_r -> addlong_r
+addmagDist_r -> addmagDist_r
+addmagIsch_r -> addmagIsch_r
+addmagMid_r -> addmagMid_r
+addmagProx_r -> addmagProx_r
+bflh_r -> bflh_r
+bfsh_r -> bfsh_r
+edl_r -> edl_r
+ehl_r -> ehl_r
+fdl_r -> fdl_r
+fhl_r -> fhl_r
+gaslat_r -> gaslat_r
+gasmed_r -> gasmed_r
+glmax1_r -> glmax1_r
+glmax2_r -> glmax2_r
+glmax3_r -> glmax3_r
+glmed1_r -> glmed1_r
+glmed2_r -> glmed2_r
+glmed3_r -> glmed3_r
+glmin1_r -> glmin1_r
+glmin2_r -> glmin2_r
+glmin3_r -> glmin3_r
+grac_r -> grac_r
+iliacus_r -> iliacus_r
+perbrev_r -> perbrev_r
+perlong_r -> perlong_r
+psoas_r -> psoas_r
+recfem_r -> recfem_r
+sart_r -> sart_r
+semimem_r -> semimem_r
+semiten_r -> semiten_r
+soleus_r -> soleus_r
+tfl_r -> tfl_r
+tibant_r -> tibant_r
+tibpost_r -> tibpost_r
+vasint_r -> vasint_r
+vaslat_r -> vaslat_r
+vasmed_r -> vasmed_r
+addbrev_l -> addbrev_l
+addlong_l -> addlong_l
+addmagDist_l -> addmagDist_l
+addmagIsch_l -> addmagIsch_l
+addmagMid_l -> addmagMid_l
+addmagProx_l -> addmagProx_l
+bflh_l -> bflh_l
+bfsh_l -> bfsh_l
+edl_l -> edl_l
+ehl_l -> ehl_l
+fdl_l -> fdl_l
+fhl_l -> fhl_l
+gaslat_l -> gaslat_l
+gasmed_l -> gasmed_l
+glmax1_l -> glmax1_l
+glmax2_l -> glmax2_l
+glmax3_l -> glmax3_l
+glmed1_l -> glmed1_l
+glmed2_l -> glmed2_l
+glmed3_l -> glmed3_l
+glmin1_l -> glmin1_l
+glmin2_l -> glmin2_l
+glmin3_l -> glmin3_l
+grac_l -> grac_l
+iliacus_l -> iliacus_l
+perbrev_l -> perbrev_l
+perlong_l -> perlong_l
+psoas_l -> psoas_l
+recfem_l -> recfem_l
+sart_l -> sart_l
+semimem_l -> semimem_l
+semiten_l -> semiten_l
+soleus_l -> soleus_l
+tfl_l -> tfl_l
+tibant_l -> tibant_l
+tibpost_l -> tibpost_l
+vasint_l -> vasint_l
+vaslat_l -> vaslat_l
+vasmed_l -> vasmed_l
+piri_r -> piri_r
+Using D:/3-PhD/Data/MocapData/ElaboratedData/009/pre/ceinms/execution/Setup/../simulations/Run_baseline1/A1_B50_G1/ as output directory
+Joint moments
+hip_flexion_r -> Tracking
+knee_angle_r -> Tracking
+ankle_angle_r -> Tracking
+Muscle excitations
+addbrev_r ->  Adjusting
+addlong_r ->  Adjusting
+addmagDist_r ->  Adjusting
+addmagIsch_r ->  Adjusting
+addmagMid_r ->  Adjusting
+addmagProx_r ->  Adjusting
+bflh_r ->  Adjusting
+bfsh_r ->  Adjusting
+edl_r ->  Synthetising
+ehl_r ->  Synthetising
+fdl_r ->  Synthetising
+fhl_r ->  Synthetising
+gaslat_r ->  Adjusting
+gasmed_r ->  Adjusting
+glmax1_r ->  Adjusting
+glmax2_r ->  Adjusting
+glmax3_r ->  Adjusting
+glmed1_r ->  Synthetising
+glmed2_r ->  Synthetising
+glmed3_r ->  Synthetising
+glmin1_r ->  Synthetising
+glmin2_r ->  Synthetising
+glmin3_r ->  Synthetising
+grac_r ->  Adjusting
+iliacus_r ->  Synthetising
+perbrev_r ->  Synthetising
+perlong_r ->  Synthetising
+psoas_r ->  Synthetising
+recfem_r ->  Adjusting
+sart_r ->  Synthetising
+semimem_r ->  Adjusting
+semiten_r ->  Adjusting
+soleus_r ->  Adjusting
+tfl_r ->  Adjusting
+tibant_r ->  Adjusting
+tibpost_r ->  Synthetising
+vasint_r ->  Adjusting
+vaslat_r ->  Adjusting
+vasmed_r ->  Adjusting
+addbrev_l ->  Unchanged
+addlong_l ->  Unchanged
+addmagDist_l ->  Unchanged
+addmagIsch_l ->  Unchanged
+addmagMid_l ->  Unchanged
+addmagProx_l ->  Unchanged
+bflh_l ->  Unchanged
+bfsh_l ->  Unchanged
+edl_l ->  Unchanged
+ehl_l ->  Unchanged
+fdl_l ->  Unchanged
+fhl_l ->  Unchanged
+gaslat_l ->  Unchanged
+gasmed_l ->  Unchanged
+glmax1_l ->  Unchanged
+glmax2_l ->  Unchanged
+glmax3_l ->  Unchanged
+glmed1_l ->  Unchanged
+glmed2_l ->  Unchanged
+glmed3_l ->  Unchanged
+glmin1_l ->  Unchanged
+glmin2_l ->  Unchanged
+glmin3_l ->  Unchanged
+grac_l ->  Unchanged
+iliacus_l ->  Unchanged
+perbrev_l ->  Unchanged
+perlong_l ->  Unchanged
+psoas_l ->  Unchanged
+recfem_l ->  Unchanged
+sart_l ->  Unchanged
+semimem_l ->  Unchanged
+semiten_l ->  Unchanged
+soleus_l ->  Unchanged
+tfl_l ->  Unchanged
+tibant_l ->  Unchanged
+tibpost_l ->  Unchanged
+vasint_l ->  Unchanged
+vaslat_l ->  Unchanged
+vasmed_l ->  Unchanged
+piri_r ->  Synthetising
+Using alpha = 1, beta = 50, gamma = 1
+-- initialise contact model
+Loaded model 009_Rajagopal2015_FAI_rra_opt_N10.osim from file D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\009_Rajagopal2015_FAI_rra_opt_N10.osim
+Storage: file=D:/3-PhD/Data/MocapData/ElaboratedData/009/pre/ceinms/execution/Setup/../../trials/../../inverseKinematics/Run_baseline1/IK.mot (nr=97 nc=40)
+Storage: file=D:/3-PhD/Data/MocapData/ElaboratedData/009/pre/ceinms/execution/Setup/../../trials/../../inverseKinematics/Run_baseline1/IK.mot (nr=97 nc=40)
+Using D:/3-PhD\Data\MocapData\ElaboratedData\009\pre\ceinms\execution\simulations\Run_baseline1\A1_B50_G1 as output directory
+-- Initialise external forces produces
+Old version storage/motion file encountered
+Storage: file=d:\3-PhD\Data\MocapData\ElaboratedData\009\pre\inverseDynamics\Run_baseline1\Run_baseline1.mot (nr=991 nc=37)
+.. assuming rotations in Degrees.
+-- Initialise loggers
+Using D:/3-PhD\Data\MocapData\ElaboratedData\009\pre\ceinms\execution\simulations\Run_baseline1\A1_B50_G1 as output directory
+Loaded model 009_Rajagopal2015_FAI_rra_opt_N10.osim from file D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\009_Rajagopal2015_FAI_rra_opt_N10.osim
+QueuesToJointReactionForces - initialising
+Kinematics storage filename D:/3-PhD/Data/MocapData/ElaboratedData/009/pre/ceinms/execution/Setup/../../trials/../../inverseKinematics/Run_baseline1/IK.mot
+Loaded model 009_Rajagopal2015_FAI_rra_opt_N10.osim from file D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\009_Rajagopal2015_FAI_rra_opt_N10.osim
+Loaded model 009_Rajagopal2015_FAI_rra_opt_N10.osim from file D:\3-PhD\Data\MocapData\ElaboratedData\009\pre\009_Rajagopal2015_FAI_rra_opt_N10.osim
+QueuesToJointReactionForces - done with initialisations
+starting consume
+
+EMG: EMG DONE
+
+externalTorque DONE
+
+
+EmgTime: 4.925
+Adjusted EMG
+0.001	0.001	0.999	0.999	0.001	0.001	0.00341711	0.00351805	0.130591	0.108165	0.001	0.001	0.0091028	0.00883246	0.999	0.001	0.001	0.999	0.999	0.999	0.823111	0.476898	0.999	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.577489	0.228948	0.00789287	0.001	0.277308	0.000997281	0.001	0.001	0.001	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.802314	
+LmtTime: 4.925
+Lmt
+0.160447	0.27971	0.254194	0.379412	0.168455	0.131715	0.445815	0.251735	0.469011	0.435274	0.434944	0.411749	0.44866	0.464378	0.185397	0.216579	0.228275	0.107282	0.121681	0.107604	0.074072	0.0769858	0.0849767	0.486646	0.212037	0.201617	0.397835	0.231649	0.571257	0.62346	0.440834	0.485687	0.32109	0.58629	0.336905	0.330377	0.321717	0.336122	0.308102	0.136239	0.240755	0.321662	0.471714	0.200334	0.119704	0.493316	0.208653	0.441299	0.407444	0.434574	0.4159	0.42412	0.437018	0.251131	0.296625	0.33135	0.12843	0.15342	0.141486	0.0812897	0.0873487	0.100077	0.463266	0.156809	0.200664	0.395592	0.188583	0.564779	0.498575	0.469903	0.515834	0.335573	0.527958	0.305668	0.327741	0.372915	0.386604	0.356843	0.138668	
+MomentArms on: hip_flexion_r
+0.0309476	0.0463666	-0.0144564	-0.0308961	0.00950342	0.0223574	-0.0417757	-0.0475024	-0.0613498	-0.0639942	-0.017083	-0.0181508	-0.0135604	-0.00197869	-0.00435145	-0.00628743	0.0210423	0.0316507	-0.00257003	0.0218866	0.0296664	0.023782	-0.0372515	-0.0401897	0.0246164	
+MomentArms on: knee_angle_r
+0.0329496	0.0268573	0.0239354	0.0211425	0.0324111	-0.0501715	0.0225481	0.0392191	0.0462326	-0.0172005	-0.0464457	-0.0478026	-0.0462069	
+MomentArms on: ankle_angle_r
+0.0335723	0.0358193	-0.0116334	-0.0181043	-0.0446589	-0.0431971	-0.0079243	-0.0109779	-0.044931	0.0386385	-0.0123493	
+External Torques: -41.9417 20.8372 3.60664 
+Current Torque on hip_flexion_r 37.283
+Current Torque on knee_angle_r 18.8211
+Current Torque on ankle_angle_r 2.5275
+
+----------------------------------------
+
+
+EmgTime: 4.93
+Adjusted EMG
+0.001	0.001	0.911801	0.269352	0.00440026	0.001	0.0030275	0.00302729	0.001	0.001	0.00433245	0.001	0.00565495	0.0074313	0.999	0.001	0.001	0.69082	0.43451	0.607784	0.310602	0.200019	0.359711	0.001	0.001	0.001	0.001	0.001	0.00106242	0.001	0.0579927	0.00344205	0.00654313	0.001	0.001	0.000997281	0.001	0.001	0.287845	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.0916325	
+LmtTime: 4.93
+Lmt
+0.160849	0.280449	0.253563	0.378455	0.168314	0.131969	0.444305	0.251404	0.471057	0.437456	0.434211	0.410617	0.445631	0.461478	0.184548	0.21532	0.226551	0.107225	0.121656	0.107677	0.0743412	0.0772293	0.0851732	0.486422	0.212779	0.201122	0.397153	0.23213	0.572671	0.623871	0.439381	0.484018	0.318326	0.587447	0.339252	0.329603	0.322287	0.336708	0.308668	0.135453	0.240059	0.320728	0.470812	0.199351	0.118799	0.494934	0.211268	0.441545	0.407709	0.434532	0.415819	0.425859	0.439267	0.25124	0.296423	0.330477	0.129307	0.153975	0.141761	0.0820492	0.0881058	0.100692	0.465324	0.157299	0.200628	0.395537	0.188795	0.56397	0.502862	0.472045	0.518392	0.335313	0.529676	0.305959	0.32769	0.371424	0.385245	0.355455	0.138891	
+MomentArms on: hip_flexion_r
+0.0310778	0.0463953	-0.0132209	-0.0295743	0.0104953	0.0226123	-0.0407255	-0.0474879	-0.0615237	-0.0632153	-0.0169248	-0.0178382	-0.0131692	-0.00179651	-0.00422588	-0.00616287	0.0222104	0.0316626	-0.00246272	0.0218816	0.0288223	0.0224353	-0.0362513	-0.0388548	0.0235989	
+MomentArms on: knee_angle_r
+0.0330399	0.0270615	0.0239926	0.0212324	0.0326709	-0.0500513	0.0229227	0.0393998	0.0464151	-0.0171297	-0.0462434	-0.0476987	-0.0459821	
+MomentArms on: ankle_angle_r
+0.0328159	0.0349677	-0.0121224	-0.0186183	-0.044026	-0.0424519	-0.00812346	-0.0111374	-0.0447195	0.037496	-0.0127572	
+External Torques: 3.04182 8.87018 4.42694 
+Current Torque on hip_flexion_r 42.8349
+Current Torque on knee_angle_r 10.295
+Current Torque on ankle_angle_r 6.30093
+
+----------------------------------------
+
+
+EmgTime: 4.935
+Adjusted EMG
+0.172148	0.1785	0.001	0.001	0.190564	0.137723	0.00267108	0.00267108	0.001	0.001	0.00360389	0.001	0.00450134	0.00612855	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.118036	0.668479	0.001	0.001	0.700107	0.00126081	0.236712	0.001	0.00323885	0.00531458	0.165119	0.001	0.000997281	0.001	0.001	0.169256	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.001	
+LmtTime: 4.935
+Lmt
+0.160993	0.280854	0.252892	0.37755	0.168	0.132035	0.44259	0.250782	0.472626	0.439127	0.433618	0.409709	0.442972	0.458959	0.184054	0.214436	0.225045	0.107376	0.121908	0.108032	0.0747494	0.0776491	0.0855694	0.485662	0.213376	0.200727	0.396613	0.232505	0.574519	0.623965	0.437639	0.48198	0.316175	0.588824	0.341039	0.32898	0.323338	0.337795	0.309713	0.134842	0.239589	0.319523	0.46961	0.198215	0.117955	0.496374	0.214155	0.44183	0.408016	0.434482	0.415725	0.427688	0.441569	0.250985	0.295834	0.329233	0.130269	0.154427	0.141795	0.0829103	0.0888927	0.101245	0.467388	0.15822	0.200587	0.395472	0.189352	0.563251	0.507672	0.474117	0.520856	0.335011	0.531942	0.306297	0.32763	0.369826	0.383785	0.353967	0.139292	
+MomentArms on: hip_flexion_r
+0.0312397	0.0464633	-0.0122294	-0.0284735	0.0113097	0.0228562	-0.0398792	-0.0474005	-0.0616572	-0.0626979	-0.0165415	-0.0174267	-0.0128216	-0.0014465	-0.00397053	-0.00597243	0.0232002	0.0317315	-0.0024163	0.0219099	0.0281273	0.0213073	-0.0354079	-0.0377262	0.0228752	
+MomentArms on: knee_angle_r
+0.0332475	0.0274488	0.0241167	0.0214001	0.0331946	-0.0498028	0.0236075	0.039769	0.0468033	-0.0169905	-0.0458424	-0.0474417	-0.0455285	
+MomentArms on: ankle_angle_r
+0.0321998	0.0342752	-0.0124902	-0.0189997	-0.0433987	-0.041742	-0.00826777	-0.0112447	-0.0444302	0.0365653	-0.0130592	
+External Torques: 47.1566 -2.85492 5.30296 
+Current Torque on hip_flexion_r 38.0667
+Current Torque on knee_angle_r -1.49543
+Current Torque on ankle_angle_r 7.47178
+
+----------------------------------------
+
+
+EmgTime: 4.94
+Adjusted EMG
+0.536562	0.567241	0.001	0.001	0.692958	0.420354	0.0023508	0.00235078	0.001	0.001	0.001	0.001	0.00350326	0.00492056	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.405654	0.999	0.001	0.001	0.999	0.725179	0.842329	0.001	0.00302803	0.0042258	0.310298	0.001	0.000997281	0.001	0.001	0.001	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.001	
+LmtTime: 4.94
+Lmt
+0.160896	0.28094	0.252205	0.376726	0.167534	0.131916	0.440657	0.249838	0.473708	0.440279	0.43319	0.409062	0.440687	0.456824	0.183878	0.213903	0.223769	0.107728	0.122379	0.108578	0.0752733	0.0782033	0.0861064	0.484326	0.213826	0.200445	0.396231	0.232768	0.576802	0.623692	0.435585	0.479552	0.314675	0.590382	0.342265	0.328534	0.324886	0.339399	0.311248	0.134415	0.239353	0.318075	0.468135	0.196953	0.117187	0.497624	0.217247	0.44216	0.408372	0.434424	0.415615	0.429562	0.443872	0.25039	0.294891	0.327655	0.131279	0.154765	0.141593	0.0838469	0.0896875	0.101724	0.469446	0.159524	0.200538	0.395397	0.190216	0.562562	0.512903	0.476099	0.5232	0.334658	0.534648	0.306689	0.32756	0.368064	0.382241	0.352365	0.139795	
+MomentArms on: hip_flexion_r
+0.0314306	0.0465709	-0.0115053	-0.0276381	0.0119344	0.0230907	-0.0392623	-0.0473083	-0.0617966	-0.0624892	-0.0160399	-0.0170131	-0.0125848	-0.0010217	-0.00366879	-0.00578398	0.0239887	0.0318478	-0.00245674	0.0219709	0.0276024	0.0204391	-0.0347242	-0.0368451	0.0224177	
+MomentArms on: knee_angle_r
+0.0335857	0.0280427	0.0243242	0.0216475	0.0339811	-0.0493579	0.0245997	0.0406031	0.0474014	-0.0167659	-0.0451957	-0.046922	-0.0447814	
+MomentArms on: ankle_angle_r
+0.0317554	0.0337764	-0.0127399	-0.0192556	-0.0428861	-0.0411767	-0.00836255	-0.01131	-0.0441614	0.0358943	-0.0132613	
+External Torques: 89.6589 -14.1294 6.21718 
+Current Torque on hip_flexion_r 41.0913
+Current Torque on knee_angle_r -18.923
+Current Torque on ankle_angle_r 6.2468
+
+----------------------------------------
+
+
+EmgTime: 4.945
+Adjusted EMG
+0.530651	0.548075	0.001	0.001	0.936773	0.433335	0.00206058	0.00206058	0.0724347	0.0622549	0.001	0.001	0.00291126	0.00389483	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.464816	0.999	0.001	0.001	0.999	0.661438	0.923499	0.001	0.00280731	0.003278	0.305272	0.126293	0.000997281	0.001	0.001	0.001	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.001	
+LmtTime: 4.945
+Lmt
+0.160585	0.280725	0.251535	0.376025	0.166947	0.131623	0.438505	0.248544	0.474323	0.440933	0.432941	0.408686	0.438742	0.455034	0.183953	0.213679	0.222745	0.108249	0.122982	0.10919	0.0758686	0.0788254	0.0866993	0.482382	0.214123	0.200282	0.396011	0.232914	0.57949	0.622988	0.433199	0.476727	0.313818	0.592047	0.34296	0.328275	0.326924	0.341517	0.313264	0.134153	0.239333	0.316413	0.466416	0.195583	0.116489	0.498674	0.220474	0.442545	0.408787	0.434355	0.415486	0.431427	0.446119	0.249503	0.293649	0.325788	0.132313	0.154988	0.141178	0.0848357	0.090477	0.102127	0.471473	0.161141	0.200481	0.395309	0.191328	0.561899	0.518449	0.477971	0.525401	0.334245	0.537683	0.307145	0.327478	0.366115	0.380523	0.350581	0.140294	
+MomentArms on: hip_flexion_r
+0.031642	0.0467147	-0.0110793	-0.0271186	0.0123514	0.0233148	-0.0389012	-0.0472919	-0.0619933	-0.0626255	-0.0155594	-0.0167145	-0.0125304	-0.00063911	-0.00342264	-0.00567714	0.0245455	0.0319974	-0.00260923	0.0220572	0.0272711	0.0198808	-0.0342499	-0.0362588	0.0221904	
+MomentArms on: knee_angle_r
+0.034063	0.0288654	0.024631	0.0219737	0.0350167	-0.048824	0.0258791	0.0417516	0.0482049	-0.0164374	-0.0444496	-0.0462135	-0.0438816	
+MomentArms on: ankle_angle_r
+0.0314956	0.033485	-0.0128801	-0.0193982	-0.0425587	-0.0408259	-0.00841449	-0.0113435	-0.0439822	0.0355024	-0.0133737	
+External Torques: 129.835 -24.7432 7.14683 
+Current Torque on hip_flexion_r 62.5341
+Current Torque on knee_angle_r -35.3288
+Current Torque on ankle_angle_r 5.56969
+
+----------------------------------------
+
+
+EmgTime: 4.95
+Adjusted EMG
+0.444731	0.435628	0.00613309	0.001	0.999	0.378111	0.00188797	0.00180422	0.075271	0.0659754	0.001	0.001	0.00100017	0.0028649	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.471587	0.773664	0.001	0.001	0.999	0.673444	0.840967	0.001	0.00260652	0.00257864	0.304743	0.134673	0.000997281	0.001	0.001	0.001	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.001	
+LmtTime: 4.95
+Lmt
+0.160086	0.280231	0.250926	0.375492	0.166277	0.131169	0.436158	0.246878	0.474519	0.441141	0.432861	0.408565	0.437067	0.453522	0.184215	0.213728	0.222008	0.108896	0.123625	0.109746	0.0764806	0.0794427	0.0872621	0.479811	0.214257	0.20023	0.39594	0.232936	0.582525	0.621794	0.430483	0.473518	0.313545	0.593724	0.34318	0.328192	0.329422	0.344113	0.315724	0.134016	0.239486	0.314572	0.46449	0.194122	0.115841	0.499527	0.223753	0.442994	0.409271	0.434273	0.415333	0.43323	0.448256	0.248394	0.292178	0.323676	0.133349	0.155112	0.140587	0.0858541	0.0912523	0.102464	0.473443	0.16298	0.200413	0.395205	0.192614	0.561234	0.52419	0.47972	0.527443	0.333759	0.540926	0.307677	0.327381	0.363994	0.378609	0.348624	0.140692	
+MomentArms on: hip_flexion_r
+0.0318623	0.0468888	-0.0109844	-0.0269689	0.012535	0.0235206	-0.038824	-0.0474154	-0.0622817	-0.0631253	-0.0152254	-0.0166295	-0.0127113	-0.00040011	-0.00331749	-0.00571558	0.0248365	0.0321648	-0.00288424	0.022166	0.0271568	0.0196835	-0.0340334	-0.0359646	0.0221673	
+MomentArms on: knee_angle_r
+0.0346774	0.0299327	0.0250488	0.0225705	0.0362681	-0.0482278	0.0274003	0.0430857	0.0495698	-0.0159864	-0.0436924	-0.0453219	-0.0429216	
+MomentArms on: ankle_angle_r
+0.0314119	0.0333911	-0.0129244	-0.019443	-0.0424383	-0.0407076	-0.00843071	-0.0113536	-0.043921	0.035376	-0.013409	
+External Torques: 167.066 -34.5257 8.06759 
+Current Torque on hip_flexion_r 93.9115
+Current Torque on knee_angle_r -51.8555
+Current Torque on ankle_angle_r 5.39878
+
+----------------------------------------
+
+
+EmgTime: 4.955
+Adjusted EMG
+0.385807	0.363523	0.00842267	0.0130184	0.999	0.339335	0.00167516	0.0015804	0.0739522	0.0699569	0.001	0.001	0.00139631	0.0022666	0.001	0.001	0.00101377	0.001	0.001	0.001	0.001	0.001	0.001	0.513487	0.517807	0.001	0.001	0.999	0.806354	0.813016	0.001	0.00238853	0.00198826	0.323149	0.142971	0.000997281	0.001	0.001	0.001	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.001	
+LmtTime: 4.955
+Lmt
+0.159423	0.279478	0.250414	0.375167	0.165562	0.13057	0.433658	0.244834	0.474375	0.440988	0.43292	0.408654	0.435568	0.452155	0.184621	0.214026	0.221604	0.109626	0.124244	0.11017	0.0770649	0.0800021	0.0877367	0.476631	0.21422	0.200268	0.395992	0.232828	0.585811	0.620074	0.42747	0.469936	0.313746	0.595322	0.343018	0.328253	0.332315	0.347103	0.318558	0.133955	0.239755	0.3126	0.462407	0.192591	0.115218	0.500197	0.226949	0.443516	0.409834	0.434176	0.415153	0.434915	0.450227	0.24714	0.29056	0.321365	0.134364	0.155155	0.139868	0.0868756	0.0920035	0.102744	0.47532	0.164942	0.200334	0.395083	0.193993	0.560538	0.529991	0.481338	0.529315	0.333191	0.544251	0.308295	0.327266	0.361721	0.376515	0.346511	0.140931	
+MomentArms on: hip_flexion_r
+0.0320805	0.047087	-0.0112428	-0.027223	0.0124632	0.0237002	-0.0390509	-0.0477041	-0.0626656	-0.0639803	-0.0151085	-0.016808	-0.0131473	-0.00035937	-0.00339681	-0.00592883	0.0248358	0.0323425	-0.00327831	0.0222933	0.0272708	0.0198801	-0.0341083	-0.0359931	0.0223371	
+MomentArms on: knee_angle_r
+0.0354073	0.031241	0.0255797	0.0238792	0.0376689	-0.0474673	0.0290899	0.0444966	0.0514757	-0.0154014	-0.0428971	-0.0441711	-0.0419041	
+MomentArms on: ankle_angle_r
+0.0314735	0.0334602	-0.0128918	-0.0194101	-0.0424969	-0.0407874	-0.0084188	-0.0113462	-0.0439662	0.035469	-0.0133831	
+External Torques: 200.759 -43.3213 8.95765 
+Current Torque on hip_flexion_r 122.208
+Current Torque on knee_angle_r -73.2288
+Current Torque on ankle_angle_r 4.86157
+
+----------------------------------------
+
+
+EmgTime: 4.96
+Adjusted EMG
+0.357664	0.332019	0.00304969	0.0127871	0.999	0.32475	0.00150544	0.00138713	0.0714091	0.0799316	0.001	0.001	0.001	0.001	0.001	0.00116594	0.00120558	0.001	0.001	0.001	0.001	0.001	0.001	0.568978	0.389005	0.001	0.001	0.999	0.876313	0.818735	0.001	0.0021812	0.00153161	0.343823	0.170632	0.000997281	0.001	0.00106843	0.001	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.001	
+LmtTime: 4.96
+Lmt
+0.158615	0.278483	0.250022	0.375067	0.164823	0.129838	0.431066	0.242437	0.473997	0.440587	0.433074	0.408886	0.434136	0.450802	0.185154	0.214566	0.221557	0.110417	0.124815	0.110443	0.0776047	0.0804863	0.0881068	0.4729	0.214011	0.200369	0.396128	0.232591	0.589213	0.617835	0.42423	0.466048	0.314272	0.596769	0.342592	0.328413	0.33549	0.350357	0.32165	0.13392	0.240077	0.310546	0.460222	0.191014	0.114601	0.500699	0.229983	0.444113	0.410477	0.434063	0.414944	0.436431	0.451982	0.245813	0.288873	0.318927	0.13533	0.155132	0.139073	0.0878691	0.092717	0.102975	0.477066	0.166932	0.200242	0.394942	0.195392	0.559803	0.535714	0.482815	0.531004	0.332536	0.547537	0.309001	0.327132	0.359344	0.374285	0.344284	0.140996	
+MomentArms on: hip_flexion_r
+0.0322889	0.0473025	-0.0118539	-0.0278773	0.0121304	0.0238432	-0.0395828	-0.0481462	-0.0631242	-0.0651521	-0.0152172	-0.0172493	-0.0138297	-0.00052235	-0.00366285	-0.00631556	0.0245376	0.0325237	-0.00378408	0.0224341	0.0276048	0.02047	-0.0344854	-0.0364179	0.0226918	
+MomentArms on: knee_angle_r
+0.036199	0.0327486	0.0261988	0.0252741	0.0391592	-0.0463379	0.0308583	0.0458501	0.0533654	-0.0146933	-0.0418115	-0.0426255	-0.0405927	
+MomentArms on: ankle_angle_r
+0.0316339	0.0336401	-0.0128059	-0.0193229	-0.0426746	-0.0409975	-0.00838716	-0.0113261	-0.0440795	0.035711	-0.0133144	
+External Torques: 230.434 -51.0142 9.79559 
+Current Torque on hip_flexion_r 142.958
+Current Torque on knee_angle_r -94.3516
+Current Torque on ankle_angle_r 4.28565
+
+----------------------------------------
+
+
+EmgTime: 4.965
+Adjusted EMG
+0.342685	0.323259	0.00458301	0.001	0.999	0.320124	0.00138904	0.00124459	0.0722663	0.0867821	0.001	0.001	0.001	0.00120759	0.001	0.00151888	0.00158447	0.001	0.001	0.001	0.001	0.001	0.001	0.596742	0.330898	0.001	0.001	0.999	0.999	0.821457	0.00197388	0.00199097	0.00123165	0.382545	0.188621	0.000997281	0.001	0.00144011	0.001	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.001	
+LmtTime: 4.965
+Lmt
+0.157671	0.277266	0.24975	0.375187	0.164072	0.128983	0.428451	0.239735	0.473496	0.440053	0.433275	0.40919	0.432674	0.449359	0.185815	0.21534	0.221861	0.111271	0.125354	0.11059	0.0781129	0.0809119	0.0883914	0.468707	0.213641	0.200501	0.396306	0.232231	0.592574	0.615128	0.420857	0.461959	0.31497	0.598027	0.342025	0.328623	0.338794	0.353706	0.324846	0.133868	0.240396	0.308461	0.45799	0.189415	0.113978	0.501041	0.232797	0.444776	0.411191	0.433933	0.414708	0.437738	0.453482	0.244471	0.287183	0.316435	0.136217	0.155052	0.138247	0.088803	0.0933768	0.103165	0.478629	0.168871	0.200138	0.394784	0.196751	0.559051	0.541226	0.484127	0.532483	0.3318	0.550688	0.309786	0.32698	0.356931	0.371988	0.34201	0.140911	
+MomentArms on: hip_flexion_r
+0.0324841	0.0475271	-0.0127874	-0.0288946	0.0115506	0.0239494	-0.0403966	-0.0487079	-0.0636255	-0.0665776	-0.0155176	-0.0179205	-0.0147352	-0.00086277	-0.00409316	-0.00685764	0.0239827	0.0327086	-0.00439368	0.0225908	0.0281342	0.0214184	-0.0351477	-0.0372233	0.0232159	
+MomentArms on: knee_angle_r
+0.0369829	0.0343891	0.026867	0.0266858	0.0409153	-0.0446218	0.0326156	0.0470177	0.0550759	-0.0138832	-0.0401771	-0.040506	-0.0387262	
+MomentArms on: ankle_angle_r
+0.0318438	0.0338756	-0.0126912	-0.019206	-0.0429054	-0.0412647	-0.0083443	-0.0112978	-0.0442187	0.0360278	-0.0132221	
+External Torques: 255.705 -57.499 10.5599 
+Current Torque on hip_flexion_r 157.663
+Current Torque on knee_angle_r -110.285
+Current Torque on ankle_angle_r 3.541
+
+----------------------------------------
+
+
+EmgTime: 4.97
+Adjusted EMG
+0.329191	0.324167	0.00104031	0.001	0.999	0.315495	0.00115354	0.00115248	0.073002	0.0918583	0.001	0.001	0.001	0.001	0.001	0.00102497	0.00182158	0.001	0.001	0.001	0.001	0.001	0.001	0.601458	0.30555	0.001	0.001	0.999	0.999	0.816875	0.00181013	0.00181026	0.00108779	0.42192	0.203138	0.000997281	0.001	0.001	0.001	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.001	
+LmtTime: 4.97
+Lmt
+0.156599	0.275846	0.249588	0.375508	0.163307	0.12801	0.425875	0.236791	0.47296	0.439483	0.433487	0.409511	0.43112	0.447765	0.186606	0.216332	0.222483	0.112207	0.125893	0.110653	0.0786203	0.0813133	0.0886262	0.464109	0.213132	0.20064	0.396496	0.231762	0.595745	0.612029	0.417456	0.457787	0.315713	0.599086	0.341418	0.328844	0.342072	0.356991	0.327994	0.133772	0.24067	0.30639	0.45576	0.187821	0.113346	0.501219	0.235337	0.445489	0.411959	0.43379	0.414449	0.438808	0.454702	0.243158	0.285541	0.313954	0.137002	0.154926	0.137429	0.0896496	0.0939686	0.103316	0.479955	0.170702	0.200024	0.394612	0.198033	0.558348	0.546414	0.485239	0.533712	0.331001	0.553641	0.31063	0.326813	0.354589	0.36973	0.33979	0.140713	
+MomentArms on: hip_flexion_r
+0.0326649	0.0477513	-0.0139945	-0.0302107	0.010753	0.0240203	-0.0414511	-0.0493513	-0.0641392	-0.0681817	-0.0159619	-0.0187796	-0.0158383	-0.00134548	-0.00465988	-0.00753481	0.0232235	0.0329017	-0.00510498	0.0227651	0.0288245	0.02267	-0.0360573	-0.0383665	0.0238829	
+MomentArms on: knee_angle_r
+0.0376913	0.0360866	0.0275379	0.0280529	0.0431156	-0.0427345	0.0342985	0.0479107	0.0564858	-0.012996	-0.0383998	-0.0382459	-0.0367413	
+MomentArms on: ankle_angle_r
+0.0320644	0.0341231	-0.0125676	-0.0190794	-0.0431401	-0.0415343	-0.00829746	-0.0112657	-0.0443534	0.0363608	-0.0131221	
+External Torques: 276.268 -62.752 11.2335 
+Current Torque on hip_flexion_r 168.844
+Current Torque on knee_angle_r -121.588
+Current Torque on ankle_angle_r 2.95073
+
+----------------------------------------
+
+
+EmgTime: 4.975
+Adjusted EMG
+0.312113	0.327154	0.001	0.001	0.999	0.304472	0.00108802	0.0010879	0.0732729	0.0954507	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.609091	0.297666	0.001	0.001	0.999	0.999	0.822405	0.00166794	0.00166795	0.001	0.448519	0.213906	0.000997281	0.001	0.001	0.001	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.001	
+LmtTime: 4.975
+Lmt
+0.155407	0.274244	0.249527	0.376013	0.16253	0.126927	0.423396	0.233668	0.472439	0.438928	0.43369	0.409819	0.429463	0.446012	0.187525	0.217522	0.223385	0.113242	0.126465	0.110675	0.0791596	0.0817262	0.0888471	0.459205	0.212506	0.200774	0.396678	0.231198	0.598686	0.608615	0.414123	0.453648	0.316432	0.599951	0.340827	0.329055	0.345271	0.360158	0.331047	0.13362	0.240875	0.304371	0.45357	0.186254	0.112711	0.501221	0.237563	0.446226	0.412752	0.433638	0.414176	0.439628	0.455633	0.241901	0.28398	0.311535	0.137667	0.154763	0.136647	0.0903896	0.0944817	0.103431	0.480993	0.172391	0.199904	0.394432	0.199216	0.557783	0.551191	0.486108	0.534642	0.330165	0.556365	0.311501	0.326637	0.352432	0.367629	0.337738	0.140436	
+MomentArms on: hip_flexion_r
+0.0328291	0.0479642	-0.0154199	-0.0317599	0.00976863	0.0240602	-0.0426974	-0.0500398	-0.0646373	-0.0698864	-0.0165042	-0.0197859	-0.0171143	-0.00193693	-0.00533666	-0.00832815	0.0222146	0.0331059	-0.00591688	0.0229624	0.0296429	0.0241659	-0.0371669	-0.0397913	0.0246621	
+MomentArms on: knee_angle_r
+0.0382659	0.0377667	0.0281602	0.0293256	0.0450391	-0.0416637	0.0358716	0.0484818	0.0575229	-0.0120591	-0.0374492	-0.0368274	-0.0356477	
+MomentArms on: ankle_angle_r
+0.032275	0.0343596	-0.0124467	-0.0189549	-0.0433555	-0.0417807	-0.00825098	-0.0112327	-0.0444708	0.0366788	-0.0130237	
+External Torques: 291.87 -66.7652 11.7993 
+Current Torque on hip_flexion_r 178.818
+Current Torque on knee_angle_r -132.955
+Current Torque on ankle_angle_r 2.60331
+
+----------------------------------------
+
+
+EmgTime: 4.98
+Adjusted EMG
+0.28785	0.325278	0.001	0.001	0.999	0.287327	0.0010369	0.0010369	0.0733	0.0979558	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.616572	0.292611	0.001	0.001	0.999	0.999	0.826585	0.00150535	0.00151417	0.001	0.460495	0.221599	0.000997281	0.001	0.001	0.001	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.001	
+LmtTime: 4.98
+Lmt
+0.15411	0.272487	0.249563	0.376689	0.161751	0.125742	0.421063	0.230423	0.471942	0.438399	0.43388	0.410109	0.427736	0.444137	0.18857	0.21889	0.224537	0.114389	0.127091	0.110689	0.0797539	0.0821768	0.0890813	0.45411	0.211784	0.200901	0.39685	0.230549	0.601418	0.604948	0.41094	0.449642	0.317116	0.60063	0.340261	0.329255	0.348404	0.363219	0.334023	0.133411	0.240998	0.302429	0.451449	0.184734	0.112081	0.501033	0.239447	0.446959	0.413541	0.433482	0.4139	0.440204	0.456288	0.240714	0.282519	0.309214	0.138204	0.15457	0.13592	0.091012	0.0949102	0.103512	0.481708	0.173924	0.199782	0.39425	0.200293	0.557421	0.555503	0.486697	0.535232	0.329325	0.558856	0.312367	0.326457	0.35054	0.365772	0.335934	0.140109	
+MomentArms on: hip_flexion_r
+0.0329725	0.0481526	-0.0170146	-0.0334775	0.00862679	0.0240682	-0.0440876	-0.0507386	-0.0650927	-0.0716158	-0.0171056	-0.0209019	-0.0185372	-0.00260789	-0.00609937	-0.00921876	0.0209775	0.0333242	-0.00682555	0.0231831	0.0305616	0.0258536	-0.0384287	-0.0414395	0.0255257	
+MomentArms on: knee_angle_r
+0.0386528	0.0393582	0.0286914	0.0304702	0.0466379	-0.0409606	0.0373124	0.0487049	0.0581431	-0.0111025	-0.0368849	-0.0358024	-0.0349775	
+MomentArms on: ankle_angle_r
+0.0324724	0.0345815	-0.0123306	-0.0188348	-0.0435501	-0.0420017	-0.0082058	-0.0111997	-0.0445705	0.0369771	-0.0129287	
+External Torques: 302.318 -69.5657 12.2422 
+Current Torque on hip_flexion_r 188.316
+Current Torque on knee_angle_r -143.782
+Current Torque on ankle_angle_r 2.45138
+
+----------------------------------------
+
+
+EmgTime: 4.985
+Adjusted EMG

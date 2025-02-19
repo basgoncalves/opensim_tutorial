@@ -1,0 +1,63 @@
+Constructing tool from setup file E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\inverseKinematics\Run_baseline2\setup_IK.xml.
+
+Loaded model 009 from file E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\009_Rajagopal2015_FAI.osim
+               MODEL: 009
+         coordinates: 39
+              forces: 99
+           actuators: 99
+             muscles: 82
+            analyses: 0
+              probes: 0
+              bodies: 23
+              joints: 22
+         constraints: 2
+             markers: 67
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+Running tool .
+Loaded marker file .\Run_baseline2.trc (54 markers, 42 frames)
+Frame 0 (t=3.69):	total squared error = 0.0282122, marker error: RMS=0.0262317, max=0.0863118 (LBHD)
+Frame 1 (t=3.695):	total squared error = 0.0279815, marker error: RMS=0.0261242, max=0.0873088 (LBHD)
+Frame 2 (t=3.7):	total squared error = 0.0279206, marker error: RMS=0.0260958, max=0.0884574 (LBHD)
+Frame 3 (t=3.705):	total squared error = 0.028069, marker error: RMS=0.0261651, max=0.0897678 (LBHD)
+Frame 4 (t=3.71):	total squared error = 0.0284234, marker error: RMS=0.0263297, max=0.0912564 (LBHD)
+Frame 5 (t=3.715):	total squared error = 0.0289481, marker error: RMS=0.0265716, max=0.0929346 (LBHD)
+Frame 6 (t=3.72):	total squared error = 0.0295656, marker error: RMS=0.0268535, max=0.09477 (LBHD)
+Frame 7 (t=3.725):	total squared error = 0.0302034, marker error: RMS=0.0271416, max=0.0967336 (LBHD)
+Frame 8 (t=3.73):	total squared error = 0.0307629, marker error: RMS=0.0273919, max=0.0987521 (LBHD)
+Frame 9 (t=3.735):	total squared error = 0.0311724, marker error: RMS=0.0275736, max=0.100734 (LBHD)
+Frame 10 (t=3.74):	total squared error = 0.0313916, marker error: RMS=0.0276704, max=0.102609 (LBHD)
+Frame 11 (t=3.745):	total squared error = 0.0314367, marker error: RMS=0.0276902, max=0.104338 (LBHD)
+Frame 12 (t=3.75):	total squared error = 0.0313371, marker error: RMS=0.0276463, max=0.105836 (LBHD)
+Frame 13 (t=3.755):	total squared error = 0.0311541, marker error: RMS=0.0275655, max=0.107084 (LBHD)
+Frame 14 (t=3.76):	total squared error = 0.0309403, marker error: RMS=0.0274707, max=0.108072 (LBHD)
+Frame 15 (t=3.765):	total squared error = 0.0307304, marker error: RMS=0.0273774, max=0.108813 (LBHD)
+Frame 16 (t=3.77):	total squared error = 0.0305351, marker error: RMS=0.0272903, max=0.109323 (LBHD)
+Frame 17 (t=3.775):	total squared error = 0.0303471, marker error: RMS=0.0272061, max=0.109612 (LBHD)
+Frame 18 (t=3.78):	total squared error = 0.0301526, marker error: RMS=0.0271188, max=0.109687 (LBHD)
+Frame 19 (t=3.785):	total squared error = 0.0299318, marker error: RMS=0.0270193, max=0.109551 (LBHD)
+Frame 20 (t=3.79):	total squared error = 0.0296679, marker error: RMS=0.0268999, max=0.109197 (LBHD)
+Frame 21 (t=3.795):	total squared error = 0.0293495, marker error: RMS=0.0267552, max=0.10862 (LBHD)
+Frame 22 (t=3.8):	total squared error = 0.0289611, marker error: RMS=0.0265776, max=0.107783 (LBHD)
+Frame 23 (t=3.805):	total squared error = 0.0285078, marker error: RMS=0.0263688, max=0.106696 (LBHD)
+Frame 24 (t=3.81):	total squared error = 0.0279996, marker error: RMS=0.0261327, max=0.105356 (LBHD)
+Frame 25 (t=3.815):	total squared error = 0.0274443, marker error: RMS=0.0258723, max=0.103757 (LBHD)
+Frame 26 (t=3.82):	total squared error = 0.026879, marker error: RMS=0.0256044, max=0.101934 (LBHD)
+Frame 27 (t=3.825):	total squared error = 0.0263314, marker error: RMS=0.0253422, max=0.0999028 (LBHD)
+Frame 28 (t=3.83):	total squared error = 0.0258355, marker error: RMS=0.0251025, max=0.0976931 (LBHD)
+Frame 29 (t=3.835):	total squared error = 0.025418, marker error: RMS=0.0248988, max=0.0953275 (LBHD)
+Frame 30 (t=3.84):	total squared error = 0.0251067, marker error: RMS=0.0247459, max=0.0928749 (LBHD)
+Frame 31 (t=3.845):	total squared error = 0.0249136, marker error: RMS=0.0246505, max=0.0903742 (LBHD)
+Frame 32 (t=3.85):	total squared error = 0.0248503, marker error: RMS=0.0246192, max=0.087899 (LBHD)
+Frame 33 (t=3.855):	total squared error = 0.024917, marker error: RMS=0.0246522, max=0.085511 (LBHD)
+Frame 34 (t=3.86):	total squared error = 0.0251186, marker error: RMS=0.0247517, max=0.0832945 (LBHD)
+Frame 35 (t=3.865):	total squared error = 0.0254538, marker error: RMS=0.0249164, max=0.081325 (LBHD)
+Frame 36 (t=3.87):	total squared error = 0.0259194, marker error: RMS=0.0251432, max=0.079677 (LBHD)
+Frame 37 (t=3.875):	total squared error = 0.0265001, marker error: RMS=0.0254233, max=0.0783877 (LBHD)
+Frame 38 (t=3.88):	total squared error = 0.0271737, marker error: RMS=0.0257444, max=0.0774806 (LBHD)
+Frame 39 (t=3.885):	total squared error = 0.0278981, marker error: RMS=0.0260853, max=0.0769432 (LBHD)
+InverseKinematicsTool completed 39 frames in 18.539s
+
+IK compute time = 20027ms
+

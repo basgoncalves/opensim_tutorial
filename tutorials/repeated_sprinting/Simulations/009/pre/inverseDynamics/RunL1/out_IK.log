@@ -1,0 +1,40 @@
+Constructing tool from setup file E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\inverseDynamics\RunL1\setup_ID.xml.
+
+-----------------------------------------------------------------------
+Starting Inverse Dynamics
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+
+Loaded model 009 from file E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\009_Rajagopal2015_FAI.osim
+               MODEL: 009
+         coordinates: 39
+              forces: 99
+           actuators: 99
+             muscles: 82
+            analyses: 0
+              probes: 0
+              bodies: 23
+              joints: 22
+         constraints: 2
+             markers: 67
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+Running tool subject01_walk1.
+
+Storage: file=.\IK.mot (nr=113 nc=40)
+
+
+Low-pass filtering coordinates data with a cutoff frequency of 6...
+
+Old version storage/motion file encountered
+Storage: file=E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\RunL1\RunL1.mot (nr=1151 nc=37)
+.. assuming rotations in Degrees.
+ExternalForce::Right
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\RunL1\RunL1.mot
+ExternalForce::Right_transformedP
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\RunL1\RunL1.mot_transformedP
+InverseDynamicsTool: 114 time frames in 0.078s
+
+Inverse dynamics compute time = 5178ms
+

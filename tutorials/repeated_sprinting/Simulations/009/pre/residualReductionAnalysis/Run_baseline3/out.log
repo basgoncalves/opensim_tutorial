@@ -1,0 +1,554 @@
+Constructing tool from setup file .\Run_baseline3setup_ID.xml.
+
+-----------------------------------------------------------------------
+Starting Inverse Dynamics
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+
+Loaded model 009 from file .\009_Rajagopal2015_FAI_rra.osim
+               MODEL: 009
+         coordinates: 39
+              forces: 97
+           actuators: 97
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 23
+              joints: 22
+         constraints: 2
+             markers: 67
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+Running tool Run_baseline3.
+
+Storage: file=.\Run_baseline3_Kinematics_q.sto (nr=201 nc=40)
+
+
+Low-pass filtering coordinates data with a cutoff frequency of 6...
+
+Storage.resample: WARNING: resampling at time step 3.98e-006 (but minimum time step is 2.17604e-014)
+Old version storage/motion file encountered
+Storage: file=.\Run_baseline3.mot (nr=421 nc=37)
+.. assuming rotations in Degrees.
+ExternalForce::Left
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline3\Run_baseline3.mot
+Storage: file=IK.mot (nr=41 nc=40)
+
+
+Low-pass filtering coordinates data with a cutoff frequency of 7.
+ExternalForce::Left_transformedP
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline3\Run_baseline3.mot_transformedP
+InverseDynamicsTool: 50755 time frames in 21.871s
+
+Inverse dynamics compute time = 40883ms
+
+24-Oct-2021 12:38:28: Constructing investigation from setup file .\setup_RRA.xml.
+
+AbstractTool Run_baseline3 loading model '..\..\009_Rajagopal2015_FAI.osim'
+Loaded model 009 from file ..\..\009_Rajagopal2015_FAI.osim
+Adding force object set from .\actuators_RAA.xml
+-----------------------------------------------------------------------
+Loaded library
+-----------------------------------------------------------------------
+               MODEL: 009
+         coordinates: 39
+              forces: 29
+           actuators: 29
+             muscles: 0
+            analyses: 0
+              probes: 0
+              bodies: 23
+              joints: 22
+         constraints: 2
+             markers: 67
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+-----------------------------------------------------------------------
+
+Running tool Run_baseline3.
+Old version storage/motion file encountered
+Storage: file=.\Run_baseline3.mot (nr=421 nc=37)
+.. assuming rotations in Degrees.
+ExternalForce::Left
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline3\Run_baseline3.mot
+Storage: file=IK.mot (nr=41 nc=40)
+
+
+Low-pass filtering coordinates data with a cutoff frequency of 7.
+ExternalForce::Left_transformedP
+Data source being set to E:\3-PhD\Data\MocapData\ElaboratedData\009\pre\dynamicElaborations\Run_baseline3\Run_baseline3.mot_transformedP
+
+
+ taskSet size = 29
+
+
+
+WARN- a desired points file was not specified.
+
+
+
+Loading desired kinematics from file ..\..\inverseKinematics\Run_baseline3\IK.mot ...
+
+Loading q's from file ..\..\inverseKinematics\Run_baseline3\IK.mot.
+Storage: file=..\..\inverseKinematics\Run_baseline3\IK.mot (nr=41 nc=40)
+Found 41 q's with time stamps ranging
+from 3.43 to 3.63.
+
+The initial time set for the cmc run precedes the first time
+in the desired kinematics file ..\..\inverseKinematics\Run_baseline3\IK.mot.
+Resetting the initial time from 3.43 to 3.43.
+
+
+
+WARN- The final time set for the cmc run is past the last time stamp
+in the desired kinematics file ..\..\inverseKinematics\Run_baseline3\IK.mot.
+Resetting the final time from 3.632 to 3.63.
+
+
+
+Low-pass filtering desired kinematics with a cutoff frequency of 6...
+
+MODEL: 009
+
+ANALYSES (0)
+
+BODIES (23)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = pelvis (mass: 12.2558) (inertia: 0.0979592 0 0 0 0.0979592 0 0 0 0.0585188)
+body[2] = femur_r (mass: 9.67957) (inertia: 0.167657 0 0 0 0.043949 0 0 0 0.176798)
+body[3] = tibia_r (mass: 3.85824) (inertia: 0.0580546 0 0 0 0.00587457 0 0 0 0.0588609)
+body[4] = patella_r (mass: 0.0897047) (inertia: 2.98669e-006 0 0 0 1.3643e-005 0 0 0 1.3643e-005)
+body[5] = talus_r (mass: 0.104066) (inertia: 0.00107852 0 0 0 0.00107852 0 0 0 0.00107852)
+body[6] = calcn_r (mass: 1.30082) (inertia: 0.00150993 0 0 0 0.00420623 0 0 0 0.00442194)
+body[7] = toes_r (mass: 0.225406) (inertia: 0.000107852 0 0 0 0.000215704 0 0 0 0.00107852)
+body[8] = femur_l (mass: 9.67957) (inertia: 0.17701 0 0 0 0.0464007 0 0 0 0.18666)
+body[9] = tibia_l (mass: 3.85824) (inertia: 0.0545749 0 0 0 0.00552246 0 0 0 0.0553328)
+body[10] = patella_l (mass: 0.0897047) (inertia: 2.98669e-006 0 0 0 1.3643e-005 0 0 0 1.3643e-005)
+body[11] = talus_l (mass: 0.104066) (inertia: 0.00109326 0 0 0 0.00109326 0 0 0 0.00109326)
+body[12] = calcn_l (mass: 1.30082) (inertia: 0.00153056 0 0 0 0.00426371 0 0 0 0.00448236)
+body[13] = toes_l (mass: 0.225406) (inertia: 0.000109326 0 0 0 0.000218652 0 0 0 0.00109326)
+body[14] = torso (mass: 27.9173) (inertia: 1.49118 0 0 0 0.764045 0 0 0 1.44759)
+body[15] = humerus_r (mass: 2.11514) (inertia: 0.0156452 0 0 0 0.00539711 0 0 0 0.0175612)
+body[16] = ulna_r (mass: 0.632199) (inertia: 0.00348407 0 0 0 0.000726926 0 0 0 0.00377931)
+body[17] = radius_r (mass: 0.632199) (inertia: 0.00348407 0 0 0 0.000726926 0 0 0 0.00377931)
+body[18] = hand_r (mass: 0.476101) (inertia: 0.00111933 0 0 0 0.000686403 0 0 0 0.0016815)
+body[19] = humerus_l (mass: 2.11514) (inertia: 0.0154548 0 0 0 0.00533143 0 0 0 0.0173475)
+body[20] = ulna_l (mass: 0.632199) (inertia: 0.0033744 0 0 0 0.000704045 0 0 0 0.00366035)
+body[21] = radius_l (mass: 0.632199) (inertia: 0.0033744 0 0 0 0.000704045 0 0 0 0.00366035)
+body[22] = hand_l (mass: 0.476101) (inertia: 0.00111933 0 0 0 0.000686403 0 0 0 0.0016815)
+
+ACTUATORS (29)
+actuator[0] = FX
+actuator[1] = FY
+actuator[2] = FZ
+actuator[3] = MX
+actuator[4] = MY
+actuator[5] = MZ
+actuator[6] = hip_flexion_r
+actuator[7] = hip_adduction_r
+actuator[8] = hip_rotation_r
+actuator[9] = knee_angle_r
+actuator[10] = ankle_angle_r
+actuator[11] = hip_flexion_l
+actuator[12] = hip_adduction_l
+actuator[13] = hip_rotation_l
+actuator[14] = knee_angle_l
+actuator[15] = ankle_angle_l
+actuator[16] = lumbar_extension
+actuator[17] = lumbar_bending
+actuator[18] = lumbar_rotation
+actuator[19] = arm_flex_r
+actuator[20] = arm_add_r
+actuator[21] = arm_rot_r
+actuator[22] = elbow_flex_r
+actuator[23] = pro_sup_r
+actuator[24] = arm_flex_l
+actuator[25] = arm_add_l
+actuator[26] = arm_rot_l
+actuator[27] = elbow_flex_l
+actuator[28] = pro_sup_l
+numStates = 78
+numCoordinates = 39
+numSpeeds = 39
+numActuators = 29
+numBodies = 23
+numConstraints = 2
+numProbes = 0
+
+STATES (78)
+y[0] = pelvis_tilt
+y[1] = pelvis_list
+y[2] = pelvis_rotation
+y[3] = pelvis_tx
+y[4] = pelvis_ty
+y[5] = pelvis_tz
+y[6] = hip_flexion_r
+y[7] = hip_adduction_r
+y[8] = hip_rotation_r
+y[9] = knee_angle_r
+y[10] = knee_angle_r_beta
+y[11] = ankle_angle_r
+y[12] = subtalar_angle_r
+y[13] = mtp_angle_r
+y[14] = hip_flexion_l
+y[15] = hip_adduction_l
+y[16] = hip_rotation_l
+y[17] = knee_angle_l
+y[18] = knee_angle_l_beta
+y[19] = ankle_angle_l
+y[20] = subtalar_angle_l
+y[21] = mtp_angle_l
+y[22] = lumbar_extension
+y[23] = lumbar_bending
+y[24] = lumbar_rotation
+y[25] = arm_flex_r
+y[26] = arm_add_r
+y[27] = arm_rot_r
+y[28] = elbow_flex_r
+y[29] = pro_sup_r
+y[30] = wrist_flex_r
+y[31] = wrist_dev_r
+y[32] = arm_flex_l
+y[33] = arm_add_l
+y[34] = arm_rot_l
+y[35] = elbow_flex_l
+y[36] = pro_sup_l
+y[37] = wrist_flex_l
+y[38] = wrist_dev_l
+y[39] = pelvis_tilt_u
+y[40] = pelvis_list_u
+y[41] = pelvis_rotation_u
+y[42] = pelvis_tx_u
+y[43] = pelvis_ty_u
+y[44] = pelvis_tz_u
+y[45] = hip_flexion_r_u
+y[46] = hip_adduction_r_u
+y[47] = hip_rotation_r_u
+y[48] = knee_angle_r_u
+y[49] = knee_angle_r_beta_u
+y[50] = ankle_angle_r_u
+y[51] = subtalar_angle_r_u
+y[52] = mtp_angle_r_u
+y[53] = hip_flexion_l_u
+y[54] = hip_adduction_l_u
+y[55] = hip_rotation_l_u
+y[56] = knee_angle_l_u
+y[57] = knee_angle_l_beta_u
+y[58] = ankle_angle_l_u
+y[59] = subtalar_angle_l_u
+y[60] = mtp_angle_l_u
+y[61] = lumbar_extension_u
+y[62] = lumbar_bending_u
+y[63] = lumbar_rotation_u
+y[64] = arm_flex_r_u
+y[65] = arm_add_r_u
+y[66] = arm_rot_r_u
+y[67] = elbow_flex_r_u
+y[68] = pro_sup_r_u
+y[69] = wrist_flex_r_u
+y[70] = wrist_dev_r_u
+y[71] = arm_flex_l_u
+y[72] = arm_add_l_u
+y[73] = arm_rot_l_u
+y[74] = elbow_flex_l_u
+y[75] = pro_sup_l_u
+y[76] = wrist_flex_l_u
+y[77] = wrist_dev_l_u
+
+Note: requested COM adjustment time range 3.43 - 3.632 clamped to nearest available data times 3.425 - 3.63
+
+Computing average residuals between 3.425 and 3.63
+
+Computing average residuals between 3.425 and 3.63
+
+Constructing function set for tracking desired kinematics...
+
+No Actuation analysis found in analysis set -- adding one
+No Kinematics analysis found in analysis set -- adding one
+Using the generalized coordinates specified in ..\..\inverseKinematics\Run_baseline3\IK.mot to set the initial configuration.
+
+Using IPOPT optimizer algorithm.
+
+Setting optimizer print level to 0.
+Setting optimizer convergence tolerance to 1e-006.
+Setting optimizer maximum iterations to 2000.
+
+Setting cmc controller to not use verbose printing.
+CMC.computeControls:  t = 3.43
+
+
+
+================================================================
+================================================================
+Using CMC to track the specified kinematics
+Integrating from 3.43 to 3.63
+Start time = Sun Oct 24 12:37:43 2021
+================================================================
+CMC.computeControls:  t = 3.43
+CMC.computeControls:  t = 3.431
+CMC.computeControls:  t = 3.432
+CMC.computeControls:  t = 3.433
+CMC.computeControls:  t = 3.434
+CMC.computeControls:  t = 3.435
+CMC.computeControls:  t = 3.436
+CMC.computeControls:  t = 3.437
+CMC.computeControls:  t = 3.438
+CMC.computeControls:  t = 3.439
+CMC.computeControls:  t = 3.44
+CMC.computeControls:  t = 3.441
+CMC.computeControls:  t = 3.442
+CMC.computeControls:  t = 3.443
+CMC.computeControls:  t = 3.444
+CMC.computeControls:  t = 3.445
+CMC.computeControls:  t = 3.446
+CMC.computeControls:  t = 3.447
+CMC.computeControls:  t = 3.448
+CMC.computeControls:  t = 3.449
+CMC.computeControls:  t = 3.45
+CMC.computeControls:  t = 3.451
+CMC.computeControls:  t = 3.452
+CMC.computeControls:  t = 3.453
+CMC.computeControls:  t = 3.454
+CMC.computeControls:  t = 3.455
+CMC.computeControls:  t = 3.456
+CMC.computeControls:  t = 3.457
+CMC.computeControls:  t = 3.458
+CMC.computeControls:  t = 3.459
+CMC.computeControls:  t = 3.46
+CMC.computeControls:  t = 3.461
+CMC.computeControls:  t = 3.462
+CMC.computeControls:  t = 3.463
+CMC.computeControls:  t = 3.464
+CMC.computeControls:  t = 3.465
+CMC.computeControls:  t = 3.466
+CMC.computeControls:  t = 3.467
+CMC.computeControls:  t = 3.468
+CMC.computeControls:  t = 3.469
+CMC.computeControls:  t = 3.47
+CMC.computeControls:  t = 3.471
+CMC.computeControls:  t = 3.472
+CMC.computeControls:  t = 3.473
+CMC.computeControls:  t = 3.474
+CMC.computeControls:  t = 3.475
+CMC.computeControls:  t = 3.476
+CMC.computeControls:  t = 3.477
+CMC.computeControls:  t = 3.478
+CMC.computeControls:  t = 3.479
+CMC.computeControls:  t = 3.48
+CMC.computeControls:  t = 3.481
+CMC.computeControls:  t = 3.482
+CMC.computeControls:  t = 3.483
+CMC.computeControls:  t = 3.484
+CMC.computeControls:  t = 3.485
+CMC.computeControls:  t = 3.486
+CMC.computeControls:  t = 3.487
+CMC.computeControls:  t = 3.488
+CMC.computeControls:  t = 3.489
+CMC.computeControls:  t = 3.49
+CMC.computeControls:  t = 3.491
+CMC.computeControls:  t = 3.492
+CMC.computeControls:  t = 3.493
+CMC.computeControls:  t = 3.494
+CMC.computeControls:  t = 3.495
+CMC.computeControls:  t = 3.496
+CMC.computeControls:  t = 3.497
+CMC.computeControls:  t = 3.498
+CMC.computeControls:  t = 3.499
+CMC.computeControls:  t = 3.5
+CMC.computeControls:  t = 3.501
+CMC.computeControls:  t = 3.502
+CMC.computeControls:  t = 3.503
+CMC.computeControls:  t = 3.504
+CMC.computeControls:  t = 3.505
+CMC.computeControls:  t = 3.506
+CMC.computeControls:  t = 3.507
+CMC.computeControls:  t = 3.508
+CMC.computeControls:  t = 3.509
+CMC.computeControls:  t = 3.51
+CMC.computeControls:  t = 3.511
+CMC.computeControls:  t = 3.512
+CMC.computeControls:  t = 3.513
+CMC.computeControls:  t = 3.514
+CMC.computeControls:  t = 3.515
+CMC.computeControls:  t = 3.516
+CMC.computeControls:  t = 3.517
+CMC.computeControls:  t = 3.518
+CMC.computeControls:  t = 3.519
+CMC.computeControls:  t = 3.52
+CMC.computeControls:  t = 3.521
+CMC.computeControls:  t = 3.522
+CMC.computeControls:  t = 3.523
+CMC.computeControls:  t = 3.524
+CMC.computeControls:  t = 3.525
+CMC.computeControls:  t = 3.526
+CMC.computeControls:  t = 3.527
+CMC.computeControls:  t = 3.528
+CMC.computeControls:  t = 3.529
+CMC.computeControls:  t = 3.53
+CMC.computeControls:  t = 3.531
+CMC.computeControls:  t = 3.532
+CMC.computeControls:  t = 3.533
+CMC.computeControls:  t = 3.534
+CMC.computeControls:  t = 3.535
+CMC.computeControls:  t = 3.536
+CMC.computeControls:  t = 3.537
+CMC.computeControls:  t = 3.538
+CMC.computeControls:  t = 3.539
+CMC.computeControls:  t = 3.54
+CMC.computeControls:  t = 3.541
+CMC.computeControls:  t = 3.542
+CMC.computeControls:  t = 3.543
+CMC.computeControls:  t = 3.544
+CMC.computeControls:  t = 3.545
+CMC.computeControls:  t = 3.546
+CMC.computeControls:  t = 3.547
+CMC.computeControls:  t = 3.548
+CMC.computeControls:  t = 3.549
+CMC.computeControls:  t = 3.55
+CMC.computeControls:  t = 3.551
+CMC.computeControls:  t = 3.552
+CMC.computeControls:  t = 3.553
+CMC.computeControls:  t = 3.554
+CMC.computeControls:  t = 3.555
+CMC.computeControls:  t = 3.556
+CMC.computeControls:  t = 3.557
+CMC.computeControls:  t = 3.558
+CMC.computeControls:  t = 3.559
+CMC.computeControls:  t = 3.56
+CMC.computeControls:  t = 3.561
+CMC.computeControls:  t = 3.562
+CMC.computeControls:  t = 3.563
+CMC.computeControls:  t = 3.564
+CMC.computeControls:  t = 3.565
+CMC.computeControls:  t = 3.566
+CMC.computeControls:  t = 3.567
+CMC.computeControls:  t = 3.568
+CMC.computeControls:  t = 3.569
+CMC.computeControls:  t = 3.57
+CMC.computeControls:  t = 3.571
+CMC.computeControls:  t = 3.572
+CMC.computeControls:  t = 3.573
+CMC.computeControls:  t = 3.574
+CMC.computeControls:  t = 3.575
+CMC.computeControls:  t = 3.576
+CMC.computeControls:  t = 3.577
+CMC.computeControls:  t = 3.578
+CMC.computeControls:  t = 3.579
+CMC.computeControls:  t = 3.58
+CMC.computeControls:  t = 3.581
+CMC.computeControls:  t = 3.582
+CMC.computeControls:  t = 3.583
+CMC.computeControls:  t = 3.584
+CMC.computeControls:  t = 3.585
+CMC.computeControls:  t = 3.586
+CMC.computeControls:  t = 3.587
+CMC.computeControls:  t = 3.588
+CMC.computeControls:  t = 3.589
+CMC.computeControls:  t = 3.59
+CMC.computeControls:  t = 3.591
+CMC.computeControls:  t = 3.592
+CMC.computeControls:  t = 3.593
+CMC.computeControls:  t = 3.594
+CMC.computeControls:  t = 3.595
+CMC.computeControls:  t = 3.596
+CMC.computeControls:  t = 3.597
+CMC.computeControls:  t = 3.598
+CMC.computeControls:  t = 3.599
+CMC.computeControls:  t = 3.6
+CMC.computeControls:  t = 3.601
+CMC.computeControls:  t = 3.602
+CMC.computeControls:  t = 3.603
+CMC.computeControls:  t = 3.604
+CMC.computeControls:  t = 3.605
+CMC.computeControls:  t = 3.606
+CMC.computeControls:  t = 3.607
+CMC.computeControls:  t = 3.608
+CMC.computeControls:  t = 3.609
+CMC.computeControls:  t = 3.61
+CMC.computeControls:  t = 3.611
+CMC.computeControls:  t = 3.612
+CMC.computeControls:  t = 3.613
+CMC.computeControls:  t = 3.614
+CMC.computeControls:  t = 3.615
+CMC.computeControls:  t = 3.616
+CMC.computeControls:  t = 3.617
+CMC.computeControls:  t = 3.618
+CMC.computeControls:  t = 3.619
+CMC.computeControls:  t = 3.62
+CMC.computeControls:  t = 3.621
+CMC.computeControls:  t = 3.622
+CMC.computeControls:  t = 3.623
+CMC.computeControls:  t = 3.624
+CMC.computeControls:  t = 3.625
+CMC.computeControls:  t = 3.626
+CMC.computeControls:  t = 3.627
+CMC.computeControls:  t = 3.628
+CMC.computeControls:  t = 3.629
+----------------------------------------------------------------
+Finished tracking the specified kinematics
+=================================================================
+Start time   = Sun Oct 24 12:37:43 2021
+Finish time  = Sun Oct 24 12:37:47 2021
+Elapsed time = 4 seconds.
+================================================================
+
+
+Printing results of investigation Run_baseline3 to .\.
+
+************************************************************
+*      Summary of Mass Adjustments to Reduce Residuals     *
+************************************************************
+* Body adjusted: torso
+* Mass Center (COM) adjustment: dx =0.1, dz =0.0326817
+* New COM location: ~[-0.129574,0.315456,-0.0326817]
+************************************************************
+* Recommended mass adjustments:                             
+*  Total mass change: -30.0634
+*  ground: orig mass = 0, new mass = 0
+*  pelvis: orig mass = 12.2558, new mass = 7.55619
+*  femur_r: orig mass = 9.67957, new mass = 5.96783
+*  tibia_r: orig mass = 3.85824, new mass = 2.37875
+*  patella_r: orig mass = 0.0897047, new mass = 0.0553064
+*  talus_r: orig mass = 0.104066, new mass = 0.0641606
+*  calcn_r: orig mass = 1.30082, new mass = 0.802007
+*  toes_r: orig mass = 0.225406, new mass = 0.138972
+*  femur_l: orig mass = 9.67957, new mass = 5.96783
+*  tibia_l: orig mass = 3.85824, new mass = 2.37875
+*  patella_l: orig mass = 0.0897047, new mass = 0.0553064
+*  talus_l: orig mass = 0.104066, new mass = 0.0641606
+*  calcn_l: orig mass = 1.30082, new mass = 0.802007
+*  toes_l: orig mass = 0.225406, new mass = 0.138972
+*  torso: orig mass = 27.9173, new mass = 17.2121
+*  humerus_r: orig mass = 2.11514, new mass = 1.30406
+*  ulna_r: orig mass = 0.632199, new mass = 0.389775
+*  radius_r: orig mass = 0.632199, new mass = 0.389775
+*  hand_r: orig mass = 0.476101, new mass = 0.293535
+*  humerus_l: orig mass = 2.11514, new mass = 1.30406
+*  ulna_l: orig mass = 0.632199, new mass = 0.389775
+*  radius_l: orig mass = 0.632199, new mass = 0.389775
+*  hand_l: orig mass = 0.476101, new mass = 0.293535
+************************************************************
+* Note: Edit the model to make recommended adjustments to  *
+*       mass properties.                                   *
+************************************************************
+* Average residuals before adjusting torso COM:
+*  FX=-29.6382 FY=294.821 FZ=-70.6692
+*  MX=-8.94743 MY=-13.3093 MZ=37.066
+************************************************************
+* Average residuals after adjusting torso COM:
+*  FX=-37.0423 FY=261.378 FZ=-108.233
+*  MX=14.9487 MY=7.08274 MZ=4.02111
+************************************************************
+
+************************************************************
+*                   Final Average Residuals                *
+************************************************************
+* After torso COM and Kinematics adjustments:
+*  FX=-2.65376 FY=10.6059 FZ=-2.94637
+*  MX=4.4883 MY=-7.48082 MZ=-13.8547
+************************************************************
+
+
+
