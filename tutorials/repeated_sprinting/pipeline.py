@@ -16,35 +16,69 @@ class Project:
             raise FileNotFoundError('Project path not found')
         
     class Trial:
-        def __init__(self, tiral_path=None):
+        def __init__(self, trial_path=None):
             self.pipeline = os.path.dirname(__file__)
             
             # raise PermissionError("this file is not completed. Check pipeline_implementation.txt for more details")
             
-            if tiral_path is not None and os.path.exists(tiral_path):
-                self.trial_path = tiral_path
-                self.trial_name = os.path.basename(tiral_path)
+            if trial_path is not None and os.path.exists(trial_path):
+                self.trial_path = trial_path
+                self.trial_name = os.path.basename(trial_path)
                 self.subject = self.trial_name.split('_')[0]
                 
-                self.joint_angles = os.path.join(tiral_path, 'ik.mot')
-                self.joint_moments = os.path.join(tiral_path, 'inverse_dynamics.sto')
-                self.muscle_forces = os.path.join(tiral_path, '_StaticOptimization_force.sto')
-                self.emg = os.path.join(tiral_path, 'emg.mot')
-                self.emg_csv = os.path.join(tiral_path, 'processed_emg_signals.csv')
-                
                 # osim
-                self.osim_ExternalLoads_xml = os.path.join(tiral_path, 'grf.xml')
-                self.ceinms_inputData_xml = os.path.join(tiral_path, 'ceinms_inputData.xml') # old "trials.xml"
-                self.ceinms_subjetc_uncalibrate_xml = os.path.join(tiral_path, 'subject_uncalibrated.xml')
-                self.ceinms_subjetc_calibrate_xml = os.path.join(tiral_path, 'subject_calibrated.xml')
-                
+                self.joint_angles = os.path.join(trial_path, 'Visual3d_SIMM_input.mot')  
+                self.joint_moments = os.path.join(trial_path, 'inverse_dynamics.sto')
+                self.muscle_forces = os.path.join(trial_path, '_StaticOptimization_force.sto')
+                self.emg = os.path.join(trial_path, 'processed_emg.mot')
+                self.emg_csv = os.path.join(trial_path, 'processed_emg_signals.csv')
+                self.osim_ExternalLoads_xml = os.path.join(trial_path, 'Visual3d_SIMM_grf.mot')
+
+
+                # ceinms
+                self.ceinms_inputData_xml = os.path.join(trial_path,'ceinms', 'inputData.xml') # old "trials.xml"
+                self.ceinms_subjetc_uncalibrate_xml = os.path.join(trial_path,'ceinms', 'subject_uncalibrated.xml')
+                self.ceinms_subjetc_calibrate_xml = os.path.join(trial_path,'ceinms', 'subject_calibrated.xml')
+                self.ceinms_excitationGenerator_xml = os.path.join(trial_path,'ceinms', 'excitationGenerator.xml')
+                self.ceinms_calibration_xml = os.path.join(trial_path,'ceinms', 'calibration.xml')
+                self.ceinms_calibrationSetup_xml = os.path.join(trial_path,'ceinms', 'ceinmsCalibration.xml')
+                self.ceinms_execution_xml = os.path.join(trial_path,'ceinms', 'execution.xml')
+                self.ceinms_ceinms_xml = os.path.join(trial_path,'ceinms', 'ceinms.xml')
+                self.ceinms_contactModel_xml = os.path.join(trial_path,'ceinms', 'contactModel.xml')
             else:
                 raise FileNotFoundError('Trial path not found')
         
         def check_and_fix_names(self):
-            
-            names_dict = {'subject_uncalibrated.xml': 'subject_calibrated.xml',
-                          'subject_uncalibrated.xml': 'uncalibrated.xml'}
+    names_dict = {
+        'calibrated_subject.xml': 'subject_calibrated.xml',
+        'uncalibratedSubject.xml': 'subject_uncalibrated.xml',
+        'trial_right.xml': 'inputData.xml',
+        'excitationGenerator_right_updated.xml': 'excitationGenerator.xml',
+        'calibrationCfg.xml': 'calibration.xml',
+        'calibrationSetup.xml': 'ceinmsCalibration.xml',
+        'execution_cfg.xml': 'execution.xml',
+        'exe_setup': 'ceinms.xml'
+    }
+
+    # Iterate through the dictionary to rename files
+    for old_name, new_name in names_dict.items():
+        old_path = os.path.join(self.trial_path, old_name)
+        new_path = os.path.join(self.trial_path, new_name)
+
+        # Check if the old file exists before renaming
+        if os.path.exists(old_path):
+            # Prevent overwriting if the new file name already exists
+            if os.path.exists(new_path):
+                print(f"⚠️ Warning: {new_name} already exists. Skipping rename.")
+            else:
+                try:
+                    os.rename(old_path, new_path)
+                    print(f"✅ Renamed: {old_name} → {new_name}")
+                except PermissionError:
+                    print(f"❌ Error: Permission denied when renaming {old_name}.")
+        else:
+            print(f"❌ Error: {old_name} not found. Skipping.")
+
           
         def save_pretty_xml(tree, file_path):
             """Saves the XML tree to a file with proper indentation."""
@@ -117,6 +151,8 @@ class Project:
             #tree.write(ceinms_trial_xml_path, encoding="utf-8", xml_declaration=True)
 
             print(f"Template XML created: {ceinms_trial_xml_path}")
+
+        
 
 
 

@@ -1,10 +1,11 @@
-
-
-osim checks:
-    opensim inverse dynamics correct format and all the moments
-
 1. finish class Trial
     check_and_fix_names (continue dict)
     osim attributes
     create_trial_ceinms_xml (add paths from self)
     make_time_from_zero
+
+
+2. osim checks:
+    opensim inverse dynamics correct format and all the moments
+
+3. fix emg.mot
