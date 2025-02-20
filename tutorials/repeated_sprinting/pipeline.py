@@ -30,10 +30,11 @@ class Project:
                 self.joint_angles = os.path.join(trial_path, 'Visual3d_SIMM_input.mot')  
                 self.joint_moments = os.path.join(trial_path, 'inverse_dynamics.sto')
                 self.muscle_forces = os.path.join(trial_path, '_StaticOptimization_force.sto')
-                self.emg = os.path.join(trial_path, 'processed_emg.mot')
+                self.emg_mot = os.path.join(trial_path, 'processed_emg.mot')
                 self.emg_csv = os.path.join(trial_path, 'processed_emg_signals.csv')
                 self.osim_ExternalLoads_xml = os.path.join(trial_path, 'Visual3d_SIMM_grf.mot')
-
+                self.osim_MuscleAnalysis_folder = os.path.join(trial_path, 'Results_SO_and_MA')
+                self.osim_MuscleAnalysis_files = os.listdir(self.osim_MuscleAnalysis_folder)
 
                 # ceinms
                 self.ceinms_inputData_xml = os.path.join(trial_path,'ceinms', 'inputData.xml') # old "trials.xml"
@@ -78,8 +79,7 @@ class Project:
                             print(f"❌ Error: Permission denied when renaming {old_name}.")
                 else:
                     print(f"❌ Error: {old_name} not found. Skipping.")
-
-          
+       
         def save_pretty_xml(tree, file_path):
             """Saves the XML tree to a file with proper indentation."""
             # Convert to string and format with proper indents
@@ -98,24 +98,27 @@ class Project:
                 input_string: The string to be inserted into the XML.
             """
 
-            ma_path = f'{trial_path}\\SO and MA Results ({leg})'
-            emg_path = f'{trial_path}\\processed_emg_signals_{leg}.csv'
-            ik_file_path = f'{trial_path}\\Visual3d_SIMM_input_{trial_name}_{leg.lower()}.mot'
-            id_file_path = f'{trial_path}\\inverse_dynamics{trial_name}_{leg.lower()}.sto'
-            grf_xml_path = self.grf_xml_path
+            ma_path = self.osim_MuscleAnalysis_folder
+            emg_path = self.emg_mot
+            ik_file_path = self.joint_angles
+            id_file_path = self.joint_moments
+            grf_xml_path = self.osim_ExternalLoads_xml
+            
+            # save xml path 
+            input_data_file_path = self.ceinms_inputData_xml
 
             # Create the root element
             inputData = ET.Element("inputData")
 
             # Creatte tendon length tag
-            filepath = os.path.join(ma_path, f"{subject}_MuscleAnalysis_TendonLength.sto")
-            tendonLengthFile = ET.SubElement(inputData, "tendonLengthFile")
-            muscleTendonLengthFile = ET.SubElement(inputData, "muscleTendonLengthFile")
-            muscleTendonLengthFile.text = os.path.relpath(filepath, os.path.dirname(ceinms_trial_xml_path))
+            tendon_length_file_path = [file for file in self.osim_MuscleAnalysis_files if '_MuscleAnalysis_FiberLength.sto' in file][0]
+            tendonLengthFile_tag = ET.SubElement(inputData, "tendonLengthFile")
+            muscleTendonLengthFile_tag = ET.SubElement(inputData, "muscleTendonLengthFile")
+            muscleTendonLengthFile_tag.text = os.path.relpath(tendon_length_file_path, os.path.dirname(input_data_file_path))
 
             # Create excitationsFile tag
             excitationsFile = ET.SubElement(inputData, "excitationsFile")
-            excitationsFile.text = os.path.relpath(emg_path, os.path.dirname(ceinms_trial_xml_path))
+            excitationsFile.text = os.path.relpath(emg_path, os.path.dirname(input_data_file_path))
 
             # Create momentArmsFile elements
             momentArmsFiles = ET.SubElement(inputData, "momentArmsFiles")
@@ -124,38 +127,33 @@ class Project:
             dofNames = [f"ankle_angle_{leg}", f'knee_angle_{leg}', f'hip_flexion_{leg}']
 
             for dofName in dofNames:
-                filepath = os.path.join(ma_path, f"{subject}_MuscleAnalysis_MomentArm_{dofName}.sto")
-                print(filepath)
+                moment_arm_file_path = self.osim_MuscleAnalysis_folder + f'/{dofName}_MuscleAnalysis_momentArm.sto'
+                print(moment_arm_file_path)
                 momentArmsFile = ET.SubElement(momentArmsFiles, "momentArmsFile", dofName=dofName)
-                momentArmsFile.text = os.path.relpath(filepath, os.path.dirname(ceinms_trial_xml_path))
+                momentArmsFile.text = os.path.relpath(moment_arm_file_path, os.path.dirname(input_data_file_path))
 
             # Create externalTorquesFile tag
-            externalTorquesFile = ET.SubElement(inputData, "externalTorquesFile")
-            externalTorquesFile.text = os.path.relpath(id_file_path, os.path.dirname(ceinms_trial_xml_path))
+            externalTorquesFile_tag = ET.SubElement(inputData, "externalTorquesFile")
+            externalTorquesFile_tag.text = os.path.relpath(id_file_path, os.path.dirname(input_data_file_path))
 
             # externalLoadsFile
-            externalLoadsFile = ET.SubElement(inputData, "externalLoadsFile")
-            externalLoadsFile.text = os.path.relpath(grf_xml_path, os.path.dirname(ceinms_trial_xml_path))
+            externalLoadsFile_tag = ET.SubElement(inputData, "externalLoadsFile")
+            externalLoadsFile_tag.text = os.path.relpath(grf_xml_path, os.path.dirname(input_data_file_path))
 
             # motion file
-            motionFile = ET.SubElement(inputData, "motionFile")
-            motionFile.text = os.path.relpath(ik_file_path, os.path.dirname(ceinms_trial_xml_path))
+            motionFile_tag = ET.SubElement(inputData, "motionFile")
+            motionFile_tag.text = os.path.relpath(ik_file_path, os.path.dirname(input_data_file_path))
 
             # Create an ElementTree object
             tree = ET.ElementTree(inputData)
 
             # Save the XML using pretty-printing
-            self.save_pretty_xml(tree, ceinms_trial_xml_path)
+            self.save_pretty_xml(tree, input_data_file_path)
 
             # Write the XML to a file
             #tree.write(ceinms_trial_xml_path, encoding="utf-8", xml_declaration=True)
 
-            print(f"Template XML created: {ceinms_trial_xml_path}")
-
-        
-
-
-
+            print(f"Template XML created: {input_data_file_path}")
         
         def header_mot(self,df,name):
 
@@ -220,8 +218,11 @@ class Project:
             return df
         
         def time_range(self, var_name):
-            return self[var_name]['time'].iloc[0], self[var_name]['time'].iloc[-1]
+            storage = msk.osim.Storage(self.__getattribute__(var_name))
+            return storage.getFirstTime(), storage.getLastTime()
             
+
+      
 current_path = os.path.dirname(__file__)
 trial_path = os.path.join(current_path,'Simulations', 'P013', 'trial3_r1')
 
@@ -229,6 +230,14 @@ if not os.path.exists(trial_path):
     raise FileNotFoundError('File not found:', trial_path)
 
 trial = Project.Trial(trial_path)
+
+# check if files have same time range
+range_ik = trial.time_range('joint_angles')
+range_id = trial.time_range('joint_moments')
+if not range_ik == range_id:
+    raise ValueError('Time ranges are not equal:', range_ik, range_id)
+
+f2 = r"C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\pre\inverseKinematics\Run_baseline1\IK.mot"
 
 import pdb; pdb.set_trace()
 
