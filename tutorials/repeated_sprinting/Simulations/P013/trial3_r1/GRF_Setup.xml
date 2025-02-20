@@ -21,6 +21,6 @@
 		</objects>
 		<groups />
 		<!--Storage file (.sto) containing (3) components of force and/or torque and point of application.Note: this file overrides the data source specified by the individual external forces if specified.-->
-		<datafile>C:\Users\vasil\Downloads\DADOS_LISA_CAROLINA\PC013\Trials\Trial3 (Best)\Visual3d_SIMM_grf_trial3_right.mot</datafile>
+		<datafile>.\Visual3d_SIMM_grf.mot</datafile>
 	</ExternalLoads>
 </OpenSimDocument>
