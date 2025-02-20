@@ -49,35 +49,35 @@ class Project:
                 raise FileNotFoundError('Trial path not found')
         
         def check_and_fix_names(self):
-    names_dict = {
-        'calibrated_subject.xml': 'subject_calibrated.xml',
-        'uncalibratedSubject.xml': 'subject_uncalibrated.xml',
-        'trial_right.xml': 'inputData.xml',
-        'excitationGenerator_right_updated.xml': 'excitationGenerator.xml',
-        'calibrationCfg.xml': 'calibration.xml',
-        'calibrationSetup.xml': 'ceinmsCalibration.xml',
-        'execution_cfg.xml': 'execution.xml',
-        'exe_setup': 'ceinms.xml'
-    }
+            names_dict = {
+                'calibrated_subject.xml': 'subject_calibrated.xml',
+                'uncalibratedSubject.xml': 'subject_uncalibrated.xml',
+                'trial_right.xml': 'inputData.xml',
+                'excitationGenerator_right_updated.xml': 'excitationGenerator.xml',
+                'calibrationCfg.xml': 'calibration.xml',
+                'calibrationSetup.xml': 'ceinmsCalibration.xml',
+                'execution_cfg.xml': 'execution.xml',
+                'exe_setup': 'ceinms.xml'
+            }
 
-    # Iterate through the dictionary to rename files
-    for old_name, new_name in names_dict.items():
-        old_path = os.path.join(self.trial_path, old_name)
-        new_path = os.path.join(self.trial_path, new_name)
+            # Iterate through the dictionary to rename files
+            for old_name, new_name in names_dict.items():
+                old_path = os.path.join(self.trial_path, old_name)
+                new_path = os.path.join(self.trial_path, new_name)
 
-        # Check if the old file exists before renaming
-        if os.path.exists(old_path):
-            # Prevent overwriting if the new file name already exists
-            if os.path.exists(new_path):
-                print(f"⚠️ Warning: {new_name} already exists. Skipping rename.")
-            else:
-                try:
-                    os.rename(old_path, new_path)
-                    print(f"✅ Renamed: {old_name} → {new_name}")
-                except PermissionError:
-                    print(f"❌ Error: Permission denied when renaming {old_name}.")
-        else:
-            print(f"❌ Error: {old_name} not found. Skipping.")
+                # Check if the old file exists before renaming
+                if os.path.exists(old_path):
+                    # Prevent overwriting if the new file name already exists
+                    if os.path.exists(new_path):
+                        print(f"⚠️ Warning: {new_name} already exists. Skipping rename.")
+                    else:
+                        try:
+                            os.rename(old_path, new_path)
+                            print(f"✅ Renamed: {old_name} → {new_name}")
+                        except PermissionError:
+                            print(f"❌ Error: Permission denied when renaming {old_name}.")
+                else:
+                    print(f"❌ Error: {old_name} not found. Skipping.")
 
           
         def save_pretty_xml(tree, file_path):
