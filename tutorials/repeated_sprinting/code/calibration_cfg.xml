@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
 <calibration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <algorithm>
       <simulatedAnnealing>
@@ -13,13 +13,13 @@
    </algorithm>
    <NMSmodel>
       <type>
-         <openLoop />
+         <openLoop/>
       </type>
       <tendon>
-         <equilibriumElastic />
+         <equilibriumElastic/>
       </tendon>
       <activation>
-         <exponential />
+         <exponential/>
       </activation>
    </NMSmodel>
    <calibrationSteps>
@@ -28,7 +28,6 @@
          <objectiveFunction>
             <torqueErrorNormalised>
                <targets>all</targets>
-               <!--<targetsType></targetsType>-->
                <weight>1</weight>
                <exponent>1</exponent>
             </torqueErrorNormalised>
@@ -43,44 +42,47 @@
          <parameterSet>
             <parameter>
                <name>c1</name>
-               <single />
+               <single/>
                <absolute>
                   <range>-0.95 -0.05</range>
                </absolute>
             </parameter>
             <parameter>
                <name>c2</name>
-               <single />
+               <single/>
                <absolute>
                   <range>-0.95 -0.05</range>
                </absolute>
             </parameter>
             <parameter>
                <name>shapeFactor</name>
-               <single />
+               <single/>
                <absolute>
                   <range>-2.999 -0.001</range>
                </absolute>
             </parameter>
             <parameter>
                <name>tendonSlackLength</name>
-               <single />
+               <single/>
                <relativeToSubjectValue>
                   <range>0.85 1.15</range>
                </relativeToSubjectValue>
             </parameter>
             <parameter>
                <name>optimalFibreLength</name>
-               <single />
+               <single/>
                <relativeToSubjectValue>
                   <range>0.85 1.15</range>
                </relativeToSubjectValue>
             </parameter>
             <parameter>
                <name>strengthCoefficient</name>
+               <single/>
+               <absolute>
+                  <range>0.8 2</range>
+               </absolute>
                <muscleGroups>
-                  <muscles>addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r
-                     grac_r</muscles>
+                  <muscles>addbrev_r addlong_r addmagDist_r addmagIsch_r addmagMid_r addmagProx_r grac_r</muscles>
                   <muscles>bflh_r semimem_r semiten_r</muscles>
                   <muscles>bfsh_r</muscles>
                   <muscles>glmax1_r glmax2_r glmax3_r</muscles>
@@ -93,9 +95,6 @@
                   <muscles>soleus_r gaslat_r gasmed_r</muscles>
                   <muscles>vasint_r vaslat_r vasmed_r</muscles>
                </muscleGroups>
-               <absolute>
-                  <range>0.8 2</range>
-               </absolute>
             </parameter>
          </parameterSet>
       </step>
