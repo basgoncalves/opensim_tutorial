@@ -3705,6 +3705,7 @@
 					</SpatialTransform>
 				</CustomJoint>
 				<CustomJoint name="patellofemoral_r">
+				<parent_body>femur_r</parent_body>
 					<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The parent frame for the joint.).-->
 					<socket_parent_frame>femur_r_offset</socket_parent_frame>
 					<!--Path to a Component that satisfies the Socket 'child_frame' of type PhysicalFrame (description: The child frame for the joint.).-->

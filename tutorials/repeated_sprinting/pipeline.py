@@ -34,7 +34,11 @@ class Project:
                 self.emg_csv = os.path.join(trial_path, 'processed_emg_signals.csv')
                 self.osim_ExternalLoads_xml = os.path.join(trial_path, 'Visual3d_SIMM_grf.mot')
                 self.osim_MuscleAnalysis_folder = os.path.join(trial_path, 'Results_SO_and_MA')
-                self.osim_MuscleAnalysis_files = os.listdir(self.osim_MuscleAnalysis_folder)
+                try:
+                    self.osim_MuscleAnalysis_files = os.listdir(self.osim_MuscleAnalysis_folder)
+                except FileNotFoundError:
+                    print('Muscle analysis folder not found:', self.osim_MuscleAnalysis_folder)
+                    self.osim_MuscleAnalysis_files = []
 
                 # ceinms
                 self.ceinms_inputData_xml = os.path.join(trial_path,'ceinms', 'inputData.xml') # old "trials.xml"
@@ -220,8 +224,12 @@ class Project:
         def time_range(self, var_name):
             storage = msk.osim.Storage(self.__getattribute__(var_name))
             return storage.getFirstTime(), storage.getLastTime()
-            
-
+      
+P = Project()      
+trial_path = r'C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009_simplified'
+trial = P.Trial(trial_path)
+import pdb; pdb.set_trace()         
+import os
       
 current_path = os.path.dirname(__file__)
 trial_path = os.path.join(current_path,'Simulations', 'P013', 'trial3_r1')
