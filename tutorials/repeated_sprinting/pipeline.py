@@ -6,6 +6,11 @@ import numpy as np
 import opensim as osim
 import xml.etree.ElementTree as ET
 import xml.dom.minidom
+from code import plotting
+
+plotting.print_test()
+
+exit()
 
 class Project:
     def __init__(self):

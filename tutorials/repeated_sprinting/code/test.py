@@ -2,8 +2,15 @@ from msk_modelling_python import classes
 import os
 
 current_dir = os.path.dirname(os.path.realpath(__file__))
-classes.XMLTools.ceinms.create_calibration_setup(current_dir + "/calibration_setup.xml")
+tool = classes.XMLTools()
+ceinms = tool.ceinms()
 
+# ceinms.create_calibration_setup(save_path=os.path.join(current_dir, "calibration_setup.xml"))
+# print("Calibration setup created in" + current_dir + "/calibration_setup.xml")
+
+ceinms.create_calibration_cfg(save_path=os.path.join(current_dir, "calibration_cfg.xml"))
+print("Calibration configuration created in" + current_dir + "/calibration_cfg.xml")
+import pdb; pdb.set_trace()
 exit()
 import os
 import xml.etree.ElementTree as ET
