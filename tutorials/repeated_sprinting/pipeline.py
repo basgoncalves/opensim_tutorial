@@ -70,15 +70,15 @@ class Project:
                 if os.path.exists(old_path):
                     # Prevent overwriting if the new file name already exists
                     if os.path.exists(new_path):
-                        print(f"⚠️ Warning: {new_name} already exists. Skipping rename.")
+                        print(f"Warning: {new_name} already exists. Skipping rename.")
                     else:
                         try:
                             os.rename(old_path, new_path)
-                            print(f"✅ Renamed: {old_name} → {new_name}")
+                            print(f" Renamed: {old_name} → {new_name}")
                         except PermissionError:
-                            print(f"❌ Error: Permission denied when renaming {old_name}.")
+                            print(f"Error: Permission denied when renaming {old_name}.")
                 else:
-                    print(f"❌ Error: {old_name} not found. Skipping.")
+                    print(f"Error: {old_name} not found. Skipping.")
        
         def save_pretty_xml(tree, file_path):
             """Saves the XML tree to a file with proper indentation."""
