@@ -220,7 +220,7 @@ class openSim:
 
 
 os = openSim(leg='r')
-os.plot_single_trial(show=True)
+os.plot_multiple_trials(show=True)
 
 
 
