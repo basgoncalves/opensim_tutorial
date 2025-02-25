@@ -1,32 +1,158 @@
 import msk_modelling_python as msk
 import matplotlib.pyplot as plt
 import numpy as np
+import os
 
+class File:
+    def __init__(self, path):
+        if not os.path.isfile(path):
+            print(f"\033[93mFile not found: {path}\033[0m")
+            return
+        
+        self.path = path
+        self.name = os.path.basename(path)
+        self.extension = os.path.splitext(path)[1]
+        
+        try:
+            endheader_line = msk.classes.osimSetup.find_file_endheader_line(path)
+        except:
+            print(f"Error finding endheader line for file: {path}")
+            endheader_line = 0
+        # Read file based on extension
+        try:
+            if self.extension == '.csv':
+                self.data = msk.pd.read_csv(path)
+            elif self.extension == '.json':
+                self.data = msk.bops.import_json_file(path)
+            elif self.extension == '.xml':
+                self.data = msk.bops.XMLTools.load(path)
+            else:
+                try:
+                    self.data = msk.pd.read_csv(path, sep="\t", skiprows=endheader_line)
+                except:
+                    self.data = None
+                    
+            # add time range for the data
+            try:
+                self.time_range = [self.data['time'].iloc[0], self.data['time'].iloc[-1]]
+                try:
+                    self.time_range = [self.data['Time'].iloc[0], self.data['Time'].iloc[-1]]
+                except:
+                    pass
+            except:
+                self.time_range = None
+        
+        except Exception as e:
+            print(f"Error reading file: {path}")
+            print(e)
+            self.data = None
+            self.time_range = None
+            
+class Trial:
+    '''
+    Class to store trial information and file paths, and export files to OpenSim format
+    
+    Inputs: trial_path (str) - path to the trial folder
+    
+    Attributes:
+    path (str) - path to the trial folder
+    name (str) - name of the trial folder
+    og_c3d (str) - path to the original c3d file
+    c3d (str) - path to the c3d file in the trial folder
+    markers (str) - path to the marker trc file
+    grf (str) - path to the ground reaction force mot file
+    ...
+    
+    Methods: use dir(Trial) to see all methods
+    
+    '''
+    def __init__(self, trial_path):        
+        self.path = trial_path
+        self.name = os.path.basename(self.path)
+        self.subject = os.path.basename(os.path.dirname(self.path))
+        self.c3d = os.path.join(os.path.dirname(self.path), self.name + '.c3d')
+        self.markers = File(os.path.join(self.path,'markers_experimental.trc'))
+        self.grf = File(os.path.join(self.path,'Visual3d_SIMM_grf.mot'))
+        self.emg = File(os.path.join(self.path,'processed_emg.mot'))
+        self.ik = File(os.path.join(self.path,'Visual3d_SIMM_input.mot'))
+        self.id = File(os.path.join(self.path,'inverse_dynamics.sto'))
+        self.so_force = File(os.path.join(self.path,'Results_SO_and_MA', f'{self.subject}_StaticOptimization_force.sto'))
+        self.so_activation = File(os.path.join(self.path, 'Results_SO_and_MA', f'{self.subject}_StaticOptimization_activation.sto'))
+        self.jra = File(os.path.join(self.path,'joint_reacton_loads.sto'))
+        
+        # load muscle analysis files
+        self.ma_targets = ['_MomentArm_', '_Length.sto']
+        self.ma_files = []
+        try:
+            files = os.listdir(os.path.join(self.path, 'Results_SO_and_MA'))
+            for file in files:
+                if file.__contains__(self.ma_targets[0]) or file.__contains__(self.ma_targets[1]):
+                    self.ma_files.append(File(os.path.join(self.path, 'Results_SO_and_MA', file)))
+        except:
+            self.ma_files = None
+                    
+        # settings files
+        self.grf_xml = File(os.path.join(self.path,'GRF_Setup.xml'))
+        self.settings_json = File(os.path.join(self.path,'settings.json'))
+                              
+    
+    def check_files(self):
+        '''
+        Output: True if all files exist, False if any file is missing
+        '''
+        files = self.__dict__.values()
+        all_files_exist = True
+        for file in files:
+            if not os.path.isfile(file):
+                print('File not found: ' + file)
+                all_files_exist = False
+                
+        return all_files_exist
+    
+    def create_settings_json(self, overwrite=False):
+        if os.path.isfile(self.settings_json) and not overwrite:
+            print('settings.json already exists')
+            return
+        
+        settings_dict = self.__dict__
+        msk.bops.save_json_file(settings_dict, self.settings_json)
+        print('trial settings.json created in ' + self.path)
+    
+    def exportC3D(self):
+        msk.bops.c3d_osim_export(self.og_c3d) 
+
+    def create_grf_xml(self):
+        msk.bops.create_grf_xml(self.grf, self.grf_xml)
+
+    def print_to_json(self):
+        print(msk.bops.save_json_file(self.__dict__), jsonFilePath = self.settings_json)
 
 class openSim:
-    def __init__(self, leg = 'r'):
-        self.leg = leg
-        self.mot_file = fr'C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_{leg}1\Visual3d_SIMM_input.mot'
-        self.mot_files = [
-            fr'C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_{leg}1\Visual3d_SIMM_input.mot',
-            fr'C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC006\trial2_{leg}1\Visual3d_SIMM_input.mot',
-            fr'C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC002\trial2_{leg}1\Visual3d_SIMM_input.mot'
-        ]
-        self.id_file = fr'C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_{leg}1\inverse_dynamics.sto'
-        self.force_file = fr'C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_{leg}1\Results_SO_and_MA\PC013_StaticOptimization_force.sto'
-
+    def __init__(self, leg = 'r', subjects =['PC002','PC006','PC013'], trial_names = ['trial1','trial2','trial3'], trial_number = 1):
+        self.code_path = os.path.dirname(__file__)
+        self.simulations_path = os.path.join(os.path.dirname(self.code_path), 'Simulations')
+        self.subjects = {}
+        
+        for subject in subjects:
+            self.subjects[subject] = {}
+            
+            for trial in trial_names:                
+                self.trial_path = os.path.join(self.simulations_path, subject, f'{trial}_{leg}{trial_number}')
+                try:
+                    self.subjects[subject][trial] = Trial(self.trial_path)
+                except Exception as e:
+                    self.subjects[subject][trial] =  None
+                    print(f"Error loading trial: {self.trial_path}")
+                    print(e)
+        import pdb; pdb.set_trace()
 
         self.ik_columns = ["hip_flexion_" + leg, "hip_adduction_" + leg, "hip_rotation_" + leg, "knee_angle_" + leg, "ankle_angle_" + leg]
         self.id_columns = ["hip_flexion_" + leg + "_moment", "hip_adduction_" + leg + "_moment", "hip_rotation_" + leg + "_moment", "knee_angle_" + leg + "_moment", "ankle_angle_" + leg + "_moment"]
-        self.force_columns = ["add_long_" + leg, "rect_fem_" + leg, "med_gas_" + leg, "semiten_" + leg,"tib_ant_" + leg, "glut_med_avg_" + leg]
-        
-        self.force_data = msk.pd.read_csv(self.force_file, delim_whitespace=True, skiprows=14)  
+        self.force_columns = ["add_long_" + leg, "rect_fem_" + leg, "med_gas_" + leg, "semiten_" + leg,"tib_ant_" + leg]
 
-        # Compute the average of the three gluteus medius columns
-        self.force_data["glut_med_avg_" + leg] = self.force_data[["glut_med1_" + leg, "glut_med2_" + leg, "glut_med3_" + leg]].mean(axis=1)
 
         self.titles = ["Hip Flexion", "Hip Adduction", "Hip Rotation", "Knee Flexion", "Ankle Plantarflexion"]
-        self.titles_muscles = ["Adductor Longus", "Rectus Femoris", "Medial Gastrocnemius", "Semitendinosus", "Tibialis Anterior", "Gluteus Medius"]
+        self.titles_muscles = ["Adductor Longus", "Rectus Femoris", "Medial Gastrocnemius", "Semitendinosus", "Tibialis Anterior"]
 
     # Time Normalisation Function 
     def time_normalised_df(self, df, fs=None):
@@ -55,7 +181,6 @@ class openSim:
 
         return normalised_df
 
-
     def plot_single_trial(self, show = False):
         #Read .mot files
         with open(self.mot_file, "r") as file:
@@ -70,12 +195,9 @@ class openSim:
             start_row = 0  # If 'endheader' is not found, assume no header
 
         # Load data using Pandas
-        self.df_ik = msk.pd.read_csv(self.mot_file, delim_whitespace=True, skiprows=5)
-        self.df_id = msk.pd.read_csv(self.id_file, sep="\t", skiprows=6)
-        self.df_force = msk.pd.read_csv(self.force_file, sep="\t", skiprows=14)
-
-        # Compute the average of the three gluteus medius columns before normalization
-        self.df_force["glut_med_avg_" + self.leg] = self.df_force[["glut_med1_" + self.leg, "glut_med2_" + self.leg, "glut_med3_" + self.leg]].mean(axis=1)
+        self.df_ik = msk.pd.read_csv(self.mot_file, delim_whitespace=True, start_row=start_row)
+        self.df_id = msk.pd.read_csv(self.id_file, sep="\t", start_row=6)
+        self.df_force = msk.pd.read_csv(self.force_file, sep="\t", start_row=14)
 
         # Apply normalisation to both IK (angles) and ID (moments) data
         self.df_ik_normalized = self.time_normalised_df(df=self.df_ik)
@@ -97,11 +219,9 @@ class openSim:
         for i, col in enumerate(self.ik_columns):
             ax = axes[0,i]
             ax.plot(time_normalized, self.ik_data[col], color='red')  # Main curve
-            ax.set_title(col.replace("_" + self.leg, "").replace("_avg", " (Avg)"))  # Rename title
             ax.set_title(self.titles[i])
             if i == 0:
                 ax.set_ylabel("Angle (deg)")
-            ax.set_xlim(0, 100) 
             ax.grid(True)
 
         #Plot ID (moments)
@@ -112,14 +232,13 @@ class openSim:
             if i == 0:
                 ax.set_ylabel("Moment (Nm)")
             ax.set_xlabel("% Gait Cycle")
-            ax.set_xlim(0, 100) 
             ax.grid(True)
 
         plt.tight_layout()
 
 
         # PLOT MUSCLE FORCES 
-        fig, axes = plt.subplots(nrows=1, ncols=6, figsize=(15, 4), sharex=True)
+        fig, axes = plt.subplots(nrows=1, ncols=5, figsize=(15, 4), sharex=True)
 
         for i, col in enumerate(self.force_columns):
             ax = axes[i]
@@ -128,7 +247,6 @@ class openSim:
             if i == 0:
                 ax.set_ylabel("Force (N)")
             ax.set_xlabel("% Gait Cycle")
-            ax.set_xlim(0, 100) 
             ax.grid(True)
 
         plt.tight_layout()
@@ -136,9 +254,15 @@ class openSim:
         if show:
             plt.show()
 
-
     def plot_multiple_trials(self, show=False):
         self.df_ik_list = []  # Store loaded DataFrames
+        
+        for subject in self.subjects:
+            for trial in self.subjects[subject]:
+                trial_obj = self.subjects[subject][trial]
+                if trial_obj:
+                    self.df_ik_list.append(trial_obj.ik.data)
+                    
         for file in self.mot_files:  # Loop through each file
             with open(file, "r") as f:
                 lines = f.readlines()
@@ -204,7 +328,7 @@ class openSim:
                     # Formatting
                     ax.set_title(col)
                     ax.set_xlabel("Gait Cycle (%)")
-                    ax.set_xlim(0, 100) 
+                    ax.set_xlim(0, 100)  # X-axis from 0% to 100% of the gait cycle
                     ax.grid(True)
 
                     # Set Y-label only for the first subplot
