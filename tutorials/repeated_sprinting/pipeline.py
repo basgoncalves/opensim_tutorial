@@ -10,8 +10,6 @@ from code import plotting
 
 plotting.print_test()
 
-exit()
-
 class Project:
     def __init__(self):
         self.pipeline = os.path.dirname(__file__) # pipeline path is the current directory

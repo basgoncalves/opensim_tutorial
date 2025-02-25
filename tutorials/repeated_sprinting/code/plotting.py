@@ -144,7 +144,7 @@ class openSim:
                     self.subjects[subject][trial] =  None
                     print(f"Error loading trial: {self.trial_path}")
                     print(e)
-        import pdb; pdb.set_trace()
+        
 
         self.ik_columns = ["hip_flexion_" + leg, "hip_adduction_" + leg, "hip_rotation_" + leg, "knee_angle_" + leg, "ankle_angle_" + leg]
         self.id_columns = ["hip_flexion_" + leg + "_moment", "hip_adduction_" + leg + "_moment", "hip_rotation_" + leg + "_moment", "knee_angle_" + leg + "_moment", "ankle_angle_" + leg + "_moment"]
@@ -343,8 +343,12 @@ class openSim:
                     plt.show()
 
 
-os = openSim(leg='r')
+os = openSim(leg='r', subjects=['PC002', 'PC013'], trial_names=['trial2', 'trial3'], trial_number=1)
 os.plot_multiple_trials(show=True)
+
+
+import pdb; pdb.set_trace()
+# end
 
 
 
