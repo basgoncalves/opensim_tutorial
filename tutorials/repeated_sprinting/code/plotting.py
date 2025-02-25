@@ -5,23 +5,28 @@ import numpy as np
 
 class openSim:
     def __init__(self, leg = 'r'):
+        self.leg = leg
         self.mot_file = fr'C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_{leg}1\Visual3d_SIMM_input.mot'
         self.mot_files = [
             fr'C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_{leg}1\Visual3d_SIMM_input.mot',
             fr'C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC006\trial2_{leg}1\Visual3d_SIMM_input.mot',
             fr'C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC002\trial2_{leg}1\Visual3d_SIMM_input.mot'
         ]
-        self.id_file = fr'C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\P013\trial3_{leg}1\inverse_dynamics.sto'
-        self.force_file = fr'C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\P013\trial3_{leg}1\Results_SO_and_MA\PC013_StaticOptimization_force.sto'
+        self.id_file = fr'C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_{leg}1\inverse_dynamics.sto'
+        self.force_file = fr'C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_{leg}1\Results_SO_and_MA\PC013_StaticOptimization_force.sto'
 
 
         self.ik_columns = ["hip_flexion_" + leg, "hip_adduction_" + leg, "hip_rotation_" + leg, "knee_angle_" + leg, "ankle_angle_" + leg]
         self.id_columns = ["hip_flexion_" + leg + "_moment", "hip_adduction_" + leg + "_moment", "hip_rotation_" + leg + "_moment", "knee_angle_" + leg + "_moment", "ankle_angle_" + leg + "_moment"]
-        self.force_columns = ["add_long_" + leg, "rect_fem_" + leg, "med_gas_" + leg, "semiten_" + leg,"tib_ant_" + leg]
+        self.force_columns = ["add_long_" + leg, "rect_fem_" + leg, "med_gas_" + leg, "semiten_" + leg,"tib_ant_" + leg, "glut_med_avg_" + leg]
+        
+        self.force_data = msk.pd.read_csv(self.force_file, delim_whitespace=True, skiprows=14)  
 
+        # Compute the average of the three gluteus medius columns
+        self.force_data["glut_med_avg_" + leg] = self.force_data[["glut_med1_" + leg, "glut_med2_" + leg, "glut_med3_" + leg]].mean(axis=1)
 
         self.titles = ["Hip Flexion", "Hip Adduction", "Hip Rotation", "Knee Flexion", "Ankle Plantarflexion"]
-        self.titles_muscles = ["Adductor Longus", "Rectus Femoris", "Medial Gastrocnemius", "Semitendinosus", "Tibialis Anterior"]
+        self.titles_muscles = ["Adductor Longus", "Rectus Femoris", "Medial Gastrocnemius", "Semitendinosus", "Tibialis Anterior", "Gluteus Medius"]
 
     # Time Normalisation Function 
     def time_normalised_df(self, df, fs=None):
@@ -65,9 +70,12 @@ class openSim:
             start_row = 0  # If 'endheader' is not found, assume no header
 
         # Load data using Pandas
-        self.df_ik = msk.pd.read_csv(self.mot_file, delim_whitespace=True, start_row=start_row)
-        self.df_id = msk.pd.read_csv(self.id_file, sep="\t", start_row=6)
-        self.df_force = msk.pd.read_csv(self.force_file, sep="\t", start_row=14)
+        self.df_ik = msk.pd.read_csv(self.mot_file, delim_whitespace=True, skiprows=5)
+        self.df_id = msk.pd.read_csv(self.id_file, sep="\t", skiprows=6)
+        self.df_force = msk.pd.read_csv(self.force_file, sep="\t", skiprows=14)
+
+        # Compute the average of the three gluteus medius columns before normalization
+        self.df_force["glut_med_avg_" + self.leg] = self.df_force[["glut_med1_" + self.leg, "glut_med2_" + self.leg, "glut_med3_" + self.leg]].mean(axis=1)
 
         # Apply normalisation to both IK (angles) and ID (moments) data
         self.df_ik_normalized = self.time_normalised_df(df=self.df_ik)
@@ -89,9 +97,11 @@ class openSim:
         for i, col in enumerate(self.ik_columns):
             ax = axes[0,i]
             ax.plot(time_normalized, self.ik_data[col], color='red')  # Main curve
+            ax.set_title(col.replace("_" + self.leg, "").replace("_avg", " (Avg)"))  # Rename title
             ax.set_title(self.titles[i])
             if i == 0:
                 ax.set_ylabel("Angle (deg)")
+            ax.set_xlim(0, 100) 
             ax.grid(True)
 
         #Plot ID (moments)
@@ -102,13 +112,14 @@ class openSim:
             if i == 0:
                 ax.set_ylabel("Moment (Nm)")
             ax.set_xlabel("% Gait Cycle")
+            ax.set_xlim(0, 100) 
             ax.grid(True)
 
         plt.tight_layout()
 
 
         # PLOT MUSCLE FORCES 
-        fig, axes = plt.subplots(nrows=1, ncols=5, figsize=(15, 4), sharex=True)
+        fig, axes = plt.subplots(nrows=1, ncols=6, figsize=(15, 4), sharex=True)
 
         for i, col in enumerate(self.force_columns):
             ax = axes[i]
@@ -117,6 +128,7 @@ class openSim:
             if i == 0:
                 ax.set_ylabel("Force (N)")
             ax.set_xlabel("% Gait Cycle")
+            ax.set_xlim(0, 100) 
             ax.grid(True)
 
         plt.tight_layout()
@@ -192,7 +204,7 @@ class openSim:
                     # Formatting
                     ax.set_title(col)
                     ax.set_xlabel("Gait Cycle (%)")
-                    ax.set_xlim(0, 100)  # X-axis from 0% to 100% of the gait cycle
+                    ax.set_xlim(0, 100) 
                     ax.grid(True)
 
                     # Set Y-label only for the first subplot
@@ -208,7 +220,7 @@ class openSim:
 
 
 os = openSim(leg='r')
-os.plot_multiple_trials(show=True)
+os.plot_single_trial(show=True)
 
 
 
