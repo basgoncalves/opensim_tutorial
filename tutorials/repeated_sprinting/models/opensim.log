@@ -168,3 +168,306 @@
 [2025-02-20 22:07:55.797] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
 [2025-02-20 22:07:55.798] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
 [2025-02-20 22:07:55.798] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2025-02-21 14:13:18.492] [info] Updating Model file from 40000 to latest format...
+[2025-02-21 14:13:18.586] [info] Loaded model 009 from file C:\Git\opensim_tutorial\tutorials\repeated_sprinting\models\009_rajagopal_scaled.osim
+[2025-02-21 14:13:18.852] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2025-02-21 14:13:18.874] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2025-02-21 14:13:18.896] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2025-02-21 14:13:18.918] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2025-02-21 14:13:19.034] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2025-02-21 14:13:19.054] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2025-02-21 14:13:19.074] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2025-02-21 14:13:19.095] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2025-02-21 14:13:19.825] [warning] Visualizer couldn't open index_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\index_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\index_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-21 14:13:19.833] [warning] Visualizer couldn't open middle_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-21 14:13:19.841] [warning] Visualizer couldn't open ring_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-21 14:13:19.850] [warning] Visualizer couldn't open little_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\little_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\little_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-21 14:13:19.888] [warning] Visualizer couldn't open index_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\index_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\index_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-21 14:13:19.899] [warning] Visualizer couldn't open middle_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-21 14:13:19.908] [warning] Visualizer couldn't open ring_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-21 14:13:19.918] [warning] Visualizer couldn't open little_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\little_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\little_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-21 14:14:28.791] [warning] Failed to read 'double': property 'time_range' with input '': does not contain enough values (minimum: 2, got: 0): the data (all fields) have been ignored
+[2025-02-21 14:14:28.810] [info] Loaded marker file C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009_simplified\run_baseline\markers.trc (54 markers, 100 frames)
+[2025-02-21 14:15:51.583] [warning] Failed to read 'double': property 'time_range' with input '': does not contain enough values (minimum: 2, got: 0): the data (all fields) have been ignored
+[2025-02-21 14:15:51.590] [info] Loaded marker file C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009_simplified\run_baseline\markers.trc (54 markers, 100 frames)
+[2025-02-21 14:15:59.799] [cout] [info] 
+               MODEL: 009
+         coordinates: 39
+              forces: 80
+           actuators: 80
+             muscles: 80
+            analyses: 2
+              probes: 0
+              bodies: 22
+              joints: 22
+         constraints: 2
+             markers: 67
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-02-21 14:15:59.799] [info] Running tool Run_baseline1.
+[2025-02-21 14:16:01.102] [info] Frame 0 (t = 0.0):	 total squared error = 0.0250052, marker error: RMS = 0.0244, max = 0.0710500 (RBHD)
+[2025-02-21 14:16:01.565] [info] Frame 1 (t = 0.00500000):	 total squared error = 0.024965, marker error: RMS = 0.0243804, max = 0.0715245 (RBHD)
+[2025-02-21 14:16:01.931] [info] Frame 2 (t = 0.01):	 total squared error = 0.0250207, marker error: RMS = 0.0244076, max = 0.0722127 (RBHD)
+[2025-02-21 14:16:02.288] [info] Frame 3 (t = 0.015):	 total squared error = 0.025155, marker error: RMS = 0.024473, max = 0.0731126 (RBHD)
+[2025-02-21 14:16:02.821] [info] Frame 4 (t = 0.02):	 total squared error = 0.0253466, marker error: RMS = 0.024566, max = 0.0742157 (RBHD)
+[2025-02-21 14:16:03.259] [info] Frame 5 (t = 0.025):	 total squared error = 0.025584, marker error: RMS = 0.0246808, max = 0.0755046 (RBHD)
+[2025-02-21 14:16:03.398] [info] Frame 6 (t = 0.03):	 total squared error = 0.0258677, marker error: RMS = 0.0248173, max = 0.0769473 (RBHD)
+[2025-02-21 14:16:03.681] [info] Frame 7 (t = 0.035):	 total squared error = 0.0262005, marker error: RMS = 0.0249764, max = 0.0784938 (RBHD)
+[2025-02-21 14:16:04.009] [info] Frame 8 (t = 0.04):	 total squared error = 0.0265785, marker error: RMS = 0.0251559, max = 0.0800874 (RBHD)
+[2025-02-21 14:16:04.330] [info] Frame 9 (t = 0.045):	 total squared error = 0.0269831, marker error: RMS = 0.0253467, max = 0.0816687 (RBHD)
+[2025-02-21 14:16:04.759] [info] Frame 10 (t = 0.05):	 total squared error = 0.0273839, marker error: RMS = 0.0255343, max = 0.0831892 (RBHD)
+[2025-02-21 14:16:05.417] [info] Frame 11 (t = 0.055):	 total squared error = 0.0277511, marker error: RMS = 0.0257049, max = 0.0846334 (RBHD)
+[2025-02-21 14:16:06.199] [info] Frame 12 (t = 0.06):	 total squared error = 0.0280646, marker error: RMS = 0.0258497, max = 0.0860114 (RBHD)
+[2025-02-21 14:16:07.021] [info] Frame 13 (t = 0.065):	 total squared error = 0.0283075, marker error: RMS = 0.0259613, max = 0.0873286 (RBHD)
+[2025-02-21 14:16:07.768] [info] Frame 14 (t = 0.07):	 total squared error = 0.0284668, marker error: RMS = 0.0260342, max = 0.0885799 (RBHD)
+[2025-02-21 14:16:08.391] [info] Frame 15 (t = 0.075):	 total squared error = 0.0285368, marker error: RMS = 0.0260662, max = 0.0897539 (RBHD)
+[2025-02-21 14:16:08.978] [info] Frame 16 (t = 0.08):	 total squared error = 0.0285206, marker error: RMS = 0.0260588, max = 0.0908303 (RBHD)
+[2025-02-21 14:16:09.421] [info] Frame 17 (t = 0.085):	 total squared error = 0.0284287, marker error: RMS = 0.0260168, max = 0.0917679 (RBHD)
+[2025-02-21 14:16:09.898] [info] Frame 18 (t = 0.09):	 total squared error = 0.0282767, marker error: RMS = 0.0259472, max = 0.0925028 (RBHD)
+[2025-02-21 14:16:10.107] [info] Frame 19 (t = 0.095):	 total squared error = 0.0280834, marker error: RMS = 0.0258583, max = 0.0929515 (RBHD)
+[2025-02-21 14:16:10.273] [info] Frame 20 (t = 0.1):	 total squared error = 0.0278657, marker error: RMS = 0.0257579, max = 0.0930247 (RBHD)
+[2025-02-21 14:16:10.428] [info] Frame 21 (t = 0.105000):	 total squared error = 0.0276337, marker error: RMS = 0.0256504, max = 0.0926486 (RBHD)
+[2025-02-21 14:16:11.029] [info] Frame 22 (t = 0.11):	 total squared error = 0.0273865, marker error: RMS = 0.0255355, max = 0.0917867 (RBHD)
+[2025-02-21 14:16:11.466] [info] Frame 23 (t = 0.115):	 total squared error = 0.0271135, marker error: RMS = 0.0254079, max = 0.0904514 (RBHD)
+[2025-02-21 14:16:12.297] [info] Frame 24 (t = 0.12):	 total squared error = 0.0268076, marker error: RMS = 0.0252641, max = 0.0887398 (RBHD)
+[2025-02-21 14:16:13.004] [info] Frame 25 (t = 0.125):	 total squared error = 0.0264726, marker error: RMS = 0.0251058, max = 0.0868255 (RBHD)
+[2025-02-21 14:16:13.353] [info] Frame 26 (t = 0.13):	 total squared error = 0.0260787, marker error: RMS = 0.0249183, max = 0.084695 (RBHD)
+[2025-02-21 14:16:13.672] [info] Frame 27 (t = 0.135):	 total squared error = 0.0256429, marker error: RMS = 0.0247092, max = 0.0824681 (RBHD)
+[2025-02-21 14:16:14.070] [info] Frame 28 (t = 0.14):	 total squared error = 0.025216, marker error: RMS = 0.0245027, max = 0.0803832 (RBHD)
+[2025-02-21 14:16:14.538] [info] Frame 29 (t = 0.145):	 total squared error = 0.0248442, marker error: RMS = 0.0243214, max = 0.0785992 (RBHD)
+[2025-02-21 14:16:14.972] [info] Frame 30 (t = 0.15):	 total squared error = 0.0245763, marker error: RMS = 0.0241899, max = 0.0772273 (RBHD)
+[2025-02-21 14:16:15.386] [info] Frame 31 (t = 0.155):	 total squared error = 0.0244574, marker error: RMS = 0.0241313, max = 0.0763331 (RBHD)
+[2025-02-21 14:16:15.795] [info] Frame 32 (t = 0.16):	 total squared error = 0.024517, marker error: RMS = 0.0241607, max = 0.0759273 (RBHD)
+[2025-02-21 14:16:16.216] [info] Frame 33 (t = 0.165):	 total squared error = 0.024761, marker error: RMS = 0.0242806, max = 0.0759757 (RBHD)
+[2025-02-21 14:16:16.680] [info] Frame 34 (t = 0.17):	 total squared error = 0.0251686, marker error: RMS = 0.0244796, max = 0.0764059 (RBHD)
+[2025-02-21 14:16:16.868] [info] Frame 35 (t = 0.175):	 total squared error = 0.0256937, marker error: RMS = 0.0247337, max = 0.0771169 (RBHD)
+[2025-02-21 14:16:17.285] [info] Frame 36 (t = 0.18):	 total squared error = 0.0262716, marker error: RMS = 0.0250103, max = 0.0779894 (RBHD)
+[2025-02-21 14:16:17.561] [info] Frame 37 (t = 0.185):	 total squared error = 0.0268301, marker error: RMS = 0.0252747, max = 0.0788964 (RBHD)
+[2025-02-21 14:16:17.740] [info] Frame 38 (t = 0.19):	 total squared error = 0.0273019, marker error: RMS = 0.025496, max = 0.0797136 (RBHD)
+[2025-02-21 14:16:18.119] [info] Frame 39 (t = 0.195):	 total squared error = 0.0276349, marker error: RMS = 0.025651, max = 0.0803246 (RBHD)
+[2025-02-21 14:16:18.417] [info] Frame 40 (t = 0.2):	 total squared error = 0.0277986, marker error: RMS = 0.0257269, max = 0.0806315 (RBHD)
+[2025-02-21 14:16:18.589] [info] Frame 41 (t = 0.205000):	 total squared error = 0.0277853, marker error: RMS = 0.0257207, max = 0.0805653 (RBHD)
+[2025-02-21 14:16:18.920] [info] Frame 42 (t = 0.21):	 total squared error = 0.0276078, marker error: RMS = 0.0256384, max = 0.0800977 (RBHD)
+[2025-02-21 14:16:19.128] [info] Frame 43 (t = 0.215):	 total squared error = 0.0272907, marker error: RMS = 0.0254908, max = 0.079236 (RBHD)
+[2025-02-21 14:16:19.423] [info] Frame 44 (t = 0.22):	 total squared error = 0.0268659, marker error: RMS = 0.0252916, max = 0.0780256 (RBHD)
+[2025-02-21 14:16:19.610] [info] Frame 45 (t = 0.225):	 total squared error = 0.0263693, marker error: RMS = 0.0250567, max = 0.0765446 (RBHD)
+[2025-02-21 14:16:19.950] [info] Frame 46 (t = 0.23):	 total squared error = 0.0258387, marker error: RMS = 0.0248034, max = 0.0748927 (RBHD)
+[2025-02-21 14:16:20.111] [info] Frame 47 (t = 0.235):	 total squared error = 0.0253046, marker error: RMS = 0.0245457, max = 0.0731686 (RBHD)
+[2025-02-21 14:16:20.248] [info] Frame 48 (t = 0.24):	 total squared error = 0.024783, marker error: RMS = 0.0242914, max = 0.0714497 (RBHD)
+[2025-02-21 14:16:20.397] [info] Frame 49 (t = 0.245):	 total squared error = 0.0242804, marker error: RMS = 0.0240438, max = 0.0697914 (RBHD)
+[2025-02-21 14:16:20.568] [info] Frame 50 (t = 0.25):	 total squared error = 0.0238050, marker error: RMS = 0.0238072, max = 0.0682239 (RBHD)
+[2025-02-21 14:16:20.722] [info] Frame 51 (t = 0.255):	 total squared error = 0.023379, marker error: RMS = 0.0235933, max = 0.0667579 (RBHD)
+[2025-02-21 14:16:20.885] [info] Frame 52 (t = 0.26):	 total squared error = 0.0230420, marker error: RMS = 0.0234226, max = 0.065395 (RBHD)
+[2025-02-21 14:16:21.254] [info] Frame 53 (t = 0.265):	 total squared error = 0.0228376, marker error: RMS = 0.0233185, max = 0.064129 (RBHD)
+[2025-02-21 14:16:21.427] [info] Frame 54 (t = 0.27):	 total squared error = 0.0227938, marker error: RMS = 0.0232961, max = 0.062957 (RBHD)
+[2025-02-21 14:16:22.006] [info] Frame 55 (t = 0.275):	 total squared error = 0.0229024, marker error: RMS = 0.0233516, max = 0.0618819 (RBHD)
+[2025-02-21 14:16:22.571] [info] Frame 56 (t = 0.28):	 total squared error = 0.0231096, marker error: RMS = 0.0234569, max = 0.0609112 (RBHD)
+[2025-02-21 14:16:22.929] [info] Frame 57 (t = 0.285):	 total squared error = 0.0233252, marker error: RMS = 0.0235661, max = 0.0600558 (RBHD)
+[2025-02-21 14:16:23.339] [info] Frame 58 (t = 0.29):	 total squared error = 0.023446, marker error: RMS = 0.0236271, max = 0.0593234 (RBHD)
+[2025-02-21 14:16:23.693] [info] Frame 59 (t = 0.295):	 total squared error = 0.0233849, marker error: RMS = 0.0235963, max = 0.0587117 (RBHD)
+[2025-02-21 14:16:24.229] [info] Frame 60 (t = 0.3):	 total squared error = 0.0230916, marker error: RMS = 0.0234478, max = 0.0582042 (RBHD)
+[2025-02-21 14:16:24.643] [info] Frame 61 (t = 0.305000):	 total squared error = 0.0225597, marker error: RMS = 0.0231762, max = 0.0577673 (RBHD)
+[2025-02-21 14:16:25.118] [info] Frame 62 (t = 0.31):	 total squared error = 0.0218215, marker error: RMS = 0.0227939, max = 0.0573557 (RBHD)
+[2025-02-21 14:16:25.571] [info] Frame 63 (t = 0.315):	 total squared error = 0.0209388, marker error: RMS = 0.022328, max = 0.0569259 (RBHD)
+[2025-02-21 14:16:26.035] [info] Frame 64 (t = 0.32):	 total squared error = 0.0199893, marker error: RMS = 0.0218159, max = 0.0564376 (RBHD)
+[2025-02-21 14:16:26.501] [info] Frame 65 (t = 0.325):	 total squared error = 0.0190607, marker error: RMS = 0.0213032, max = 0.0562731 (LBHD)
+[2025-02-21 14:16:26.719] [info] Frame 66 (t = 0.33):	 total squared error = 0.0182407, marker error: RMS = 0.0208399, max = 0.0564025 (LBHD)
+[2025-02-21 14:16:26.871] [info] Frame 67 (t = 0.335):	 total squared error = 0.0175995, marker error: RMS = 0.0204703, max = 0.0565906 (LBHD)
+[2025-02-21 14:16:27.129] [info] Frame 68 (t = 0.34):	 total squared error = 0.0171687, marker error: RMS = 0.0202183, max = 0.0568697 (LBHD)
+[2025-02-21 14:16:27.429] [info] Frame 69 (t = 0.345):	 total squared error = 0.0169347, marker error: RMS = 0.0200800, max = 0.0572641 (LBHD)
+[2025-02-21 14:16:27.922] [info] Frame 70 (t = 0.35):	 total squared error = 0.0168489, marker error: RMS = 0.0200291, max = 0.0577721 (LBHD)
+[2025-02-21 14:16:28.241] [info] Frame 71 (t = 0.355):	 total squared error = 0.0168486, marker error: RMS = 0.0200289, max = 0.0583644 (LBHD)
+[2025-02-21 14:16:28.624] [info] Frame 72 (t = 0.36):	 total squared error = 0.0168762, marker error: RMS = 0.0200453, max = 0.0589823 (LBHD)
+[2025-02-21 14:16:28.885] [info] Frame 73 (t = 0.365):	 total squared error = 0.0168896, marker error: RMS = 0.0200532, max = 0.0595464 (LBHD)
+[2025-02-21 14:16:29.057] [info] Frame 74 (t = 0.37):	 total squared error = 0.0168616, marker error: RMS = 0.0200366, max = 0.0599664 (LBHD)
+[2025-02-21 14:16:29.504] [info] Frame 75 (t = 0.375):	 total squared error = 0.016776, marker error: RMS = 0.0199857, max = 0.0601542 (LBHD)
+[2025-02-21 14:16:29.658] [info] Frame 76 (t = 0.38):	 total squared error = 0.0166226, marker error: RMS = 0.0198941, max = 0.0600263 (LBHD)
+[2025-02-21 14:16:30.190] [info] Frame 77 (t = 0.385):	 total squared error = 0.0163985, marker error: RMS = 0.0197596, max = 0.0595281 (LBHD)
+[2025-02-21 14:16:30.684] [info] Frame 78 (t = 0.39):	 total squared error = 0.0161091, marker error: RMS = 0.0195845, max = 0.0586386 (LBHD)
+[2025-02-21 14:16:31.082] [info] Frame 79 (t = 0.395):	 total squared error = 0.015769, marker error: RMS = 0.0193766, max = 0.0573777 (LBHD)
+[2025-02-21 14:16:31.671] [info] Frame 80 (t = 0.4):	 total squared error = 0.0154010, marker error: RMS = 0.0191492, max = 0.0558163 (LBHD)
+[2025-02-21 14:16:32.332] [info] Frame 81 (t = 0.405000):	 total squared error = 0.0150296, marker error: RMS = 0.0189168, max = 0.0540365 (LBHD)
+[2025-02-21 14:16:33.079] [info] Frame 82 (t = 0.41):	 total squared error = 0.0146817, marker error: RMS = 0.0186966, max = 0.0521506 (LBHD)
+[2025-02-21 14:16:33.979] [info] Frame 83 (t = 0.415):	 total squared error = 0.0143836, marker error: RMS = 0.0185059, max = 0.0502693 (LBHD)
+[2025-02-21 14:16:34.799] [info] Frame 84 (t = 0.42):	 total squared error = 0.0141577, marker error: RMS = 0.01836, max = 0.0484885 (LBHD)
+[2025-02-21 14:16:35.306] [info] Frame 85 (t = 0.425):	 total squared error = 0.0140187, marker error: RMS = 0.0182696, max = 0.0468742 (LBHD)
+[2025-02-21 14:16:35.659] [info] Frame 86 (t = 0.43):	 total squared error = 0.0139659, marker error: RMS = 0.0182352, max = 0.0457554 (RBHD)
+[2025-02-21 14:16:36.118] [info] Frame 87 (t = 0.435):	 total squared error = 0.0139925, marker error: RMS = 0.0182525, max = 0.0450835 (RBHD)
+[2025-02-21 14:16:36.517] [info] Frame 88 (t = 0.44):	 total squared error = 0.0140785, marker error: RMS = 0.0183085, max = 0.044612 (RBHD)
+[2025-02-21 14:16:36.864] [info] Frame 89 (t = 0.445):	 total squared error = 0.0141981, marker error: RMS = 0.0183862, max = 0.044346 (RBHD)
+[2025-02-21 14:16:37.309] [info] Frame 90 (t = 0.45):	 total squared error = 0.014326, marker error: RMS = 0.0184688, max = 0.0442757 (RBHD)
+[2025-02-21 14:16:37.756] [info] Frame 91 (t = 0.455):	 total squared error = 0.0144422, marker error: RMS = 0.0185435, max = 0.0443823 (RBHD)
+[2025-02-21 14:16:38.039] [info] Frame 92 (t = 0.46):	 total squared error = 0.0145349, marker error: RMS = 0.0186029, max = 0.0451236 (LHEE)
+[2025-02-21 14:16:38.412] [info] Frame 93 (t = 0.465):	 total squared error = 0.0146018, marker error: RMS = 0.0186457, max = 0.0460013 (LHEE)
+[2025-02-21 14:16:38.816] [info] Frame 94 (t = 0.47):	 total squared error = 0.0146486, marker error: RMS = 0.0186755, max = 0.0465874 (LHEE)
+[2025-02-21 14:16:39.242] [info] Frame 95 (t = 0.475):	 total squared error = 0.0146865, marker error: RMS = 0.0186997, max = 0.046915 (LHEE)
+[2025-02-21 14:16:39.709] [info] Frame 96 (t = 0.48):	 total squared error = 0.0147329, marker error: RMS = 0.0187292, max = 0.0470510 (LHEE)
+[2025-02-21 14:16:40.221] [info] Frame 97 (t = 0.485):	 total squared error = 0.0148079, marker error: RMS = 0.0187768, max = 0.0472471 (RBHD)
+[2025-02-21 14:16:40.713] [info] Frame 98 (t = 0.49):	 total squared error = 0.014925, marker error: RMS = 0.0188509, max = 0.0478705 (RBHD)
+[2025-02-21 14:16:40.887] [info] Frame 99 (t = 0.495):	 total squared error = 0.0150869, marker error: RMS = 0.0189529, max = 0.0484598 (RBHD)
+[2025-02-21 14:16:40.909] [info] InverseKinematicsTool completed 100 frames in 40 second(s).
+[2025-02-21 16:08:37.410] [info] Updating Model file from 40000 to latest format...
+[2025-02-21 16:08:37.459] [info] Loaded model 009 from file C:\Git\opensim_tutorial\tutorials\repeated_sprinting\code\..\models\009_rajagopal_scaled.osim
+[2025-02-21 16:08:37.468] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2025-02-21 16:08:37.468] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2025-02-21 16:08:37.469] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2025-02-21 16:08:37.470] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2025-02-21 16:08:37.471] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2025-02-21 16:08:37.472] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2025-02-21 16:08:37.472] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2025-02-21 16:08:37.473] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2025-02-23 13:26:05.316] [info] Updating Model file from 40000 to latest format...
+[2025-02-23 13:26:05.407] [info] Loaded model 009 from file C:\Git\opensim_tutorial\tutorials\repeated_sprinting\models\009_rajagopal_scaled.osim
+[2025-02-23 13:26:05.675] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2025-02-23 13:26:05.697] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2025-02-23 13:26:05.718] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2025-02-23 13:26:05.741] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2025-02-23 13:26:05.850] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2025-02-23 13:26:05.868] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2025-02-23 13:26:05.892] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2025-02-23 13:26:05.918] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2025-02-23 13:26:06.638] [warning] Visualizer couldn't open index_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\index_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\index_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-23 13:26:06.645] [warning] Visualizer couldn't open middle_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-23 13:26:06.654] [warning] Visualizer couldn't open ring_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-23 13:26:06.662] [warning] Visualizer couldn't open little_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\little_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\little_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-23 13:26:06.879] [warning] Visualizer couldn't open index_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\index_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\index_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-23 13:26:06.894] [warning] Visualizer couldn't open middle_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\middle_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-23 13:26:06.908] [warning] Visualizer couldn't open ring_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\ring_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-23 13:26:06.925] [warning] Visualizer couldn't open little_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\little_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\little_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-02-23 13:26:13.573] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009_simplified\run_baseline\ik.mot (nr=100 nc=40)
+[2025-02-23 13:27:02.508] [cout] [info] 
+               MODEL: 009
+         coordinates: 39
+              forces: 80
+           actuators: 80
+             muscles: 80
+            analyses: 2
+              probes: 0
+              bodies: 22
+              joints: 22
+         constraints: 2
+             markers: 67
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-02-23 13:27:02.508] [info] Running tool Run_baseline1...
+[2025-02-23 13:27:02.508] [info] No external loads will be applied (external loads file not specified).
+[2025-02-23 13:27:02.533] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009_simplified\run_baseline\ik.mot (nr=100 nc=40)
+[2025-02-23 13:27:02.536] [info] Low-pass filtering coordinates data with a cutoff frequency of 6.0...
+[2025-02-23 13:27:02.613] [info] InverseDynamicsTool: 1 time frames in 38 millisecond(s).
+[2025-02-23 13:27:02.614] [warning] Directory 'c:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009_simplified\run_baseline\' was specified where only file name 'inverse_dynamics' is expected. The directory will be ignored. Result files will be written to directory '.\id_no_forces.sto' instead.
+[2025-02-23 13:27:02.618] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009_simplified\run_baseline\ik.mot (nr=100 nc=40)
+[2025-02-23 16:58:20.685] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009_simplified\run_baseline\id_no_forces\inverse_dynamics.sto (nr=1 nc=40)
