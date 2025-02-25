@@ -1,9 +1,17 @@
 from msk_modelling_python import classes
 import os
 
-current_dir = os.path.dirname(os.path.realpath(__file__))
-classes.XMLTools.ceinms.create_calibration_setup(current_dir + "/calibration_setup.xml")
 
+
+current_dir = os.path.dirname(os.path.realpath(__file__))
+model_path = os.path.join(current_dir, "..", "models", "009_rajagopal_scaled.osim")
+
+tool = classes.XMLTools()
+tool_ceinms = tool.ceinms()
+# tool_ceinms.create_calibration_setup(save_path=os.path.join(current_dir, "calibration_setup.xml"))
+# tool_ceinms.create_calibration_cfg(save_path=os.path.join(current_dir, "calibration_cfg.xml"))
+tool_ceinms.create_subject_uncalibrated(osimModelFile=model_path, save_path=os.path.join(current_dir, "subject_uncalibrated.xml"))
+import pdb; pdb.set_trace()
 exit()
 import os
 import xml.etree.ElementTree as ET
