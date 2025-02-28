@@ -145,7 +145,7 @@ Assuming extobl_r pennation angle in radians: 0
 Assuming extobl_l pennation angle in radians: 0
 Found OpenSim model associated to the subject: C:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\P013\PC013_scaled.osim
 
-EMG: Reading emg file...c:/Git/opensim_tutorial/tutorials/repeated_sprinting/Simulations/PC013/trial3_r1/ceinms/../trial3_analog.mot
+EMG: Reading emg file...c:/Git/opensim_tutorial/tutorials/repeated_sprinting/Simulations/PC013/trial3_r1/ceinms/../processed_emg_signals.mot
 Muscle excitations to muscle mapping:
 add_brev_r -> add_brev_r
 add_long_r -> add_long_r
@@ -239,3 +239,10 @@ intobl_r -> intobl_r
 intobl_l -> intobl_l
 extobl_r -> extobl_r
 extobl_l -> extobl_l
+
+externalTorque DONE
+
+EMG: EMG DONE
+
+LmtMa: lmtMa DONE
+Cropping trial: 1.65, 1.95
