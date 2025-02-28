@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <inputData>
-   <muscleTendonLengthFile>../Results _SO_and_MA/PC013_MuscleAnalysis_Length.sto</muscleTendonLengthFile>
-   <excitationsFile>../processed_emg_signals_updated.mot</excitationsFile>
+   <muscleTendonLengthFile>../Results_SO_and_MA/MuscleAnalysis_Length.sto</muscleTendonLengthFile>
+   <excitationsFile>../trial3_analog.mot</excitationsFile>
    <momentArmsFiles>
-      <momentArmsFile dofName="knee_angle_r">../Results _SO_and_MA/PC013_MuscleAnalysis_MomentArm_knee_angle_r.sto</momentArmsFile>
+      <momentArmsFile dofName="knee_angle_r">../Results_SO_and_MA/MuscleAnalysis_MomentArm_knee_angle_r.sto</momentArmsFile>
    </momentArmsFiles>
    <externalTorquesFile>../inverse_dynamics.sto</externalTorquesFile>
    <externalLoadsFile>../GRF_Setup.xml</externalLoadsFile>

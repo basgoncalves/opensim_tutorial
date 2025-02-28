@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<excitationGenerator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="excitationGenerator.xsd">
-   <inputSignals type="EMG">RGLTMED RRF RADDLONG RST RTA RGM</inputSignals>
+<excitationGenerator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <inputSignals type="EMG">RGLTMED	RRF	RADDLONG	RST	RTA	RGM</inputSignals>
    <mapping>
       <excitation id="add_brev_r">
          <input weight="1">RADDLONG</input>
