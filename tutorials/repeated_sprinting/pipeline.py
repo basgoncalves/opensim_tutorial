@@ -278,7 +278,6 @@ print(xml_setup_file)
 
 # Construct the command
 command = " ".join([ceinms_install_path + "\CEINMScalibrate.exe -S", xml_setup_file])
-
 print(command)
 
 exit()
