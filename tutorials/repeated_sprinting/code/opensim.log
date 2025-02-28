@@ -2974,3 +2974,37 @@ misc modelcomponents: 0
 [2025-02-27 15:02:40.168] [info] Low-pass filtering coordinates data with a cutoff frequency of 6.0...
 [2025-02-27 15:02:40.207] [info] InverseDynamicsTool: 48 time frames in 17 millisecond(s).
 [2025-02-27 15:02:40.208] [warning] Directory 'c:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_r1\' was specified where only file name 'inverse_dynamics' is expected. The directory will be ignored. Result files will be written to directory 'c:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_r1' instead.
+[2025-02-28 14:35:06.647] [info] Old version storage/motion file encountered
+[2025-02-28 14:35:06.648] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_r1\emg_2ndcal.mot (nr=1361 nc=34)
+[2025-02-28 14:35:06.648] [info] .. assuming rotations in Degrees..
+[2025-02-28 14:35:30.105] [info] Old version storage/motion file encountered
+[2025-02-28 14:35:30.105] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_r1\emg_2ndcal.mot (nr=1361 nc=34)
+[2025-02-28 14:35:30.105] [info] .. assuming rotations in Degrees..
+[2025-02-28 14:35:43.506] [info] Old version storage/motion file encountered
+[2025-02-28 14:35:43.506] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_r1\emg_2ndcal.mot (nr=1361 nc=34)
+[2025-02-28 14:35:43.506] [info] .. assuming rotations in Degrees..
+[2025-02-28 14:35:50.142] [info] Old version storage/motion file encountered
+[2025-02-28 14:35:50.142] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_r1\emg_2ndcal.mot (nr=1361 nc=34)
+[2025-02-28 14:35:50.142] [info] .. assuming rotations in Degrees..
+[2025-02-28 14:36:14.121] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_r1\inverse_dynamics.sto (nr=48 nc=24)
+[2025-02-28 14:36:24.719] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_r1\inverse_dynamics.sto (nr=48 nc=24)
+[2025-02-28 14:37:00.070] [info] Old version storage/motion file encountered
+[2025-02-28 14:37:00.070] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_r1\emg_2ndcal.mot (nr=1361 nc=34)
+[2025-02-28 14:37:00.070] [info] .. assuming rotations in Degrees..
+[2025-02-28 14:37:12.404] [info] Old version storage/motion file encountered
+[2025-02-28 14:37:12.404] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_r1\emg_2ndcal.mot (nr=1361 nc=34)
+[2025-02-28 14:37:12.404] [info] .. assuming rotations in Degrees..
+[2025-02-28 14:37:22.120] [info] Old version storage/motion file encountered
+[2025-02-28 14:37:22.120] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_r1\emg_2ndcal.mot (nr=1361 nc=34)
+[2025-02-28 14:37:22.120] [info] .. assuming rotations in Degrees..
+[2025-02-28 14:37:35.433] [info] Old version storage/motion file encountered
+[2025-02-28 14:37:35.433] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_r1\processed_emg_signals.mot (nr=3087 nc=12)
+[2025-02-28 14:37:35.433] [info] .. assuming rotations in Degrees..
+[2025-02-28 14:37:35.433] [warning] Storage: Inconsistent headers in file C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_r1\processed_emg_signals.mot. nColumns=12 but 13 were found
+[2025-02-28 14:37:46.764] [warning] Storage: FileAdpater failed to read data file.
+Missing end of header block
+	Thrown at DelimFileAdapter.h:347 in extendRead().
+[2025-02-28 14:38:01.375] [info] Old version storage/motion file encountered
+[2025-02-28 14:38:01.375] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_r1\processed_emg_signals.mot (nr=3087 nc=12)
+[2025-02-28 14:38:01.375] [info] .. assuming rotations in Degrees..
+[2025-02-28 14:38:01.376] [warning] Storage: Inconsistent headers in file C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC013\trial3_r1\processed_emg_signals.mot. nColumns=12 but 13 were found

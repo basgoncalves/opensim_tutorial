@@ -227,7 +227,48 @@ class Project:
         def time_range(self, var_name):
             storage = msk.osim.Storage(self.__getattribute__(var_name))
             return storage.getFirstTime(), storage.getLastTime()
-      
+        
+        def load_analog_data(self)
+            reader = c3d.Reader(open(c3dFilePath, 'rb'))
+
+            # get analog labels, trimmed and replace '.' with '_'
+            analog_labels = reader.analog_labels
+            analog_labels = [label.strip() for label in analog_labels]
+            analog_labels = [label.replace('.', '_') for label in analog_labels]
+
+            # get analog labels, trimmed and replace '.' with '_'
+            fs = reader.analog_rate
+
+            # add time to dataframe
+            first_frame = reader.first_frame / fs
+            final_time = (reader.first_frame + reader.frame_count-1) / fs
+            time = msk.np.arange(first_frame / fs, final_time, 1 / fs)  
+            num_frames = len(time)
+            df = msk.pd.DataFrame(index=range(num_frames),columns=analog_labels)
+            df['time'] = time
+
+            # move time to first column
+            cols = df.columns.tolist()
+            cols = cols[-1:] + cols[:-1]
+            df = df[cols] 
+
+            # loop through frames and add analog data to dataframe
+            for i_frame, points, analog in reader.read_frames():
+                
+                # get row number and print loading bar
+                i_row = i_frame - reader.first_frame
+                # msk.ut.print_loading_bar(i_row/num_frames)
+                
+                # convert analog data to list
+                analog_list  = analog.data.tolist()
+                
+                # loop through analog channels and add to dataframe
+                for i_channel in range(len(analog_list)):
+                    channel_name = analog_labels[i_channel]
+                    
+                    # add channel to dataframe
+                    df.loc[i_row, channel_name] = analog[i_channel][0]
+
 P = Project()      
 trial_path = r'C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009_simplified'
 trial = P.Trial(trial_path)
