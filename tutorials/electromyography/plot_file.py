@@ -15,13 +15,9 @@ emg_file = select_file('Select the EMG file')
 joint_angles_file = select_file('Select the joint angles file')
 
 emg_data = pd.read_csv(emg_file)
-joint_angles_data = pd.read_csv(joint_angles_file)
 
 print("EMG data:")
 print(emg_data.head())
-
-print("Joint angles data:")
-print(joint_angles_data.head())
 
 # plot emg
 plt.figure()
