@@ -1,7 +1,4 @@
-# BIP OpenSim
-
 Basilio Goncalves - basilio.goncalves@univie.ac.at
-Hans Kainz - hans.kainz@univie.ac.at
 
 ![Alt text](.\Presentation\Snippets\1.0.2_NRG.png) 
 ![Alt text](.\Presentation\Snippets\1.0.2_UniVie.png)
@@ -24,11 +21,11 @@ Hans Kainz - hans.kainz@univie.ac.at
 ---
 # Electromyography  
 
-Data in - 
+Data in - https://github.com/basgoncalves/opensim_tutorial/tree/main/tutorials/electromyography
 
 # 1. Inspecting EMG data
 
-Using Mokka, loa
+Using Mokka, load the data in 
 
 ## 1.1 Load data
 
