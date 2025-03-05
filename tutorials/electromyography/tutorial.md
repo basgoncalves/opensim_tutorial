@@ -25,14 +25,9 @@ Data in - https://github.com/basgoncalves/opensim_tutorial/tree/main/tutorials/e
 
 # 1. Inspecting EMG data
 
-Using Mokka, load the data in 
+Using Mokka, load the data and plot 2 muscles.
 
 ## 1.1 Load data
-
-https://www.sciencedirect.com/science/article/abs/pii/S0278591920305068
-hnttps://www.sciencedirect.com/science/article/abs/pii/S0021929009003169
-https://www.sciencedirect.com/science/article/abs/pii/S0966636223010044
-
 
 ## 1.2 Muscle activity during different tasks
 

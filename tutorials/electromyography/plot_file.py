@@ -11,21 +11,24 @@ def select_file(promt="Select a file"):
     filepath = filedialog.askopenfilename(title=promt)
     return filepath
 
-emg_file = select_file('Select the EMG file')
-joint_angles_file = select_file('Select the joint angles file')
 
-emg_data = pd.read_csv(emg_file)
+def plot_single_csv():
+    file_path = select_file('Select the .csv file')
+    if not file_path or not file_path.endswith('.csv'):
+        raise ValueError('Please select a .csv file')
+        
+    data = pd.read_csv(file_path)
 
-print("EMG data:")
-print(emg_data.head())
-
-# plot emg
-plt.figure()
-for column in emg_data.columns:
-    if column != 'time':
-        plt.plot(emg_data['time'], emg_data[column], label=column)
-plt.legend()
-plt.xlabel('Time [s]')
-plt.ylabel('EMG')
-plt.show()
+    print("data:")
+    print(data.head())
+    
+    # plot emg
+    plt.figure()
+    for column in data.columns:
+        if column != 'time':
+            plt.plot(data['time'], data[column], label=column)
+    plt.legend()
+    plt.xlabel('Time [s]')
+    plt.ylabel('Values (AU)')
+    plt.show()
 

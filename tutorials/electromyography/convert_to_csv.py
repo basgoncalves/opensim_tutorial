@@ -21,13 +21,18 @@ def find_header_line(file_path):
                 return i
     return None
 
-file_path = filedialog.askopenfilename(title='Select mot or sto file')
-header_line = find_header_line(file_path)
-data = pd.read_csv(file_path, sep='\t', skiprows=header_line)
-print(data.head())
+def run():
+    file_path = filedialog.askopenfilename(title='Select mot or sto file')
+    header_line = find_header_line(file_path)
+    data = pd.read_csv(file_path, sep='\t', skiprows=header_line)
+    print(data.head())
 
-# convert to csv
-output_file = file_path.replace('.mot', '.csv').replace('.sto', '.csv')
-data.to_csv(output_file, index=False)
-print(f"Data saved to {output_file}")
+    # convert to csv
+    output_file = file_path.replace('.mot', '.csv').replace('.sto', '.csv')
+    data.to_csv(output_file, index=False)
+    print(f"Data saved to {output_file}")
+
+if __name__ == '__main__':
+    run()
+    
 
