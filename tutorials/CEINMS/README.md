@@ -1,8 +1,6 @@
 # Running CEINMS and Visualizing Results: A Step-by-Step Tutorial
 
-**Author:** [Your Name]
-
-**Date:** [Date]
+**Author:** Gemini
 
 **Introduction:**
 
