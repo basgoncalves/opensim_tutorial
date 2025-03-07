@@ -1,0 +1,12 @@
+Coordinates
+version=1
+nRows=1
+nColumns=40
+inDegrees=yes
+
+Units are S.I. units (second, meters, Newtons, ...)
+If the header above contains a line with 'inDegrees', this indicates whether rotational values are in degrees (yes) or radians (no).
+
+endheader
+time	pelvis_tilt	pelvis_list	pelvis_rotation	pelvis_tx	pelvis_ty	pelvis_tz	hip_flexion_r	hip_adduction_r	hip_rotation_r	knee_angle_r	knee_angle_r_beta	ankle_angle_r	subtalar_angle_r	mtp_angle_r	hip_flexion_l	hip_adduction_l	hip_rotation_l	knee_angle_l	knee_angle_l_beta	ankle_angle_l	subtalar_angle_l	mtp_angle_l	lumbar_extension	lumbar_bending	lumbar_rotation	arm_flex_r	arm_add_r	arm_rot_r	elbow_flex_r	pro_sup_r	wrist_flex_r	wrist_dev_r	arm_flex_l	arm_add_l	arm_rot_l	elbow_flex_l	pro_sup_l	wrist_flex_l	wrist_dev_l
+      4.9249999999999998	    156.5210752377965662	   -959.4533148619165104	  -1771.3734464059093625	     33.2958400273350108	      3.3426114541751928	     -4.7416475396112725	    -30.0000002460755262	    102.1457406998956685	   2764.1743251172288183	  -4593.4688760692533833	    -80.1711559752918390	   3692.6663032293263313	      0.0000000000000000	      0.0000000000000000	  18709.2603247799379460	  -3552.5524164879880118	   1792.7714664955890385	 -13976.6250135256741487	   -243.9381248026199955	 -12222.1650149835295451	      0.0000000000000000	      0.0000000000000000	   1634.3830438519557902	   1707.2352892660449015	   1928.6287908035621967	     90.0000004246290928	   3166.4816246839695850	  -4601.7553847219378440	    150.0003507411414319	    140.8935694086960098	      0.0000000000000000	      0.0000000000000000	    -90.0000001717717879	    419.9833842659654124	  -1348.0909330758913711	   7874.7348921124030312	     90.0000001717717879	      0.0000000000000000	      0.0000000000000000
