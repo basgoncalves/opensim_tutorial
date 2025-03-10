@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import os
-
+current_dir = os.path.dirname(__file__)
 
 # simple plot
 
@@ -11,7 +11,7 @@ import os
 #plt.show()
 ################################################################################################################################################
 # force plot
-df = pd.read_csv(".\Visual3d_StaticOptimization_force.sto", sep="\t", skiprows=14)
+df = pd.read_csv(os.path.join(current_dir, "Visual3d_StaticOptimization_force.sto"), sep='\t', skiprows=14)
 
 # print(df.to_string())
 # print(df.columns)
@@ -102,5 +102,6 @@ plt.show()
 
 #Automatically saving the figure
 
-fig.savefig("../repeated_sprinting/Simulations/P013/trial3_r1/Plots/test.png")
+fig.savefig(os.path.join(current_dir, "test.png"))
+
 

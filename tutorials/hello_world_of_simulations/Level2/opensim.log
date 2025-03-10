@@ -281,3 +281,883 @@
 
   (Required condition '!"failed"' was not met.)
 
+[2025-03-07 20:24:54.625] [info] Updating Model file from 40000 to latest format...
+[2025-03-07 20:24:54.634] [info] Loaded model Rajagopal_2015 from file C:\Users\Bas\Documents\OpenSim\4.5\Code\Python\OpenSenseExample\Rajagopal_2015.osim
+[2025-03-07 20:32:17.990] [info] Heading correction computed to be 113.307 degs about ground Y.
+[2025-03-07 20:32:17.993] [info] Processing torso_imu
+[2025-03-07 20:32:17.993] [info] Computed offset for torso_imu
+[2025-03-07 20:32:17.994] [info] Offset is 
+[0.315294,-0.0237375,0.948697]
+[0.94644,0.0811645,-0.312513]
+[-0.0695822,0.996418,0.0480568]
+
+[2025-03-07 20:32:17.994] [info] Creating offset frame for torso_imu
+[2025-03-07 20:32:17.995] [info] Added offset frame for torso_imu.
+[2025-03-07 20:32:17.995] [info] torso_imu offset computed from torso_imu data from file.
+[2025-03-07 20:32:17.995] [info] Processing pelvis_imu
+[2025-03-07 20:32:17.995] [info] Computed offset for pelvis_imu
+[2025-03-07 20:32:17.995] [info] Offset is 
+[0.280953,0.00157552,0.95972]
+[0.957527,0.0671338,-0.280421]
+[-0.0648715,0.997743,0.0173528]
+
+[2025-03-07 20:32:17.995] [info] Creating offset frame for pelvis_imu
+[2025-03-07 20:32:17.996] [info] Added offset frame for pelvis_imu.
+[2025-03-07 20:32:17.996] [info] pelvis_imu offset computed from pelvis_imu data from file.
+[2025-03-07 20:32:17.996] [info] Processing tibia_r_imu
+[2025-03-07 20:32:17.996] [info] Computed offset for tibia_r_imu
+[2025-03-07 20:32:17.996] [info] Offset is 
+[0.0965278,0.977377,-0.188191]
+[0.989909,-0.113978,-0.0842017]
+[-0.103746,-0.178164,-0.978516]
+
+[2025-03-07 20:32:17.996] [info] Creating offset frame for tibia_r_imu
+[2025-03-07 20:32:17.997] [info] Added offset frame for tibia_r_imu.
+[2025-03-07 20:32:17.997] [info] tibia_r_imu offset computed from tibia_r_imu data from file.
+[2025-03-07 20:32:17.997] [info] Processing femur_r_imu
+[2025-03-07 20:32:17.997] [info] Computed offset for femur_r_imu
+[2025-03-07 20:32:17.997] [info] Offset is 
+[-0.0408079,0.969041,-0.243505]
+[0.996553,0.0570898,0.0601841]
+[0.0722225,-0.24021,-0.968031]
+
+[2025-03-07 20:32:17.998] [info] Creating offset frame for femur_r_imu
+[2025-03-07 20:32:17.998] [info] Added offset frame for femur_r_imu.
+[2025-03-07 20:32:17.998] [info] femur_r_imu offset computed from femur_r_imu data from file.
+[2025-03-07 20:32:17.998] [info] Processing tibia_l_imu
+[2025-03-07 20:32:17.998] [info] Computed offset for tibia_l_imu
+[2025-03-07 20:32:17.998] [info] Offset is 
+[0.0950796,-0.941402,0.323607]
+[0.992984,0.0667322,-0.0976203]
+[0.070305,0.330618,0.941142]
+
+[2025-03-07 20:32:17.998] [info] Creating offset frame for tibia_l_imu
+[2025-03-07 20:32:17.999] [info] Added offset frame for tibia_l_imu.
+[2025-03-07 20:32:17.999] [info] tibia_l_imu offset computed from tibia_l_imu data from file.
+[2025-03-07 20:32:17.999] [info] Processing femur_l_imu
+[2025-03-07 20:32:17.999] [info] Computed offset for femur_l_imu
+[2025-03-07 20:32:17.999] [info] Offset is 
+[0.15939,-0.980766,0.112659]
+[0.985443,0.164899,0.0413474]
+[-0.0591295,0.104428,0.992773]
+
+[2025-03-07 20:32:18.000] [info] Creating offset frame for femur_l_imu
+[2025-03-07 20:32:18.000] [info] Added offset frame for femur_l_imu.
+[2025-03-07 20:32:18.000] [info] femur_l_imu offset computed from femur_l_imu data from file.
+[2025-03-07 20:32:18.000] [info] Processing calcn_r_imu
+[2025-03-07 20:32:18.000] [info] Computed offset for calcn_r_imu
+[2025-03-07 20:32:18.000] [info] Offset is 
+[0.132853,0.838951,-0.527742]
+[0.052645,-0.537683,-0.841502]
+[-0.989737,0.0840129,-0.115599]
+
+[2025-03-07 20:32:18.001] [info] Creating offset frame for calcn_r_imu
+[2025-03-07 20:32:18.001] [info] Added offset frame for calcn_r_imu.
+[2025-03-07 20:32:18.001] [info] calcn_r_imu offset computed from calcn_r_imu data from file.
+[2025-03-07 20:32:18.001] [info] Processing calcn_l_imu
+[2025-03-07 20:32:18.001] [info] Computed offset for calcn_l_imu
+[2025-03-07 20:32:18.002] [info] Offset is 
+[0.055168,-0.866604,-0.495938]
+[0.00919381,0.497114,-0.867636]
+[0.998435,0.0433062,0.0353922]
+
+[2025-03-07 20:32:18.002] [info] Creating offset frame for calcn_l_imu
+[2025-03-07 20:32:18.002] [info] Added offset frame for calcn_l_imu.
+[2025-03-07 20:32:18.003] [info] calcn_l_imu offset computed from calcn_l_imu data from file.
+[2025-03-07 20:32:44.613] [info] Loading orientations as quaternions from 'C:\Users\Bas\Documents\OpenSim\4.5\Code\Python\OpenSenseExample\MT_012005D6_009-001_orientations.sto'...
+[2025-03-07 20:32:44.628] [info] InverseKinematicsSolver found 8 model frames to track.
+[2025-03-07 20:32:44.702] [info] Solved at time: 7.26 s
+[2025-03-07 20:32:44.720] [info] Solved at time: 7.27 s
+[2025-03-07 20:32:44.734] [info] Solved at time: 7.28 s
+[2025-03-07 20:32:44.748] [info] Solved at time: 7.29 s
+[2025-03-07 20:32:44.762] [info] Solved at time: 7.3 s
+[2025-03-07 20:32:44.779] [info] Solved at time: 7.31 s
+[2025-03-07 20:32:44.792] [info] Solved at time: 7.32 s
+[2025-03-07 20:32:44.808] [info] Solved at time: 7.33 s
+[2025-03-07 20:32:44.822] [info] Solved at time: 7.34 s
+[2025-03-07 20:32:44.834] [info] Solved at time: 7.35 s
+[2025-03-07 20:32:44.848] [info] Solved at time: 7.36 s
+[2025-03-07 20:32:44.863] [info] Solved at time: 7.37 s
+[2025-03-07 20:32:44.878] [info] Solved at time: 7.38 s
+[2025-03-07 20:32:44.891] [info] Solved at time: 7.39 s
+[2025-03-07 20:32:44.902] [info] Solved at time: 7.4 s
+[2025-03-07 20:32:44.912] [info] Solved at time: 7.41 s
+[2025-03-07 20:32:44.923] [info] Solved at time: 7.42 s
+[2025-03-07 20:32:44.939] [info] Solved at time: 7.43 s
+[2025-03-07 20:32:44.953] [info] Solved at time: 7.44 s
+[2025-03-07 20:32:44.965] [info] Solved at time: 7.45 s
+[2025-03-07 20:32:44.978] [info] Solved at time: 7.46 s
+[2025-03-07 20:32:44.992] [info] Solved at time: 7.47 s
+[2025-03-07 20:32:45.005] [info] Solved at time: 7.48 s
+[2025-03-07 20:32:45.016] [info] Solved at time: 7.49 s
+[2025-03-07 20:32:45.028] [info] Solved at time: 7.5 s
+[2025-03-07 20:32:45.045] [info] Solved at time: 7.51 s
+[2025-03-07 20:32:45.058] [info] Solved at time: 7.52 s
+[2025-03-07 20:32:45.078] [info] Solved at time: 7.53 s
+[2025-03-07 20:32:45.091] [info] Solved at time: 7.54 s
+[2025-03-07 20:32:45.103] [info] Solved at time: 7.55 s
+[2025-03-07 20:32:45.113] [info] Solved at time: 7.56 s
+[2025-03-07 20:32:45.123] [info] Solved at time: 7.57 s
+[2025-03-07 20:32:45.136] [info] Solved at time: 7.58 s
+[2025-03-07 20:32:45.153] [info] Solved at time: 7.59 s
+[2025-03-07 20:32:45.171] [info] Solved at time: 7.6 s
+[2025-03-07 20:32:45.182] [info] Solved at time: 7.61 s
+[2025-03-07 20:32:45.195] [info] Solved at time: 7.62 s
+[2025-03-07 20:32:45.207] [info] Solved at time: 7.63 s
+[2025-03-07 20:32:45.226] [info] Solved at time: 7.64 s
+[2025-03-07 20:32:45.248] [info] Solved at time: 7.65 s
+[2025-03-07 20:32:45.275] [info] Solved at time: 7.66 s
+[2025-03-07 20:32:45.293] [info] Solved at time: 7.67 s
+[2025-03-07 20:32:45.309] [info] Solved at time: 7.68 s
+[2025-03-07 20:32:45.323] [info] Solved at time: 7.69 s
+[2025-03-07 20:32:45.345] [info] Solved at time: 7.7 s
+[2025-03-07 20:32:45.364] [info] Solved at time: 7.71 s
+[2025-03-07 20:32:45.378] [info] Solved at time: 7.72 s
+[2025-03-07 20:32:45.395] [info] Solved at time: 7.73 s
+[2025-03-07 20:32:45.408] [info] Solved at time: 7.74 s
+[2025-03-07 20:32:45.419] [info] Solved at time: 7.75 s
+[2025-03-07 20:32:45.429] [info] Solved at time: 7.76 s
+[2025-03-07 20:32:45.442] [info] Solved at time: 7.77 s
+[2025-03-07 20:32:45.470] [info] Solved at time: 7.78 s
+[2025-03-07 20:32:45.484] [info] Solved at time: 7.79 s
+[2025-03-07 20:32:45.498] [info] Solved at time: 7.8 s
+[2025-03-07 20:32:45.511] [info] Solved at time: 7.81 s
+[2025-03-07 20:32:45.527] [info] Solved at time: 7.82 s
+[2025-03-07 20:32:45.538] [info] Solved at time: 7.83 s
+[2025-03-07 20:32:45.557] [info] Solved at time: 7.84 s
+[2025-03-07 20:32:45.572] [info] Solved at time: 7.85 s
+[2025-03-07 20:32:45.581] [info] Solved at time: 7.86 s
+[2025-03-07 20:32:45.593] [info] Solved at time: 7.87 s
+[2025-03-07 20:32:45.603] [info] Solved at time: 7.88 s
+[2025-03-07 20:32:45.614] [info] Solved at time: 7.89 s
+[2025-03-07 20:32:45.627] [info] Solved at time: 7.9 s
+[2025-03-07 20:32:45.636] [info] Solved at time: 7.91 s
+[2025-03-07 20:32:45.650] [info] Solved at time: 7.92 s
+[2025-03-07 20:32:45.666] [info] Solved at time: 7.93 s
+[2025-03-07 20:32:45.678] [info] Solved at time: 7.94 s
+[2025-03-07 20:32:45.688] [info] Solved at time: 7.95 s
+[2025-03-07 20:32:45.698] [info] Solved at time: 7.96 s
+[2025-03-07 20:32:45.710] [info] Solved at time: 7.97 s
+[2025-03-07 20:32:45.725] [info] Solved at time: 7.98 s
+[2025-03-07 20:32:45.740] [info] Solved at time: 7.99 s
+[2025-03-07 20:32:45.755] [info] Solved at time: 8.0 s
+[2025-03-07 20:32:45.770] [info] Solved at time: 8.01 s
+[2025-03-07 20:32:45.781] [info] Solved at time: 8.02 s
+[2025-03-07 20:32:45.792] [info] Solved at time: 8.03 s
+[2025-03-07 20:32:45.803] [info] Solved at time: 8.04 s
+[2025-03-07 20:32:45.812] [info] Solved at time: 8.05 s
+[2025-03-07 20:32:45.821] [info] Solved at time: 8.06 s
+[2025-03-07 20:32:45.829] [info] Solved at time: 8.07 s
+[2025-03-07 20:32:45.838] [info] Solved at time: 8.08 s
+[2025-03-07 20:32:45.850] [info] Solved at time: 8.09 s
+[2025-03-07 20:32:45.862] [info] Solved at time: 8.1 s
+[2025-03-07 20:32:45.875] [info] Solved at time: 8.11 s
+[2025-03-07 20:32:45.884] [info] Solved at time: 8.12 s
+[2025-03-07 20:32:45.893] [info] Solved at time: 8.13 s
+[2025-03-07 20:32:45.902] [info] Solved at time: 8.14 s
+[2025-03-07 20:32:45.909] [info] Solved at time: 8.15 s
+[2025-03-07 20:32:45.919] [info] Solved at time: 8.16 s
+[2025-03-07 20:32:45.929] [info] Solved at time: 8.17 s
+[2025-03-07 20:32:45.941] [info] Solved at time: 8.18 s
+[2025-03-07 20:32:45.955] [info] Solved at time: 8.19 s
+[2025-03-07 20:32:45.968] [info] Solved at time: 8.2 s
+[2025-03-07 20:32:45.979] [info] Solved at time: 8.21 s
+[2025-03-07 20:32:45.990] [info] Solved at time: 8.22 s
+[2025-03-07 20:32:46.004] [info] Solved at time: 8.23 s
+[2025-03-07 20:32:46.014] [info] Solved at time: 8.24 s
+[2025-03-07 20:32:46.026] [info] Solved at time: 8.25 s
+[2025-03-07 20:32:46.044] [info] Solved at time: 8.26 s
+[2025-03-07 20:32:46.060] [info] Solved at time: 8.27 s
+[2025-03-07 20:32:46.072] [info] Solved at time: 8.28 s
+[2025-03-07 20:32:46.082] [info] Solved at time: 8.29 s
+[2025-03-07 20:32:46.091] [info] Solved at time: 8.3 s
+[2025-03-07 20:32:46.102] [info] Solved at time: 8.31 s
+[2025-03-07 20:32:46.110] [info] Solved at time: 8.32 s
+[2025-03-07 20:32:46.121] [info] Solved at time: 8.33 s
+[2025-03-07 20:32:46.134] [info] Solved at time: 8.34 s
+[2025-03-07 20:32:46.149] [info] Solved at time: 8.35 s
+[2025-03-07 20:32:46.164] [info] Solved at time: 8.36 s
+[2025-03-07 20:32:46.179] [info] Solved at time: 8.37 s
+[2025-03-07 20:32:46.192] [info] Solved at time: 8.38 s
+[2025-03-07 20:32:46.204] [info] Solved at time: 8.39 s
+[2025-03-07 20:32:46.222] [info] Solved at time: 8.4 s
+[2025-03-07 20:32:46.237] [info] Solved at time: 8.41 s
+[2025-03-07 20:32:46.254] [info] Solved at time: 8.42 s
+[2025-03-07 20:32:46.273] [info] Solved at time: 8.43 s
+[2025-03-07 20:32:46.282] [info] Solved at time: 8.44 s
+[2025-03-07 20:32:46.292] [info] Solved at time: 8.45 s
+[2025-03-07 20:32:46.304] [info] Solved at time: 8.46 s
+[2025-03-07 20:32:46.315] [info] Solved at time: 8.47 s
+[2025-03-07 20:32:46.330] [info] Solved at time: 8.48 s
+[2025-03-07 20:32:46.344] [info] Solved at time: 8.49 s
+[2025-03-07 20:32:46.363] [info] Solved at time: 8.5 s
+[2025-03-07 20:32:46.378] [info] Solved at time: 8.51 s
+[2025-03-07 20:32:46.392] [info] Solved at time: 8.52 s
+[2025-03-07 20:32:46.404] [info] Solved at time: 8.53 s
+[2025-03-07 20:32:46.416] [info] Solved at time: 8.54 s
+[2025-03-07 20:32:46.431] [info] Solved at time: 8.55 s
+[2025-03-07 20:32:46.445] [info] Solved at time: 8.56 s
+[2025-03-07 20:32:46.460] [info] Solved at time: 8.57 s
+[2025-03-07 20:32:46.474] [info] Solved at time: 8.58 s
+[2025-03-07 20:32:46.485] [info] Solved at time: 8.59 s
+[2025-03-07 20:32:46.496] [info] Solved at time: 8.6 s
+[2025-03-07 20:32:46.505] [info] Solved at time: 8.61 s
+[2025-03-07 20:32:46.515] [info] Solved at time: 8.62 s
+[2025-03-07 20:32:46.527] [info] Solved at time: 8.63 s
+[2025-03-07 20:32:46.542] [info] Solved at time: 8.64 s
+[2025-03-07 20:32:46.554] [info] Solved at time: 8.65 s
+[2025-03-07 20:32:46.563] [info] Solved at time: 8.66 s
+[2025-03-07 20:32:46.580] [info] Solved at time: 8.67 s
+[2025-03-07 20:32:46.593] [info] Solved at time: 8.68 s
+[2025-03-07 20:32:46.604] [info] Solved at time: 8.69 s
+[2025-03-07 20:32:46.618] [info] Solved at time: 8.7 s
+[2025-03-07 20:32:46.628] [info] Solved at time: 8.71 s
+[2025-03-07 20:32:46.642] [info] Solved at time: 8.72 s
+[2025-03-07 20:32:46.659] [info] Solved at time: 8.73 s
+[2025-03-07 20:32:46.673] [info] Solved at time: 8.74 s
+[2025-03-07 20:32:46.684] [info] Solved at time: 8.75 s
+[2025-03-07 20:32:46.699] [info] Solved at time: 8.76 s
+[2025-03-07 20:32:46.710] [info] Solved at time: 8.77 s
+[2025-03-07 20:32:46.722] [info] Solved at time: 8.78 s
+[2025-03-07 20:32:46.732] [info] Solved at time: 8.79 s
+[2025-03-07 20:32:46.746] [info] Solved at time: 8.8 s
+[2025-03-07 20:32:46.760] [info] Solved at time: 8.81 s
+[2025-03-07 20:32:46.775] [info] Solved at time: 8.82 s
+[2025-03-07 20:32:46.786] [info] Solved at time: 8.83 s
+[2025-03-07 20:32:46.798] [info] Solved at time: 8.84 s
+[2025-03-07 20:32:46.811] [info] Solved at time: 8.85 s
+[2025-03-07 20:32:46.822] [info] Solved at time: 8.86 s
+[2025-03-07 20:32:46.834] [info] Solved at time: 8.87 s
+[2025-03-07 20:32:46.859] [info] Solved at time: 8.88 s
+[2025-03-07 20:32:46.871] [info] Solved at time: 8.89 s
+[2025-03-07 20:32:46.880] [info] Solved at time: 8.9 s
+[2025-03-07 20:32:46.892] [info] Solved at time: 8.91 s
+[2025-03-07 20:32:46.904] [info] Solved at time: 8.92 s
+[2025-03-07 20:32:46.914] [info] Solved at time: 8.93 s
+[2025-03-07 20:32:46.927] [info] Solved at time: 8.94 s
+[2025-03-07 20:32:46.938] [info] Solved at time: 8.95 s
+[2025-03-07 20:32:46.957] [info] Solved at time: 8.96 s
+[2025-03-07 20:32:46.980] [info] Solved at time: 8.97 s
+[2025-03-07 20:32:46.997] [info] Solved at time: 8.98 s
+[2025-03-07 20:32:47.011] [info] Solved at time: 8.99 s
+[2025-03-07 20:32:47.031] [info] Solved at time: 9.0 s
+[2025-03-07 20:32:47.048] [info] Solved at time: 9.01 s
+[2025-03-07 20:32:47.066] [info] Solved at time: 9.02 s
+[2025-03-07 20:32:47.081] [info] Solved at time: 9.03 s
+[2025-03-07 20:32:47.095] [info] Solved at time: 9.04 s
+[2025-03-07 20:32:47.107] [info] Solved at time: 9.05 s
+[2025-03-07 20:32:47.122] [info] Solved at time: 9.06 s
+[2025-03-07 20:32:47.135] [info] Solved at time: 9.07 s
+[2025-03-07 20:32:47.147] [info] Solved at time: 9.08 s
+[2025-03-07 20:32:47.162] [info] Solved at time: 9.09 s
+[2025-03-07 20:32:47.177] [info] Solved at time: 9.1 s
+[2025-03-07 20:32:47.190] [info] Solved at time: 9.11 s
+[2025-03-07 20:32:47.198] [info] Solved at time: 9.12 s
+[2025-03-07 20:32:47.210] [info] Solved at time: 9.13 s
+[2025-03-07 20:32:47.225] [info] Solved at time: 9.14 s
+[2025-03-07 20:32:47.241] [info] Solved at time: 9.15 s
+[2025-03-07 20:32:47.264] [info] Solved at time: 9.16 s
+[2025-03-07 20:32:47.282] [info] Solved at time: 9.17 s
+[2025-03-07 20:32:47.292] [info] Solved at time: 9.18 s
+[2025-03-07 20:32:47.314] [info] Solved at time: 9.19 s
+[2025-03-07 20:32:47.328] [info] Solved at time: 9.2 s
+[2025-03-07 20:32:47.344] [info] Solved at time: 9.21 s
+[2025-03-07 20:32:47.358] [info] Solved at time: 9.22 s
+[2025-03-07 20:32:47.370] [info] Solved at time: 9.23 s
+[2025-03-07 20:32:47.381] [info] Solved at time: 9.24 s
+[2025-03-07 20:32:47.389] [info] Solved at time: 9.25 s
+[2025-03-07 20:32:47.403] [info] Solved at time: 9.26 s
+[2025-03-07 20:32:47.414] [info] Solved at time: 9.27 s
+[2025-03-07 20:32:47.432] [info] Solved at time: 9.28 s
+[2025-03-07 20:32:47.449] [info] Solved at time: 9.29 s
+[2025-03-07 20:32:47.466] [info] Solved at time: 9.3 s
+[2025-03-07 20:32:47.483] [info] Solved at time: 9.31 s
+[2025-03-07 20:32:47.498] [info] Solved at time: 9.32 s
+[2025-03-07 20:32:47.508] [info] Solved at time: 9.33 s
+[2025-03-07 20:32:47.519] [info] Solved at time: 9.34 s
+[2025-03-07 20:32:47.529] [info] Solved at time: 9.35 s
+[2025-03-07 20:32:47.546] [info] Solved at time: 9.36 s
+[2025-03-07 20:32:47.560] [info] Solved at time: 9.37 s
+[2025-03-07 20:32:47.573] [info] Solved at time: 9.38 s
+[2025-03-07 20:32:47.583] [info] Solved at time: 9.39 s
+[2025-03-07 20:32:47.596] [info] Solved at time: 9.4 s
+[2025-03-07 20:32:47.609] [info] Solved at time: 9.41 s
+[2025-03-07 20:32:47.619] [info] Solved at time: 9.42 s
+[2025-03-07 20:32:47.631] [info] Solved at time: 9.43 s
+[2025-03-07 20:32:47.644] [info] Solved at time: 9.44 s
+[2025-03-07 20:32:47.665] [info] Solved at time: 9.45 s
+[2025-03-07 20:32:47.677] [info] Solved at time: 9.46 s
+[2025-03-07 20:32:47.689] [info] Solved at time: 9.47 s
+[2025-03-07 20:32:47.701] [info] Solved at time: 9.48 s
+[2025-03-07 20:32:47.712] [info] Solved at time: 9.49 s
+[2025-03-07 20:32:47.726] [info] Solved at time: 9.5 s
+[2025-03-07 20:32:47.740] [info] Solved at time: 9.51 s
+[2025-03-07 20:32:47.766] [info] Solved at time: 9.52 s
+[2025-03-07 20:32:47.778] [info] Solved at time: 9.53 s
+[2025-03-07 20:32:47.790] [info] Solved at time: 9.54 s
+[2025-03-07 20:32:47.801] [info] Solved at time: 9.55 s
+[2025-03-07 20:32:47.815] [info] Solved at time: 9.56 s
+[2025-03-07 20:32:47.826] [info] Solved at time: 9.57 s
+[2025-03-07 20:32:47.839] [info] Solved at time: 9.58 s
+[2025-03-07 20:32:47.857] [info] Solved at time: 9.59 s
+[2025-03-07 20:32:47.871] [info] Solved at time: 9.6 s
+[2025-03-07 20:32:47.881] [info] Solved at time: 9.61 s
+[2025-03-07 20:32:47.892] [info] Solved at time: 9.62 s
+[2025-03-07 20:32:47.903] [info] Solved at time: 9.63 s
+[2025-03-07 20:32:47.910] [info] Solved at time: 9.64 s
+[2025-03-07 20:32:47.920] [info] Solved at time: 9.65 s
+[2025-03-07 20:32:47.928] [info] Solved at time: 9.66 s
+[2025-03-07 20:32:47.940] [info] Solved at time: 9.67 s
+[2025-03-07 20:32:47.959] [info] Solved at time: 9.68 s
+[2025-03-07 20:32:47.976] [info] Solved at time: 9.69 s
+[2025-03-07 20:32:47.989] [info] Solved at time: 9.7 s
+[2025-03-07 20:32:48.001] [info] Solved at time: 9.71 s
+[2025-03-07 20:32:48.011] [info] Solved at time: 9.72 s
+[2025-03-07 20:32:48.026] [info] Solved at time: 9.73 s
+[2025-03-07 20:32:48.040] [info] Solved at time: 9.74 s
+[2025-03-07 20:32:48.053] [info] Solved at time: 9.75 s
+[2025-03-07 20:32:48.063] [info] Solved at time: 9.76 s
+[2025-03-07 20:32:48.076] [info] Solved at time: 9.77 s
+[2025-03-07 20:32:48.086] [info] Solved at time: 9.78 s
+[2025-03-07 20:32:48.096] [info] Solved at time: 9.79 s
+[2025-03-07 20:32:48.107] [info] Solved at time: 9.8 s
+[2025-03-07 20:32:48.122] [info] Solved at time: 9.81 s
+[2025-03-07 20:32:48.133] [info] Solved at time: 9.82 s
+[2025-03-07 20:32:48.145] [info] Solved at time: 9.83 s
+[2025-03-07 20:32:48.160] [info] Solved at time: 9.84 s
+[2025-03-07 20:32:48.174] [info] Solved at time: 9.85 s
+[2025-03-07 20:32:48.186] [info] Solved at time: 9.86 s
+[2025-03-07 20:32:48.196] [info] Solved at time: 9.87 s
+[2025-03-07 20:32:48.208] [info] Solved at time: 9.88 s
+[2025-03-07 20:32:48.221] [info] Solved at time: 9.89 s
+[2025-03-07 20:32:48.232] [info] Solved at time: 9.9 s
+[2025-03-07 20:32:48.246] [info] Solved at time: 9.91 s
+[2025-03-07 20:32:48.262] [info] Solved at time: 9.92 s
+[2025-03-07 20:32:48.277] [info] Solved at time: 9.93 s
+[2025-03-07 20:32:48.290] [info] Solved at time: 9.94 s
+[2025-03-07 20:32:48.300] [info] Solved at time: 9.95 s
+[2025-03-07 20:32:48.311] [info] Solved at time: 9.96 s
+[2025-03-07 20:32:48.321] [info] Solved at time: 9.97 s
+[2025-03-07 20:32:48.330] [info] Solved at time: 9.98 s
+[2025-03-07 20:32:48.345] [info] Solved at time: 9.99 s
+[2025-03-07 20:32:48.356] [info] Solved at time: 10.0 s
+[2025-03-07 20:32:48.371] [info] Solved at time: 10.01 s
+[2025-03-07 20:32:48.382] [info] Solved at time: 10.02 s
+[2025-03-07 20:32:48.397] [info] Solved at time: 10.03 s
+[2025-03-07 20:32:48.410] [info] Solved at time: 10.04 s
+[2025-03-07 20:32:48.418] [info] Solved at time: 10.05 s
+[2025-03-07 20:32:48.426] [info] Solved at time: 10.06 s
+[2025-03-07 20:32:48.436] [info] Solved at time: 10.07 s
+[2025-03-07 20:32:48.448] [info] Solved at time: 10.08 s
+[2025-03-07 20:32:48.458] [info] Solved at time: 10.09 s
+[2025-03-07 20:32:48.470] [info] Solved at time: 10.1 s
+[2025-03-07 20:32:48.477] [info] Solved at time: 10.11 s
+[2025-03-07 20:32:48.486] [info] Solved at time: 10.12 s
+[2025-03-07 20:32:48.494] [info] Solved at time: 10.13 s
+[2025-03-07 20:32:48.503] [info] Solved at time: 10.14 s
+[2025-03-07 20:32:48.510] [info] Solved at time: 10.15 s
+[2025-03-07 20:32:48.521] [info] Solved at time: 10.16 s
+[2025-03-07 20:32:48.532] [info] Solved at time: 10.17 s
+[2025-03-07 20:32:48.546] [info] Solved at time: 10.18 s
+[2025-03-07 20:32:48.559] [info] Solved at time: 10.19 s
+[2025-03-07 20:32:48.572] [info] Solved at time: 10.2 s
+[2025-03-07 20:32:48.583] [info] Solved at time: 10.21 s
+[2025-03-07 20:32:48.595] [info] Solved at time: 10.22 s
+[2025-03-07 20:32:48.603] [info] Solved at time: 10.23 s
+[2025-03-07 20:32:48.612] [info] Solved at time: 10.24 s
+[2025-03-07 20:32:48.624] [info] Solved at time: 10.25 s
+[2025-03-07 20:32:48.634] [info] Solved at time: 10.26 s
+[2025-03-07 20:32:48.645] [info] Solved at time: 10.27 s
+[2025-03-07 20:32:48.667] [info] Solved at time: 10.28 s
+[2025-03-07 20:32:48.681] [info] Solved at time: 10.29 s
+[2025-03-07 20:32:48.695] [info] Solved at time: 10.3 s
+[2025-03-07 20:32:48.707] [info] Solved at time: 10.31 s
+[2025-03-07 20:32:48.720] [info] Solved at time: 10.32 s
+[2025-03-07 20:32:48.732] [info] Solved at time: 10.33 s
+[2025-03-07 20:32:48.750] [info] Solved at time: 10.34 s
+[2025-03-07 20:32:48.766] [info] Solved at time: 10.35 s
+[2025-03-07 20:32:48.778] [info] Solved at time: 10.36 s
+[2025-03-07 20:32:48.788] [info] Solved at time: 10.37 s
+[2025-03-07 20:32:48.800] [info] Solved at time: 10.38 s
+[2025-03-07 20:32:48.811] [info] Solved at time: 10.39 s
+[2025-03-07 20:32:48.822] [info] Solved at time: 10.4 s
+[2025-03-07 20:32:48.834] [info] Solved at time: 10.41 s
+[2025-03-07 20:32:48.848] [info] Solved at time: 10.42 s
+[2025-03-07 20:32:48.865] [info] Solved at time: 10.43 s
+[2025-03-07 20:32:48.876] [info] Solved at time: 10.44 s
+[2025-03-07 20:32:48.887] [info] Solved at time: 10.45 s
+[2025-03-07 20:32:48.897] [info] Solved at time: 10.46 s
+[2025-03-07 20:32:48.909] [info] Solved at time: 10.47 s
+[2025-03-07 20:32:48.918] [info] Solved at time: 10.48 s
+[2025-03-07 20:32:48.927] [info] Solved at time: 10.49 s
+[2025-03-07 20:32:48.937] [info] Solved at time: 10.5 s
+[2025-03-07 20:32:48.951] [info] Solved at time: 10.51 s
+[2025-03-07 20:32:48.962] [info] Solved at time: 10.52 s
+[2025-03-07 20:32:48.975] [info] Solved at time: 10.53 s
+[2025-03-07 20:32:48.986] [info] Solved at time: 10.54 s
+[2025-03-07 20:32:48.997] [info] Solved at time: 10.55 s
+[2025-03-07 20:32:49.008] [info] Solved at time: 10.56 s
+[2025-03-07 20:32:49.021] [info] Solved at time: 10.57 s
+[2025-03-07 20:32:49.031] [info] Solved at time: 10.58 s
+[2025-03-07 20:32:49.043] [info] Solved at time: 10.59 s
+[2025-03-07 20:32:49.055] [info] Solved at time: 10.6 s
+[2025-03-07 20:32:49.070] [info] Solved at time: 10.61 s
+[2025-03-07 20:32:49.079] [info] Solved at time: 10.62 s
+[2025-03-07 20:32:49.089] [info] Solved at time: 10.63 s
+[2025-03-07 20:32:49.100] [info] Solved at time: 10.64 s
+[2025-03-07 20:32:49.110] [info] Solved at time: 10.65 s
+[2025-03-07 20:32:49.120] [info] Solved at time: 10.66 s
+[2025-03-07 20:32:49.132] [info] Solved at time: 10.67 s
+[2025-03-07 20:32:49.149] [info] Solved at time: 10.68 s
+[2025-03-07 20:32:49.163] [info] Solved at time: 10.69 s
+[2025-03-07 20:32:49.179] [info] Solved at time: 10.7 s
+[2025-03-07 20:32:49.191] [info] Solved at time: 10.71 s
+[2025-03-07 20:32:49.204] [info] Solved at time: 10.72 s
+[2025-03-07 20:32:49.226] [info] Solved at time: 10.73 s
+[2025-03-07 20:32:49.241] [info] Solved at time: 10.74 s
+[2025-03-07 20:32:49.263] [info] Solved at time: 10.75 s
+[2025-03-07 20:32:49.277] [info] Solved at time: 10.76 s
+[2025-03-07 20:32:49.293] [info] Solved at time: 10.77 s
+[2025-03-07 20:32:49.305] [info] Solved at time: 10.78 s
+[2025-03-07 20:32:49.319] [info] Solved at time: 10.79 s
+[2025-03-07 20:32:49.334] [info] Solved at time: 10.8 s
+[2025-03-07 20:32:49.355] [info] Solved at time: 10.81 s
+[2025-03-07 20:32:49.376] [info] Solved at time: 10.82 s
+[2025-03-07 20:32:49.385] [info] Solved at time: 10.83 s
+[2025-03-07 20:32:49.392] [info] Solved at time: 10.84 s
+[2025-03-07 20:32:49.402] [info] Solved at time: 10.85 s
+[2025-03-07 20:32:49.411] [info] Solved at time: 10.86 s
+[2025-03-07 20:32:49.425] [info] Solved at time: 10.87 s
+[2025-03-07 20:32:49.441] [info] Solved at time: 10.88 s
+[2025-03-07 20:32:49.458] [info] Solved at time: 10.89 s
+[2025-03-07 20:32:49.469] [info] Solved at time: 10.9 s
+[2025-03-07 20:32:49.479] [info] Solved at time: 10.91 s
+[2025-03-07 20:32:49.488] [info] Solved at time: 10.92 s
+[2025-03-07 20:32:49.498] [info] Solved at time: 10.93 s
+[2025-03-07 20:32:49.507] [info] Solved at time: 10.94 s
+[2025-03-07 20:32:49.516] [info] Solved at time: 10.95 s
+[2025-03-07 20:32:49.527] [info] Solved at time: 10.96 s
+[2025-03-07 20:32:49.539] [info] Solved at time: 10.97 s
+[2025-03-07 20:32:49.552] [info] Solved at time: 10.98 s
+[2025-03-07 20:32:49.569] [info] Solved at time: 10.99 s
+[2025-03-07 20:32:49.580] [info] Solved at time: 11.0 s
+[2025-03-07 20:32:49.591] [info] Solved at time: 11.01 s
+[2025-03-07 20:32:49.603] [info] Solved at time: 11.02 s
+[2025-03-07 20:32:49.613] [info] Solved at time: 11.03 s
+[2025-03-07 20:32:49.624] [info] Solved at time: 11.04 s
+[2025-03-07 20:32:49.638] [info] Solved at time: 11.05 s
+[2025-03-07 20:32:49.658] [info] Solved at time: 11.06 s
+[2025-03-07 20:32:49.673] [info] Solved at time: 11.07 s
+[2025-03-07 20:32:49.685] [info] Solved at time: 11.08 s
+[2025-03-07 20:32:49.700] [info] Solved at time: 11.09 s
+[2025-03-07 20:32:49.713] [info] Solved at time: 11.1 s
+[2025-03-07 20:32:49.723] [info] Solved at time: 11.11 s
+[2025-03-07 20:32:49.738] [info] Solved at time: 11.12 s
+[2025-03-07 20:32:49.752] [info] Solved at time: 11.13 s
+[2025-03-07 20:32:49.760] [info] Solved at time: 11.14 s
+[2025-03-07 20:32:49.769] [info] Solved at time: 11.15 s
+[2025-03-07 20:32:49.777] [info] Solved at time: 11.16 s
+[2025-03-07 20:32:49.786] [info] Solved at time: 11.17 s
+[2025-03-07 20:32:49.795] [info] Solved at time: 11.18 s
+[2025-03-07 20:32:49.803] [info] Solved at time: 11.19 s
+[2025-03-07 20:32:49.813] [info] Solved at time: 11.2 s
+[2025-03-07 20:32:49.822] [info] Solved at time: 11.21 s
+[2025-03-07 20:32:49.832] [info] Solved at time: 11.22 s
+[2025-03-07 20:32:49.840] [info] Solved at time: 11.23 s
+[2025-03-07 20:32:49.855] [info] Solved at time: 11.24 s
+[2025-03-07 20:32:49.872] [info] Solved at time: 11.25 s
+[2025-03-07 20:32:49.883] [info] Solved at time: 11.26 s
+[2025-03-07 20:32:49.895] [info] Solved at time: 11.27 s
+[2025-03-07 20:32:49.907] [info] Solved at time: 11.28 s
+[2025-03-07 20:32:49.918] [info] Solved at time: 11.29 s
+[2025-03-07 20:32:49.929] [info] Solved at time: 11.3 s
+[2025-03-07 20:32:49.943] [info] Solved at time: 11.31 s
+[2025-03-07 20:32:49.959] [info] Solved at time: 11.32 s
+[2025-03-07 20:32:49.969] [info] Solved at time: 11.33 s
+[2025-03-07 20:32:49.981] [info] Solved at time: 11.34 s
+[2025-03-07 20:32:49.992] [info] Solved at time: 11.35 s
+[2025-03-07 20:32:50.002] [info] Solved at time: 11.36 s
+[2025-03-07 20:32:50.012] [info] Solved at time: 11.37 s
+[2025-03-07 20:32:50.021] [info] Solved at time: 11.38 s
+[2025-03-07 20:32:50.032] [info] Solved at time: 11.39 s
+[2025-03-07 20:32:50.042] [info] Solved at time: 11.4 s
+[2025-03-07 20:32:50.056] [info] Solved at time: 11.41 s
+[2025-03-07 20:32:50.069] [info] Solved at time: 11.42 s
+[2025-03-07 20:32:50.078] [info] Solved at time: 11.43 s
+[2025-03-07 20:32:50.091] [info] Solved at time: 11.44 s
+[2025-03-07 20:32:50.102] [info] Solved at time: 11.45 s
+[2025-03-07 20:32:50.111] [info] Solved at time: 11.46 s
+[2025-03-07 20:32:50.123] [info] Solved at time: 11.47 s
+[2025-03-07 20:32:50.130] [info] Solved at time: 11.48 s
+[2025-03-07 20:32:50.141] [info] Solved at time: 11.49 s
+[2025-03-07 20:32:50.153] [info] Solved at time: 11.5 s
+[2025-03-07 20:32:50.167] [info] Solved at time: 11.51 s
+[2025-03-07 20:32:50.177] [info] Solved at time: 11.52 s
+[2025-03-07 20:32:50.190] [info] Solved at time: 11.53 s
+[2025-03-07 20:32:50.202] [info] Solved at time: 11.54 s
+[2025-03-07 20:32:50.214] [info] Solved at time: 11.55 s
+[2025-03-07 20:32:50.225] [info] Solved at time: 11.56 s
+[2025-03-07 20:32:50.240] [info] Solved at time: 11.57 s
+[2025-03-07 20:32:50.254] [info] Solved at time: 11.58 s
+[2025-03-07 20:32:50.265] [info] Solved at time: 11.59 s
+[2025-03-07 20:32:50.275] [info] Solved at time: 11.6 s
+[2025-03-07 20:32:50.286] [info] Solved at time: 11.61 s
+[2025-03-07 20:32:50.296] [info] Solved at time: 11.62 s
+[2025-03-07 20:32:50.307] [info] Solved at time: 11.63 s
+[2025-03-07 20:32:50.320] [info] Solved at time: 11.64 s
+[2025-03-07 20:32:50.330] [info] Solved at time: 11.65 s
+[2025-03-07 20:32:50.340] [info] Solved at time: 11.66 s
+[2025-03-07 20:32:50.358] [info] Solved at time: 11.67 s
+[2025-03-07 20:32:50.371] [info] Solved at time: 11.68 s
+[2025-03-07 20:32:50.381] [info] Solved at time: 11.69 s
+[2025-03-07 20:32:50.392] [info] Solved at time: 11.7 s
+[2025-03-07 20:32:50.402] [info] Solved at time: 11.71 s
+[2025-03-07 20:32:50.410] [info] Solved at time: 11.72 s
+[2025-03-07 20:32:50.422] [info] Solved at time: 11.73 s
+[2025-03-07 20:32:50.437] [info] Solved at time: 11.74 s
+[2025-03-07 20:32:50.450] [info] Solved at time: 11.75 s
+[2025-03-07 20:32:50.466] [info] Solved at time: 11.76 s
+[2025-03-07 20:32:50.478] [info] Solved at time: 11.77 s
+[2025-03-07 20:32:50.491] [info] Solved at time: 11.78 s
+[2025-03-07 20:32:50.503] [info] Solved at time: 11.79 s
+[2025-03-07 20:32:50.514] [info] Solved at time: 11.8 s
+[2025-03-07 20:32:50.526] [info] Solved at time: 11.81 s
+[2025-03-07 20:32:50.543] [info] Solved at time: 11.82 s
+[2025-03-07 20:32:50.555] [info] Solved at time: 11.83 s
+[2025-03-07 20:32:50.564] [info] Solved at time: 11.84 s
+[2025-03-07 20:32:50.573] [info] Solved at time: 11.85 s
+[2025-03-07 20:32:50.581] [info] Solved at time: 11.86 s
+[2025-03-07 20:32:50.591] [info] Solved at time: 11.87 s
+[2025-03-07 20:32:50.601] [info] Solved at time: 11.88 s
+[2025-03-07 20:32:50.612] [info] Solved at time: 11.89 s
+[2025-03-07 20:32:50.626] [info] Solved at time: 11.9 s
+[2025-03-07 20:32:50.643] [info] Solved at time: 11.91 s
+[2025-03-07 20:32:50.655] [info] Solved at time: 11.92 s
+[2025-03-07 20:32:50.669] [info] Solved at time: 11.93 s
+[2025-03-07 20:32:50.681] [info] Solved at time: 11.94 s
+[2025-03-07 20:32:50.692] [info] Solved at time: 11.95 s
+[2025-03-07 20:32:50.704] [info] Solved at time: 11.96 s
+[2025-03-07 20:32:50.716] [info] Solved at time: 11.97 s
+[2025-03-07 20:32:50.729] [info] Solved at time: 11.98 s
+[2025-03-07 20:32:50.744] [info] Solved at time: 11.99 s
+[2025-03-07 20:32:50.760] [info] Solved at time: 12.0 s
+[2025-03-07 20:32:50.777] [info] Solved at time: 12.01 s
+[2025-03-07 20:32:50.789] [info] Solved at time: 12.02 s
+[2025-03-07 20:32:50.800] [info] Solved at time: 12.03 s
+[2025-03-07 20:32:50.814] [info] Solved at time: 12.04 s
+[2025-03-07 20:32:50.826] [info] Solved at time: 12.05 s
+[2025-03-07 20:32:50.839] [info] Solved at time: 12.06 s
+[2025-03-07 20:32:50.858] [info] Solved at time: 12.07 s
+[2025-03-07 20:32:50.872] [info] Solved at time: 12.08 s
+[2025-03-07 20:32:50.886] [info] Solved at time: 12.09 s
+[2025-03-07 20:32:50.899] [info] Solved at time: 12.1 s
+[2025-03-07 20:32:50.913] [info] Solved at time: 12.11 s
+[2025-03-07 20:32:50.929] [info] Solved at time: 12.12 s
+[2025-03-07 20:32:50.943] [info] Solved at time: 12.13 s
+[2025-03-07 20:32:50.966] [info] Solved at time: 12.14 s
+[2025-03-07 20:32:50.981] [info] Solved at time: 12.15 s
+[2025-03-07 20:32:50.992] [info] Solved at time: 12.16 s
+[2025-03-07 20:32:51.007] [info] Solved at time: 12.17 s
+[2025-03-07 20:32:51.017] [info] Solved at time: 12.18 s
+[2025-03-07 20:32:51.031] [info] Solved at time: 12.19 s
+[2025-03-07 20:32:51.047] [info] Solved at time: 12.2 s
+[2025-03-07 20:32:51.063] [info] Solved at time: 12.21 s
+[2025-03-07 20:32:51.078] [info] Solved at time: 12.22 s
+[2025-03-07 20:32:51.091] [info] Solved at time: 12.23 s
+[2025-03-07 20:32:51.105] [info] Solved at time: 12.24 s
+[2025-03-07 20:32:51.117] [info] Solved at time: 12.25 s
+[2025-03-07 20:32:51.133] [info] Solved at time: 12.26 s
+[2025-03-07 20:32:51.147] [info] Solved at time: 12.27 s
+[2025-03-07 20:32:51.163] [info] Solved at time: 12.28 s
+[2025-03-07 20:32:51.178] [info] Solved at time: 12.29 s
+[2025-03-07 20:32:51.194] [info] Solved at time: 12.3 s
+[2025-03-07 20:32:51.207] [info] Solved at time: 12.31 s
+[2025-03-07 20:32:51.224] [info] Solved at time: 12.32 s
+[2025-03-07 20:32:51.246] [info] Solved at time: 12.33 s
+[2025-03-07 20:32:51.272] [info] Solved at time: 12.34 s
+[2025-03-07 20:32:51.293] [info] Solved at time: 12.35 s
+[2025-03-07 20:32:51.314] [info] Solved at time: 12.36 s
+[2025-03-07 20:32:51.336] [info] Solved at time: 12.37 s
+[2025-03-07 20:32:51.368] [info] Solved at time: 12.38 s
+[2025-03-07 20:32:51.390] [info] Solved at time: 12.39 s
+[2025-03-07 20:32:51.409] [info] Solved at time: 12.4 s
+[2025-03-07 20:32:51.429] [info] Solved at time: 12.41 s
+[2025-03-07 20:32:51.445] [info] Solved at time: 12.42 s
+[2025-03-07 20:32:51.471] [info] Solved at time: 12.43 s
+[2025-03-07 20:32:51.489] [info] Solved at time: 12.44 s
+[2025-03-07 20:32:51.510] [info] Solved at time: 12.45 s
+[2025-03-07 20:32:51.532] [info] Solved at time: 12.46 s
+[2025-03-07 20:32:51.564] [info] Solved at time: 12.47 s
+[2025-03-07 20:32:51.582] [info] Solved at time: 12.48 s
+[2025-03-07 20:32:51.600] [info] Solved at time: 12.49 s
+[2025-03-07 20:32:51.619] [info] Solved at time: 12.5 s
+[2025-03-07 20:32:51.636] [info] Solved at time: 12.51 s
+[2025-03-07 20:32:51.658] [info] Solved at time: 12.52 s
+[2025-03-07 20:32:51.674] [info] Solved at time: 12.53 s
+[2025-03-07 20:32:51.692] [info] Solved at time: 12.54 s
+[2025-03-07 20:32:51.708] [info] Solved at time: 12.55 s
+[2025-03-07 20:32:51.724] [info] Solved at time: 12.56 s
+[2025-03-07 20:32:51.749] [info] Solved at time: 12.57 s
+[2025-03-07 20:32:51.766] [info] Solved at time: 12.58 s
+[2025-03-07 20:32:51.786] [info] Solved at time: 12.59 s
+[2025-03-07 20:32:51.807] [info] Solved at time: 12.6 s
+[2025-03-07 20:32:51.826] [info] Solved at time: 12.61 s
+[2025-03-07 20:32:51.849] [info] Solved at time: 12.62 s
+[2025-03-07 20:32:51.865] [info] Solved at time: 12.63 s
+[2025-03-07 20:32:51.884] [info] Solved at time: 12.64 s
+[2025-03-07 20:32:51.904] [info] Solved at time: 12.65 s
+[2025-03-07 20:32:51.924] [info] Solved at time: 12.66 s
+[2025-03-07 20:32:51.941] [info] Solved at time: 12.67 s
+[2025-03-07 20:32:51.964] [info] Solved at time: 12.68 s
+[2025-03-07 20:32:51.984] [info] Solved at time: 12.69 s
+[2025-03-07 20:32:52.002] [info] Solved at time: 12.7 s
+[2025-03-07 20:32:52.021] [info] Solved at time: 12.71 s
+[2025-03-07 20:32:52.038] [info] Solved at time: 12.72 s
+[2025-03-07 20:32:52.060] [info] Solved at time: 12.73 s
+[2025-03-07 20:32:52.083] [info] Solved at time: 12.74 s
+[2025-03-07 20:32:52.102] [info] Solved at time: 12.75 s
+[2025-03-07 20:32:52.122] [info] Solved at time: 12.76 s
+[2025-03-07 20:32:52.139] [info] Solved at time: 12.77 s
+[2025-03-07 20:32:52.163] [info] Solved at time: 12.78 s
+[2025-03-07 20:32:52.179] [info] Solved at time: 12.79 s
+[2025-03-07 20:32:52.193] [info] Solved at time: 12.8 s
+[2025-03-07 20:32:52.211] [info] Solved at time: 12.81 s
+[2025-03-07 20:32:52.232] [info] Solved at time: 12.82 s
+[2025-03-07 20:32:52.246] [info] Solved at time: 12.83 s
+[2025-03-07 20:32:52.273] [info] Solved at time: 12.84 s
+[2025-03-07 20:32:52.295] [info] Solved at time: 12.85 s
+[2025-03-07 20:32:52.312] [info] Solved at time: 12.86 s
+[2025-03-07 20:32:52.330] [info] Solved at time: 12.87 s
+[2025-03-07 20:32:52.348] [info] Solved at time: 12.88 s
+[2025-03-07 20:32:52.369] [info] Solved at time: 12.89 s
+[2025-03-07 20:32:52.386] [info] Solved at time: 12.9 s
+[2025-03-07 20:32:52.401] [info] Solved at time: 12.91 s
+[2025-03-07 20:32:52.417] [info] Solved at time: 12.92 s
+[2025-03-07 20:32:52.434] [info] Solved at time: 12.93 s
+[2025-03-07 20:32:52.455] [info] Solved at time: 12.94 s
+[2025-03-07 20:32:52.471] [info] Solved at time: 12.95 s
+[2025-03-07 20:32:52.487] [info] Solved at time: 12.96 s
+[2025-03-07 20:32:52.505] [info] Solved at time: 12.97 s
+[2025-03-07 20:32:52.521] [info] Solved at time: 12.98 s
+[2025-03-07 20:32:52.536] [info] Solved at time: 12.99 s
+[2025-03-07 20:32:52.554] [info] Solved at time: 13.0 s
+[2025-03-07 20:32:52.572] [info] Solved at time: 13.01 s
+[2025-03-07 20:32:52.590] [info] Solved at time: 13.02 s
+[2025-03-07 20:32:52.607] [info] Solved at time: 13.03 s
+[2025-03-07 20:32:52.624] [info] Solved at time: 13.04 s
+[2025-03-07 20:32:52.644] [info] Solved at time: 13.05 s
+[2025-03-07 20:32:52.673] [info] Solved at time: 13.06 s
+[2025-03-07 20:32:52.692] [info] Solved at time: 13.07 s
+[2025-03-07 20:32:52.712] [info] Solved at time: 13.08 s
+[2025-03-07 20:32:52.732] [info] Solved at time: 13.09 s
+[2025-03-07 20:32:52.761] [info] Solved at time: 13.1 s
+[2025-03-07 20:32:52.782] [info] Solved at time: 13.11 s
+[2025-03-07 20:32:52.803] [info] Solved at time: 13.12 s
+[2025-03-07 20:32:52.820] [info] Solved at time: 13.13 s
+[2025-03-07 20:32:52.840] [info] Solved at time: 13.14 s
+[2025-03-07 20:32:52.867] [info] Solved at time: 13.15 s
+[2025-03-07 20:32:52.889] [info] Solved at time: 13.16 s
+[2025-03-07 20:32:52.909] [info] Solved at time: 13.17 s
+[2025-03-07 20:32:52.935] [info] Solved at time: 13.18 s
+[2025-03-07 20:32:52.961] [info] Solved at time: 13.19 s
+[2025-03-07 20:32:52.983] [info] Solved at time: 13.2 s
+[2025-03-07 20:32:52.999] [info] Solved at time: 13.21 s
+[2025-03-07 20:32:53.016] [info] Solved at time: 13.22 s
+[2025-03-07 20:32:53.034] [info] Solved at time: 13.23 s
+[2025-03-07 20:32:53.050] [info] Solved at time: 13.24 s
+[2025-03-07 20:32:53.071] [info] Solved at time: 13.25 s
+[2025-03-07 20:32:53.090] [info] Solved at time: 13.26 s
+[2025-03-07 20:32:53.109] [info] Solved at time: 13.27 s
+[2025-03-07 20:32:53.125] [info] Solved at time: 13.28 s
+[2025-03-07 20:32:53.141] [info] Solved at time: 13.29 s
+[2025-03-07 20:32:53.164] [info] Solved at time: 13.3 s
+[2025-03-07 20:32:53.183] [info] Solved at time: 13.31 s
+[2025-03-07 20:32:53.197] [info] Solved at time: 13.32 s
+[2025-03-07 20:32:53.215] [info] Solved at time: 13.33 s
+[2025-03-07 20:32:53.237] [info] Solved at time: 13.34 s
+[2025-03-07 20:32:53.261] [info] Solved at time: 13.35 s
+[2025-03-07 20:32:53.287] [info] Solved at time: 13.36 s
+[2025-03-07 20:32:53.313] [info] Solved at time: 13.37 s
+[2025-03-07 20:32:53.339] [info] Solved at time: 13.38 s
+[2025-03-07 20:32:53.379] [info] Solved at time: 13.39 s
+[2025-03-07 20:32:53.412] [info] Solved at time: 13.4 s
+[2025-03-07 20:32:53.445] [info] Solved at time: 13.41 s
+[2025-03-07 20:32:53.475] [info] Solved at time: 13.42 s
+[2025-03-07 20:32:53.503] [info] Solved at time: 13.43 s
+[2025-03-07 20:32:53.534] [info] Solved at time: 13.44 s
+[2025-03-07 20:32:53.563] [info] Solved at time: 13.45 s
+[2025-03-07 20:32:53.600] [info] Solved at time: 13.46 s
+[2025-03-07 20:32:53.625] [info] Solved at time: 13.47 s
+[2025-03-07 20:32:53.654] [info] Solved at time: 13.48 s
+[2025-03-07 20:32:53.685] [info] Solved at time: 13.49 s
+[2025-03-07 20:32:53.718] [info] Solved at time: 13.5 s
+[2025-03-07 20:32:53.740] [info] Solved at time: 13.51 s
+[2025-03-07 20:32:53.769] [info] Solved at time: 13.52 s
+[2025-03-07 20:32:53.791] [info] Solved at time: 13.53 s
+[2025-03-07 20:32:53.813] [info] Solved at time: 13.54 s
+[2025-03-07 20:32:53.835] [info] Solved at time: 13.55 s
+[2025-03-07 20:32:53.867] [info] Solved at time: 13.56 s
+[2025-03-07 20:32:53.902] [info] Solved at time: 13.57 s
+[2025-03-07 20:32:53.930] [info] Solved at time: 13.58 s
+[2025-03-07 20:32:53.952] [info] Solved at time: 13.59 s
+[2025-03-07 20:32:53.983] [info] Solved at time: 13.6 s
+[2025-03-07 20:32:54.003] [info] Solved at time: 13.61 s
+[2025-03-07 20:32:54.022] [info] Solved at time: 13.62 s
+[2025-03-07 20:32:54.040] [info] Solved at time: 13.63 s
+[2025-03-07 20:32:54.068] [info] Solved at time: 13.64 s
+[2025-03-07 20:32:54.092] [info] Solved at time: 13.65 s
+[2025-03-07 20:32:54.112] [info] Solved at time: 13.66 s
+[2025-03-07 20:32:54.134] [info] Solved at time: 13.67 s
+[2025-03-07 20:32:54.157] [info] Solved at time: 13.68 s
+[2025-03-07 20:32:54.185] [info] Solved at time: 13.69 s
+[2025-03-07 20:32:54.205] [info] Solved at time: 13.7 s
+[2025-03-07 20:32:54.225] [info] Solved at time: 13.71 s
+[2025-03-07 20:32:54.248] [info] Solved at time: 13.72 s
+[2025-03-07 20:32:54.277] [info] Solved at time: 13.73 s
+[2025-03-07 20:32:54.301] [info] Solved at time: 13.74 s
+[2025-03-07 20:32:54.323] [info] Solved at time: 13.75 s
+[2025-03-07 20:32:54.351] [info] Solved at time: 13.76 s
+[2025-03-07 20:32:54.384] [info] Solved at time: 13.77 s
+[2025-03-07 20:32:54.409] [info] Solved at time: 13.78 s
+[2025-03-07 20:32:54.432] [info] Solved at time: 13.79 s
+[2025-03-07 20:32:54.453] [info] Solved at time: 13.8 s
+[2025-03-07 20:32:54.482] [info] Solved at time: 13.81 s
+[2025-03-07 20:32:54.500] [info] Solved at time: 13.82 s
+[2025-03-07 20:32:54.521] [info] Solved at time: 13.83 s
+[2025-03-07 20:32:54.542] [info] Solved at time: 13.84 s
+[2025-03-07 20:32:54.569] [info] Solved at time: 13.85 s
+[2025-03-07 20:32:54.588] [info] Solved at time: 13.86 s
+[2025-03-07 20:32:54.608] [info] Solved at time: 13.87 s
+[2025-03-07 20:32:54.625] [info] Solved at time: 13.88 s
+[2025-03-07 20:32:54.650] [info] Solved at time: 13.89 s
+[2025-03-07 20:32:54.667] [info] Solved at time: 13.9 s
+[2025-03-07 20:32:54.683] [info] Solved at time: 13.91 s
+[2025-03-07 20:32:54.698] [info] Solved at time: 13.92 s
+[2025-03-07 20:32:54.714] [info] Solved at time: 13.93 s
+[2025-03-07 20:32:54.731] [info] Solved at time: 13.94 s
+[2025-03-07 20:32:54.754] [info] Solved at time: 13.95 s
+[2025-03-07 20:32:54.785] [info] Solved at time: 13.96 s
+[2025-03-07 20:32:54.808] [info] Solved at time: 13.97 s
+[2025-03-07 20:32:54.827] [info] Solved at time: 13.98 s
+[2025-03-07 20:32:54.847] [info] Solved at time: 13.99 s
+[2025-03-07 20:32:54.869] [info] Solved at time: 14.0 s
+[2025-03-07 20:32:54.893] [info] Solved at time: 14.01 s
+[2025-03-07 20:32:54.912] [info] Solved at time: 14.02 s
+[2025-03-07 20:32:54.931] [info] Solved at time: 14.03 s
+[2025-03-07 20:32:54.957] [info] Solved at time: 14.04 s
+[2025-03-07 20:32:54.979] [info] Solved at time: 14.05 s
+[2025-03-07 20:32:54.999] [info] Solved at time: 14.06 s
+[2025-03-07 20:32:55.019] [info] Solved at time: 14.07 s
+[2025-03-07 20:32:55.038] [info] Solved at time: 14.08 s
+[2025-03-07 20:32:55.065] [info] Solved at time: 14.09 s
+[2025-03-07 20:32:55.085] [info] Solved at time: 14.1 s
+[2025-03-07 20:32:55.105] [info] Solved at time: 14.11 s
+[2025-03-07 20:32:55.124] [info] Solved at time: 14.12 s
+[2025-03-07 20:32:55.143] [info] Solved at time: 14.13 s
+[2025-03-07 20:32:55.170] [info] Solved at time: 14.14 s
+[2025-03-07 20:32:55.190] [info] Solved at time: 14.15 s
+[2025-03-07 20:32:55.212] [info] Solved at time: 14.16 s
+[2025-03-07 20:32:55.239] [info] Solved at time: 14.17 s
+[2025-03-07 20:32:55.266] [info] Solved at time: 14.18 s
+[2025-03-07 20:32:55.293] [info] Solved at time: 14.19 s
+[2025-03-07 20:32:55.319] [info] Solved at time: 14.2 s
+[2025-03-07 20:32:55.345] [info] Solved at time: 14.21 s
+[2025-03-07 20:32:55.386] [info] Solved at time: 14.22 s
+[2025-03-07 20:32:55.409] [info] Solved at time: 14.23 s
+[2025-03-07 20:32:55.431] [info] Solved at time: 14.24 s
+[2025-03-07 20:32:55.461] [info] Solved at time: 14.25 s
+[2025-03-07 20:32:55.488] [info] Solved at time: 14.26 s
+[2025-03-07 20:32:55.515] [info] Solved at time: 14.27 s
+[2025-03-07 20:32:55.540] [info] Solved at time: 14.28 s
+[2025-03-07 20:32:55.571] [info] Solved at time: 14.29 s
+[2025-03-07 20:32:55.594] [info] Solved at time: 14.3 s
+[2025-03-07 20:32:55.617] [info] Solved at time: 14.31 s
+[2025-03-07 20:32:55.639] [info] Solved at time: 14.32 s
+[2025-03-07 20:32:55.665] [info] Solved at time: 14.33 s
+[2025-03-07 20:32:55.682] [info] Solved at time: 14.34 s
+[2025-03-07 20:32:55.700] [info] Solved at time: 14.35 s
+[2025-03-07 20:32:55.716] [info] Solved at time: 14.36 s
+[2025-03-07 20:32:55.733] [info] Solved at time: 14.37 s
+[2025-03-07 20:32:55.756] [info] Solved at time: 14.38 s
+[2025-03-07 20:32:55.776] [info] Solved at time: 14.39 s
+[2025-03-07 20:32:55.792] [info] Solved at time: 14.4 s
+[2025-03-07 20:32:55.807] [info] Solved at time: 14.41 s
+[2025-03-07 20:32:55.823] [info] Solved at time: 14.42 s
+[2025-03-07 20:32:55.840] [info] Solved at time: 14.43 s
+[2025-03-07 20:32:55.863] [info] Solved at time: 14.44 s
+[2025-03-07 20:32:55.887] [info] Solved at time: 14.45 s
+[2025-03-07 20:32:55.903] [info] Solved at time: 14.46 s
+[2025-03-07 20:32:55.921] [info] Solved at time: 14.47 s
+[2025-03-07 20:32:55.948] [info] Solved at time: 14.48 s
+[2025-03-07 20:32:55.978] [info] Solved at time: 14.49 s
+[2025-03-07 20:32:56.013] [info] Solved at time: 14.5 s
+[2025-03-07 20:32:56.047] [info] Solved at time: 14.51 s
+[2025-03-07 20:32:56.079] [info] Solved at time: 14.52 s
+[2025-03-07 20:32:56.121] [info] Solved at time: 14.53 s
+[2025-03-07 20:32:56.161] [info] Solved at time: 14.54 s
+[2025-03-07 20:32:56.224] [info] Solved at time: 14.55 s
+[2025-03-07 20:32:56.261] [info] Solved at time: 14.56 s
+[2025-03-07 20:32:56.309] [info] Solved at time: 14.57 s
+[2025-03-07 20:32:56.352] [info] Solved at time: 14.58 s
+[2025-03-07 20:32:56.396] [info] Solved at time: 14.59 s
+[2025-03-07 20:32:56.449] [info] Solved at time: 14.6 s
+[2025-03-07 20:32:56.505] [info] Solved at time: 14.61 s
+[2025-03-07 20:32:56.551] [info] Solved at time: 14.62 s
+[2025-03-07 20:32:56.615] [info] Solved at time: 14.63 s
+[2025-03-07 20:32:56.658] [info] Solved at time: 14.64 s
+[2025-03-07 20:32:56.710] [info] Solved at time: 14.65 s
+[2025-03-07 20:32:56.753] [info] Solved at time: 14.66 s
+[2025-03-07 20:32:56.800] [info] Solved at time: 14.67 s
+[2025-03-07 20:32:56.834] [info] Solved at time: 14.68 s
+[2025-03-07 20:32:56.874] [info] Solved at time: 14.69 s
+[2025-03-07 20:32:56.909] [info] Solved at time: 14.7 s
+[2025-03-07 20:32:56.933] [info] Solved at time: 14.71 s
+[2025-03-07 20:32:56.964] [info] Solved at time: 14.72 s
+[2025-03-07 20:32:56.991] [info] Solved at time: 14.73 s
+[2025-03-07 20:32:57.012] [info] Solved at time: 14.74 s
+[2025-03-07 20:32:57.035] [info] Solved at time: 14.75 s
+[2025-03-07 20:32:57.065] [info] Solved at time: 14.76 s
+[2025-03-07 20:32:57.089] [info] Solved at time: 14.77 s
+[2025-03-07 20:32:57.109] [info] Solved at time: 14.78 s
+[2025-03-07 20:32:57.128] [info] Solved at time: 14.79 s
+[2025-03-07 20:32:57.156] [info] Solved at time: 14.8 s
+[2025-03-07 20:32:57.196] [info] Solved at time: 14.81 s
+[2025-03-07 20:32:57.229] [info] Solved at time: 14.82 s
+[2025-03-07 20:32:57.285] [info] Solved at time: 14.83 s
+[2025-03-07 20:32:57.350] [info] Solved at time: 14.84 s
+[2025-03-07 20:32:57.438] [info] Solved at time: 14.85 s
+[2025-03-07 20:32:57.522] [info] Solved at time: 14.86 s
+[2025-03-07 20:32:57.603] [info] Solved at time: 14.87 s
+[2025-03-07 20:32:57.666] [info] Solved at time: 14.88 s
+[2025-03-07 20:32:57.747] [info] Solved at time: 14.89 s
+[2025-03-07 20:32:57.831] [info] Solved at time: 14.9 s
+[2025-03-07 20:32:57.914] [info] Solved at time: 14.91 s
+[2025-03-07 20:32:58.019] [info] Solved at time: 14.92 s
+[2025-03-07 20:32:58.097] [info] Solved at time: 14.93 s
+[2025-03-07 20:32:58.181] [info] Solved at time: 14.94 s
+[2025-03-07 20:32:58.261] [info] Solved at time: 14.95 s
+[2025-03-07 20:32:58.349] [info] Solved at time: 14.96 s
+[2025-03-07 20:32:58.410] [info] Solved at time: 14.97 s
+[2025-03-07 20:32:58.458] [info] Solved at time: 14.98 s
+[2025-03-07 20:32:58.509] [info] Solved at time: 14.99 s
+[2025-03-07 20:32:58.560] [info] Solved at time: 15.0 s
+[2025-03-07 20:32:58.700] [info] Wrote IK with IMU tracking results to: 'ik_MT_012005D6_009-001_orientations.mot'.
+[2025-03-08 16:55:24.886] [cout] [info] 
+               MODEL: Rajagopal_2015_calibrated
+         coordinates: 39
+              forces: 0
+           actuators: 0
+             muscles: 0
+            analyses: 3
+              probes: 0
+              bodies: 22
+              joints: 22
+         constraints: 2
+             markers: 0
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 8
+[2025-03-08 16:55:24.888] [info] Running tool Rajagopal_2015_calibrated...
+[2025-03-08 16:55:24.888] [info] No external loads will be applied (external loads file not specified).
+[2025-03-08 16:55:24.926] [info] Low-pass filtering coordinates data with a cutoff frequency of 6.0...
+[2025-03-08 16:55:26.600] [info] InverseDynamicsTool: 775 time frames in 521 millisecond(s).
