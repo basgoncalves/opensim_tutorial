@@ -1,5 +1,6 @@
-<?xml version="1.0" ?>
-<subject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="utf-8"?>
+<subject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="subject.xsd">
    <mtuDefault>
       <emDelay>0.015</emDelay>
       <percentageChange>0.15</percentageChange>
@@ -1041,16 +1042,15 @@
    </mtuSet>
    <dofSet>
       <dof>
-         <name>knee_flexion_r</name>
+         <name>knee_angle_r</name>
          <mtuNameSet>bifemlh_r bifemsh_r lat_gas_r  med_gas_r grac_r rect_fem_r sar_r semimem_r semiten_r tfl_r vas_int_r vas_lat_r vas_med_r</mtuNameSet>
       </dof>
    </dofSet>
    <calibrationInfo>
       <uncalibrated>
          <subjectID>9</subjectID>
-         <additionalInfo>TendonSlackLength and OptimalFibreLength scaled with Winby-Modenese</additionalInfo>
+         <additionalInfo/>
       </uncalibrated>
    </calibrationInfo>
-   <contactModelFile>.\contact_model.xml</contactModelFile>
    <opensimModelFile>..\..\PC002_scaled.osim</opensimModelFile>
 </subject>

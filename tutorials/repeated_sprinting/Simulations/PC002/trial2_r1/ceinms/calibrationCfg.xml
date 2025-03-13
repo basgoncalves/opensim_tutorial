@@ -77,10 +77,6 @@
             </parameter>
             <parameter>
                <name>strengthCoefficient</name>
-               <single/>
-               <absolute>
-                  <range>0.8 2</range>
-               </absolute>
                <muscleGroups>
                   <muscles>glut_med1_r</muscles>
                   <muscles>glut_med2_r</muscles>
@@ -129,6 +125,9 @@
                   <muscles>intobl_r</muscles>
                   <muscles>extobl_r</muscles>
                </muscleGroups>
+               <absolute>
+                  <range>0.8 2</range>
+               </absolute>
             </parameter>
          </parameterSet>
       </step>
