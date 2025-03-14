@@ -1186,3 +1186,1991 @@ Details: Object: Cannot open file C:\Users\Bas\Documents\OpenSim\4.4\Models\Gait
 [2023-10-09 10:04:08.797] [warning] Ignoring fiber lengths and activations from the states since forces_file is also set. Actuator forces will be constructed from .\SO\_StaticOptimization_force.sto.
 [2023-10-09 10:04:09.356] [info] Printing results of investigation subject01_walk1 to C:\Git\BIP_OpenSim_Hungarian_USports\Tutorials\Hello_world_of_simulations\.\ResultsAnalyze
 [2023-10-09 10:04:25.996] [info] Storage: read data file = C:\Git\BIP_OpenSim_Hungarian_USports\Tutorials\Hello_world_of_simulations\ResultsAnalyze\subject01_walk1_JointReaction_ReactionLoads.sto (nr=121 nc=109)
+[2025-03-12 12:31:28.641] [info] Updating Model file from 40000 to latest format...
+[2025-03-12 12:31:28.936] [info] Loaded model 3DGaitModel2392 from file C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\gait2392_simbody.osim
+[2025-03-12 12:31:28.938] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-03-12 12:31:28.938] [warning] Couldn't find file 'sacrum.vtp'.
+[2025-03-12 12:31:28.939] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-03-12 12:31:28.940] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2025-03-12 12:31:28.940] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-03-12 12:31:28.940] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-03-12 12:31:28.941] [warning] Couldn't find file 'fibula.vtp'.
+[2025-03-12 12:31:28.941] [warning] Couldn't find file 'talus.vtp'.
+[2025-03-12 12:31:28.942] [warning] Couldn't find file 'foot.vtp'.
+[2025-03-12 12:31:28.942] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-03-12 12:31:28.943] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-03-12 12:31:28.943] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-03-12 12:31:28.944] [warning] Couldn't find file 'l_fibula.vtp'.
+[2025-03-12 12:31:28.944] [warning] Couldn't find file 'l_talus.vtp'.
+[2025-03-12 12:31:28.945] [warning] Couldn't find file 'l_foot.vtp'.
+[2025-03-12 12:31:28.945] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2025-03-12 12:31:28.946] [warning] Couldn't find file 'hat_spine.vtp'.
+[2025-03-12 12:31:28.946] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2025-03-12 12:31:28.946] [warning] Couldn't find file 'hat_skull.vtp'.
+[2025-03-12 12:31:28.947] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-03-12 12:31:29.922] [warning] Visualizer couldn't open treadmill.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\treadmill.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\treadmill.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.923] [warning] Visualizer couldn't open sacrum.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\sacrum.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\sacrum.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.923] [warning] Visualizer couldn't open pelvis.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\pelvis.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\pelvis.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.924] [warning] Visualizer couldn't open l_pelvis.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\l_pelvis.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\l_pelvis.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.924] [warning] Visualizer couldn't open femur_r.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\femur_r.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\femur_r.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.925] [warning] Visualizer couldn't open tibia_r.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\tibia_r.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\tibia_r.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.925] [warning] Visualizer couldn't open fibula.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\fibula.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\fibula.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.926] [warning] Visualizer couldn't open talus.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\talus.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\talus.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.926] [warning] Visualizer couldn't open foot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\foot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\foot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.927] [warning] Visualizer couldn't open bofoot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\bofoot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\bofoot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.927] [warning] Visualizer couldn't open femur_l.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\femur_l.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\femur_l.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.927] [warning] Visualizer couldn't open tibia_l.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\tibia_l.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\tibia_l.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.928] [warning] Visualizer couldn't open l_fibula.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\l_fibula.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\l_fibula.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.928] [warning] Visualizer couldn't open l_talus.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\l_talus.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\l_talus.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.928] [warning] Visualizer couldn't open l_foot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\l_foot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\l_foot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.929] [warning] Visualizer couldn't open l_bofoot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\l_bofoot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\l_bofoot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.929] [warning] Visualizer couldn't open hat_spine.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_spine.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_spine.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.929] [warning] Visualizer couldn't open hat_jaw.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_jaw.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_jaw.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.930] [warning] Visualizer couldn't open hat_skull.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_skull.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_skull.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:31:29.930] [warning] Visualizer couldn't open hat_ribs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_ribs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_ribs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:32:06.573] [info] Updating Model file from 40000 to latest format...
+[2025-03-12 12:32:06.589] [info] Loaded model 3DGaitModel2392 from file C:\Git\opensim_tutorial\tutorials\repeated_sprinting\models\gait2392_simbody.osim
+[2025-03-12 12:32:06.589] [warning] Couldn't find file 'treadmill.vtp'.
+[2025-03-12 12:32:06.597] [warning] Couldn't find file 'pelvis.vtp'.
+[2025-03-12 12:32:06.604] [warning] Couldn't find file 'femur_r.vtp'.
+[2025-03-12 12:32:06.604] [warning] Couldn't find file 'tibia_r.vtp'.
+[2025-03-12 12:32:06.604] [warning] Couldn't find file 'fibula.vtp'.
+[2025-03-12 12:32:06.604] [warning] Couldn't find file 'talus.vtp'.
+[2025-03-12 12:32:06.604] [warning] Couldn't find file 'foot.vtp'.
+[2025-03-12 12:32:06.604] [warning] Couldn't find file 'bofoot.vtp'.
+[2025-03-12 12:32:06.604] [warning] Couldn't find file 'femur_l.vtp'.
+[2025-03-12 12:32:06.605] [warning] Couldn't find file 'tibia_l.vtp'.
+[2025-03-12 12:32:06.670] [warning] Couldn't find file 'hat_ribs.vtp'.
+[2025-03-12 12:32:06.711] [warning] Visualizer couldn't open treadmill.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\treadmill.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\treadmill.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:32:06.725] [warning] Visualizer couldn't open pelvis.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\pelvis.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\pelvis.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:32:06.735] [warning] Visualizer couldn't open femur_r.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\femur_r.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\femur_r.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:32:06.735] [warning] Visualizer couldn't open tibia_r.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\tibia_r.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\tibia_r.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:32:06.735] [warning] Visualizer couldn't open fibula.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\fibula.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\fibula.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:32:06.735] [warning] Visualizer couldn't open talus.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\talus.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\talus.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:32:06.735] [warning] Visualizer couldn't open foot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\foot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\foot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:32:06.736] [warning] Visualizer couldn't open bofoot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\bofoot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\bofoot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:32:06.736] [warning] Visualizer couldn't open femur_l.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\femur_l.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\femur_l.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:32:06.736] [warning] Visualizer couldn't open tibia_l.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\tibia_l.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\tibia_l.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:32:06.960] [warning] Visualizer couldn't open hat_ribs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_ribs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\hat_ribs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:33:58.571] [info] Updating Model file from 40000 to latest format...
+[2025-03-12 12:33:58.586] [info] Loaded model 3DGaitModel2392 from file C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\gait2392_simbody.osim
+[2025-03-12 12:34:56.092] [info] Updated markers in model 3DGaitModel2392
+[2025-03-12 12:37:20.810] [info] Loaded marker file C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_static.trc (49 markers, 300 frames)
+[2025-03-12 12:37:20.812] [info] Measurement 'torso'
+[2025-03-12 12:37:20.812] [info] 	pair 0 (V.Sacral, Top.Head): model = 0.701084, experimental = 0.756975
+[2025-03-12 12:37:20.812] [info] 	overall scale factor = 1.07972
+[2025-03-12 12:37:20.812] [info] Measurement 'pelvis'
+[2025-03-12 12:37:20.812] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.256, experimental = 0.262292
+[2025-03-12 12:37:20.812] [info] 	overall scale factor = 1.02458
+[2025-03-12 12:37:20.812] [info] Measurement 'thigh'
+[2025-03-12 12:37:20.812] [info] 	pair 0 (R.ASIS, R.Knee.Lat): model = 0.508288, experimental = 0.538738
+[2025-03-12 12:37:20.812] [info] 	pair 1 (L.ASIS, L.Knee.Lat): model = 0.508288, experimental = 0.549642
+[2025-03-12 12:37:20.812] [info] 	overall scale factor = 1.07063
+[2025-03-12 12:37:20.813] [info] Measurement 'shank'
+[2025-03-12 12:37:20.813] [info] 	pair 0 (R.Knee.Lat, R.Ankle.Lat): model = 0.401944, experimental = 0.458672
+[2025-03-12 12:37:20.813] [info] 	pair 1 (L.Knee.Lat, L.Ankle.Lat): model = 0.401944, experimental = 0.436842
+[2025-03-12 12:37:20.813] [info] 	overall scale factor = 1.11398
+[2025-03-12 12:37:20.813] [info] Measurement 'foot'
+[2025-03-12 12:37:20.813] [info] 	pair 0 (R.Heel, R.Toe.Tip): model = 0.280401, experimental = 0.291576
+[2025-03-12 12:37:20.813] [info] 	pair 1 (L.Heel, L.Toe.Tip): model = 0.280401, experimental = 0.284416
+[2025-03-12 12:37:20.813] [info] 	overall scale factor = 1.02708
+[2025-03-12 12:37:20.828] [info] Loaded marker file C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_static.trc (49 markers, 300 frames)
+[2025-03-12 12:38:54.199] [info] Updated markers in model 3DGaitModel2392
+[2025-03-12 12:38:54.200] [info] Updated markers in model 3DGaitModel2392
+[2025-03-12 12:38:54.212] [info] Measurement 'torso'
+[2025-03-12 12:38:54.212] [info] 	pair 0 (V.Sacral, Top.Head): model = 0.701084, experimental = 0.756975
+[2025-03-12 12:38:54.212] [info] 	overall scale factor = 1.07972
+[2025-03-12 12:38:54.212] [info] Measurement 'pelvis'
+[2025-03-12 12:38:54.212] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.256, experimental = 0.262292
+[2025-03-12 12:38:54.212] [info] 	overall scale factor = 1.02458
+[2025-03-12 12:38:54.212] [info] Measurement 'thigh'
+[2025-03-12 12:38:54.212] [info] 	pair 0 (R.ASIS, R.Knee.Lat): model = 0.508288, experimental = 0.538738
+[2025-03-12 12:38:54.212] [info] 	pair 1 (L.ASIS, L.Knee.Lat): model = 0.508288, experimental = 0.549642
+[2025-03-12 12:38:54.212] [info] 	overall scale factor = 1.07063
+[2025-03-12 12:38:54.212] [info] Measurement 'shank'
+[2025-03-12 12:38:54.212] [info] 	pair 0 (R.Knee.Lat, R.Ankle.Lat): model = 0.401944, experimental = 0.458672
+[2025-03-12 12:38:54.212] [info] 	pair 1 (L.Knee.Lat, L.Ankle.Lat): model = 0.401944, experimental = 0.436842
+[2025-03-12 12:38:54.212] [info] 	overall scale factor = 1.11398
+[2025-03-12 12:38:54.212] [info] Measurement 'foot'
+[2025-03-12 12:38:54.212] [info] 	pair 0 (R.Heel, R.Toe.Tip): model = 0.280401, experimental = 0.291576
+[2025-03-12 12:38:54.212] [info] 	pair 1 (L.Heel, L.Toe.Tip): model = 0.280401, experimental = 0.284416
+[2025-03-12 12:38:54.212] [info] 	overall scale factor = 1.02708
+[2025-03-12 12:39:00.706] [info] Measurement 'torso'
+[2025-03-12 12:39:00.706] [info] 	pair 0 (V.Sacral, Top.Head): model = 0.701084, experimental = 0.756975
+[2025-03-12 12:39:00.706] [info] 	overall scale factor = 1.07972
+[2025-03-12 12:39:00.706] [info] Measurement 'pelvis'
+[2025-03-12 12:39:00.706] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.256, experimental = 0.262292
+[2025-03-12 12:39:00.706] [info] 	overall scale factor = 1.02458
+[2025-03-12 12:39:00.706] [info] Measurement 'thigh'
+[2025-03-12 12:39:00.706] [info] 	pair 0 (R.ASIS, R.Knee.Lat): model = 0.508288, experimental = 0.538738
+[2025-03-12 12:39:00.706] [info] 	pair 1 (L.ASIS, L.Knee.Lat): model = 0.508288, experimental = 0.549642
+[2025-03-12 12:39:00.706] [info] 	overall scale factor = 1.07063
+[2025-03-12 12:39:00.706] [info] Measurement 'shank'
+[2025-03-12 12:39:00.706] [info] 	pair 0 (R.Knee.Lat, R.Ankle.Lat): model = 0.401944, experimental = 0.458672
+[2025-03-12 12:39:00.706] [info] 	pair 1 (L.Knee.Lat, L.Ankle.Lat): model = 0.401944, experimental = 0.436842
+[2025-03-12 12:39:00.706] [info] 	overall scale factor = 1.11398
+[2025-03-12 12:39:00.706] [info] Measurement 'foot'
+[2025-03-12 12:39:00.706] [info] 	pair 0 (R.Heel, R.Toe.Tip): model = 0.280401, experimental = 0.291576
+[2025-03-12 12:39:00.706] [info] 	pair 1 (L.Heel, L.Toe.Tip): model = 0.280401, experimental = 0.284416
+[2025-03-12 12:39:00.706] [info] 	overall scale factor = 1.02708
+[2025-03-12 12:39:10.344] [info] Step 2: Scaling generic model
+[2025-03-12 12:39:10.364] [info] Loaded marker file C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_static.trc (49 markers, 300 frames)
+[2025-03-12 12:39:10.364] [info] Measurement 'torso'
+[2025-03-12 12:39:10.364] [info] 	pair 0 (V.Sacral, Top.Head): model = 0.701084, experimental = 0.756975
+[2025-03-12 12:39:10.364] [info] 	overall scale factor = 1.07972
+[2025-03-12 12:39:10.364] [info] Measurement 'pelvis'
+[2025-03-12 12:39:10.364] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.256, experimental = 0.262292
+[2025-03-12 12:39:10.364] [info] 	overall scale factor = 1.02458
+[2025-03-12 12:39:10.364] [info] Measurement 'thigh'
+[2025-03-12 12:39:10.364] [info] 	pair 0 (R.ASIS, R.Knee.Lat): model = 0.508288, experimental = 0.538738
+[2025-03-12 12:39:10.364] [info] 	pair 1 (L.ASIS, L.Knee.Lat): model = 0.508288, experimental = 0.549642
+[2025-03-12 12:39:10.364] [info] 	overall scale factor = 1.07063
+[2025-03-12 12:39:10.364] [info] Measurement 'shank'
+[2025-03-12 12:39:10.365] [info] 	pair 0 (R.Knee.Lat, R.Ankle.Lat): model = 0.401944, experimental = 0.458672
+[2025-03-12 12:39:10.365] [info] 	pair 1 (L.Knee.Lat, L.Ankle.Lat): model = 0.401944, experimental = 0.436842
+[2025-03-12 12:39:10.365] [info] 	overall scale factor = 1.11398
+[2025-03-12 12:39:10.365] [info] Measurement 'foot'
+[2025-03-12 12:39:10.365] [info] 	pair 0 (R.Heel, R.Toe.Tip): model = 0.280401, experimental = 0.291576
+[2025-03-12 12:39:10.365] [info] 	pair 1 (L.Heel, L.Toe.Tip): model = 0.280401, experimental = 0.284416
+[2025-03-12 12:39:10.365] [info] 	overall scale factor = 1.02708
+[2025-03-12 12:39:10.419] [info] Wrote model file 'C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_scaledOnly.osim' from model.
+[2025-03-12 12:39:10.420] [info] Wrote scale file 'C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_scaleSet_applied.xml' for model subject01.
+[2025-03-12 12:39:10.421] [info] Step 3: Placing markers on model
+[2025-03-12 12:39:10.458] [info] Loaded marker file C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_static.trc (49 markers, 300 frames)
+[2025-03-12 12:39:10.458] [info] Averaged frames from time 1.0 to 2.0 in C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_static.trc (frames 61 to 121)
+[2025-03-12 12:39:10.458] [info] Deleted 0 unused markers from model subject01.
+[2025-03-12 12:39:10.485] [info] Frame at (t = 1.0):	 total squared error = 0.0430720, marker error: RMS = 0.0332327, max = 0.0930729 (Top.Head)
+[2025-03-12 12:39:10.485] [info] Moved markers in model subject01 to match locations in marker file 'C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_static.trc'.
+[2025-03-12 12:39:10.508] [info] Wrote model file 'C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_simbody.osim' from model subject01.
+[2025-03-12 12:39:34.806] [info] Loaded marker file C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_static.trc (49 markers, 300 frames)
+[2025-03-12 12:40:51.420] [info] Step 2: Scaling generic model
+[2025-03-12 12:40:51.443] [info] Loaded marker file C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_static.trc (49 markers, 300 frames)
+[2025-03-12 12:40:51.443] [info] Measurement 'torso'
+[2025-03-12 12:40:51.443] [info] 	pair 0 (V.Sacral, Top.Head): model = 0.701084, experimental = 0.756975
+[2025-03-12 12:40:51.443] [info] 	overall scale factor = 1.07972
+[2025-03-12 12:40:51.443] [info] Measurement 'pelvis'
+[2025-03-12 12:40:51.443] [info] 	pair 0 (R.ASIS, L.ASIS): model = 0.256, experimental = 0.262292
+[2025-03-12 12:40:51.443] [info] 	overall scale factor = 1.02458
+[2025-03-12 12:40:51.443] [info] Measurement 'thigh'
+[2025-03-12 12:40:51.443] [info] 	pair 0 (R.ASIS, R.Knee.Lat): model = 0.508288, experimental = 0.538738
+[2025-03-12 12:40:51.443] [info] 	pair 1 (L.ASIS, L.Knee.Lat): model = 0.508288, experimental = 0.549642
+[2025-03-12 12:40:51.443] [info] 	overall scale factor = 1.07063
+[2025-03-12 12:40:51.443] [info] Measurement 'shank'
+[2025-03-12 12:40:51.443] [info] 	pair 0 (R.Knee.Lat, R.Ankle.Lat): model = 0.401944, experimental = 0.458672
+[2025-03-12 12:40:51.443] [info] 	pair 1 (L.Knee.Lat, L.Ankle.Lat): model = 0.401944, experimental = 0.436842
+[2025-03-12 12:40:51.443] [info] 	overall scale factor = 1.11398
+[2025-03-12 12:40:51.443] [info] Measurement 'foot'
+[2025-03-12 12:40:51.443] [info] 	pair 0 (R.Heel, R.Toe.Tip): model = 0.280401, experimental = 0.291576
+[2025-03-12 12:40:51.444] [info] 	pair 1 (L.Heel, L.Toe.Tip): model = 0.280401, experimental = 0.284416
+[2025-03-12 12:40:51.444] [info] 	overall scale factor = 1.02708
+[2025-03-12 12:40:51.503] [info] Wrote model file 'C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_scaledOnly.osim' from model.
+[2025-03-12 12:40:51.504] [info] Wrote scale file 'C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_scaleSet_applied.xml' for model subject01.
+[2025-03-12 12:40:51.505] [info] Step 3: Placing markers on model
+[2025-03-12 12:40:51.545] [info] Loaded marker file C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_static.trc (49 markers, 300 frames)
+[2025-03-12 12:40:51.545] [info] Averaged frames from time 1.0 to 2.0 in C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_static.trc (frames 61 to 121)
+[2025-03-12 12:40:51.545] [info] Deleted 0 unused markers from model subject01.
+[2025-03-12 12:40:51.566] [info] Frame at (t = 1.0):	 total squared error = 0.0430789, marker error: RMS = 0.0332353, max = 0.0930966 (Top.Head)
+[2025-03-12 12:40:51.566] [info] Moved markers in model subject01 to match locations in marker file 'C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_static.trc'.
+[2025-03-12 12:40:51.593] [info] Wrote model file 'C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_simbody.osim' from model subject01.
+[2025-03-12 12:41:10.653] [info] Loaded marker file C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_static.trc (49 markers, 300 frames)
+[2025-03-12 12:43:12.441] [info] Loaded marker file C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_walk1.trc (41 markers, 151 frames)
+[2025-03-12 12:44:20.890] [cout] [info] 
+               MODEL: subject01
+         coordinates: 23
+              forces: 92
+           actuators: 92
+             muscles: 92
+            analyses: 2
+              probes: 0
+              bodies: 12
+              joints: 12
+         constraints: 0
+             markers: 39
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-03-12 12:44:20.890] [info] Running tool subject01.
+[2025-03-12 12:44:20.930] [info] Frame 30 (t = 0.5):	 total squared error = 0.0535029, marker error: RMS = 0.041544, max = 0.125841 (R.Acromium)
+[2025-03-12 12:44:20.948] [info] Frame 31 (t = 0.517):	 total squared error = 0.0534891, marker error: RMS = 0.0415386, max = 0.125438 (R.Acromium)
+[2025-03-12 12:44:20.956] [info] Frame 32 (t = 0.533):	 total squared error = 0.0535407, marker error: RMS = 0.0415586, max = 0.125061 (R.Acromium)
+[2025-03-12 12:44:20.965] [info] Frame 33 (t = 0.55):	 total squared error = 0.0537227, marker error: RMS = 0.0416292, max = 0.125024 (R.Acromium)
+[2025-03-12 12:44:20.975] [info] Frame 34 (t = 0.567):	 total squared error = 0.0543663, marker error: RMS = 0.0418778, max = 0.124836 (R.Acromium)
+[2025-03-12 12:44:20.985] [info] Frame 35 (t = 0.583):	 total squared error = 0.0548841, marker error: RMS = 0.0420768, max = 0.124681 (R.Acromium)
+[2025-03-12 12:44:20.991] [info] Frame 36 (t = 0.6):	 total squared error = 0.0555671, marker error: RMS = 0.0423378, max = 0.124909 (R.Acromium)
+[2025-03-12 12:44:20.998] [info] Frame 37 (t = 0.617):	 total squared error = 0.0566693, marker error: RMS = 0.0427556, max = 0.126034 (R.Acromium)
+[2025-03-12 12:44:21.005] [info] Frame 38 (t = 0.633):	 total squared error = 0.0579729, marker error: RMS = 0.0432446, max = 0.127487 (R.Acromium)
+[2025-03-12 12:44:21.013] [info] Frame 39 (t = 0.65):	 total squared error = 0.0588348, marker error: RMS = 0.0435649, max = 0.128875 (R.Acromium)
+[2025-03-12 12:44:21.019] [info] Frame 40 (t = 0.667):	 total squared error = 0.0591659, marker error: RMS = 0.0436873, max = 0.129849 (R.Acromium)
+[2025-03-12 12:44:21.025] [info] Frame 41 (t = 0.683):	 total squared error = 0.0591746, marker error: RMS = 0.0436905, max = 0.130713 (R.Acromium)
+[2025-03-12 12:44:21.031] [info] Frame 42 (t = 0.7):	 total squared error = 0.0597192, marker error: RMS = 0.0438911, max = 0.130243 (R.Acromium)
+[2025-03-12 12:44:21.042] [info] Frame 43 (t = 0.717):	 total squared error = 0.0610108, marker error: RMS = 0.0443631, max = 0.130030 (R.Acromium)
+[2025-03-12 12:44:21.058] [info] Frame 44 (t = 0.733):	 total squared error = 0.0614271, marker error: RMS = 0.0445142, max = 0.129138 (R.Acromium)
+[2025-03-12 12:44:21.068] [info] Frame 45 (t = 0.75):	 total squared error = 0.0608713, marker error: RMS = 0.0443124, max = 0.12988 (R.Acromium)
+[2025-03-12 12:44:21.074] [info] Frame 46 (t = 0.767):	 total squared error = 0.0590846, marker error: RMS = 0.0436573, max = 0.128378 (R.Acromium)
+[2025-03-12 12:44:21.079] [info] Frame 47 (t = 0.783):	 total squared error = 0.0556316, marker error: RMS = 0.0423623, max = 0.127583 (R.Acromium)
+[2025-03-12 12:44:21.086] [info] Frame 48 (t = 0.8):	 total squared error = 0.051719, marker error: RMS = 0.0408455, max = 0.126543 (R.Acromium)
+[2025-03-12 12:44:21.091] [info] Frame 49 (t = 0.817):	 total squared error = 0.0485807, marker error: RMS = 0.0395869, max = 0.126033 (R.Acromium)
+[2025-03-12 12:44:21.100] [info] Frame 50 (t = 0.833):	 total squared error = 0.0462803, marker error: RMS = 0.0386382, max = 0.125376 (R.Acromium)
+[2025-03-12 12:44:21.108] [info] Frame 51 (t = 0.85):	 total squared error = 0.0452164, marker error: RMS = 0.0381915, max = 0.125354 (R.Acromium)
+[2025-03-12 12:44:21.116] [info] Frame 52 (t = 0.867):	 total squared error = 0.0455912, marker error: RMS = 0.0383495, max = 0.124965 (R.Acromium)
+[2025-03-12 12:44:21.123] [info] Frame 53 (t = 0.883):	 total squared error = 0.0454012, marker error: RMS = 0.0382695, max = 0.124837 (R.Acromium)
+[2025-03-12 12:44:21.130] [info] Frame 54 (t = 0.9):	 total squared error = 0.0443833, marker error: RMS = 0.0378381, max = 0.124218 (R.Acromium)
+[2025-03-12 12:44:21.137] [info] Frame 55 (t = 0.917):	 total squared error = 0.0443131, marker error: RMS = 0.0378081, max = 0.124644 (R.Acromium)
+[2025-03-12 12:44:21.144] [info] Frame 56 (t = 0.933):	 total squared error = 0.0442461, marker error: RMS = 0.0377795, max = 0.123511 (R.Acromium)
+[2025-03-12 12:44:21.160] [info] Frame 57 (t = 0.95):	 total squared error = 0.0444137, marker error: RMS = 0.037851, max = 0.122358 (R.Acromium)
+[2025-03-12 12:44:21.167] [info] Frame 58 (t = 0.967):	 total squared error = 0.0448008, marker error: RMS = 0.0380156, max = 0.121973 (R.Acromium)
+[2025-03-12 12:44:21.173] [info] Frame 59 (t = 0.983):	 total squared error = 0.0453188, marker error: RMS = 0.0382347, max = 0.122678 (R.Acromium)
+[2025-03-12 12:44:21.180] [info] Frame 60 (t = 1.0):	 total squared error = 0.0453196, marker error: RMS = 0.0382351, max = 0.121147 (R.Acromium)
+[2025-03-12 12:44:21.183] [info] Frame 61 (t = 1.017):	 total squared error = 0.0451194, marker error: RMS = 0.0381505, max = 0.120697 (R.Acromium)
+[2025-03-12 12:44:21.192] [info] Frame 62 (t = 1.033):	 total squared error = 0.0448728, marker error: RMS = 0.0380461, max = 0.120294 (R.Acromium)
+[2025-03-12 12:44:21.197] [info] Frame 63 (t = 1.05):	 total squared error = 0.0442542, marker error: RMS = 0.037783, max = 0.11995 (R.Acromium)
+[2025-03-12 12:44:21.205] [info] Frame 64 (t = 1.067):	 total squared error = 0.0440691, marker error: RMS = 0.0377039, max = 0.119023 (R.Acromium)
+[2025-03-12 12:44:21.211] [info] Frame 65 (t = 1.083):	 total squared error = 0.0440590, marker error: RMS = 0.0376996, max = 0.118481 (R.Acromium)
+[2025-03-12 12:44:21.219] [info] Frame 66 (t = 1.1):	 total squared error = 0.0437881, marker error: RMS = 0.0375835, max = 0.118233 (R.Acromium)
+[2025-03-12 12:44:21.227] [info] Frame 67 (t = 1.117):	 total squared error = 0.0437846, marker error: RMS = 0.037582, max = 0.11835 (R.Acromium)
+[2025-03-12 12:44:21.235] [info] Frame 68 (t = 1.133):	 total squared error = 0.0440268, marker error: RMS = 0.0376858, max = 0.117911 (R.Acromium)
+[2025-03-12 12:44:21.246] [info] Frame 69 (t = 1.15):	 total squared error = 0.0444108, marker error: RMS = 0.0378498, max = 0.117071 (R.Acromium)
+[2025-03-12 12:44:21.255] [info] Frame 70 (t = 1.167):	 total squared error = 0.0445052, marker error: RMS = 0.03789, max = 0.117741 (R.Acromium)
+[2025-03-12 12:44:21.267] [info] Frame 71 (t = 1.183):	 total squared error = 0.0454089, marker error: RMS = 0.0382727, max = 0.117393 (R.Acromium)
+[2025-03-12 12:44:21.277] [info] Frame 72 (t = 1.2):	 total squared error = 0.0457459, marker error: RMS = 0.0384145, max = 0.117812 (R.Acromium)
+[2025-03-12 12:44:21.289] [info] Frame 73 (t = 1.217):	 total squared error = 0.0464136, marker error: RMS = 0.0386938, max = 0.118234 (R.Acromium)
+[2025-03-12 12:44:21.297] [info] Frame 74 (t = 1.233):	 total squared error = 0.0470091, marker error: RMS = 0.0389413, max = 0.119909 (R.Acromium)
+[2025-03-12 12:44:21.306] [info] Frame 75 (t = 1.25):	 total squared error = 0.0477458, marker error: RMS = 0.0392452, max = 0.120389 (R.Acromium)
+[2025-03-12 12:44:21.314] [info] Frame 76 (t = 1.267):	 total squared error = 0.0487391, marker error: RMS = 0.0396514, max = 0.12188 (R.Acromium)
+[2025-03-12 12:44:21.321] [info] Frame 77 (t = 1.283):	 total squared error = 0.0498382, marker error: RMS = 0.0400959, max = 0.123441 (R.Acromium)
+[2025-03-12 12:44:21.327] [info] Frame 78 (t = 1.3):	 total squared error = 0.0506933, marker error: RMS = 0.0404384, max = 0.125074 (R.Acromium)
+[2025-03-12 12:44:21.336] [info] Frame 79 (t = 1.317):	 total squared error = 0.0521115, marker error: RMS = 0.0410002, max = 0.127165 (R.Acromium)
+[2025-03-12 12:44:21.343] [info] Frame 80 (t = 1.333):	 total squared error = 0.0529273, marker error: RMS = 0.0413199, max = 0.127788 (R.Acromium)
+[2025-03-12 12:44:21.354] [info] Frame 81 (t = 1.35):	 total squared error = 0.0536529, marker error: RMS = 0.0416022, max = 0.129403 (R.Acromium)
+[2025-03-12 12:44:21.365] [info] Frame 82 (t = 1.367):	 total squared error = 0.0540231, marker error: RMS = 0.0417454, max = 0.129545 (R.Acromium)
+[2025-03-12 12:44:21.372] [info] Frame 83 (t = 1.383):	 total squared error = 0.0534483, marker error: RMS = 0.0415227, max = 0.12862 (R.Acromium)
+[2025-03-12 12:44:21.379] [info] Frame 84 (t = 1.4):	 total squared error = 0.0518899, marker error: RMS = 0.0409129, max = 0.127951 (R.Acromium)
+[2025-03-12 12:44:21.390] [info] Frame 85 (t = 1.417):	 total squared error = 0.0501380, marker error: RMS = 0.0402163, max = 0.127535 (R.Acromium)
+[2025-03-12 12:44:21.400] [info] Frame 86 (t = 1.433):	 total squared error = 0.0492396, marker error: RMS = 0.0398544, max = 0.126358 (R.Acromium)
+[2025-03-12 12:44:21.407] [info] Frame 87 (t = 1.45):	 total squared error = 0.0487848, marker error: RMS = 0.0396699, max = 0.12595 (R.Acromium)
+[2025-03-12 12:44:21.418] [info] Frame 88 (t = 1.467):	 total squared error = 0.0493038, marker error: RMS = 0.0398804, max = 0.126325 (R.Acromium)
+[2025-03-12 12:44:21.427] [info] Frame 89 (t = 1.483):	 total squared error = 0.0501308, marker error: RMS = 0.0402135, max = 0.126399 (R.Acromium)
+[2025-03-12 12:44:21.434] [info] Frame 90 (t = 1.5):	 total squared error = 0.0503567, marker error: RMS = 0.0403040, max = 0.126465 (R.Acromium)
+[2025-03-12 12:44:21.443] [info] Frame 91 (t = 1.517):	 total squared error = 0.0506462, marker error: RMS = 0.0404197, max = 0.126423 (R.Acromium)
+[2025-03-12 12:44:21.460] [info] Frame 92 (t = 1.533):	 total squared error = 0.0507066, marker error: RMS = 0.0404438, max = 0.126291 (R.Acromium)
+[2025-03-12 12:44:21.472] [info] Frame 93 (t = 1.55):	 total squared error = 0.0509651, marker error: RMS = 0.0405467, max = 0.126599 (R.Acromium)
+[2025-03-12 12:44:21.480] [info] Frame 94 (t = 1.567):	 total squared error = 0.0513105, marker error: RMS = 0.0406839, max = 0.127393 (R.Acromium)
+[2025-03-12 12:44:21.489] [info] Frame 95 (t = 1.583):	 total squared error = 0.0521224, marker error: RMS = 0.0410045, max = 0.127762 (R.Acromium)
+[2025-03-12 12:44:21.499] [info] Frame 96 (t = 1.6):	 total squared error = 0.0520764, marker error: RMS = 0.0409864, max = 0.127718 (R.Acromium)
+[2025-03-12 12:44:21.507] [info] Frame 97 (t = 1.617):	 total squared error = 0.052218, marker error: RMS = 0.0410421, max = 0.128725 (R.Acromium)
+[2025-03-12 12:44:21.512] [info] Frame 98 (t = 1.633):	 total squared error = 0.0528044, marker error: RMS = 0.0412719, max = 0.128395 (R.Acromium)
+[2025-03-12 12:44:21.518] [info] Frame 99 (t = 1.65):	 total squared error = 0.0528342, marker error: RMS = 0.0412835, max = 0.128292 (R.Acromium)
+[2025-03-12 12:44:21.526] [info] Frame 100 (t = 1.667):	 total squared error = 0.0533198, marker error: RMS = 0.0414728, max = 0.127851 (R.Acromium)
+[2025-03-12 12:44:21.534] [info] Frame 101 (t = 1.683):	 total squared error = 0.0534413, marker error: RMS = 0.04152, max = 0.127501 (R.Acromium)
+[2025-03-12 12:44:21.540] [info] Frame 102 (t = 1.7):	 total squared error = 0.0538574, marker error: RMS = 0.0416813, max = 0.127020 (R.Acromium)
+[2025-03-12 12:44:21.550] [info] Frame 103 (t = 1.717):	 total squared error = 0.0534931, marker error: RMS = 0.0415401, max = 0.126466 (R.Acromium)
+[2025-03-12 12:44:21.561] [info] Frame 104 (t = 1.733):	 total squared error = 0.0520661, marker error: RMS = 0.0409823, max = 0.126146 (R.Acromium)
+[2025-03-12 12:44:21.576] [info] Frame 105 (t = 1.75):	 total squared error = 0.0513693, marker error: RMS = 0.0407072, max = 0.12545 (R.Acromium)
+[2025-03-12 12:44:21.587] [info] Frame 106 (t = 1.767):	 total squared error = 0.0512051, marker error: RMS = 0.0406421, max = 0.125614 (R.Acromium)
+[2025-03-12 12:44:21.600] [info] Frame 107 (t = 1.783):	 total squared error = 0.0515859, marker error: RMS = 0.0407929, max = 0.124997 (R.Acromium)
+[2025-03-12 12:44:21.627] [info] Frame 108 (t = 1.8):	 total squared error = 0.0521967, marker error: RMS = 0.0410337, max = 0.125228 (R.Acromium)
+[2025-03-12 12:44:21.653] [info] Frame 109 (t = 1.817):	 total squared error = 0.0535264, marker error: RMS = 0.0415531, max = 0.12636 (R.Acromium)
+[2025-03-12 12:44:21.686] [info] Frame 110 (t = 1.833):	 total squared error = 0.0542359, marker error: RMS = 0.0418276, max = 0.126935 (R.Acromium)
+[2025-03-12 12:44:21.714] [info] Frame 111 (t = 1.85):	 total squared error = 0.0553204, marker error: RMS = 0.0422437, max = 0.128528 (R.Acromium)
+[2025-03-12 12:44:21.732] [info] Frame 112 (t = 1.867):	 total squared error = 0.0557318, marker error: RMS = 0.0424005, max = 0.127894 (R.Acromium)
+[2025-03-12 12:44:21.747] [info] Frame 113 (t = 1.883):	 total squared error = 0.0567563, marker error: RMS = 0.0427884, max = 0.128958 (R.Acromium)
+[2025-03-12 12:44:21.754] [info] Frame 114 (t = 1.9):	 total squared error = 0.0574716, marker error: RMS = 0.0430572, max = 0.129836 (R.Acromium)
+[2025-03-12 12:44:21.769] [info] Frame 115 (t = 1.917):	 total squared error = 0.0580800, marker error: RMS = 0.0432845, max = 0.130019 (R.Acromium)
+[2025-03-12 12:44:21.778] [info] Frame 116 (t = 1.933):	 total squared error = 0.0590724, marker error: RMS = 0.0436527, max = 0.130314 (R.Acromium)
+[2025-03-12 12:44:21.789] [info] Frame 117 (t = 1.95):	 total squared error = 0.0601844, marker error: RMS = 0.0440617, max = 0.129188 (R.Acromium)
+[2025-03-12 12:44:21.800] [info] Frame 118 (t = 1.967):	 total squared error = 0.0606897, marker error: RMS = 0.0442463, max = 0.129096 (R.Acromium)
+[2025-03-12 12:44:21.806] [info] Frame 119 (t = 1.983):	 total squared error = 0.0602168, marker error: RMS = 0.0440736, max = 0.127843 (R.Acromium)
+[2025-03-12 12:44:21.816] [info] Frame 120 (t = 2.0):	 total squared error = 0.0576796, marker error: RMS = 0.043135, max = 0.126975 (R.Acromium)
+[2025-03-12 12:44:21.821] [info] Frame 121 (t = 2.017):	 total squared error = 0.054454, marker error: RMS = 0.0419116, max = 0.125715 (R.Acromium)
+[2025-03-12 12:44:21.832] [info] Frame 122 (t = 2.033):	 total squared error = 0.0505694, marker error: RMS = 0.0403890, max = 0.125426 (R.Acromium)
+[2025-03-12 12:44:21.842] [info] Frame 123 (t = 2.05):	 total squared error = 0.0469196, marker error: RMS = 0.0389042, max = 0.124686 (R.Acromium)
+[2025-03-12 12:44:21.859] [info] Frame 124 (t = 2.067):	 total squared error = 0.0450707, marker error: RMS = 0.03813, max = 0.125349 (R.Acromium)
+[2025-03-12 12:44:21.873] [info] Frame 125 (t = 2.083):	 total squared error = 0.043735, marker error: RMS = 0.0375607, max = 0.123495 (R.Acromium)
+[2025-03-12 12:44:21.883] [info] Frame 126 (t = 2.1):	 total squared error = 0.0431345, marker error: RMS = 0.0373019, max = 0.123589 (R.Acromium)
+[2025-03-12 12:44:21.892] [info] Frame 127 (t = 2.117):	 total squared error = 0.0427786, marker error: RMS = 0.0371477, max = 0.123722 (R.Acromium)
+[2025-03-12 12:44:21.898] [info] Frame 128 (t = 2.133):	 total squared error = 0.0425064, marker error: RMS = 0.0370294, max = 0.12235 (R.Acromium)
+[2025-03-12 12:44:21.906] [info] Frame 129 (t = 2.15):	 total squared error = 0.0426873, marker error: RMS = 0.0371081, max = 0.121867 (R.Acromium)
+[2025-03-12 12:44:21.912] [info] Frame 130 (t = 2.167):	 total squared error = 0.0430824, marker error: RMS = 0.0372794, max = 0.121539 (R.Acromium)
+[2025-03-12 12:44:21.918] [info] Frame 131 (t = 2.183):	 total squared error = 0.0433599, marker error: RMS = 0.0373993, max = 0.120857 (R.Acromium)
+[2025-03-12 12:44:21.924] [info] Frame 132 (t = 2.2):	 total squared error = 0.0434442, marker error: RMS = 0.0374356, max = 0.120186 (R.Acromium)
+[2025-03-12 12:44:21.931] [info] Frame 133 (t = 2.217):	 total squared error = 0.0436815, marker error: RMS = 0.0375377, max = 0.119738 (R.Acromium)
+[2025-03-12 12:44:21.938] [info] Frame 134 (t = 2.233):	 total squared error = 0.0440754, marker error: RMS = 0.0377066, max = 0.11944 (R.Acromium)
+[2025-03-12 12:44:21.956] [info] Frame 135 (t = 2.25):	 total squared error = 0.0442647, marker error: RMS = 0.0377875, max = 0.118963 (R.Acromium)
+[2025-03-12 12:44:21.967] [info] Frame 136 (t = 2.267):	 total squared error = 0.0441105, marker error: RMS = 0.0377216, max = 0.118601 (R.Acromium)
+[2025-03-12 12:44:21.974] [info] Frame 137 (t = 2.283):	 total squared error = 0.0440014, marker error: RMS = 0.0376749, max = 0.119005 (R.Acromium)
+[2025-03-12 12:44:21.980] [info] Frame 138 (t = 2.3):	 total squared error = 0.0438577, marker error: RMS = 0.0376134, max = 0.117957 (R.Acromium)
+[2025-03-12 12:44:21.989] [info] Frame 139 (t = 2.317):	 total squared error = 0.043391, marker error: RMS = 0.0374127, max = 0.117055 (R.Acromium)
+[2025-03-12 12:44:21.998] [info] Frame 140 (t = 2.333):	 total squared error = 0.0435053, marker error: RMS = 0.0374619, max = 0.116403 (R.Acromium)
+[2025-03-12 12:44:22.004] [info] Frame 141 (t = 2.35):	 total squared error = 0.0437104, marker error: RMS = 0.0375501, max = 0.116036 (R.Acromium)
+[2025-03-12 12:44:22.014] [info] Frame 142 (t = 2.367):	 total squared error = 0.0443467, marker error: RMS = 0.0378225, max = 0.115747 (R.Acromium)
+[2025-03-12 12:44:22.024] [info] Frame 143 (t = 2.383):	 total squared error = 0.0445469, marker error: RMS = 0.0379077, max = 0.115865 (R.Acromium)
+[2025-03-12 12:44:22.034] [info] Frame 144 (t = 2.4):	 total squared error = 0.044463, marker error: RMS = 0.037872, max = 0.115031 (R.Acromium)
+[2025-03-12 12:44:22.042] [info] Frame 145 (t = 2.417):	 total squared error = 0.0447208, marker error: RMS = 0.0379816, max = 0.115248 (R.Acromium)
+[2025-03-12 12:44:22.054] [info] Frame 146 (t = 2.433):	 total squared error = 0.0447574, marker error: RMS = 0.0379972, max = 0.115691 (R.Acromium)
+[2025-03-12 12:44:22.061] [info] Frame 147 (t = 2.45):	 total squared error = 0.0452835, marker error: RMS = 0.0382199, max = 0.116147 (R.Acromium)
+[2025-03-12 12:44:22.068] [info] Frame 148 (t = 2.467):	 total squared error = 0.0459508, marker error: RMS = 0.0385004, max = 0.117588 (R.Acromium)
+[2025-03-12 12:44:22.076] [info] Frame 149 (t = 2.483):	 total squared error = 0.0472442, marker error: RMS = 0.0390385, max = 0.118468 (R.Acromium)
+[2025-03-12 12:44:22.084] [info] Frame 150 (t = 2.5):	 total squared error = 0.048685, marker error: RMS = 0.0396294, max = 0.120251 (R.Acromium)
+[2025-03-12 12:44:22.095] [info] InverseKinematicsTool completed 121 frames in 1 second(s).
+[2025-03-12 12:49:09.072] [info] Loaded marker file C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_walk1.trc (41 markers, 151 frames)
+[2025-03-12 12:50:18.174] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\hello_world_of_simulations\Level1\subject01_walk1_grf.mot (nr=1501 nc=19)
+[2025-03-12 12:52:35.263] [info] Updating Model file from 30000 to latest format...
+[2025-03-12 12:52:35.319] [info] Loaded model 009 from file C:/Git/research_data/Projects/runbops_FAIS_phd/simulations/009/pre/009_Rajagopal2015_FAI.osim
+[2025-03-12 12:52:35.321] [warning] Couldn't find file 'Raja\r_pelvis.vtp'.
+[2025-03-12 12:52:35.321] [warning] Couldn't find file 'Raja\l_pelvis.vtp'.
+[2025-03-12 12:52:35.321] [warning] Couldn't find file 'Raja\sacrum.vtp'.
+[2025-03-12 12:52:35.323] [warning] Couldn't find file 'Raja\r_femur.vtp'.
+[2025-03-12 12:52:35.323] [warning] Couldn't find file 'Raja\r_tibia.vtp'.
+[2025-03-12 12:52:35.323] [warning] Couldn't find file 'Raja\r_fibula.vtp'.
+[2025-03-12 12:52:35.323] [warning] Couldn't find file 'Raja\r_patella.vtp'.
+[2025-03-12 12:52:35.323] [warning] Couldn't find file 'Raja\r_talus.vtp'.
+[2025-03-12 12:52:35.323] [warning] Couldn't find file 'Raja\r_foot.vtp'.
+[2025-03-12 12:52:35.323] [warning] Couldn't find file 'Raja\r_bofoot.vtp'.
+[2025-03-12 12:52:35.324] [warning] Couldn't find file 'Raja\l_femur.vtp'.
+[2025-03-12 12:52:35.324] [warning] Couldn't find file 'Raja\l_tibia.vtp'.
+[2025-03-12 12:52:35.324] [warning] Couldn't find file 'Raja\l_fibula.vtp'.
+[2025-03-12 12:52:35.324] [warning] Couldn't find file 'Raja\l_patella.vtp'.
+[2025-03-12 12:52:35.324] [warning] Couldn't find file 'Raja\l_talus.vtp'.
+[2025-03-12 12:52:35.324] [warning] Couldn't find file 'Raja\l_foot.vtp'.
+[2025-03-12 12:52:35.324] [warning] Couldn't find file 'Raja\l_bofoot.vtp'.
+[2025-03-12 12:52:35.324] [warning] Couldn't find file 'Raja\hat_spine.vtp'.
+[2025-03-12 12:52:35.324] [warning] Couldn't find file 'Raja\hat_jaw.vtp'.
+[2025-03-12 12:52:35.324] [warning] Couldn't find file 'Raja\hat_skull.vtp'.
+[2025-03-12 12:52:35.325] [warning] Couldn't find file 'Raja\hat_ribs_scap.vtp'.
+[2025-03-12 12:52:35.325] [warning] Couldn't find file 'Raja\humerus_rv.vtp'.
+[2025-03-12 12:52:35.325] [warning] Couldn't find file 'Raja\ulna_rv.vtp'.
+[2025-03-12 12:52:35.325] [warning] Couldn't find file 'Raja\radius_rv.vtp'.
+[2025-03-12 12:52:35.325] [warning] Couldn't find file 'Raja\pisiform_rvs.vtp'.
+[2025-03-12 12:52:35.325] [warning] Couldn't find file 'Raja\lunate_rvs.vtp'.
+[2025-03-12 12:52:35.325] [warning] Couldn't find file 'Raja\scaphoid_rvs.vtp'.
+[2025-03-12 12:52:35.325] [warning] Couldn't find file 'Raja\triquetrum_rvs.vtp'.
+[2025-03-12 12:52:35.326] [warning] Couldn't find file 'Raja\hamate_rvs.vtp'.
+[2025-03-12 12:52:35.326] [warning] Couldn't find file 'Raja\capitate_rvs.vtp'.
+[2025-03-12 12:52:35.326] [warning] Couldn't find file 'Raja\trapezoid_rvs.vtp'.
+[2025-03-12 12:52:35.326] [warning] Couldn't find file 'Raja\trapezium_rvs.vtp'.
+[2025-03-12 12:52:35.326] [warning] Couldn't find file 'Raja\metacarpal2_rvs.vtp'.
+[2025-03-12 12:52:35.326] [warning] Couldn't find file 'Raja\index_proximal_rvs.vtp'.
+[2025-03-12 12:52:35.326] [warning] Couldn't find file 'Raja\index_medial_rvs.vtp'.
+[2025-03-12 12:52:35.326] [warning] Couldn't find file 'Raja\index_distal_rvs.vtp'.
+[2025-03-12 12:52:35.334] [warning] Couldn't find file 'Raja\middle_proximal_rvs.vtp'.
+[2025-03-12 12:52:35.341] [warning] Couldn't find file 'Raja\middle_distal_rvs.vtp'.
+[2025-03-12 12:52:35.341] [warning] Couldn't find file 'Raja\metacarpal4_rvs.vtp'.
+[2025-03-12 12:52:35.341] [warning] Couldn't find file 'Raja\ring_proximal_rvs.vtp'.
+[2025-03-12 12:52:35.341] [warning] Couldn't find file 'Raja\ring_medial_rvs.vtp'.
+[2025-03-12 12:52:35.342] [warning] Couldn't find file 'Raja\ring_distal_rvs.vtp'.
+[2025-03-12 12:52:35.342] [warning] Couldn't find file 'Raja\metacarpal5_rvs.vtp'.
+[2025-03-12 12:52:35.342] [warning] Couldn't find file 'Raja\little_proximal_rvs.vtp'.
+[2025-03-12 12:52:35.342] [warning] Couldn't find file 'Raja\little_medial_rvs.vtp'.
+[2025-03-12 12:52:35.342] [warning] Couldn't find file 'Raja\little_distal_rvs.vtp'.
+[2025-03-12 12:52:35.342] [warning] Couldn't find file 'Raja\metacarpal1_rvs.vtp'.
+[2025-03-12 12:52:35.342] [warning] Couldn't find file 'Raja\thumb_proximal_rvs.vtp'.
+[2025-03-12 12:52:35.343] [warning] Couldn't find file 'Raja\thumb_distal_rvs.vtp'.
+[2025-03-12 12:52:35.343] [warning] Couldn't find file 'Raja\humerus_lv.vtp'.
+[2025-03-12 12:52:35.343] [warning] Couldn't find file 'Raja\ulna_lv.vtp'.
+[2025-03-12 12:52:35.343] [warning] Couldn't find file 'Raja\radius_lv.vtp'.
+[2025-03-12 12:52:35.343] [warning] Couldn't find file 'Raja\pisiform_lvs.vtp'.
+[2025-03-12 12:52:35.343] [warning] Couldn't find file 'Raja\lunate_lvs.vtp'.
+[2025-03-12 12:52:35.343] [warning] Couldn't find file 'Raja\scaphoid_lvs.vtp'.
+[2025-03-12 12:52:35.343] [warning] Couldn't find file 'Raja\triquetrum_lvs.vtp'.
+[2025-03-12 12:52:35.344] [warning] Couldn't find file 'Raja\hamate_lvs.vtp'.
+[2025-03-12 12:52:35.344] [warning] Couldn't find file 'Raja\capitate_lvs.vtp'.
+[2025-03-12 12:52:35.344] [warning] Couldn't find file 'Raja\trapezoid_lvs.vtp'.
+[2025-03-12 12:52:35.344] [warning] Couldn't find file 'Raja\trapezium_lvs.vtp'.
+[2025-03-12 12:52:35.344] [warning] Couldn't find file 'Raja\metacarpal2_lvs.vtp'.
+[2025-03-12 12:52:35.344] [warning] Couldn't find file 'Raja\index_proximal_lvs.vtp'.
+[2025-03-12 12:52:35.344] [warning] Couldn't find file 'Raja\index_medial_lvs.vtp'.
+[2025-03-12 12:52:35.344] [warning] Couldn't find file 'Raja\index_distal_lvs.vtp'.
+[2025-03-12 12:52:35.345] [warning] Couldn't find file 'Raja\metacarpal3_lvs.vtp'.
+[2025-03-12 12:52:35.345] [warning] Couldn't find file 'Raja\middle_proximal_lvs.vtp'.
+[2025-03-12 12:52:35.345] [warning] Couldn't find file 'Raja\middle_medial_lvs.vtp'.
+[2025-03-12 12:52:35.345] [warning] Couldn't find file 'Raja\middle_distal_lvs.vtp'.
+[2025-03-12 12:52:35.345] [warning] Couldn't find file 'Raja\metacarpal4_lvs.vtp'.
+[2025-03-12 12:52:35.345] [warning] Couldn't find file 'Raja\ring_proximal_lvs.vtp'.
+[2025-03-12 12:52:35.345] [warning] Couldn't find file 'Raja\ring_medial_lvs.vtp'.
+[2025-03-12 12:52:35.346] [warning] Couldn't find file 'Raja\ring_distal_lvs.vtp'.
+[2025-03-12 12:52:35.346] [warning] Couldn't find file 'Raja\metacarpal5_lvs.vtp'.
+[2025-03-12 12:52:35.346] [warning] Couldn't find file 'Raja\little_proximal_lvs.vtp'.
+[2025-03-12 12:52:35.346] [warning] Couldn't find file 'Raja\little_medial_lvs.vtp'.
+[2025-03-12 12:52:35.346] [warning] Couldn't find file 'Raja\little_distal_lvs.vtp'.
+[2025-03-12 12:52:35.346] [warning] Couldn't find file 'Raja\metacarpal1_lvs.vtp'.
+[2025-03-12 12:52:35.346] [warning] Couldn't find file 'Raja\thumb_proximal_lvs.vtp'.
+[2025-03-12 12:52:35.347] [warning] Couldn't find file 'Raja\thumb_distal_lvs.vtp'.
+[2025-03-12 12:52:35.348] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-03-12 12:52:35.348] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-03-12 12:52:35.348] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-03-12 12:52:35.349] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-03-12 12:52:35.349] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-03-12 12:52:35.349] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-03-12 12:52:35.350] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-03-12 12:52:35.350] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-03-12 12:52:35.350] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-03-12 12:52:35.351] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-03-12 12:52:35.351] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-03-12 12:52:35.351] [warning] GeometryPath 'path' has subcomponents with duplicate name 'pathwrap'. The duplicate is being renamed to 'pathwrap_0'.
+[2025-03-12 12:52:36.941] [warning] Visualizer couldn't open Raja\r_pelvis.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_pelvis.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_pelvis.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.941] [warning] Visualizer couldn't open Raja\l_pelvis.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_pelvis.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_pelvis.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.941] [warning] Visualizer couldn't open Raja\sacrum.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\sacrum.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\sacrum.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.942] [warning] Visualizer couldn't open Raja\r_femur.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_femur.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_femur.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.943] [warning] Visualizer couldn't open Raja\r_tibia.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_tibia.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_tibia.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.943] [warning] Visualizer couldn't open Raja\r_fibula.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_fibula.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_fibula.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.943] [warning] Visualizer couldn't open Raja\r_patella.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_patella.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_patella.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.944] [warning] Visualizer couldn't open Raja\r_talus.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_talus.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_talus.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.944] [warning] Visualizer couldn't open Raja\r_foot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_foot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_foot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.944] [warning] Visualizer couldn't open Raja\r_bofoot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_bofoot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_bofoot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.944] [warning] Visualizer couldn't open Raja\l_femur.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_femur.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_femur.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.944] [warning] Visualizer couldn't open Raja\l_tibia.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_tibia.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_tibia.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.944] [warning] Visualizer couldn't open Raja\l_fibula.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_fibula.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_fibula.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.945] [warning] Visualizer couldn't open Raja\l_patella.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_patella.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_patella.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.945] [warning] Visualizer couldn't open Raja\l_talus.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_talus.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_talus.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.945] [warning] Visualizer couldn't open Raja\l_foot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_foot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_foot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.945] [warning] Visualizer couldn't open Raja\l_bofoot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_bofoot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_bofoot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.945] [warning] Visualizer couldn't open Raja\hat_spine.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_spine.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_spine.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.945] [warning] Visualizer couldn't open Raja\hat_jaw.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_jaw.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_jaw.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.945] [warning] Visualizer couldn't open Raja\hat_skull.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_skull.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_skull.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.946] [warning] Visualizer couldn't open Raja\hat_ribs_scap.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_ribs_scap.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_ribs_scap.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.946] [warning] Visualizer couldn't open Raja\humerus_rv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\humerus_rv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\humerus_rv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.946] [warning] Visualizer couldn't open Raja\ulna_rv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ulna_rv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ulna_rv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.946] [warning] Visualizer couldn't open Raja\radius_rv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\radius_rv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\radius_rv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.946] [warning] Visualizer couldn't open Raja\pisiform_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\pisiform_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\pisiform_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.946] [warning] Visualizer couldn't open Raja\lunate_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\lunate_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\lunate_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.946] [warning] Visualizer couldn't open Raja\scaphoid_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\scaphoid_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\scaphoid_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.946] [warning] Visualizer couldn't open Raja\triquetrum_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\triquetrum_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\triquetrum_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.946] [warning] Visualizer couldn't open Raja\hamate_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hamate_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hamate_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.946] [warning] Visualizer couldn't open Raja\capitate_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\capitate_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\capitate_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.946] [warning] Visualizer couldn't open Raja\trapezoid_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezoid_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezoid_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.947] [warning] Visualizer couldn't open Raja\trapezium_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezium_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezium_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.947] [warning] Visualizer couldn't open Raja\metacarpal2_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal2_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal2_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.947] [warning] Visualizer couldn't open Raja\index_proximal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_proximal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_proximal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.947] [warning] Visualizer couldn't open Raja\index_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.947] [warning] Visualizer couldn't open Raja\index_distal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_distal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_distal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.954] [warning] Visualizer couldn't open Raja\middle_proximal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_proximal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_proximal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.960] [warning] Visualizer couldn't open Raja\middle_distal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_distal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_distal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.960] [warning] Visualizer couldn't open Raja\metacarpal4_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal4_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal4_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.960] [warning] Visualizer couldn't open Raja\ring_proximal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_proximal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_proximal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.960] [warning] Visualizer couldn't open Raja\ring_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.960] [warning] Visualizer couldn't open Raja\ring_distal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_distal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_distal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.961] [warning] Visualizer couldn't open Raja\metacarpal5_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal5_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal5_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.961] [warning] Visualizer couldn't open Raja\little_proximal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_proximal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_proximal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.961] [warning] Visualizer couldn't open Raja\little_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.961] [warning] Visualizer couldn't open Raja\little_distal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_distal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_distal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.961] [warning] Visualizer couldn't open Raja\metacarpal1_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal1_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal1_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.961] [warning] Visualizer couldn't open Raja\thumb_proximal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_proximal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_proximal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.961] [warning] Visualizer couldn't open Raja\thumb_distal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_distal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_distal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.962] [warning] Visualizer couldn't open Raja\humerus_lv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\humerus_lv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\humerus_lv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.962] [warning] Visualizer couldn't open Raja\ulna_lv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ulna_lv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ulna_lv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.962] [warning] Visualizer couldn't open Raja\radius_lv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\radius_lv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\radius_lv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.962] [warning] Visualizer couldn't open Raja\pisiform_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\pisiform_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\pisiform_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.962] [warning] Visualizer couldn't open Raja\lunate_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\lunate_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\lunate_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.963] [warning] Visualizer couldn't open Raja\scaphoid_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\scaphoid_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\scaphoid_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.963] [warning] Visualizer couldn't open Raja\triquetrum_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\triquetrum_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\triquetrum_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.963] [warning] Visualizer couldn't open Raja\hamate_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hamate_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hamate_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.963] [warning] Visualizer couldn't open Raja\capitate_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\capitate_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\capitate_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.963] [warning] Visualizer couldn't open Raja\trapezoid_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezoid_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezoid_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.963] [warning] Visualizer couldn't open Raja\trapezium_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezium_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezium_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.963] [warning] Visualizer couldn't open Raja\metacarpal2_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal2_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal2_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.963] [warning] Visualizer couldn't open Raja\index_proximal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_proximal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_proximal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.963] [warning] Visualizer couldn't open Raja\index_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.964] [warning] Visualizer couldn't open Raja\index_distal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_distal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_distal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.964] [warning] Visualizer couldn't open Raja\metacarpal3_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal3_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal3_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.964] [warning] Visualizer couldn't open Raja\middle_proximal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_proximal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_proximal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.964] [warning] Visualizer couldn't open Raja\middle_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.964] [warning] Visualizer couldn't open Raja\middle_distal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_distal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_distal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.964] [warning] Visualizer couldn't open Raja\metacarpal4_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal4_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal4_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.964] [warning] Visualizer couldn't open Raja\ring_proximal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_proximal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_proximal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.964] [warning] Visualizer couldn't open Raja\ring_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.965] [warning] Visualizer couldn't open Raja\ring_distal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_distal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_distal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.965] [warning] Visualizer couldn't open Raja\metacarpal5_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal5_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal5_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.965] [warning] Visualizer couldn't open Raja\little_proximal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_proximal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_proximal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.965] [warning] Visualizer couldn't open Raja\little_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.965] [warning] Visualizer couldn't open Raja\little_distal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_distal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_distal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.965] [warning] Visualizer couldn't open Raja\metacarpal1_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal1_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal1_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.966] [warning] Visualizer couldn't open Raja\thumb_proximal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_proximal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_proximal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:52:36.966] [warning] Visualizer couldn't open Raja\thumb_distal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_distal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_distal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 12:53:12.971] [info] Storage: read data file = C:\Git\research_data\Projects\runbops_FAIS_phd\simulations\009\pre\sprint_1\joint_angles.mot (nr=97 nc=40)
+[2025-03-12 12:54:20.471] [info] Storage: read data file = C:\Git\research_data\Projects\runbops_FAIS_phd\simulations\009\pre\sprint_1\muscle_forces.sto (nr=97 nc=132)
+[2025-03-12 12:58:27.281] [warning] Failed to read 'double': property 'time_range' with input '[4.925 5.409]': the data has been ignored
+[2025-03-12 12:58:27.281] [warning] Failed to read 'double': property 'time_range' with input '[4.925 5.409]': does not contain enough values (minimum: 2, got: 0): the data (all fields) have been ignored
+[2025-03-12 13:09:57.399] [info] Updating Model file from 40000 to latest format...
+[2025-03-12 13:09:57.421] [info] Loaded model 009 from file C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009_simplified\10m_sprint\009_Rajagopal2015_FAI_v4.osim
+[2025-03-12 13:09:57.421] [warning] Couldn't find file 'Raja\r_pelvis.vtp'.
+[2025-03-12 13:09:57.422] [warning] Couldn't find file 'Raja\l_pelvis.vtp'.
+[2025-03-12 13:09:57.422] [warning] Couldn't find file 'Raja\sacrum.vtp'.
+[2025-03-12 13:09:57.422] [warning] Couldn't find file 'Raja\r_femur.vtp'.
+[2025-03-12 13:09:57.422] [warning] Couldn't find file 'Raja\r_tibia.vtp'.
+[2025-03-12 13:09:57.422] [warning] Couldn't find file 'Raja\r_fibula.vtp'.
+[2025-03-12 13:09:57.422] [warning] Couldn't find file 'Raja\r_patella.vtp'.
+[2025-03-12 13:09:57.423] [warning] Couldn't find file 'Raja\r_talus.vtp'.
+[2025-03-12 13:09:57.423] [warning] Couldn't find file 'Raja\r_foot.vtp'.
+[2025-03-12 13:09:57.423] [warning] Couldn't find file 'Raja\r_bofoot.vtp'.
+[2025-03-12 13:09:57.423] [warning] Couldn't find file 'Raja\l_femur.vtp'.
+[2025-03-12 13:09:57.423] [warning] Couldn't find file 'Raja\l_tibia.vtp'.
+[2025-03-12 13:09:57.423] [warning] Couldn't find file 'Raja\l_fibula.vtp'.
+[2025-03-12 13:09:57.423] [warning] Couldn't find file 'Raja\l_patella.vtp'.
+[2025-03-12 13:09:57.423] [warning] Couldn't find file 'Raja\l_talus.vtp'.
+[2025-03-12 13:09:57.424] [warning] Couldn't find file 'Raja\l_foot.vtp'.
+[2025-03-12 13:09:57.424] [warning] Couldn't find file 'Raja\l_bofoot.vtp'.
+[2025-03-12 13:09:57.424] [warning] Couldn't find file 'Raja\hat_spine.vtp'.
+[2025-03-12 13:09:57.424] [warning] Couldn't find file 'Raja\hat_jaw.vtp'.
+[2025-03-12 13:09:57.424] [warning] Couldn't find file 'Raja\hat_skull.vtp'.
+[2025-03-12 13:09:57.424] [warning] Couldn't find file 'Raja\hat_ribs_scap.vtp'.
+[2025-03-12 13:09:57.424] [warning] Couldn't find file 'Raja\humerus_rv.vtp'.
+[2025-03-12 13:09:57.425] [warning] Couldn't find file 'Raja\ulna_rv.vtp'.
+[2025-03-12 13:09:57.425] [warning] Couldn't find file 'Raja\radius_rv.vtp'.
+[2025-03-12 13:09:57.425] [warning] Couldn't find file 'Raja\pisiform_rvs.vtp'.
+[2025-03-12 13:09:57.425] [warning] Couldn't find file 'Raja\lunate_rvs.vtp'.
+[2025-03-12 13:09:57.425] [warning] Couldn't find file 'Raja\scaphoid_rvs.vtp'.
+[2025-03-12 13:09:57.425] [warning] Couldn't find file 'Raja\triquetrum_rvs.vtp'.
+[2025-03-12 13:09:57.425] [warning] Couldn't find file 'Raja\hamate_rvs.vtp'.
+[2025-03-12 13:09:57.425] [warning] Couldn't find file 'Raja\capitate_rvs.vtp'.
+[2025-03-12 13:09:57.426] [warning] Couldn't find file 'Raja\trapezoid_rvs.vtp'.
+[2025-03-12 13:09:57.426] [warning] Couldn't find file 'Raja\trapezium_rvs.vtp'.
+[2025-03-12 13:09:57.426] [warning] Couldn't find file 'Raja\metacarpal2_rvs.vtp'.
+[2025-03-12 13:09:57.426] [warning] Couldn't find file 'Raja\index_proximal_rvs.vtp'.
+[2025-03-12 13:09:57.426] [warning] Couldn't find file 'Raja\index_medial_rvs.vtp'.
+[2025-03-12 13:09:57.426] [warning] Couldn't find file 'Raja\index_distal_rvs.vtp'.
+[2025-03-12 13:09:57.426] [warning] Couldn't find file 'Raja\middle_proximal_rvs.vtp'.
+[2025-03-12 13:09:57.427] [warning] Couldn't find file 'Raja\middle_distal_rvs.vtp'.
+[2025-03-12 13:09:57.427] [warning] Couldn't find file 'Raja\metacarpal4_rvs.vtp'.
+[2025-03-12 13:09:57.427] [warning] Couldn't find file 'Raja\ring_proximal_rvs.vtp'.
+[2025-03-12 13:09:57.427] [warning] Couldn't find file 'Raja\ring_medial_rvs.vtp'.
+[2025-03-12 13:09:57.427] [warning] Couldn't find file 'Raja\ring_distal_rvs.vtp'.
+[2025-03-12 13:09:57.427] [warning] Couldn't find file 'Raja\metacarpal5_rvs.vtp'.
+[2025-03-12 13:09:57.427] [warning] Couldn't find file 'Raja\little_proximal_rvs.vtp'.
+[2025-03-12 13:09:57.427] [warning] Couldn't find file 'Raja\little_medial_rvs.vtp'.
+[2025-03-12 13:09:57.428] [warning] Couldn't find file 'Raja\little_distal_rvs.vtp'.
+[2025-03-12 13:09:57.428] [warning] Couldn't find file 'Raja\metacarpal1_rvs.vtp'.
+[2025-03-12 13:09:57.428] [warning] Couldn't find file 'Raja\thumb_proximal_rvs.vtp'.
+[2025-03-12 13:09:57.428] [warning] Couldn't find file 'Raja\thumb_distal_rvs.vtp'.
+[2025-03-12 13:09:57.428] [warning] Couldn't find file 'Raja\humerus_lv.vtp'.
+[2025-03-12 13:09:57.428] [warning] Couldn't find file 'Raja\ulna_lv.vtp'.
+[2025-03-12 13:09:57.428] [warning] Couldn't find file 'Raja\radius_lv.vtp'.
+[2025-03-12 13:09:57.428] [warning] Couldn't find file 'Raja\pisiform_lvs.vtp'.
+[2025-03-12 13:09:57.428] [warning] Couldn't find file 'Raja\lunate_lvs.vtp'.
+[2025-03-12 13:09:57.429] [warning] Couldn't find file 'Raja\scaphoid_lvs.vtp'.
+[2025-03-12 13:09:57.429] [warning] Couldn't find file 'Raja\triquetrum_lvs.vtp'.
+[2025-03-12 13:09:57.429] [warning] Couldn't find file 'Raja\hamate_lvs.vtp'.
+[2025-03-12 13:09:57.429] [warning] Couldn't find file 'Raja\capitate_lvs.vtp'.
+[2025-03-12 13:09:57.429] [warning] Couldn't find file 'Raja\trapezoid_lvs.vtp'.
+[2025-03-12 13:09:57.429] [warning] Couldn't find file 'Raja\trapezium_lvs.vtp'.
+[2025-03-12 13:09:57.429] [warning] Couldn't find file 'Raja\metacarpal2_lvs.vtp'.
+[2025-03-12 13:09:57.429] [warning] Couldn't find file 'Raja\index_proximal_lvs.vtp'.
+[2025-03-12 13:09:57.429] [warning] Couldn't find file 'Raja\index_medial_lvs.vtp'.
+[2025-03-12 13:09:57.430] [warning] Couldn't find file 'Raja\index_distal_lvs.vtp'.
+[2025-03-12 13:09:57.430] [warning] Couldn't find file 'Raja\metacarpal3_lvs.vtp'.
+[2025-03-12 13:09:57.430] [warning] Couldn't find file 'Raja\middle_proximal_lvs.vtp'.
+[2025-03-12 13:09:57.430] [warning] Couldn't find file 'Raja\middle_medial_lvs.vtp'.
+[2025-03-12 13:09:57.430] [warning] Couldn't find file 'Raja\middle_distal_lvs.vtp'.
+[2025-03-12 13:09:57.430] [warning] Couldn't find file 'Raja\metacarpal4_lvs.vtp'.
+[2025-03-12 13:09:57.430] [warning] Couldn't find file 'Raja\ring_proximal_lvs.vtp'.
+[2025-03-12 13:09:57.430] [warning] Couldn't find file 'Raja\ring_medial_lvs.vtp'.
+[2025-03-12 13:09:57.430] [warning] Couldn't find file 'Raja\ring_distal_lvs.vtp'.
+[2025-03-12 13:09:57.431] [warning] Couldn't find file 'Raja\metacarpal5_lvs.vtp'.
+[2025-03-12 13:09:57.431] [warning] Couldn't find file 'Raja\little_proximal_lvs.vtp'.
+[2025-03-12 13:09:57.431] [warning] Couldn't find file 'Raja\little_medial_lvs.vtp'.
+[2025-03-12 13:09:57.431] [warning] Couldn't find file 'Raja\little_distal_lvs.vtp'.
+[2025-03-12 13:09:57.431] [warning] Couldn't find file 'Raja\metacarpal1_lvs.vtp'.
+[2025-03-12 13:09:57.431] [warning] Couldn't find file 'Raja\thumb_proximal_lvs.vtp'.
+[2025-03-12 13:09:57.431] [warning] Couldn't find file 'Raja\thumb_distal_lvs.vtp'.
+[2025-03-12 13:09:57.474] [warning] Visualizer couldn't open Raja\r_pelvis.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_pelvis.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_pelvis.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.475] [warning] Visualizer couldn't open Raja\l_pelvis.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_pelvis.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_pelvis.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.475] [warning] Visualizer couldn't open Raja\sacrum.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\sacrum.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\sacrum.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.475] [warning] Visualizer couldn't open Raja\r_femur.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_femur.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_femur.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.476] [warning] Visualizer couldn't open Raja\r_tibia.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_tibia.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_tibia.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.476] [warning] Visualizer couldn't open Raja\r_fibula.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_fibula.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_fibula.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.476] [warning] Visualizer couldn't open Raja\r_patella.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_patella.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_patella.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.476] [warning] Visualizer couldn't open Raja\r_talus.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_talus.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_talus.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.476] [warning] Visualizer couldn't open Raja\r_foot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_foot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_foot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.476] [warning] Visualizer couldn't open Raja\r_bofoot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_bofoot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\r_bofoot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.476] [warning] Visualizer couldn't open Raja\l_femur.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_femur.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_femur.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.477] [warning] Visualizer couldn't open Raja\l_tibia.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_tibia.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_tibia.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.477] [warning] Visualizer couldn't open Raja\l_fibula.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_fibula.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_fibula.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.477] [warning] Visualizer couldn't open Raja\l_patella.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_patella.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_patella.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.477] [warning] Visualizer couldn't open Raja\l_talus.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_talus.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_talus.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.477] [warning] Visualizer couldn't open Raja\l_foot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_foot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_foot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.477] [warning] Visualizer couldn't open Raja\l_bofoot.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_bofoot.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\l_bofoot.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.477] [warning] Visualizer couldn't open Raja\hat_spine.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_spine.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_spine.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.477] [warning] Visualizer couldn't open Raja\hat_jaw.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_jaw.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_jaw.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.478] [warning] Visualizer couldn't open Raja\hat_skull.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_skull.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_skull.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.478] [warning] Visualizer couldn't open Raja\hat_ribs_scap.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_ribs_scap.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hat_ribs_scap.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.478] [warning] Visualizer couldn't open Raja\humerus_rv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\humerus_rv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\humerus_rv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.478] [warning] Visualizer couldn't open Raja\ulna_rv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ulna_rv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ulna_rv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.478] [warning] Visualizer couldn't open Raja\radius_rv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\radius_rv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\radius_rv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.478] [warning] Visualizer couldn't open Raja\pisiform_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\pisiform_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\pisiform_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.478] [warning] Visualizer couldn't open Raja\lunate_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\lunate_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\lunate_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.478] [warning] Visualizer couldn't open Raja\scaphoid_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\scaphoid_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\scaphoid_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.478] [warning] Visualizer couldn't open Raja\triquetrum_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\triquetrum_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\triquetrum_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.478] [warning] Visualizer couldn't open Raja\hamate_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hamate_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hamate_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.478] [warning] Visualizer couldn't open Raja\capitate_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\capitate_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\capitate_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.478] [warning] Visualizer couldn't open Raja\trapezoid_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezoid_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezoid_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.478] [warning] Visualizer couldn't open Raja\trapezium_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezium_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezium_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.479] [warning] Visualizer couldn't open Raja\metacarpal2_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal2_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal2_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.479] [warning] Visualizer couldn't open Raja\index_proximal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_proximal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_proximal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.479] [warning] Visualizer couldn't open Raja\index_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.479] [warning] Visualizer couldn't open Raja\index_distal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_distal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_distal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.483] [warning] Visualizer couldn't open Raja\middle_proximal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_proximal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_proximal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.485] [warning] Visualizer couldn't open Raja\middle_distal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_distal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_distal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.485] [warning] Visualizer couldn't open Raja\metacarpal4_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal4_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal4_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.485] [warning] Visualizer couldn't open Raja\ring_proximal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_proximal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_proximal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.485] [warning] Visualizer couldn't open Raja\ring_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.485] [warning] Visualizer couldn't open Raja\ring_distal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_distal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_distal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.485] [warning] Visualizer couldn't open Raja\metacarpal5_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal5_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal5_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.485] [warning] Visualizer couldn't open Raja\little_proximal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_proximal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_proximal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.485] [warning] Visualizer couldn't open Raja\little_medial_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_medial_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_medial_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.485] [warning] Visualizer couldn't open Raja\little_distal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_distal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_distal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.486] [warning] Visualizer couldn't open Raja\metacarpal1_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal1_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal1_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.486] [warning] Visualizer couldn't open Raja\thumb_proximal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_proximal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_proximal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.486] [warning] Visualizer couldn't open Raja\thumb_distal_rvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_distal_rvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_distal_rvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.486] [warning] Visualizer couldn't open Raja\humerus_lv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\humerus_lv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\humerus_lv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.486] [warning] Visualizer couldn't open Raja\ulna_lv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ulna_lv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ulna_lv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.486] [warning] Visualizer couldn't open Raja\radius_lv.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\radius_lv.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\radius_lv.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.486] [warning] Visualizer couldn't open Raja\pisiform_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\pisiform_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\pisiform_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.486] [warning] Visualizer couldn't open Raja\lunate_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\lunate_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\lunate_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.486] [warning] Visualizer couldn't open Raja\scaphoid_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\scaphoid_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\scaphoid_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.486] [warning] Visualizer couldn't open Raja\triquetrum_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\triquetrum_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\triquetrum_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.486] [warning] Visualizer couldn't open Raja\hamate_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hamate_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\hamate_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.486] [warning] Visualizer couldn't open Raja\capitate_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\capitate_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\capitate_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.486] [warning] Visualizer couldn't open Raja\trapezoid_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezoid_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezoid_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.486] [warning] Visualizer couldn't open Raja\trapezium_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezium_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\trapezium_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.486] [warning] Visualizer couldn't open Raja\metacarpal2_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal2_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal2_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\index_proximal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_proximal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_proximal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\index_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\index_distal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_distal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\index_distal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\metacarpal3_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal3_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal3_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\middle_proximal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_proximal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_proximal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\middle_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\middle_distal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_distal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\middle_distal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\metacarpal4_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal4_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal4_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\ring_proximal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_proximal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_proximal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\ring_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\ring_distal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_distal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\ring_distal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\metacarpal5_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal5_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal5_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\little_proximal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_proximal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_proximal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\little_medial_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_medial_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_medial_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\little_distal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_distal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\little_distal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\metacarpal1_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal1_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\metacarpal1_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\thumb_proximal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_proximal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_proximal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:09:57.487] [warning] Visualizer couldn't open Raja\thumb_distal_lvs.vtp because: SimTK Exception thrown at PolygonalMesh.cpp:411:
+  Error detected by Simbody method PolygonalMesh::loadVtpFile(): Attempt to load a VTK PolyData (.vtp) file from file name 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_distal_lvs.vtp' failed with message:
+  SimTK Exception thrown at Xml.cpp:108:
+  Error detected by Simbody method Xml::readFromFile(): Failed to load the Xml file 'C:\OpenSim 4.3\opensim\..\\Geometry\Raja\thumb_distal_lvs.vtp' with error 'Failed to open file (line=0, col=0)'.
+  (Required condition 'loadOK' was not met.)
+
+  (Required condition '!"failed"' was not met.)
+
+[2025-03-12 13:10:04.697] [info] Storage: read data file = C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009_simplified\10m_sprint\ik.mot (nr=100 nc=40)
