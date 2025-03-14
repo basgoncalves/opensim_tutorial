@@ -1,0 +1,24 @@
+ActuatorPowers
+version=1
+nRows=1
+nColumns=30
+inDegrees=no
+
+This file contains either the forces, speeds, or powers developed
+by the actuators of a model during a simulation.
+
+An actuator force is a generalized force, meaning that it can be either a force (N) or a torque (Nm).
+
+An actuator speed is the rate at which an actuator shortens. Depending on the actuator,
+a speed can be either a translational speed (m/s) or an angular speed (deg/s or rad/s).
+
+An actuator power (Watts) is the rate at which an actuator does work.  Positive power means
+that the actuator is delivering energy to the model; negative power means that the actuator
+is absorbing energy from the model.
+
+Units are S.I. units (second, meters, Newtons, ...)
+If the header above contains a line with 'inDegrees', this indicates whether rotational values are in degrees (yes) or radians (no).
+
+endheader
+time	FX	FY	FZ	MX	MY	MZ	hip_flexion_r	hip_adduction_r	hip_rotation_r	knee_angle_r	ankle_angle_r	hip_flexion_l	hip_adduction_l	hip_rotation_l	knee_angle_l	ankle_angle_l	lumbar_extension	lumbar_bending	lumbar_rotation	arm_flex_r	arm_add_r	arm_rot_r	elbow_flex_r	pro_sup_r	arm_flex_l	arm_add_l	arm_rot_l	elbow_flex_l	pro_sup_l
+      4.9249999999999998	6048054.9249164639040828	-6048054.9249164639040828	6048054.9249164639040828	19887996.7396313063800335	-23895880.0232072025537491	-23994517.2318060770630836	-11601085.7204697597771883	-315838.8001554660731927	6648647.9777170335873961	-3820228.0931240431964397	-11070082.8831818066537380	17611805.7194208689033985	8135726.0730843301862478	4027565.2409722860902548	33872534.8618289530277252	24263084.4630785062909126	-3730471.8404466449283063	4059844.8662983928807080	-3942924.8639333602041006	-9736026.9112052787095308	-3444483.4102870770730078	4652905.2616116711869836	-1027866.0918100246926770	 -95801.7654614493221743	-15042995.9820231888443232	-1431281.6549931447952986	-1303976.1596968609374017	7877616.3311163671314716	 960106.4319926138268784

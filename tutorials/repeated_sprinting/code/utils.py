@@ -29,7 +29,6 @@ def run_ik_tool(model, folder, marker_file = None, output_file = None, results_d
     ik_tool.printToXML(os.path.join(folder, "setup_IK.xml"))
     ik_tool.run()
 
-
 def run_id_tool(model, folder, LowpassCutoffFrequency = 6):
     
     for root, dirs, files in os.walk(folder):

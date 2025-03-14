@@ -1,0 +1,30 @@
+{
+    "identifier": "bops_project",
+    "subjects": ["subject1", "subject2"],
+      "analyses": {
+        "processed": {
+          "c3dConvert": true,
+          "scale": true,
+          "IK": true,
+          "ID": true,
+          "SO": true
+        },
+        "run": {
+          "c3dConvert": true,
+          "scale": false,
+          "IK": false,
+          "ID": false,
+          "SO": false
+        },
+        "settings": {
+          "c3dConvert": {
+            "model": "rajagopal",
+            "c3d": "c3d",
+            "joint angles": "c3d",
+            "joint moments": ".c3d",
+            "emg": "c3d"
+          }
+        }
+      }
+    }
+  }

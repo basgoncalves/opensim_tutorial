@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import spm1d
+import os
+current_dir = os.path.dirname(__file__)
 
 def time_normalise_df(df, fs=''):
 
@@ -42,7 +44,7 @@ def time_normalise_df(df, fs=''):
 # plt.show() # has to be called to show plot
 #########################################################################################################
 # forces ttest
-df = pd.read_csv(".\Visual3d_StaticOptimization_force.sto", sep="\t", skiprows=14)
+df = pd.read_csv(os.path.join(current_dir,".\Visual3d_StaticOptimization_force.sto"), sep="\t", skiprows=14)
 df_time_normalised = time_normalise_df(df) 
 
 fig, axs = plt.subplots(2)

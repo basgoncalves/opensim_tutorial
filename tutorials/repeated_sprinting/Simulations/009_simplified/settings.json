@@ -1,0 +1,24 @@
+{
+    "identifier": "subject",
+    "path": "./",
+    "trials": ["10m_sprint"],
+    "model": "model.osim",
+    "setups": {
+      "ik_setup": "ik_setup.xml",
+      "ik_tasks_set": "ik_tasks.xml",
+    },
+    "10m_sprint": {
+      "start": 0.0,
+      "end": 1.0,
+      "c3d": "rawdata.c3d",
+      "markers": "markers.trc",
+      "emg": "emg.mot",
+      "grf": "grf",
+      "joint_angles": "ik.mot",
+      "joint_moments": "id.sto",
+      "muscle_lengths": "./MA_analysis",
+      "muscle_forces": "./forces.sto",     
+      "muscle_activations": "./activations.sto",
+      "joint_loads": "./loads.sto"
+    }
+  }
