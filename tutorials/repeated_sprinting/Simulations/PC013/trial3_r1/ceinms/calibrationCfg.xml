@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<calibration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:noNamespaceSchemaLocation="calibration.xsd">
+<?xml version="1.0" ?>
+<calibration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <algorithm>
       <simulatedAnnealing>
          <noEpsilon>4</noEpsilon>
@@ -27,7 +26,18 @@
       <step>
          <dofs>knee_angle_r</dofs>
          <objectiveFunction>
-           <minimizeTorqueError/>
+            <torqueErrorNormalised>
+               <targets>all</targets>
+               <weight>1</weight>
+               <exponent>1</exponent>
+            </torqueErrorNormalised>
+            <penalty>
+               <targets>all</targets>
+               <targetsType>normalisedFibreLength</targetsType>
+               <weight>100</weight>
+               <exponent>2</exponent>
+               <range>0.6 1.4</range>
+            </penalty>
          </objectiveFunction>
          <parameterSet>
             <parameter>
@@ -71,9 +81,57 @@
                <absolute>
                   <range>0.8 2</range>
                </absolute>
+               <muscleGroups>
+                  <muscles>glut_med1_r</muscles>
+                  <muscles>glut_med2_r</muscles>
+                  <muscles>glut_med3_r</muscles>
+                  <muscles>glut_min1_r</muscles>
+                  <muscles>glut_min2_r</muscles>
+                  <muscles>glut_min3_r</muscles>
+                  <muscles>semimem_r</muscles>
+                  <muscles>semiten_r</muscles>
+                  <muscles>bifemlh_r</muscles>
+                  <muscles>bifemsh_r</muscles>
+                  <muscles>sar_r</muscles>
+                  <muscles>add_long_r</muscles>
+                  <muscles>add_brev_r</muscles>
+                  <muscles>add_mag1_r</muscles>
+                  <muscles>add_mag2_r</muscles>
+                  <muscles>add_mag3_r</muscles>
+                  <muscles>tfl_r</muscles>
+                  <muscles>pect_r</muscles>
+                  <muscles>grac_r</muscles>
+                  <muscles>glut_max1_r</muscles>
+                  <muscles>glut_max2_r</muscles>
+                  <muscles>glut_max3_r</muscles>
+                  <muscles>iliacus_r</muscles>
+                  <muscles>psoas_r</muscles>
+                  <muscles>quad_fem_r</muscles>
+                  <muscles>gem_r</muscles>
+                  <muscles>peri_r</muscles>
+                  <muscles>rect_fem_r</muscles>
+                  <muscles>vas_med_r</muscles>
+                  <muscles>vas_int_r</muscles>
+                  <muscles>vas_lat_r</muscles>
+                  <muscles>med_gas_r</muscles>
+                  <muscles>lat_gas_r</muscles>
+                  <muscles>soleus_r</muscles>
+                  <muscles>tib_post_r</muscles>
+                  <muscles>flex_dig_r</muscles>
+                  <muscles>flex_hal_r</muscles>
+                  <muscles>tib_ant_r</muscles>
+                  <muscles>per_brev_r</muscles>
+                  <muscles>per_long_r</muscles>
+                  <muscles>per_tert_r</muscles>
+                  <muscles>ext_dig_r</muscles>
+                  <muscles>ext_hal_r</muscles>
+                  <muscles>ercspn_r</muscles>
+                  <muscles>intobl_r</muscles>
+                  <muscles>extobl_r</muscles>
+               </muscleGroups>
             </parameter>
          </parameterSet>
       </step>
    </calibrationSteps>
-   <trialSet>./trial_right.xml</trialSet>
+   <trialSet>.\trial.xml</trialSet>
 </calibration>
