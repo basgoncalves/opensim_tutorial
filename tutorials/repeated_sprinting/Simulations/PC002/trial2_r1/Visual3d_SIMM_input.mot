@@ -1,7 +1,12 @@
-name Visual3d_SIMM_input.mot
-datacolumns 42
-datarows 43
-range 2.090000 2.510000
+Coordinates
+version=1
+nRows=43
+nColumns=42
+inDegrees=yes
+
+Units are S.I. units (second, meters, Newtons, ...)
+Angles are in degrees.
+
 endheader
 time	pelvis_tx	pelvis_ty	pelvis_tz	pelvis_tilt	pelvis_list	pelvis_rotation	hip_flexion_r	hip_adduction_r	hip_rotation_r	knee_angle_r	ankle_angle_r	subtalar_angle_r	mtp_angle_r	hip_flexion_l	hip_adduction_l	hip_rotation_l	knee_angle_l	ankle_angle_l	subtalar_angle_l	mtp_angle_l	lumbar_extension	lumbar_bending	lumbar_rotation	ground_force_vx	ground_force_vy	ground_force_vz	ground_force_px	ground_force_py	ground_force_pz	ground_force_vx	ground_force_vy	ground_force_vz	ground_force_px	ground_force_py	ground_force_pz	ground_torque_x	ground_torque_y	ground_torque_z	ground_torque_x	ground_torque_y	ground_torque_z
 2.090000	0.030515	0.634742	-0.189889	-14.025919	17.013912	-101.497253	50.949267	17.229984	-1.432534	-55.607811	22.578000	-0.000000	0.000000	29.269990	-12.357662	7.286093	-79.287691	34.905019	-0.000000	0.000000	10.416352	24.033737	-8.273517	14.415133	270.582458	-19.063482	-0.076695	-0.003279	-0.150334	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	-0.000965	1.454358	-0.003379	0.000000	0.000000	0.000000
