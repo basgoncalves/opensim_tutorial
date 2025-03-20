@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <excitationGenerator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="excitationGenerator.xsd">
-   <inputSignals type="EMG">LGLTMED LRF LADDLONG LST LTA LGM</inputSignals>
+   <inputSignals type="EMG">LGLTMED LRF LADDLONG LBF LTA LGM</inputSignals>
    <mapping>
       <excitation id="add_brev_l">
          <input weight="1">LADDLONG</input>
@@ -9,10 +9,10 @@
          <input weight="1">LADDLONG</input>
       </excitation>
       <excitation id="bifemlh_l">
-         <input weight="1">LST</input>
+         <input weight="1">LBF</input>
       </excitation>
       <excitation id="bifemsh_l">
-         <input weight="1">LST</input>
+         <input weight="1">LBF</input>
       </excitation>
       <excitation id="ext_dig_l">
          <input weight="1">LTA</input>
@@ -65,10 +65,10 @@
       <excitation id="rect_fem_l"/>
       <excitation id="sar_l"/>
       <excitation id="semimem_l">
-         <input weight="1">LST</input>
+         <input weight="1">LBF</input>
       </excitation>
       <excitation id="semiten_l">
-         <input weight="1">LST</input>
+         <input weight="1">LBF</input>
       </excitation>
       <excitation id="soleus_l">
          <input weight="1">LGM</input>
