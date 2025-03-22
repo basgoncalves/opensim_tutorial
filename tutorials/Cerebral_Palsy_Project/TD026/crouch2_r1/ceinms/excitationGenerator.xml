@@ -23,10 +23,10 @@
       <excitation id="flex_dig_r"/>
       <excitation id="flex_hal_r"/>
       <excitation id="lat_gas_r">
-         <input weight="1">RGM</input>
+         <input weight="0">RGM</input>
       </excitation>
       <excitation id="med_gas_r">
-         <input weight="1">RGM</input>
+         <input weight="0">RGM</input>
       </excitation>
       <excitation id="glut_max1_r">
          <input weight="1">RGLTMED</input>
@@ -71,7 +71,7 @@
          <input weight="1">RST</input>
       </excitation>
       <excitation id="soleus_r">
-         <input weight="1">RGM</input>
+         <input weight="0">RGM</input>
       </excitation>
       <excitation id="tfl_r"/>
       <excitation id="tib_ant_r">

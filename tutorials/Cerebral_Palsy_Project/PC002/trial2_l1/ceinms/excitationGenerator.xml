@@ -3,10 +3,10 @@
    <inputSignals type="EMG">LGLTMED LRF LADDLONG LBF LTA LGM</inputSignals>
    <mapping>
       <excitation id="add_brev_l">
-         <input weight="1">LADDLONG</input>
+         <input weight="0">LADDLONG</input>
       </excitation>
       <excitation id="add_long_l">
-         <input weight="1">LADDLONG</input>
+         <input weight="0">LADDLONG</input>
       </excitation>
       <excitation id="bifemlh_l">
          <input weight="1">LBF</input>
@@ -56,7 +56,7 @@
          <input weight="1">LGLTMED</input>
       </excitation>
       <excitation id="grac_l">
-         <input weight="1">LADDLONG</input>
+         <input weight="0">LADDLONG</input>
       </excitation>
       <excitation id="iliacus_l"/>
       <excitation id="per_brev_l"/>
