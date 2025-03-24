@@ -15,3 +15,133 @@ CEINMScalibrate version 0.21.0
 Copyright (C) Apr 29 2020
 Claudio Pizzolato, Monica Reggiani, Massimo Sartori, David Lloyd
 Software developers: Claudio Pizzolato, Monica Reggiani
+readNMSmodelCfg
+boost::filesystem::canonical: No such file or directory: "c:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC003\trial1_l1\ceinms\.\calibratedSubject.xml"Reading subject file: c:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC003\trial1_l1\ceinms\uncalibratedSubject.xml .
+Contact model  not found
+Calibration configuration
+ - Algorithm
+ -- Simulated Annealing
+ --- noEpsilon 4
+ --- NS 15
+ --- NT 5
+ --- maxNoEval 200000
+ --- rt 0.3
+ --- T 200000
+ --- epsilon 1e-05
+ - NMSmodel
+ - CalibrationSteps
+ -- Step
+ Objective Function: TorqueErrorNormalised
+ - Targets Type: Torque
+ - Targets: all 
+ - Weight: 1
+ - Exponent: 1
+ Objective Function: Penalty
+ - Targets Type: Normalised Fibre Length
+ - Targets: all 
+ - Weight: 100
+ - Exponent: 2
+ - Range: 0.6, 1.4
+ - Trials
+ -- c:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC003\trial1_l1\ceinms\.\trial.xml
+
+
+Reading subject file: c:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC003\trial1_l1\ceinms\uncalibratedSubject.xml .
+activeForceLength
+passiveForceLength
+forceVelocity
+tendonForceStrain
+Assuming glut_med1_r pennation angle in radians: 0.139626
+Assuming glut_med2_r pennation angle in radians: 0
+Assuming glut_med3_r pennation angle in radians: 0.331613
+Assuming glut_min1_r pennation angle in radians: 0.174533
+Assuming glut_min2_r pennation angle in radians: 0
+Assuming glut_min3_r pennation angle in radians: 0.0174533
+Assuming semimem_r pennation angle in radians: 0.261799
+Assuming semiten_r pennation angle in radians: 0.0872665
+Assuming bifemlh_r pennation angle in radians: 0
+Assuming bifemsh_r pennation angle in radians: 0.401426
+Assuming sar_r pennation angle in radians: 0
+Assuming add_long_r pennation angle in radians: 0.10472
+Assuming add_brev_r pennation angle in radians: 0
+Assuming add_mag1_r pennation angle in radians: 0.0872665
+Assuming add_mag2_r pennation angle in radians: 0.0523599
+Assuming add_mag3_r pennation angle in radians: 0.0872665
+Assuming tfl_r pennation angle in radians: 0.0523599
+Assuming pect_r pennation angle in radians: 0
+Assuming grac_r pennation angle in radians: 0.0523599
+Assuming glut_max1_r pennation angle in radians: 0.0872665
+Assuming glut_max2_r pennation angle in radians: 0
+Assuming glut_max3_r pennation angle in radians: 0.0872665
+Assuming iliacus_r pennation angle in radians: 0.122173
+Assuming psoas_r pennation angle in radians: 0.139626
+Assuming quad_fem_r pennation angle in radians: 0
+Assuming gem_r pennation angle in radians: 0
+Assuming peri_r pennation angle in radians: 0.174533
+Assuming rect_fem_r pennation angle in radians: 0.0872665
+Assuming vas_med_r pennation angle in radians: 0.0872665
+Assuming vas_int_r pennation angle in radians: 0.0523599
+Assuming vas_lat_r pennation angle in radians: 0.0872665
+Assuming med_gas_r pennation angle in radians: 0.296706
+Assuming lat_gas_r pennation angle in radians: 0.139626
+Assuming soleus_r pennation angle in radians: 0.436332
+Assuming tib_post_r pennation angle in radians: 0.20944
+Assuming flex_dig_r pennation angle in radians: 0.122173
+Assuming flex_hal_r pennation angle in radians: 0.174533
+Assuming tib_ant_r pennation angle in radians: 0.0872665
+Assuming per_brev_r pennation angle in radians: 0.0872665
+Assuming per_long_r pennation angle in radians: 0.174533
+Assuming per_tert_r pennation angle in radians: 0.226893
+Assuming ext_dig_r pennation angle in radians: 0.139626
+Assuming ext_hal_r pennation angle in radians: 0.10472
+Assuming glut_med1_l pennation angle in radians: 0.139626
+Assuming glut_med2_l pennation angle in radians: 0
+Assuming glut_med3_l pennation angle in radians: 0.331613
+Assuming glut_min1_l pennation angle in radians: 0.174533
+Assuming glut_min2_l pennation angle in radians: 0
+Assuming glut_min3_l pennation angle in radians: 0.0174533
+Assuming semimem_l pennation angle in radians: 0.261799
+Assuming semiten_l pennation angle in radians: 0.0872665
+Assuming bifemlh_l pennation angle in radians: 0
+Assuming bifemsh_l pennation angle in radians: 0.401426
+Assuming sar_l pennation angle in radians: 0
+Assuming add_long_l pennation angle in radians: 0.10472
+Assuming add_brev_l pennation angle in radians: 0
+Assuming add_mag1_l pennation angle in radians: 0.0872665
+Assuming add_mag2_l pennation angle in radians: 0.0523599
+Assuming add_mag3_l pennation angle in radians: 0.0872665
+Assuming tfl_l pennation angle in radians: 0.0523599
+Assuming pect_l pennation angle in radians: 0
+Assuming grac_l pennation angle in radians: 0.0523599
+Assuming glut_max1_l pennation angle in radians: 0.0872665
+Assuming glut_max2_l pennation angle in radians: 0
+Assuming glut_max3_l pennation angle in radians: 0.0872665
+Assuming iliacus_l pennation angle in radians: 0.122173
+Assuming psoas_l pennation angle in radians: 0.139626
+Assuming quad_fem_l pennation angle in radians: 0
+Assuming gem_l pennation angle in radians: 0
+Assuming peri_l pennation angle in radians: 0.174533
+Assuming rect_fem_l pennation angle in radians: 0.0872665
+Assuming vas_med_l pennation angle in radians: 0.0872665
+Assuming vas_int_l pennation angle in radians: 0.0523599
+Assuming vas_lat_l pennation angle in radians: 0.0872665
+Assuming med_gas_l pennation angle in radians: 0.296706
+Assuming lat_gas_l pennation angle in radians: 0.139626
+Assuming soleus_l pennation angle in radians: 0.436332
+Assuming tib_post_l pennation angle in radians: 0.20944
+Assuming flex_dig_l pennation angle in radians: 0.122173
+Assuming flex_hal_l pennation angle in radians: 0.174533
+Assuming tib_ant_l pennation angle in radians: 0.0872665
+Assuming per_brev_l pennation angle in radians: 0.0872665
+Assuming per_long_l pennation angle in radians: 0.174533
+Assuming per_tert_l pennation angle in radians: 0.226893
+Assuming ext_dig_l pennation angle in radians: 0.139626
+Assuming ext_hal_l pennation angle in radians: 0.10472
+Assuming ercspn_r pennation angle in radians: 0
+Assuming ercspn_l pennation angle in radians: 0
+Assuming intobl_r pennation angle in radians: 0
+Assuming intobl_l pennation angle in radians: 0
+Assuming extobl_r pennation angle in radians: 0
+Assuming extobl_l pennation angle in radians: 0
+Found OpenSim model associated to the subject: c:\opensim_tutorial\tutorials\repeated_sprinting\Simulations\PC003\PC003_v3.osim
+Excitation generator: could not find LST input signal

@@ -15,10 +15,10 @@
          <input weight="1">RST</input>
       </excitation>
       <excitation id="ext_dig_r">
-         <input weight="1">RTA</input>
+         <input weight="0">RTA</input>
       </excitation>
       <excitation id="ext_hal_r">
-         <input weight="1">RTA</input>
+         <input weight="0">RTA</input>
       </excitation>
       <excitation id="flex_dig_r"/>
       <excitation id="flex_hal_r"/>
@@ -75,7 +75,7 @@
       </excitation>
       <excitation id="tfl_r"/>
       <excitation id="tib_ant_r">
-         <input weight="1">RTA</input>
+         <input weight="0">RTA</input>
       </excitation>
       <excitation id="tib_post_r"/>
       <excitation id="vas_int_r">
