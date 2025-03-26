@@ -9,10 +9,10 @@
          <input weight="1">LADDLONG</input>
       </excitation>
       <excitation id="bifemlh_l">
-         <input weight="1">LST</input>
+         <input weight="1">LBF</input>
       </excitation>
       <excitation id="bifemsh_l">
-         <input weight="1">LST</input>
+         <input weight="1">LBF</input>
       </excitation>
       <excitation id="ext_dig_l">
          <input weight="0">LTA</input>
@@ -65,10 +65,10 @@
       <excitation id="rect_fem_l"/>
       <excitation id="sar_l"/>
       <excitation id="semimem_l">
-         <input weight="1">LST</input>
+         <input weight="1">LBF</input>
       </excitation>
       <excitation id="semiten_l">
-         <input weight="1">LST</input>
+         <input weight="1">LBF</input>
       </excitation>
       <excitation id="soleus_l">
          <input weight="1">LGM</input>
