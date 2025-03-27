@@ -2,7 +2,7 @@ import utils
 import helpers
 import opensim as osim
 import os
-
+import msk_modelling_python
 # Load the model
 # model = osim.Model(r"C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\TD006\TD006_scaled.osim")
 model = osim.Model(r"C:\Git\opensim_tutorial\tutorials\repeated_sprinting\Simulations\009\pre\009_Rajagopal2015_FAI_rra_opt_N10_v4.osim")
@@ -32,3 +32,15 @@ for i in range(model.getMuscles().getSize()):
 
 print("Muscles to remove:")
 print(muscles_to_remove)
+
+import matplotlib.pyplot as plt
+
+# Plot the maximum moments
+plt.figure(figsize=(10, 6))
+plt.bar(range(len(max_moments)), max_moments, tick_label=[model.getMuscles().get(i).getName() for i in range(model.getMuscles().getSize())])
+plt.xlabel('Muscles')
+plt.ylabel('Maximum Moment')
+plt.title('Maximum Moments of Muscles')
+plt.xticks(rotation=90)
+plt.tight_layout()
+plt.show()
