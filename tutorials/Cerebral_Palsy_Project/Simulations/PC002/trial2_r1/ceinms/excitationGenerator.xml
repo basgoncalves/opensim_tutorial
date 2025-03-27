@@ -3,10 +3,10 @@
    <inputSignals type="EMG">RGLTMED RRF RADDLONG RBF RTA RGM</inputSignals>
    <mapping>
       <excitation id="add_brev_r">
-         <input weight="0">RADDLONG</input>
+         <input weight="1">RADDLONG</input>
       </excitation>
       <excitation id="add_long_r">
-         <input weight="0">RADDLONG</input>
+         <input weight="1">RADDLONG</input>
       </excitation>
       <excitation id="bifemlh_r">
          <input weight="1">RBF</input>
@@ -14,9 +14,11 @@
       <excitation id="bifemsh_r">
          <input weight="1">RBF</input>
       </excitation>
-      <excitation id="ext_dig_r"/>
+      <excitation id="ext_dig_r">
+         <input weight="1">RTA</input>
       </excitation>
-      <excitation id="ext_hal_r"/>
+      <excitation id="ext_hal_r">
+         <input weight="1">RTA</input>
       </excitation>
       <excitation id="flex_dig_r"/>
       <excitation id="flex_hal_r"/>
@@ -54,7 +56,7 @@
          <input weight="1">RGLTMED</input>
       </excitation>
       <excitation id="grac_r">
-         <input weight="0">RADDLONG</input>
+         <input weight="1">RADDLONG</input>
       </excitation>
       <excitation id="iliacus_r"/>
       <excitation id="per_brev_r"/>
