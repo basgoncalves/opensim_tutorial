@@ -2,7 +2,7 @@
 <ceinms>
    <subjectFile>.\calibratedSubject.xml</subjectFile>
    <inputDataFile>.\trial.xml</inputDataFile>
-   <executionFile>.\execution_cfg.xml</executionFile>
+   <executionFile>.\executionCfg.xml</executionFile>
    <excitationGeneratorFile>.\excitationGenerator.xml</excitationGeneratorFile>
    <outputDirectory>.\execution</outputDirectory>
 </ceinms>
