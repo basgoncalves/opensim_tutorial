@@ -1045,14 +1045,6 @@
          <mtuNameSet>add_brev_l add_long_l glut_med1_l glut_min1_l grac_l iliacus_l pect_l psoas_l rect_fem_l sar_l tfl_l</mtuNameSet>
       </dof>
       <dof>
-         <name>hip_adduction_l</name>
-         <mtuNameSet>add_brev_l add_long_l add_mag1_l add_mag2_l add_mag3_l bifemlh_l grac_l pect_l semimem_l semiten_l</mtuNameSet>
-      </dof>
-      <dof>
-         <name>hip_rotation_l</name>
-         <mtuNameSet>glut_med1_l glut_min1_l iliacus_l psoas_l tfl_l gem_l glut_med3_l glut_min3_l peri_l quad_fem_l</mtuNameSet>
-      </dof>
-      <dof>
          <name>knee_angle_l</name>
          <mtuNameSet>bifemlh_l bifemsh_l grac_l lat_gas_l med_gas_l sar_l semimem_l semiten_l rect_fem_l vas_int_l vas_lat_l vas_med_l</mtuNameSet>
       </dof>
