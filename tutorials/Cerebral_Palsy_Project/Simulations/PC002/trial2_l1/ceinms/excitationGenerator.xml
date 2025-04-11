@@ -3,10 +3,10 @@
    <inputSignals type="EMG">LGLTMED LRF LADDLONG LBF LTA LGM</inputSignals>
    <mapping>
       <excitation id="add_brev_l">
-         <input weight="0">LADDLONG</input>
+         <input weight="1">LADDLONG</input>
       </excitation>
       <excitation id="add_long_l">
-         <input weight="0">LADDLONG</input>
+         <input weight="1">LADDLONG</input>
       </excitation>
       <excitation id="bifemlh_l">
          <input weight="1">LBF</input>
@@ -56,13 +56,15 @@
          <input weight="1">LGLTMED</input>
       </excitation>
       <excitation id="grac_l">
-         <input weight="0">LADDLONG</input>
+         <input weight="1">LADDLONG</input>
       </excitation>
       <excitation id="iliacus_l"/>
       <excitation id="per_brev_l"/>
       <excitation id="per_long_l"/>
       <excitation id="psoas_l"/>
-      <excitation id="rect_fem_l"/>
+      <excitation id="rect_fem_l">
+         <input weight="1">LRF</input>
+      </excitation>
       <excitation id="sar_l"/>
       <excitation id="semimem_l">
          <input weight="1">LBF</input>
@@ -90,9 +92,7 @@
       <excitation id="add_mag1_l"/>
       <excitation id="add_mag2_l"/>
       <excitation id="add_mag3_l"/>
-      <excitation id="pect_l">
-         <input weight="1">LRF</input>
-      </excitation>
+      <excitation id="pect_l"/>
       <excitation id="quad_fem_l"/>
       <excitation id="gem_l"/>
       <excitation id="peri_l"/>

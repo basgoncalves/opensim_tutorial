@@ -15,10 +15,10 @@
          <input weight="1">LBF</input>
       </excitation>
       <excitation id="ext_dig_l">
-         <input weight="0">LTA</input>
+         <input weight="1">LTA</input>
       </excitation>
       <excitation id="ext_hal_l">
-         <input weight="0">LTA</input>
+         <input weight="1">LTA</input>
       </excitation>
       <excitation id="flex_dig_l"/>
       <excitation id="flex_hal_l"/>
@@ -62,7 +62,9 @@
       <excitation id="per_brev_l"/>
       <excitation id="per_long_l"/>
       <excitation id="psoas_l"/>
-      <excitation id="rect_fem_l"/>
+      <excitation id="rect_fem_l">
+         <input weight="1">LRF</input>
+      </excitation>
       <excitation id="sar_l"/>
       <excitation id="semimem_l">
          <input weight="1">LBF</input>
@@ -75,7 +77,7 @@
       </excitation>
       <excitation id="tfl_l"/>
       <excitation id="tib_ant_l">
-         <input weight="0">LTA</input>
+         <input weight="1">LTA</input>
       </excitation>
       <excitation id="tib_post_l"/>
       <excitation id="vas_int_l">
@@ -90,9 +92,7 @@
       <excitation id="add_mag1_l"/>
       <excitation id="add_mag2_l"/>
       <excitation id="add_mag3_l"/>
-      <excitation id="pect_l">
-         <input weight="1">LRF</input>
-      </excitation>
+      <excitation id="pect_l"/>
       <excitation id="quad_fem_l"/>
       <excitation id="gem_l"/>
       <excitation id="peri_l"/>
