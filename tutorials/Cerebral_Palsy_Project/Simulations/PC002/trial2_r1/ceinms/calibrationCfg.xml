@@ -8,7 +8,7 @@
          <NS>15</NS>
          <NT>5</NT>
          <epsilon>1.E-5</epsilon>
-         <maxNoEval>20</maxNoEval>
+         <maxNoEval>2000</maxNoEval>
       </simulatedAnnealing>
    </algorithm>
    <NMSmodel>
