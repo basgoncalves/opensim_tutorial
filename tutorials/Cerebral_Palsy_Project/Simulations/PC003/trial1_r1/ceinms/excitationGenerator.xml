@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <excitationGenerator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="excitationGenerator.xsd">
-   <inputSignals type="EMG">RGLTMED RRF RADDLONG RST RTA RGM</inputSignals>
+   <inputSignals type="EMG">RGLTMED RRF RADDLONG RBF RTA RGM</inputSignals>
    <mapping>
       <excitation id="add_brev_r">
          <input weight="1">RADDLONG</input>
@@ -9,10 +9,10 @@
          <input weight="1">RADDLONG</input>
       </excitation>
       <excitation id="bifemlh_r">
-         <input weight="1">RST</input>
+         <input weight="1">RBF</input>
       </excitation>
       <excitation id="bifemsh_r">
-         <input weight="1">RST</input>
+         <input weight="1">RBF</input>
       </excitation>
       <excitation id="ext_dig_r">
          <input weight="1">RTA</input>
@@ -67,10 +67,10 @@
       </excitation>
       <excitation id="sar_r"/>
       <excitation id="semimem_r">
-         <input weight="1">RST</input>
+         <input weight="1">RBF</input>
       </excitation>
       <excitation id="semiten_r">
-         <input weight="1">RST</input>
+         <input weight="1">RBF</input>
       </excitation>
       <excitation id="soleus_r">
          <input weight="1">RGM</input>
