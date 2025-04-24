@@ -4,11 +4,11 @@
       <simulatedAnnealing>
          <noEpsilon>4</noEpsilon>
          <rt>0.3</rt>
-         <T>200000</T>
+         <T>200</T>
          <NS>15</NS>
          <NT>5</NT>
          <epsilon>1.E-5</epsilon>
-         <maxNoEval>200000</maxNoEval>
+         <maxNoEval>200</maxNoEval>
       </simulatedAnnealing>
    </algorithm>
    <NMSmodel>
