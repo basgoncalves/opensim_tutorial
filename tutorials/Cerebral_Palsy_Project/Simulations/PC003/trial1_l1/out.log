@@ -24,9 +24,9 @@ Calibration configuration
  --- noEpsilon 4
  --- NS 15
  --- NT 5
- --- maxNoEval 200000
+ --- maxNoEval 200
  --- rt 0.3
- --- T 200000
+ --- T 200
  --- epsilon 1e-05
  - NMSmodel
  - CalibrationSteps
