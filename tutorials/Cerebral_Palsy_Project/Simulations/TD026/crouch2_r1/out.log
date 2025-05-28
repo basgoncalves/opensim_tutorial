@@ -249,21 +249,21 @@ Cropping trial: 1.29, 1.74
 Loaded model TD026 from file c:\opensim_tutorial\tutorials\Cerebral_Palsy_Project\Simulations\TD026\TD026_v3.osim
 Storage: file=c:/opensim_tutorial/tutorials/Cerebral_Palsy_Project/Simulations/TD026/crouch2_r1/ceinms/./../Visual3d_SIMM_input.mot (nr=46 nc=42)
 Return false
-fLatest_.at(0) - fOpt_ = 656.299 - 29.6996 > 1e-05
+fLatest_.at(0) - fOpt_ = 558.665 - 61.6473 > 1e-05
 ------------------------------------------------------------------------------
  Objective Function: TorqueErrorNormalised
  - Targets Type: Torque
- - Targets: hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r 
+ - Targets: hip_adduction_r hip_rotation_r hip_flexion_r knee_angle_r ankle_angle_r 
  - Weight: 1
  - Exponent: 1
- - Value: 653.061
+ - Value: 555.759
  -- Root Mean Square Errors
  --- Trial #1
- ---- hip_flexion_r: 3.6476 Nm
- ---- hip_adduction_r: 22.9453 Nm
- ---- hip_rotation_r: 1.97213 Nm
- ---- knee_angle_r: 38.3307 Nm
- ---- ankle_angle_r: 205.213 Nm
+ ---- hip_adduction_r: 7.43065 Nm
+ ---- hip_rotation_r: 30.3916 Nm
+ ---- hip_flexion_r: 54.3489 Nm
+ ---- knee_angle_r: 15.5741 Nm
+ ---- ankle_angle_r: 67.0611 Nm
 
  Objective Function: Penalty
  - Targets Type: Normalised Fibre Length
@@ -271,27 +271,27 @@ fLatest_.at(0) - fOpt_ = 656.299 - 29.6996 > 1e-05
  - Weight: 100
  - Exponent: 2
  - Range: 0.6, 1.4
- - Value: 3.23759
+ - Value: 2.90628
 
 ------------------------------------------------------------------------------
-   Fobj = 656.299
+   Fobj = 558.665
 ------------------------------------------------------------------------------
 Return false
-fLatest_.at(0) - fOpt_ = 80.1541 - 29.6787 > 1e-05
+fLatest_.at(0) - fOpt_ = 261.681 - 55.3925 > 1e-05
 ------------------------------------------------------------------------------
  Objective Function: TorqueErrorNormalised
  - Targets Type: Torque
- - Targets: hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r 
+ - Targets: hip_adduction_r hip_rotation_r hip_flexion_r knee_angle_r ankle_angle_r 
  - Weight: 1
  - Exponent: 1
- - Value: 80.1357
+ - Value: 261.499
  -- Root Mean Square Errors
  --- Trial #1
- ---- hip_flexion_r: 26.389 Nm
- ---- hip_adduction_r: 32.4287 Nm
- ---- hip_rotation_r: 8.35476 Nm
- ---- knee_angle_r: 10.7602 Nm
- ---- ankle_angle_r: 2.20305 Nm
+ ---- hip_adduction_r: 34.508 Nm
+ ---- hip_rotation_r: 16.6522 Nm
+ ---- hip_flexion_r: 54.8891 Nm
+ ---- knee_angle_r: 13.1989 Nm
+ ---- ankle_angle_r: 142.251 Nm
 
  Objective Function: Penalty
  - Targets Type: Normalised Fibre Length
@@ -299,27 +299,27 @@ fLatest_.at(0) - fOpt_ = 80.1541 - 29.6787 > 1e-05
  - Weight: 100
  - Exponent: 2
  - Range: 0.6, 1.4
- - Value: 0.0184396
+ - Value: 0.181868
 
 ------------------------------------------------------------------------------
-   Fobj = 80.1541
+   Fobj = 261.681
 ------------------------------------------------------------------------------
 Return false
-fLatest_.at(0) - fOpt_ = 64.9671 - 29.5581 > 1e-05
+fLatest_.at(0) - fOpt_ = 309.59 - 43.3615 > 1e-05
 ------------------------------------------------------------------------------
  Objective Function: TorqueErrorNormalised
  - Targets Type: Torque
- - Targets: hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r 
+ - Targets: hip_adduction_r hip_rotation_r hip_flexion_r knee_angle_r ankle_angle_r 
  - Weight: 1
  - Exponent: 1
- - Value: 64.5716
+ - Value: 309.528
  -- Root Mean Square Errors
  --- Trial #1
- ---- hip_flexion_r: 12.7843 Nm
- ---- hip_adduction_r: 21.1453 Nm
- ---- hip_rotation_r: 1.36949 Nm
- ---- knee_angle_r: 7.79242 Nm
- ---- ankle_angle_r: 21.48 Nm
+ ---- hip_adduction_r: 11.2305 Nm
+ ---- hip_rotation_r: 29.1101 Nm
+ ---- hip_flexion_r: 15.9792 Nm
+ ---- knee_angle_r: 39.4859 Nm
+ ---- ankle_angle_r: 213.722 Nm
 
  Objective Function: Penalty
  - Targets Type: Normalised Fibre Length
@@ -327,27 +327,27 @@ fLatest_.at(0) - fOpt_ = 64.9671 - 29.5581 > 1e-05
  - Weight: 100
  - Exponent: 2
  - Range: 0.6, 1.4
- - Value: 0.395598
+ - Value: 0.0619756
 
 ------------------------------------------------------------------------------
-   Fobj = 64.9671
+   Fobj = 309.59
 ------------------------------------------------------------------------------
 Return false
-fLatest_.at(0) - fOpt_ = 84.3402 - 28.9606 > 1e-05
+fLatest_.at(0) - fOpt_ = 186.337 - 42.5082 > 1e-05
 ------------------------------------------------------------------------------
  Objective Function: TorqueErrorNormalised
  - Targets Type: Torque
- - Targets: hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r 
+ - Targets: hip_adduction_r hip_rotation_r hip_flexion_r knee_angle_r ankle_angle_r 
  - Weight: 1
  - Exponent: 1
- - Value: 84.2454
+ - Value: 186.303
  -- Root Mean Square Errors
  --- Trial #1
- ---- hip_flexion_r: 6.40489 Nm
- ---- hip_adduction_r: 22.474 Nm
- ---- hip_rotation_r: 1.16164 Nm
- ---- knee_angle_r: 6.93682 Nm
- ---- ankle_angle_r: 47.268 Nm
+ ---- hip_adduction_r: 20.633 Nm
+ ---- hip_rotation_r: 22.9861 Nm
+ ---- hip_flexion_r: 47.7883 Nm
+ ---- knee_angle_r: 15.7894 Nm
+ ---- ankle_angle_r: 79.1058 Nm
 
  Objective Function: Penalty
  - Targets Type: Normalised Fibre Length
@@ -355,27 +355,27 @@ fLatest_.at(0) - fOpt_ = 84.3402 - 28.9606 > 1e-05
  - Weight: 100
  - Exponent: 2
  - Range: 0.6, 1.4
- - Value: 0.0947369
+ - Value: 0.0341048
 
 ------------------------------------------------------------------------------
-   Fobj = 84.3402
+   Fobj = 186.337
 ------------------------------------------------------------------------------
 Return false
-fLatest_.at(0) - fOpt_ = 300.416 - 28.9606 > 1e-05
+fLatest_.at(0) - fOpt_ = 132.296 - 42.487 > 1e-05
 ------------------------------------------------------------------------------
  Objective Function: TorqueErrorNormalised
  - Targets Type: Torque
- - Targets: hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r 
+ - Targets: hip_adduction_r hip_rotation_r hip_flexion_r knee_angle_r ankle_angle_r 
  - Weight: 1
  - Exponent: 1
- - Value: 300.386
+ - Value: 132.223
  -- Root Mean Square Errors
  --- Trial #1
- ---- hip_flexion_r: 1.76543 Nm
- ---- hip_adduction_r: 27.0819 Nm
- ---- hip_rotation_r: 7.37869 Nm
- ---- knee_angle_r: 9.22441 Nm
- ---- ankle_angle_r: 254.935 Nm
+ ---- hip_adduction_r: 17.1488 Nm
+ ---- hip_rotation_r: 20.7049 Nm
+ ---- hip_flexion_r: 37.1793 Nm
+ ---- knee_angle_r: 15.2705 Nm
+ ---- ankle_angle_r: 41.9191 Nm
 
  Objective Function: Penalty
  - Targets Type: Normalised Fibre Length
@@ -383,27 +383,27 @@ fLatest_.at(0) - fOpt_ = 300.416 - 28.9606 > 1e-05
  - Weight: 100
  - Exponent: 2
  - Range: 0.6, 1.4
- - Value: 0.0303843
+ - Value: 0.0730133
 
 ------------------------------------------------------------------------------
-   Fobj = 300.416
+   Fobj = 132.296
 ------------------------------------------------------------------------------
 Return false
-fLatest_.at(0) - fOpt_ = 113.95 - 28.9606 > 1e-05
+fLatest_.at(0) - fOpt_ = 163.06 - 40.2055 > 1e-05
 ------------------------------------------------------------------------------
  Objective Function: TorqueErrorNormalised
  - Targets Type: Torque
- - Targets: hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r 
+ - Targets: hip_adduction_r hip_rotation_r hip_flexion_r knee_angle_r ankle_angle_r 
  - Weight: 1
  - Exponent: 1
- - Value: 113.94
+ - Value: 162.708
  -- Root Mean Square Errors
  --- Trial #1
- ---- hip_flexion_r: 5.35101 Nm
- ---- hip_adduction_r: 24.172 Nm
- ---- hip_rotation_r: 15.0476 Nm
- ---- knee_angle_r: 3.22774 Nm
- ---- ankle_angle_r: 66.1421 Nm
+ ---- hip_adduction_r: 11.4427 Nm
+ ---- hip_rotation_r: 29.9481 Nm
+ ---- hip_flexion_r: 56.5226 Nm
+ ---- knee_angle_r: 22.445 Nm
+ ---- ankle_angle_r: 42.35 Nm
 
  Objective Function: Penalty
  - Targets Type: Normalised Fibre Length
@@ -411,27 +411,27 @@ fLatest_.at(0) - fOpt_ = 113.95 - 28.9606 > 1e-05
  - Weight: 100
  - Exponent: 2
  - Range: 0.6, 1.4
- - Value: 0.00994534
+ - Value: 0.352068
 
 ------------------------------------------------------------------------------
-   Fobj = 113.95
+   Fobj = 163.06
 ------------------------------------------------------------------------------
 Return false
-fLatest_.at(0) - fOpt_ = 67.239 - 28.7446 > 1e-05
+fLatest_.at(0) - fOpt_ = 130.949 - 39.9661 > 1e-05
 ------------------------------------------------------------------------------
  Objective Function: TorqueErrorNormalised
  - Targets Type: Torque
- - Targets: hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r 
+ - Targets: hip_adduction_r hip_rotation_r hip_flexion_r knee_angle_r ankle_angle_r 
  - Weight: 1
  - Exponent: 1
- - Value: 67.2106
+ - Value: 130.916
  -- Root Mean Square Errors
  --- Trial #1
- ---- hip_flexion_r: 12.527 Nm
- ---- hip_adduction_r: 20.7546 Nm
- ---- hip_rotation_r: 15.1205 Nm
- ---- knee_angle_r: 3.45515 Nm
- ---- ankle_angle_r: 15.3534 Nm
+ ---- hip_adduction_r: 25.1 Nm
+ ---- hip_rotation_r: 17.8771 Nm
+ ---- hip_flexion_r: 29.1097 Nm
+ ---- knee_angle_r: 12.5814 Nm
+ ---- ankle_angle_r: 46.2474 Nm
 
  Objective Function: Penalty
  - Targets Type: Normalised Fibre Length
@@ -439,27 +439,27 @@ fLatest_.at(0) - fOpt_ = 67.239 - 28.7446 > 1e-05
  - Weight: 100
  - Exponent: 2
  - Range: 0.6, 1.4
- - Value: 0.0284575
+ - Value: 0.0329953
 
 ------------------------------------------------------------------------------
-   Fobj = 67.239
+   Fobj = 130.949
 ------------------------------------------------------------------------------
 Return false
-fLatest_.at(0) - fOpt_ = 159.308 - 28.7446 > 1e-05
+fLatest_.at(0) - fOpt_ = 147.392 - 39.4261 > 1e-05
 ------------------------------------------------------------------------------
  Objective Function: TorqueErrorNormalised
  - Targets Type: Torque
- - Targets: hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r 
+ - Targets: hip_adduction_r hip_rotation_r hip_flexion_r knee_angle_r ankle_angle_r 
  - Weight: 1
  - Exponent: 1
- - Value: 159.14
+ - Value: 147.343
  -- Root Mean Square Errors
  --- Trial #1
- ---- hip_flexion_r: 8.85642 Nm
- ---- hip_adduction_r: 29.2261 Nm
- ---- hip_rotation_r: 4.92572 Nm
- ---- knee_angle_r: 4.49052 Nm
- ---- ankle_angle_r: 111.642 Nm
+ ---- hip_adduction_r: 20.4146 Nm
+ ---- hip_rotation_r: 28.6607 Nm
+ ---- hip_flexion_r: 44.1845 Nm
+ ---- knee_angle_r: 5.36347 Nm
+ ---- ankle_angle_r: 48.7197 Nm
 
  Objective Function: Penalty
  - Targets Type: Normalised Fibre Length
@@ -467,27 +467,27 @@ fLatest_.at(0) - fOpt_ = 159.308 - 28.7446 > 1e-05
  - Weight: 100
  - Exponent: 2
  - Range: 0.6, 1.4
- - Value: 0.167351
+ - Value: 0.0488053
 
 ------------------------------------------------------------------------------
-   Fobj = 159.308
+   Fobj = 147.392
 ------------------------------------------------------------------------------
 Return false
-fLatest_.at(0) - fOpt_ = 60.4315 - 28.7446 > 1e-05
+fLatest_.at(0) - fOpt_ = 95.8411 - 39.4261 > 1e-05
 ------------------------------------------------------------------------------
  Objective Function: TorqueErrorNormalised
  - Targets Type: Torque
- - Targets: hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r 
+ - Targets: hip_adduction_r hip_rotation_r hip_flexion_r knee_angle_r ankle_angle_r 
  - Weight: 1
  - Exponent: 1
- - Value: 60.4045
+ - Value: 95.434
  -- Root Mean Square Errors
  --- Trial #1
- ---- hip_flexion_r: 6.78229 Nm
- ---- hip_adduction_r: 26.5299 Nm
- ---- hip_rotation_r: 9.12903 Nm
- ---- knee_angle_r: 8.2259 Nm
- ---- ankle_angle_r: 9.73735 Nm
+ ---- hip_adduction_r: 3.17426 Nm
+ ---- hip_rotation_r: 30.234 Nm
+ ---- hip_flexion_r: 47.773 Nm
+ ---- knee_angle_r: 8.74724 Nm
+ ---- ankle_angle_r: 5.5055 Nm
 
  Objective Function: Penalty
  - Targets Type: Normalised Fibre Length
@@ -495,27 +495,27 @@ fLatest_.at(0) - fOpt_ = 60.4315 - 28.7446 > 1e-05
  - Weight: 100
  - Exponent: 2
  - Range: 0.6, 1.4
- - Value: 0.0270134
+ - Value: 0.407151
 
 ------------------------------------------------------------------------------
-   Fobj = 60.4315
+   Fobj = 95.8411
 ------------------------------------------------------------------------------
 Return false
-fLatest_.at(0) - fOpt_ = 35.401 - 25.7343 > 1e-05
+fLatest_.at(0) - fOpt_ = 50.9709 - 30.0535 > 1e-05
 ------------------------------------------------------------------------------
  Objective Function: TorqueErrorNormalised
  - Targets Type: Torque
- - Targets: hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r 
+ - Targets: hip_adduction_r hip_rotation_r hip_flexion_r knee_angle_r ankle_angle_r 
  - Weight: 1
  - Exponent: 1
- - Value: 35.176
+ - Value: 50.9497
  -- Root Mean Square Errors
  --- Trial #1
- ---- hip_flexion_r: 2.44282 Nm
- ---- hip_adduction_r: 21.1127 Nm
- ---- hip_rotation_r: 0.40211 Nm
- ---- knee_angle_r: 3.09564 Nm
- ---- ankle_angle_r: 8.12264 Nm
+ ---- hip_adduction_r: 3.88166 Nm
+ ---- hip_rotation_r: 11.8615 Nm
+ ---- hip_flexion_r: 24.7166 Nm
+ ---- knee_angle_r: 4.52359 Nm
+ ---- ankle_angle_r: 5.96636 Nm
 
  Objective Function: Penalty
  - Targets Type: Normalised Fibre Length
@@ -523,27 +523,27 @@ fLatest_.at(0) - fOpt_ = 35.401 - 25.7343 > 1e-05
  - Weight: 100
  - Exponent: 2
  - Range: 0.6, 1.4
- - Value: 0.225076
+ - Value: 0.0211891
 
 ------------------------------------------------------------------------------
-   Fobj = 35.401
+   Fobj = 50.9709
 ------------------------------------------------------------------------------
 Return false
-fLatest_.at(0) - fOpt_ = 31.3288 - 25.5677 > 1e-05
+fLatest_.at(0) - fOpt_ = 39.276 - 20.5701 > 1e-05
 ------------------------------------------------------------------------------
  Objective Function: TorqueErrorNormalised
  - Targets Type: Torque
- - Targets: hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r 
+ - Targets: hip_adduction_r hip_rotation_r hip_flexion_r knee_angle_r ankle_angle_r 
  - Weight: 1
  - Exponent: 1
- - Value: 31.304
+ - Value: 39.2358
  -- Root Mean Square Errors
  --- Trial #1
- ---- hip_flexion_r: 2.16673 Nm
- ---- hip_adduction_r: 20.1906 Nm
- ---- hip_rotation_r: 1.19863 Nm
- ---- knee_angle_r: 2.72771 Nm
- ---- ankle_angle_r: 5.02037 Nm
+ ---- hip_adduction_r: 3.19106 Nm
+ ---- hip_rotation_r: 15.2533 Nm
+ ---- hip_flexion_r: 13.3666 Nm
+ ---- knee_angle_r: 4.28342 Nm
+ ---- ankle_angle_r: 3.14149 Nm
 
  Objective Function: Penalty
  - Targets Type: Normalised Fibre Length
@@ -551,57 +551,29 @@ fLatest_.at(0) - fOpt_ = 31.3288 - 25.5677 > 1e-05
  - Weight: 100
  - Exponent: 2
  - Range: 0.6, 1.4
- - Value: 0.0247836
+ - Value: 0.0402173
 
 ------------------------------------------------------------------------------
-   Fobj = 31.3288
-------------------------------------------------------------------------------
-Return false
-fLatest_.at(0) - fOpt_ = 26.2676 - 23.671 > 1e-05
-------------------------------------------------------------------------------
- Objective Function: TorqueErrorNormalised
- - Targets Type: Torque
- - Targets: hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r 
- - Weight: 1
- - Exponent: 1
- - Value: 26.2232
- -- Root Mean Square Errors
- --- Trial #1
- ---- hip_flexion_r: 2.35953 Nm
- ---- hip_adduction_r: 19.4811 Nm
- ---- hip_rotation_r: 0.876234 Nm
- ---- knee_angle_r: 1.88129 Nm
- ---- ankle_angle_r: 1.62508 Nm
-
- Objective Function: Penalty
- - Targets Type: Normalised Fibre Length
- - Targets: glut_med1_r glut_med2_r glut_med3_r glut_min1_r glut_min2_r glut_min3_r semimem_r semiten_r bifemlh_r bifemsh_r sar_r add_long_r add_brev_r add_mag1_r add_mag2_r add_mag3_r tfl_r pect_r grac_r glut_max1_r glut_max2_r glut_max3_r iliacus_r psoas_r quad_fem_r gem_r peri_r rect_fem_r vas_med_r vas_int_r vas_lat_r med_gas_r lat_gas_r soleus_r tib_post_r flex_dig_r flex_hal_r tib_ant_r per_brev_r per_long_r per_tert_r ext_dig_r ext_hal_r glut_med1_l glut_med2_l glut_med3_l glut_min1_l glut_min2_l glut_min3_l semimem_l semiten_l bifemlh_l bifemsh_l sar_l add_long_l add_brev_l add_mag1_l add_mag2_l add_mag3_l tfl_l pect_l grac_l glut_max1_l glut_max2_l glut_max3_l iliacus_l psoas_l quad_fem_l gem_l peri_l rect_fem_l vas_med_l vas_int_l vas_lat_l med_gas_l lat_gas_l soleus_l tib_post_l flex_dig_l flex_hal_l tib_ant_l per_brev_l per_long_l per_tert_l ext_dig_l ext_hal_l ercspn_r ercspn_l intobl_r intobl_l extobl_r extobl_l 
- - Weight: 100
- - Exponent: 2
- - Range: 0.6, 1.4
- - Value: 0.0444127
-
-------------------------------------------------------------------------------
-   Fobj = 26.2676
+   Fobj = 39.276
 ------------------------------------------------------------------------------
 
 Calibration finished.
 Best solution found:
-fOpt_ = 23.671
+fOpt_ = 20.5701
 ------------------------------------------------------------------------------
  Objective Function: TorqueErrorNormalised
  - Targets Type: Torque
- - Targets: hip_flexion_r hip_adduction_r hip_rotation_r knee_angle_r ankle_angle_r 
+ - Targets: hip_adduction_r hip_rotation_r hip_flexion_r knee_angle_r ankle_angle_r 
  - Weight: 1
  - Exponent: 1
- - Value: 23.6241
+ - Value: 20.5144
  -- Root Mean Square Errors
  --- Trial #1
- ---- hip_flexion_r: 2.42114 Nm
- ---- hip_adduction_r: 17.9472 Nm
- ---- hip_rotation_r: 0.584039 Nm
- ---- knee_angle_r: 1.40002 Nm
- ---- ankle_angle_r: 1.27165 Nm
+ ---- hip_adduction_r: 3.5517 Nm
+ ---- hip_rotation_r: 5.336 Nm
+ ---- hip_flexion_r: 7.08941 Nm
+ ---- knee_angle_r: 2.61239 Nm
+ ---- ankle_angle_r: 1.92491 Nm
 
  Objective Function: Penalty
  - Targets Type: Normalised Fibre Length
@@ -609,11 +581,11 @@ fOpt_ = 23.671
  - Weight: 100
  - Exponent: 2
  - Range: 0.6, 1.4
- - Value: 0.0345545
+ - Value: 0.0480113
 
 ------------------------------------------------------------------------------
-   Fobj = 23.6586
+   Fobj = 20.5624
 ------------------------------------------------------------------------------
-total number of evaluations:205200
+total number of evaluations:212850
 Reading subject file: c:\opensim_tutorial\tutorials\Cerebral_Palsy_Project\Simulations\TD026\crouch2_r1\ceinms\uncalibratedSubject.xml .
-Calibration time: 10minutes
+Calibration time: 7minutes

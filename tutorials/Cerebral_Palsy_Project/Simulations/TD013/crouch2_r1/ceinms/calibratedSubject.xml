@@ -28,562 +28,562 @@
   <mtuSet>
     <mtu>
       <name>glut_med1_r</name>
-      <c1>-0.780283516953032</c1>
-      <c2>-0.533468123416852</c2>
-      <shapeFactor>-1.24587405011139</shapeFactor>
+      <c1>-0.533111056855983</c1>
+      <c2>-0.0882061220130009</c2>
+      <shapeFactor>-0.0809478865932185</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0426538320607019</optimalFibreLength>
+      <optimalFibreLength>0.0479977196697721</optimalFibreLength>
       <pennationAngle unit="rad">0.13962634</pennationAngle>
-      <tendonSlackLength>0.0669503205787834</tendonSlackLength>
+      <tendonSlackLength>0.0711978923160125</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>819</maxIsometricForce>
-      <strengthCoefficient>0.846436964018677</strengthCoefficient>
+      <strengthCoefficient>0.816687302992122</strengthCoefficient>
     </mtu>
     <mtu>
       <name>glut_med2_r</name>
-      <c1>-0.5</c1>
-      <c2>-0.5</c2>
-      <shapeFactor>0.1</shapeFactor>
+      <c1>-0.389323099459822</c1>
+      <c2>-0.152121036408582</c2>
+      <shapeFactor>-1.69200119022187</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0670663939273683</optimalFibreLength>
+      <optimalFibreLength>0.0685072151195791</optimalFibreLength>
       <pennationAngle unit="rad">0</pennationAngle>
-      <tendonSlackLength>0.0420653121674618</tendonSlackLength>
+      <tendonSlackLength>0.0372359596305446</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>573</maxIsometricForce>
-      <strengthCoefficient>1</strengthCoefficient>
+      <strengthCoefficient>1.37881405072176</strengthCoefficient>
     </mtu>
     <mtu>
       <name>glut_med3_r</name>
-      <c1>-0.734826197088534</c1>
-      <c2>-0.205159154026917</c2>
-      <shapeFactor>-0.844670705282754</shapeFactor>
+      <c1>-0.454748680074465</c1>
+      <c2>-0.920610675374615</c2>
+      <shapeFactor>-2.5041062959685</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0544536248015689</optimalFibreLength>
+      <optimalFibreLength>0.043731839799472</optimalFibreLength>
       <pennationAngle unit="rad">0.33161256</pennationAngle>
-      <tendonSlackLength>0.0482991613145464</tendonSlackLength>
+      <tendonSlackLength>0.0452424334206752</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>653</maxIsometricForce>
-      <strengthCoefficient>1.27542954802087</strengthCoefficient>
+      <strengthCoefficient>0.842115543076876</strengthCoefficient>
     </mtu>
     <mtu>
       <name>glut_min1_r</name>
-      <c1>-0.331286049989319</c1>
-      <c2>-0.872983489486373</c2>
-      <shapeFactor>-1.21513190099796</shapeFactor>
+      <c1>-0.30999938962981</c1>
+      <c2>-0.270831934568316</c2>
+      <shapeFactor>-0.191857509079257</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0512417832286579</optimalFibreLength>
+      <optimalFibreLength>0.052386566646304</optimalFibreLength>
       <pennationAngle unit="rad">0.17453293</pennationAngle>
-      <tendonSlackLength>0.0141225305550967</tendonSlackLength>
+      <tendonSlackLength>0.0123917367132713</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>270</maxIsometricForce>
-      <strengthCoefficient>1.22712485122227</strengthCoefficient>
+      <strengthCoefficient>0.989812921536912</strengthCoefficient>
     </mtu>
     <mtu>
       <name>glut_min2_r</name>
-      <c1>-0.5</c1>
-      <c2>-0.5</c2>
-      <shapeFactor>0.1</shapeFactor>
+      <c1>-0.870676290169988</c1>
+      <c2>-0.828267769402142</c2>
+      <shapeFactor>-1.51678923917356</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0442714479900738</optimalFibreLength>
+      <optimalFibreLength>0.0447029213295809</optimalFibreLength>
       <pennationAngle unit="rad">0</pennationAngle>
-      <tendonSlackLength>0.0205546008525343</tendonSlackLength>
+      <tendonSlackLength>0.0190753433068205</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>285</maxIsometricForce>
-      <strengthCoefficient>1</strengthCoefficient>
+      <strengthCoefficient>1.2260628070925</strengthCoefficient>
     </mtu>
     <mtu>
       <name>glut_min3_r</name>
-      <c1>-0.16928769798883</c1>
-      <c2>-0.451342814416944</c2>
-      <shapeFactor>-1.09426767784661</shapeFactor>
+      <c1>-0.784458449049348</c1>
+      <c2>-0.87388988921781</c2>
+      <shapeFactor>-0.563233649708548</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0298626495204325</optimalFibreLength>
+      <optimalFibreLength>0.0309453705792651</optimalFibreLength>
       <pennationAngle unit="rad">0.01745329</pennationAngle>
-      <tendonSlackLength>0.0438520736859871</tendonSlackLength>
+      <tendonSlackLength>0.0384105112814792</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>323</maxIsometricForce>
-      <strengthCoefficient>1.10279244361705</strengthCoefficient>
+      <strengthCoefficient>1.24560991241188</strengthCoefficient>
     </mtu>
     <mtu>
       <name>semimem_r</name>
-      <c1>-0.532808923612171</c1>
-      <c2>-0.917534409619434</c2>
-      <shapeFactor>-2.95901690725425</shapeFactor>
+      <c1>-0.29200872829371</c1>
+      <c2>-0.31497085482345</c2>
+      <shapeFactor>-0.38106811731315</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0577837086631804</optimalFibreLength>
+      <optimalFibreLength>0.0596675814012514</optimalFibreLength>
       <pennationAngle unit="rad">0.26179939</pennationAngle>
-      <tendonSlackLength>0.316699774380076</tendonSlackLength>
+      <tendonSlackLength>0.30141619834327</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>1288</maxIsometricForce>
-      <strengthCoefficient>1.08748435926389</strengthCoefficient>
+      <strengthCoefficient>1.96099734488968</strengthCoefficient>
     </mtu>
     <mtu>
       <name>semiten_r</name>
-      <c1>-0.599195837275307</c1>
-      <c2>-0.813847773674734</c2>
-      <shapeFactor>-1.64844981231117</shapeFactor>
+      <c1>-0.129076509903256</c1>
+      <c2>-0.454309213538011</c2>
+      <shapeFactor>-0.911827661976989</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.174673132907684</optimalFibreLength>
+      <optimalFibreLength>0.1705273396999</optimalFibreLength>
       <pennationAngle unit="rad">0.08726646</pennationAngle>
-      <tendonSlackLength>0.22322928833001</tendonSlackLength>
+      <tendonSlackLength>0.217143956066833</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>410</maxIsometricForce>
-      <strengthCoefficient>0.860756248664815</strengthCoefficient>
+      <strengthCoefficient>1.26429639576403</strengthCoefficient>
     </mtu>
     <mtu>
       <name>bifemlh_r</name>
-      <c1>-0.190079958494827</c1>
-      <c2>-0.614110232856227</c2>
-      <shapeFactor>-0.317387951292459</shapeFactor>
+      <c1>-0.806431775872066</c1>
+      <c2>-0.543877986999115</c2>
+      <shapeFactor>-2.40748811304056</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0914522777746332</optimalFibreLength>
+      <optimalFibreLength>0.0805275530662183</optimalFibreLength>
       <pennationAngle unit="rad">0</pennationAngle>
-      <tendonSlackLength>0.280472206178102</tendonSlackLength>
+      <tendonSlackLength>0.264413062426697</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>896</maxIsometricForce>
-      <strengthCoefficient>1.38027893917661</strengthCoefficient>
+      <strengthCoefficient>1.00449842829676</strengthCoefficient>
     </mtu>
     <mtu>
       <name>bifemsh_r</name>
-      <c1>-0.320546586504715</c1>
-      <c2>-0.869714957121494</c2>
-      <shapeFactor>-0.10768257698294</shapeFactor>
+      <c1>-0.881003753776666</c1>
+      <c2>-0.220430616168706</c2>
+      <shapeFactor>-0.474575487533189</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.148178675210501</optimalFibreLength>
+      <optimalFibreLength>0.114866966432457</optimalFibreLength>
       <pennationAngle unit="rad">0.40142573</pennationAngle>
-      <tendonSlackLength>0.0682362182101791</tendonSlackLength>
+      <tendonSlackLength>0.0697127931802637</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>804</maxIsometricForce>
-      <strengthCoefficient>1.06723227637562</strengthCoefficient>
+      <strengthCoefficient>1.61059602649007</strengthCoefficient>
     </mtu>
     <mtu>
       <name>sar_r</name>
-      <c1>-0.319200720236824</c1>
-      <c2>-0.465323343607898</c2>
-      <shapeFactor>-2.51032792138432</shapeFactor>
+      <c1>-0.125505844294565</c1>
+      <c2>-0.727684865871151</c2>
+      <shapeFactor>-2.1406901760918</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.425380857129855</optimalFibreLength>
+      <optimalFibreLength>0.397297055899007</optimalFibreLength>
       <pennationAngle unit="rad">0</pennationAngle>
-      <tendonSlackLength>0.0850417608991461</tendonSlackLength>
+      <tendonSlackLength>0.0781459762294466</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>156</maxIsometricForce>
-      <strengthCoefficient>0.88049562059389</strengthCoefficient>
+      <strengthCoefficient>0.830176702169866</strengthCoefficient>
     </mtu>
     <mtu>
       <name>add_long_r</name>
-      <c1>-0.747296060060427</c1>
-      <c2>-0.242211676381726</c2>
-      <shapeFactor>-0.344470320749535</shapeFactor>
+      <c1>-0.594499038666951</c1>
+      <c2>-0.751992858668783</c2>
+      <shapeFactor>-0.329922696615497</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.110547896274475</optimalFibreLength>
+      <optimalFibreLength>0.120764085182144</optimalFibreLength>
       <pennationAngle unit="rad">0.10471976</pennationAngle>
-      <tendonSlackLength>0.0987377548353688</tendonSlackLength>
+      <tendonSlackLength>0.0955196314209011</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>627</maxIsometricForce>
-      <strengthCoefficient>1.80498672444838</strengthCoefficient>
+      <strengthCoefficient>1.06386303292947</strengthCoefficient>
     </mtu>
     <mtu>
       <name>add_brev_r</name>
-      <c1>-0.199006622516556</c1>
-      <c2>-0.120122379222999</c2>
-      <shapeFactor>-1.53691802728355</shapeFactor>
+      <c1>-0.22688528092288</c1>
+      <c2>-0.361856440931425</c2>
+      <shapeFactor>-1.43709753715629</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.119591982683252</optimalFibreLength>
+      <optimalFibreLength>0.113863791740088</optimalFibreLength>
       <pennationAngle unit="rad">0</pennationAngle>
-      <tendonSlackLength>0.0144550128214645</tendonSlackLength>
+      <tendonSlackLength>0.0149812290279659</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>429</maxIsometricForce>
-      <strengthCoefficient>0.894349279981166</strengthCoefficient>
+      <strengthCoefficient>1.52178716391491</strengthCoefficient>
     </mtu>
     <mtu>
       <name>add_mag1_r</name>
-      <c1>-0.612215033417768</c1>
-      <c2>-0.561593981749931</c2>
-      <shapeFactor>-2.06456675923948</shapeFactor>
+      <c1>-0.78511764885403</c1>
+      <c2>-0.724691000091556</c2>
+      <shapeFactor>-2.69642771691031</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0645037497305773</optimalFibreLength>
+      <optimalFibreLength>0.0661017322907109</optimalFibreLength>
       <pennationAngle unit="rad">0.08726646</pennationAngle>
-      <tendonSlackLength>0.0411218289244384</tendonSlackLength>
+      <tendonSlackLength>0.0533518152495664</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>381</maxIsometricForce>
-      <strengthCoefficient>1.6316537980285</strengthCoefficient>
+      <strengthCoefficient>0.987762077700125</strengthCoefficient>
     </mtu>
     <mtu>
       <name>add_mag2_r</name>
-      <c1>-0.560907315286721</c1>
-      <c2>-0.61303903317362</c2>
-      <shapeFactor>-0.916859859004486</shapeFactor>
+      <c1>-0.316261787774285</c1>
+      <c2>-0.517482528153325</c2>
+      <shapeFactor>-1.51843614001892</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0858308421498392</optimalFibreLength>
+      <optimalFibreLength>0.0891864137077862</optimalFibreLength>
       <pennationAngle unit="rad">0.05235988</pennationAngle>
-      <tendonSlackLength>0.106083967933017</tendonSlackLength>
+      <tendonSlackLength>0.0949282396450319</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>343</maxIsometricForce>
-      <strengthCoefficient>1.7561326944792</strengthCoefficient>
+      <strengthCoefficient>1.64967192602313</strengthCoefficient>
     </mtu>
     <mtu>
       <name>add_mag3_r</name>
-      <c1>-0.539428388317514</c1>
-      <c2>-0.483533738212226</c2>
-      <shapeFactor>-1.24642301705985</shapeFactor>
+      <c1>-0.440383617664113</c1>
+      <c2>-0.392344431897946</c2>
+      <shapeFactor>-2.69606173894467</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.101233857730465</optimalFibreLength>
+      <optimalFibreLength>0.109143775359872</optimalFibreLength>
       <pennationAngle unit="rad">0.08726646</pennationAngle>
-      <tendonSlackLength>0.194484205818122</tendonSlackLength>
+      <tendonSlackLength>0.165680856645192</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>488</maxIsometricForce>
-      <strengthCoefficient>1.14142887661367</strengthCoefficient>
+      <strengthCoefficient>1.26645710623493</strengthCoefficient>
     </mtu>
     <mtu>
       <name>tfl_r</name>
-      <c1>-0.823598437452315</c1>
-      <c2>-0.580024109622486</c2>
-      <shapeFactor>-1.85111011078219</shapeFactor>
+      <c1>-0.940469069490646</c1>
+      <c2>-0.609550767540513</c2>
+      <shapeFactor>-0.658113437299722</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0812917218838791</optimalFibreLength>
+      <optimalFibreLength>0.0824546709488326</optimalFibreLength>
       <pennationAngle unit="rad">0.05235988</pennationAngle>
-      <tendonSlackLength>0.308717642321196</tendonSlackLength>
+      <tendonSlackLength>0.31293611456676</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>233</maxIsometricForce>
-      <strengthCoefficient>1.82205267494736</strengthCoefficient>
+      <strengthCoefficient>1.40924710837123</strengthCoefficient>
     </mtu>
     <mtu>
       <name>pect_r</name>
-      <c1>-0.0757911923581652</c1>
-      <c2>-0.860348826563311</c2>
-      <shapeFactor>-0.681902005066072</shapeFactor>
+      <c1>-0.510286263618885</c1>
+      <c2>-0.254434339426862</c2>
+      <shapeFactor>-0.889228522598956</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0900779884486575</optimalFibreLength>
+      <optimalFibreLength>0.0732301152895307</optimalFibreLength>
       <pennationAngle unit="rad">0</pennationAngle>
-      <tendonSlackLength>0.0284908064591427</tendonSlackLength>
+      <tendonSlackLength>0.0246153707086276</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>266</maxIsometricForce>
-      <strengthCoefficient>1.54742271187475</strengthCoefficient>
+      <strengthCoefficient>0.924039429914243</strengthCoefficient>
     </mtu>
     <mtu>
       <name>grac_r</name>
-      <c1>-0.0784279915768915</c1>
-      <c2>-0.865182958464309</c2>
-      <shapeFactor>-0.208601001007111</shapeFactor>
+      <c1>-0.838869899594104</c1>
+      <c2>-0.70112460707419</c2>
+      <shapeFactor>-0.810360271004364</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.275078679561679</optimalFibreLength>
+      <optimalFibreLength>0.271106329250865</optimalFibreLength>
       <pennationAngle unit="rad">0.05235988</pennationAngle>
-      <tendonSlackLength>0.0934447816995039</tendonSlackLength>
+      <tendonSlackLength>0.0873923446906083</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>162</maxIsometricForce>
-      <strengthCoefficient>0.826184881130406</strengthCoefficient>
+      <strengthCoefficient>1.53409222693564</strengthCoefficient>
     </mtu>
     <mtu>
       <name>glut_max1_r</name>
-      <c1>-0.5</c1>
-      <c2>-0.5</c2>
-      <shapeFactor>0.1</shapeFactor>
+      <c1>-0.487461470381787</c1>
+      <c2>-0.914210943937498</c2>
+      <shapeFactor>-2.5849874263741</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.112500131267352</optimalFibreLength>
+      <optimalFibreLength>0.129058940682186</optimalFibreLength>
       <pennationAngle unit="rad">0.08726646</pennationAngle>
-      <tendonSlackLength>0.0990318056930918</tendonSlackLength>
+      <tendonSlackLength>0.0851082064243828</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>573</maxIsometricForce>
-      <strengthCoefficient>1</strengthCoefficient>
+      <strengthCoefficient>1.34746543778802</strengthCoefficient>
     </mtu>
     <mtu>
       <name>glut_max2_r</name>
-      <c1>-0.5</c1>
-      <c2>-0.5</c2>
-      <shapeFactor>0.1</shapeFactor>
+      <c1>-0.746252327036348</c1>
+      <c2>-0.878092287972655</c2>
+      <shapeFactor>-2.33722034363842</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.116188277562815</optimalFibreLength>
+      <optimalFibreLength>0.100279096510927</optimalFibreLength>
       <pennationAngle unit="rad">0</pennationAngle>
-      <tendonSlackLength>0.100380348642704</tendonSlackLength>
+      <tendonSlackLength>0.104388731075687</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>819</maxIsometricForce>
-      <strengthCoefficient>1</strengthCoefficient>
+      <strengthCoefficient>0.801794488357189</strengthCoefficient>
     </mtu>
     <mtu>
       <name>glut_max3_r</name>
-      <c1>-0.5</c1>
-      <c2>-0.5</c2>
-      <shapeFactor>0.1</shapeFactor>
+      <c1>-0.457165746024964</c1>
+      <c2>-0.697801141392254</c2>
+      <shapeFactor>-0.277130375072481</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.113815683679398</optimalFibreLength>
+      <optimalFibreLength>0.124129329077666</optimalFibreLength>
       <pennationAngle unit="rad">0.08726646</pennationAngle>
-      <tendonSlackLength>0.114606070371616</tendonSlackLength>
+      <tendonSlackLength>0.119042959026968</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>552</maxIsometricForce>
-      <strengthCoefficient>1</strengthCoefficient>
+      <strengthCoefficient>1.16481215857418</strengthCoefficient>
     </mtu>
     <mtu>
       <name>iliacus_r</name>
-      <c1>-0.31497085482345</c1>
-      <c2>-0.117622913296915</c2>
-      <shapeFactor>-2.70813901181066</shapeFactor>
+      <c1>-0.65827661976989</c1>
+      <c2>-0.254901272621845</c2>
+      <shapeFactor>-2.38754231391339</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0806526639782885</optimalFibreLength>
+      <optimalFibreLength>0.0893391972982985</optimalFibreLength>
       <pennationAngle unit="rad">0.12217305</pennationAngle>
-      <tendonSlackLength>0.0758310064225885</tendonSlackLength>
+      <tendonSlackLength>0.0856543533126416</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>1073</maxIsometricForce>
-      <strengthCoefficient>1.80245979186377</strengthCoefficient>
+      <strengthCoefficient>1.29978331858272</strengthCoefficient>
     </mtu>
     <mtu>
       <name>psoas_r</name>
-      <c1>-0.362158574175237</c1>
-      <c2>-0.592054506057924</c2>
-      <shapeFactor>-1.62585067293313</shapeFactor>
+      <c1>-0.618916898098697</c1>
+      <c2>-0.362350840784936</c2>
+      <shapeFactor>-0.293873867000336</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0773922469876507</optimalFibreLength>
+      <optimalFibreLength>0.0760837400775583</optimalFibreLength>
       <pennationAngle unit="rad">0.13962634</pennationAngle>
-      <tendonSlackLength>0.119546160570419</tendonSlackLength>
+      <tendonSlackLength>0.125076783110409</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>1113</maxIsometricForce>
-      <strengthCoefficient>1.17984557634205</strengthCoefficient>
+      <strengthCoefficient>1.86559648426771</strengthCoefficient>
     </mtu>
     <mtu>
       <name>quad_fem_r</name>
-      <c1>-0.710463270973846</c1>
-      <c2>-0.167419965208899</c2>
-      <shapeFactor>-1.27743964964751</shapeFactor>
+      <c1>-0.345156712546159</c1>
+      <c2>-0.476227607043672</c2>
+      <shapeFactor>-0.0676079897457812</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0476537150792078</optimalFibreLength>
+      <optimalFibreLength>0.0482464267112899</optimalFibreLength>
       <pennationAngle unit="rad">0</pennationAngle>
-      <tendonSlackLength>0.0203670494700512</tendonSlackLength>
+      <tendonSlackLength>0.0178244705533873</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>381</maxIsometricForce>
-      <strengthCoefficient>1.89222083193457</strengthCoefficient>
+      <strengthCoefficient>1.58507034516434</strengthCoefficient>
     </mtu>
     <mtu>
       <name>gem_r</name>
-      <c1>-0.192249824518571</c1>
-      <c2>-0.203483687856685</c2>
-      <shapeFactor>-2.80594662312693</shapeFactor>
+      <c1>-0.730321665089877</c1>
+      <c2>-0.627541428876614</c2>
+      <shapeFactor>-2.81235123752556</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0195468724788536</optimalFibreLength>
+      <optimalFibreLength>0.0164328057707595</optimalFibreLength>
       <pennationAngle unit="rad">0</pennationAngle>
-      <tendonSlackLength>0.027767178002609</tendonSlackLength>
+      <tendonSlackLength>0.0318217841761154</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>164</maxIsometricForce>
-      <strengthCoefficient>1.38027893917661</strengthCoefficient>
+      <strengthCoefficient>0.884524063844722</strengthCoefficient>
     </mtu>
     <mtu>
       <name>peri_r</name>
-      <c1>-0.709776604510636</c1>
-      <c2>-0.143688772240364</c2>
-      <shapeFactor>-2.02559010589923</shapeFactor>
+      <c1>-0.598783837397382</c1>
+      <c2>-0.697746208075197</c2>
+      <shapeFactor>-2.63695629749443</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0205166938365435</optimalFibreLength>
+      <optimalFibreLength>0.0194539879901041</optimalFibreLength>
       <pennationAngle unit="rad">0.17453293</pennationAngle>
-      <tendonSlackLength>0.0909475737316461</tendonSlackLength>
+      <tendonSlackLength>0.0960384517957179</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>444</maxIsometricForce>
-      <strengthCoefficient>1.50581987975707</strengthCoefficient>
+      <strengthCoefficient>1.13531296731468</strengthCoefficient>
     </mtu>
     <mtu>
       <name>rect_fem_r</name>
-      <c1>-0.463043610950041</c1>
-      <c2>-0.262564470351268</c2>
-      <shapeFactor>-2.07426517532884</shapeFactor>
+      <c1>-0.535692922757653</c1>
+      <c2>-0.46307107760857</c2>
+      <shapeFactor>-2.30894854579302</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0839745465061564</optimalFibreLength>
+      <optimalFibreLength>0.0984302360111325</optimalFibreLength>
       <pennationAngle unit="rad">0.08726646</pennationAngle>
-      <tendonSlackLength>0.26445803654804</tendonSlackLength>
+      <tendonSlackLength>0.208388545511239</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>1169</maxIsometricForce>
-      <strengthCoefficient>1.63304544206061</strengthCoefficient>
+      <strengthCoefficient>1.22111789300211</strengthCoefficient>
     </mtu>
     <mtu>
       <name>vas_med_r</name>
-      <c1>-0.697047770186904</c1>
-      <c2>-0.92445600756859</c2>
-      <shapeFactor>-0.424439120369361</shapeFactor>
+      <c1>-0.697471541489914</c1>
+      <c2>-0.739550462355419</c2>
+      <shapeFactor>-1.74616592913602</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0606886476660879</optimalFibreLength>
+      <optimalFibreLength>0.0771917357119258</optimalFibreLength>
       <pennationAngle unit="rad">0.08726646</pennationAngle>
-      <tendonSlackLength>0.10472116296952</tendonSlackLength>
+      <tendonSlackLength>0.0995615013263172</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>1294</maxIsometricForce>
-      <strengthCoefficient>0.906301723423828</strengthCoefficient>
+      <strengthCoefficient>1.94535966063417</strengthCoefficient>
     </mtu>
     <mtu>
       <name>vas_int_r</name>
-      <c1>-0.915214335306864</c1>
-      <c2>-0.825191503646962</c2>
-      <shapeFactor>-2.87958825189978</shapeFactor>
+      <c1>-0.840243232520524</c1>
+      <c2>-0.724306466872158</c2>
+      <shapeFactor>-2.51792196417127</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0638075944977587</optimalFibreLength>
+      <optimalFibreLength>0.07691999136628</optimalFibreLength>
       <pennationAngle unit="rad">0.05235988</pennationAngle>
-      <tendonSlackLength>0.109246828056426</tendonSlackLength>
+      <tendonSlackLength>0.114628060246858</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>1365</maxIsometricForce>
-      <strengthCoefficient>0.831188390758995</strengthCoefficient>
+      <strengthCoefficient>1.42499465926084</strengthCoefficient>
     </mtu>
     <mtu>
       <name>vas_lat_r</name>
-      <c1>-0.420415356913968</c1>
-      <c2>-0.905064546647542</c2>
-      <shapeFactor>-1.75052106692709</shapeFactor>
+      <c1>-0.214992217780084</c1>
+      <c2>-0.114656514175848</c2>
+      <shapeFactor>-2.59999252296518</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0752803322462526</optimalFibreLength>
+      <optimalFibreLength>0.0660016852882533</optimalFibreLength>
       <pennationAngle unit="rad">0.08726646</pennationAngle>
-      <tendonSlackLength>0.141072206984081</tendonSlackLength>
+      <tendonSlackLength>0.131382488660455</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>1871</maxIsometricForce>
-      <strengthCoefficient>0.829707937864315</strengthCoefficient>
+      <strengthCoefficient>1.84032715842158</strengthCoefficient>
     </mtu>
     <mtu>
       <name>med_gas_r</name>
-      <c1>-0.143551438947722</c1>
-      <c2>-0.800086977752007</c2>
-      <shapeFactor>-1.33773451948607</shapeFactor>
+      <c1>-0.897923215430158</c1>
+      <c2>-0.123802911465804</c2>
+      <shapeFactor>-0.285090395825068</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0487691448130153</optimalFibreLength>
+      <optimalFibreLength>0.0494261580170944</optimalFibreLength>
       <pennationAngle unit="rad">0.29670597</pennationAngle>
-      <tendonSlackLength>0.301608523545911</tendonSlackLength>
+      <tendonSlackLength>0.278520591439576</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>1558</maxIsometricForce>
-      <strengthCoefficient>1.37522507400739</strengthCoefficient>
+      <strengthCoefficient>1.02441061128574</strengthCoefficient>
     </mtu>
     <mtu>
       <name>lat_gas_r</name>
-      <c1>-0.81854457228309</c1>
-      <c2>-0.600294503616443</c2>
-      <shapeFactor>-2.49614627521592</shapeFactor>
+      <c1>-0.805250709555345</c1>
+      <c2>-0.0675786614581744</c2>
+      <shapeFactor>-2.55854551835688</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0516612843220629</optimalFibreLength>
+      <optimalFibreLength>0.0416594928588018</optimalFibreLength>
       <pennationAngle unit="rad">0.13962634</pennationAngle>
-      <tendonSlackLength>0.306872922166075</tendonSlackLength>
+      <tendonSlackLength>0.312541852662979</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>683</maxIsometricForce>
-      <strengthCoefficient>1.73756523331401</strengthCoefficient>
+      <strengthCoefficient>1.58034607989746</strengthCoefficient>
     </mtu>
     <mtu>
       <name>soleus_r</name>
-      <c1>-0.117238380077517</c1>
-      <c2>-0.943984801782281</c2>
-      <shapeFactor>-2.31451827295755</shapeFactor>
+      <c1>-0.493586535233619</c1>
+      <c2>-0.432500686666463</c2>
+      <shapeFactor>-0.0858153935361798</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0391959462873351</optimalFibreLength>
+      <optimalFibreLength>0.0396367601206496</optimalFibreLength>
       <pennationAngle unit="rad">0.43633231</pennationAngle>
-      <tendonSlackLength>0.209547740563554</tendonSlackLength>
+      <tendonSlackLength>0.2150285639439</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>3549</maxIsometricForce>
-      <strengthCoefficient>1.09811853389081</strengthCoefficient>
+      <strengthCoefficient>1.13077181310465</strengthCoefficient>
     </mtu>
     <mtu>
       <name>tib_post_r</name>
-      <c1>-0.0919690542313913</c1>
-      <c2>-0.687858211004974</c2>
-      <shapeFactor>-1.73088634907071</shapeFactor>
+      <c1>-0.411214026306955</c1>
+      <c2>-0.818681905575732</c2>
+      <shapeFactor>-2.33868425550096</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0212340746879362</optimalFibreLength>
+      <optimalFibreLength>0.0252176681199567</optimalFibreLength>
       <pennationAngle unit="rad">0.20943951</pennationAngle>
-      <tendonSlackLength>0.252219472259034</tendonSlackLength>
+      <tendonSlackLength>0.238644538235596</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>1588</maxIsometricForce>
-      <strengthCoefficient>0.950407422101505</strengthCoefficient>
+      <strengthCoefficient>1.04998321481979</strengthCoefficient>
     </mtu>
     <mtu>
       <name>flex_dig_r</name>
-      <c1>-0.737050996429334</c1>
-      <c2>-0.505809198278756</c2>
-      <shapeFactor>-0.345568254646443</shapeFactor>
+      <c1>-0.269101535081027</c1>
+      <c2>-0.16398663289285</c2>
+      <shapeFactor>-1.10314264351329</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0276315651606799</optimalFibreLength>
+      <optimalFibreLength>0.0224036942640631</optimalFibreLength>
       <pennationAngle unit="rad">0.12217305</pennationAngle>
-      <tendonSlackLength>0.294960246090809</tendonSlackLength>
+      <tendonSlackLength>0.337643938568994</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>310</maxIsometricForce>
-      <strengthCoefficient>1.14336985381634</strengthCoefficient>
+      <strengthCoefficient>1.54046449171422</strengthCoefficient>
     </mtu>
     <mtu>
       <name>flex_hal_r</name>
-      <c1>-0.286735129856258</c1>
-      <c2>-0.141546372875149</c2>
-      <shapeFactor>-2.04818924527726</shapeFactor>
+      <c1>-0.735677663502915</c1>
+      <c2>-0.241140476699118</c2>
+      <shapeFactor>-2.54299145481735</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0298661903244573</optimalFibreLength>
+      <optimalFibreLength>0.0290480243542703</optimalFibreLength>
       <pennationAngle unit="rad">0.17453293</pennationAngle>
-      <tendonSlackLength>0.268798625617383</tendonSlackLength>
+      <tendonSlackLength>0.321853893934076</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>322</maxIsometricForce>
-      <strengthCoefficient>1.75653553880428</strengthCoefficient>
+      <strengthCoefficient>1.25931577501755</strengthCoefficient>
     </mtu>
     <mtu>
       <name>tib_ant_r</name>
-      <c1>-0.393800164799951</c1>
-      <c2>-0.793989379558702</c2>
-      <shapeFactor>-1.211563615833</shapeFactor>
+      <c1>-0.579721976378674</c1>
+      <c2>-0.717275002288888</c2>
+      <shapeFactor>-0.670648182622761</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0730180307739058</optimalFibreLength>
+      <optimalFibreLength>0.0631511241650009</optimalFibreLength>
       <pennationAngle unit="rad">0.08726646</pennationAngle>
-      <tendonSlackLength>0.175336784393962</tendonSlackLength>
+      <tendonSlackLength>0.143913987093844</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>905</maxIsometricForce>
-      <strengthCoefficient>1.00810571611682</strengthCoefficient>
+      <strengthCoefficient>1.90060731833857</strengthCoefficient>
     </mtu>
     <mtu>
       <name>per_brev_r</name>
-      <c1>-0.372348704489273</c1>
-      <c2>-0.640368358409375</c2>
-      <shapeFactor>-0.183805993835261</shapeFactor>
+      <c1>-0.443487350077822</c1>
+      <c2>-0.588209173863948</c2>
+      <shapeFactor>-1.01905920590838</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0412521343184763</optimalFibreLength>
+      <optimalFibreLength>0.0388167564621936</optimalFibreLength>
       <pennationAngle unit="rad">0.08726646</pennationAngle>
-      <tendonSlackLength>0.132716190330102</tendonSlackLength>
+      <tendonSlackLength>0.110672061946314</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>435</maxIsometricForce>
-      <strengthCoefficient>1.36467787713248</strengthCoefficient>
+      <strengthCoefficient>1.7458418530839</strengthCoefficient>
     </mtu>
     <mtu>
       <name>per_long_r</name>
-      <c1>-0.24350260933256</c1>
-      <c2>-0.635424359874264</c2>
-      <shapeFactor>-1.83564754173406</shapeFactor>
+      <c1>-0.337108981597339</c1>
+      <c2>-0.356445509201331</c2>
+      <shapeFactor>-2.30373335978271</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.042078299739955</optimalFibreLength>
+      <optimalFibreLength>0.0357273579811314</optimalFibreLength>
       <pennationAngle unit="rad">0.17453293</pennationAngle>
-      <tendonSlackLength>0.256390185916719</tendonSlackLength>
+      <tendonSlackLength>0.223576306618767</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>943</maxIsometricForce>
-      <strengthCoefficient>1.64029663991211</strengthCoefficient>
+      <strengthCoefficient>0.843360698263497</strengthCoefficient>
     </mtu>
     <mtu>
       <name>per_tert_r</name>
-      <c1>-0.257428205206458</c1>
-      <c2>-0.230401013214515</c2>
-      <shapeFactor>-2.81738343455306</shapeFactor>
+      <c1>-0.18351542710654</c1>
+      <c2>-0.112953581347087</c2>
+      <shapeFactor>-0.111250862147892</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0573800661024813</optimalFibreLength>
+      <optimalFibreLength>0.0659628194468901</optimalFibreLength>
       <pennationAngle unit="rad">0.2268928</pennationAngle>
-      <tendonSlackLength>0.0726519333199005</tendonSlackLength>
+      <tendonSlackLength>0.0690866317502582</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>180</maxIsometricForce>
-      <strengthCoefficient>1.82340769676809</strengthCoefficient>
+      <strengthCoefficient>1.53409222693564</strengthCoefficient>
     </mtu>
     <mtu>
       <name>ext_dig_r</name>
-      <c1>-0.167365031891842</c1>
-      <c2>-0.239492477187414</c2>
-      <shapeFactor>-0.771475112155522</shapeFactor>
+      <c1>-0.053927732169561</c1>
+      <c2>-0.129103976561785</c2>
+      <shapeFactor>-0.828659169286172</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0857443198190251</optimalFibreLength>
+      <optimalFibreLength>0.085293070189445</optimalFibreLength>
       <pennationAngle unit="rad">0.13962634</pennationAngle>
-      <tendonSlackLength>0.230449757214204</tendonSlackLength>
+      <tendonSlackLength>0.287685463907276</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>512</maxIsometricForce>
-      <strengthCoefficient>1.2303842280343</strengthCoefficient>
+      <strengthCoefficient>0.913052766502884</strengthCoefficient>
     </mtu>
     <mtu>
       <name>ext_hal_r</name>
-      <c1>-0.234218878749962</c1>
-      <c2>-0.364960173345134</c2>
-      <shapeFactor>-0.455178655354473</shapeFactor>
+      <c1>-0.231884212775048</c1>
+      <c2>-0.486912137211219</c2>
+      <shapeFactor>-0.212443769646291</shapeFactor>
       <activationScale>1</activationScale>
-      <optimalFibreLength>0.0789053862628299</optimalFibreLength>
+      <optimalFibreLength>0.0880952434943887</optimalFibreLength>
       <pennationAngle unit="rad">0.10471976</pennationAngle>
-      <tendonSlackLength>0.25575800985696</tendonSlackLength>
+      <tendonSlackLength>0.215850599792945</tendonSlackLength>
       <maxContractionVelocity>10</maxContractionVelocity>
       <maxIsometricForce>162</maxIsometricForce>
-      <strengthCoefficient>1.14948576311533</strengthCoefficient>
+      <strengthCoefficient>1.09773857844783</strengthCoefficient>
     </mtu>
     <mtu>
       <name>glut_med1_l</name>
@@ -1225,16 +1225,16 @@
   </mtuSet>
   <dofSet>
     <dof>
-      <name>hip_flexion_r</name>
-      <mtuNameSet>add_brev_r add_long_r glut_med1_r glut_min1_r grac_r iliacus_r pect_r psoas_r rect_fem_r sar_r tfl_r</mtuNameSet>
-    </dof>
-    <dof>
       <name>hip_adduction_r</name>
-      <mtuNameSet>add_brev_r add_long_r add_mag1_r add_mag2_r add_mag3_r bifemlh_r grac_r pect_r semimem_r semiten_r</mtuNameSet>
+      <mtuNameSet>add_brev_r add_long_r add_mag1_r add_mag2_r add_mag3_r bifemlh_r grac_r pect_r semimem_r semiten_r glut_max1_r glut_med1_r glut_med2_r glut_med3_r glut_min1_r glut_min2_r glut_min3_r peri_r sar_r tfl_r</mtuNameSet>
     </dof>
     <dof>
       <name>hip_rotation_r</name>
       <mtuNameSet>glut_med1_r glut_min1_r iliacus_r psoas_r tfl_r gem_r glut_med3_r glut_min3_r peri_r quad_fem_r</mtuNameSet>
+    </dof>
+    <dof>
+      <name>hip_flexion_r</name>
+      <mtuNameSet>add_brev_r add_long_r add_mag1_r add_mag2_r add_mag3_r bifemlh_r glut_max1_r glut_max2_r glut_max3_r glut_med1_r glut_med3_r glut_min1_r glut_min3_r grac_r iliacus_r pect_r psoas_r rect_fem_r sar_r semimem_r semiten_r tfl_r</mtuNameSet>
     </dof>
     <dof>
       <name>knee_angle_r</name>
