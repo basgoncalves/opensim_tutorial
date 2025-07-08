@@ -80,15 +80,9 @@
          <input weight="1">RTA</input>
       </excitation>
       <excitation id="tib_post_r"/>
-      <excitation id="vas_int_r">
-         <input weight="1">RRF</input>
-      </excitation>
-      <excitation id="vas_lat_r">
-         <input weight="1">RRF</input>
-      </excitation>
-      <excitation id="vas_med_r">
-         <input weight="1">RRF</input>
-      </excitation>
+      <excitation id="vas_int_r"/>
+      <excitation id="vas_lat_r"/>
+      <excitation id="vas_med_r"/>
       <excitation id="add_mag1_r"/>
       <excitation id="add_mag2_r"/>
       <excitation id="add_mag3_r"/>
