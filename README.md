@@ -6,7 +6,7 @@ CEINMS (Calibrated EMG-Informed Neuromusculoskeletal Modelling System) is a fram
 ## Installation of Miniconda
 
 1. Download the latest version of Miniconda and install it via powershell:
-   - **Windows**: [Miniconda Windows quickstart install](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions)
+   - **Windows**: [Miniconda Windows quickstart install](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions) *OR* [Minconda Windows classic install via EXE](https://www.anaconda.com/download/)
 
 3. Initialize Conda for PowerShell:
    - Open the Anaconda Prompt (can be found in the Start Menu)
@@ -43,7 +43,7 @@ conda activate ceinms
    python -c "import opensim; print(opensim.__version__)"
    ```
 
-## Install Requirements via pip
+## Install Requirements *if necessary*
 
 Install all required dependencies via powershell:
 
@@ -51,25 +51,8 @@ Install all required dependencies via powershell:
 pip install -r requirements.txt
 ```
 
-## Installing msk
-
-Clone this Module "msk_modelling_python" to your conda environment via powershell:
+## Installing msk package
 ```powershell
-cd .\<myenv>\Lib\site-packages
-   ```
-
-If you are unsure where to find that run via powershell:
-``` powershell
-conda info --envs
-   ```
-
-Install the msk package via powershell:
-``` powershell
-git clone https://github.com/basgoncalves/msk_modelling_python.git
+pip install msk-modelling-python
 ```
 
-To test if it installed, create a python file and run run following code snippet:
-```python
-import msk_modelling_python as msk
-msk.run_bops()
-```
